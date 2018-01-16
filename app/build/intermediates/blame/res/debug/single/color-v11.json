@@ -12,7 +12,15 @@
         "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
     },
     {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
         "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
         "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
     }
 ]

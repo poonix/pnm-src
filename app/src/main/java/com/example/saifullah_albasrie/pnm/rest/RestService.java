@@ -6,9 +6,11 @@ import com.example.saifullah_albasrie.pnm.model.production_model.AlamatProspekMo
 import com.example.saifullah_albasrie.pnm.model.production_model.InsertProspekModel;
 import com.example.saifullah_albasrie.pnm.model.production_model.KeluargaProspekModel;
 import com.example.saifullah_albasrie.pnm.model.production_model.KontakProspekModel;
+import com.example.saifullah_albasrie.pnm.model.production_model.KunjunganAomModel;
 import com.example.saifullah_albasrie.pnm.model.production_model.PembiayaanProspekModel;
 import com.example.saifullah_albasrie.pnm.model.production_model.UpdateProspekModel;
 import com.example.saifullah_albasrie.pnm.model.production_model.UploadDokumenModel;
+import com.example.saifullah_albasrie.pnm.model.production_model.UsahaProspekModel;
 import com.example.saifullah_albasrie.pnm.rest.request.ApprovalBandingRequest;
 import com.example.saifullah_albasrie.pnm.rest.request.ApprovalPengajuanRequest;
 import com.example.saifullah_albasrie.pnm.rest.request.ApprovalProspekRequest;
@@ -1047,6 +1049,16 @@ public interface RestService {
     @POST(ApiConstant.UPLOAD_DOKUMEN)
     Call <UploadDokumenModel> UploadDokumen(
             @Body UploadDokumenModel body
+    );
+
+    @POST(ApiConstant.USAHA_PROSPEK)
+    Call <UsahaProspekModel> UsahaProspek(
+            @Body UsahaProspekModel body
+    );
+
+    @POST(ApiConstant.KUNJUNGAN_AOM)
+    Call <KunjunganAomModel> KunjunganAOM(
+            @Body KunjunganAomModel body
     );
 
 

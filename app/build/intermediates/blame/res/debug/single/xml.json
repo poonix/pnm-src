@@ -1,5 +1,9 @@
 [
     {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\xml\\provider_paths.xml",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\xml\\provider_paths.xml"
+    },
+    {
         "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\xml\\provider_paths.xml",
         "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\xml\\provider_paths.xml"
     },
