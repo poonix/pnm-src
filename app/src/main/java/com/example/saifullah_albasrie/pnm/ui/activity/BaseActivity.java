@@ -21,6 +21,13 @@ import butterknife.Unbinder;
  * Created by saifullah_albasrie on 3/2/17.
  */
 
+
+/*
+*
+* 
+* tetetetetet et e te te tet e
+* fsdfsd
+* */
 public abstract class BaseActivity extends AppCompatActivity {
 
     private Unbinder unbinder;

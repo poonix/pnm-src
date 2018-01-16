@@ -1,5 +1,13 @@
 [
     {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_notif.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_notif.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
         "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },

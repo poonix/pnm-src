@@ -1,7 +1,15 @@
 [
     {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
         "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\layout-v21\\notification_template_custom_big.xml"
     },
     {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\place_autocomplete_fragment.xml",
@@ -10,6 +18,18 @@
     {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
         "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\place_autocomplete_fragment.xml",
+        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\9ebe488de0b3887a5b247290d153913b6f62aebd\\output\\res\\layout-v21\\place_autocomplete_fragment.xml"
     },
     {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",

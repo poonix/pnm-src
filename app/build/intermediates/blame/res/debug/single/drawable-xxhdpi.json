@@ -4,24 +4,48 @@
         "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable-xxhdpi\\ic_delete_circle.png"
     },
     {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_survey_white.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable-xxhdpi\\ic_survey_white.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ico_calendar_disable.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable-xxhdpi\\ico_calendar_disable.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ico_email_disable.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable-xxhdpi\\ico_email_disable.png"
+    },
+    {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_calendar.png",
         "source": "E:\\android\\pnm-src\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_calendar.png"
     },
     {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ico_email_disable.png",
-        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable-xxhdpi\\ico_email_disable.png"
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_chevron_right.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_chevron_right.png"
     },
     {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_progress_60.png",
         "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable-xxhdpi\\ic_progress_60.png"
     },
     {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_collection.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable-xxhdpi\\ic_collection.png"
+    },
+    {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_warning_24dp.png",
         "source": "E:\\android\\pnm-src\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_warning_24dp.png"
     },
     {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ico_calendar.png",
-        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable-xxhdpi\\ico_calendar.png"
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_create.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_create.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_progress_25.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable-xxhdpi\\ic_progress_25.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_call.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_call.png"
     },
     {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ico_calendar_disable.png",
@@ -32,100 +56,76 @@
         "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable-xxhdpi\\ico_call.png"
     },
     {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ico_delete_circle.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable-xxhdpi\\ico_delete_circle.png"
+    },
+    {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_email_disable.png",
         "source": "E:\\android\\pnm-src\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_email_disable.png"
     },
     {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_circle_24dp.png",
-        "source": "E:\\android\\pnm-src\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_circle_24dp.png"
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_done.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_done.png"
     },
     {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_pengajuan.png",
-        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable-xxhdpi\\ic_pengajuan.png"
-    },
-    {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_group_24dp.png",
-        "source": "E:\\android\\pnm-src\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_group_24dp.png"
-    },
-    {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_progress_70.png",
-        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable-xxhdpi\\ic_progress_70.png"
-    },
-    {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_circle_check_24dp.png",
-        "source": "E:\\android\\pnm-src\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_circle_check_24dp.png"
-    },
-    {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_progress_35.png",
-        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable-xxhdpi\\ic_progress_35.png"
-    },
-    {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_create.png",
-        "source": "E:\\android\\pnm-src\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_create.png"
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_message.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_message.png"
     },
     {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_message_disable.png",
         "source": "E:\\android\\pnm-src\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_message_disable.png"
     },
     {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_chevron_right.png",
-        "source": "E:\\android\\pnm-src\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_chevron_right.png"
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_progress_55.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable-xxhdpi\\ic_progress_55.png"
     },
     {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_historical_white.png",
         "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable-xxhdpi\\ic_historical_white.png"
     },
     {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ico_search.png",
-        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable-xxhdpi\\ico_search.png"
-    },
-    {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_progress_65.png",
-        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable-xxhdpi\\ic_progress_65.png"
-    },
-    {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_delete_white.png",
-        "source": "E:\\android\\pnm-src\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_delete_white.png"
-    },
-    {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_expand_more.png",
         "source": "E:\\android\\pnm-src\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_expand_more.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_progress_60.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable-xxhdpi\\ic_progress_60.png"
     },
     {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_progress_90.png",
         "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable-xxhdpi\\ic_progress_90.png"
     },
     {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_progress_30.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable-xxhdpi\\ic_progress_30.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_prospek_white.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable-xxhdpi\\ic_prospek_white.png"
+    },
+    {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_detail_prospek.png",
         "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable-xxhdpi\\ic_detail_prospek.png"
-    },
-    {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_progress_95.png",
-        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable-xxhdpi\\ic_progress_95.png"
-    },
-    {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ico_delete_circle.png",
-        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable-xxhdpi\\ico_delete_circle.png"
     },
     {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_plus_blue_24dp.png",
         "source": "E:\\android\\pnm-src\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_plus_blue_24dp.png"
     },
     {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_chevron_left.png",
-        "source": "E:\\android\\pnm-src\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_chevron_left.png"
-    },
-    {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_progress_25.png",
         "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable-xxhdpi\\ic_progress_25.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_progress_85.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable-xxhdpi\\ic_progress_85.png"
     },
     {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_survey_white.png",
         "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable-xxhdpi\\ic_survey_white.png"
     },
     {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_banding_white.png",
-        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable-xxhdpi\\ic_banding_white.png"
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_progress_100.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable-xxhdpi\\ic_progress_100.png"
     },
     {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_call_disable.png",
@@ -136,16 +136,32 @@
         "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable-xxhdpi\\ic_pengajuan_white.png"
     },
     {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_expand_less.png",
-        "source": "E:\\android\\pnm-src\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_expand_less.png"
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ico_email.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable-xxhdpi\\ico_email.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_call_disable.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_call_disable.png"
     },
     {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_progress_30.png",
         "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable-xxhdpi\\ic_progress_30.png"
     },
     {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_plus_24dp.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_plus_24dp.png"
+    },
+    {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_survey.png",
         "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable-xxhdpi\\ic_survey.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_chevron_left.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_chevron_left.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_progress_90.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable-xxhdpi\\ic_progress_90.png"
     },
     {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_done.png",
@@ -156,16 +172,12 @@
         "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable-xxhdpi\\ic_progress_100.png"
     },
     {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_pengajuan_white.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable-xxhdpi\\ic_pengajuan_white.png"
+    },
+    {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_progress_80.png",
         "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable-xxhdpi\\ic_progress_80.png"
-    },
-    {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_detail_prospek_white.png",
-        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable-xxhdpi\\ic_detail_prospek_white.png"
-    },
-    {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_prospek.png",
-        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable-xxhdpi\\ic_prospek.png"
     },
     {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_inbox.png",
@@ -180,16 +192,32 @@
         "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable-xxhdpi\\ic_progress_10.png"
     },
     {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ico_search.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable-xxhdpi\\ico_search.png"
+    },
+    {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_progress_55.png",
         "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable-xxhdpi\\ic_progress_55.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_banding.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable-xxhdpi\\ic_banding.png"
     },
     {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_delete_cirlce.png",
         "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable-xxhdpi\\ic_delete_cirlce.png"
     },
     {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_warning_24dp.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_warning_24dp.png"
+    },
+    {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_clear.png",
         "source": "E:\\android\\pnm-src\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_clear.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_survey.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable-xxhdpi\\ic_survey.png"
     },
     {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_feedback.png",
@@ -200,16 +228,252 @@
         "source": "E:\\android\\pnm-src\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_message.png"
     },
     {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_progress_15.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable-xxhdpi\\ic_progress_15.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_banding.png",
+        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable-xxhdpi\\ic_banding.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_calendar.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_calendar.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_delete_circle.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable-xxhdpi\\ic_delete_circle.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_progress_20.png",
+        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable-xxhdpi\\ic_progress_20.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ico_message_disable.png",
+        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable-xxhdpi\\ico_message_disable.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ico_message_disable.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable-xxhdpi\\ico_message_disable.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_progress_45.png",
+        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable-xxhdpi\\ic_progress_45.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_progress_75.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable-xxhdpi\\ic_progress_75.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ico_email.png",
+        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable-xxhdpi\\ico_email.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_group_white.png",
+        "source": "E:\\android\\pnm-src\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_group_white.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_progress_40.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable-xxhdpi\\ic_progress_40.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_cam.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_cam.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_email.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_email.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_banding_white.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable-xxhdpi\\ic_banding_white.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_progress_5.png",
+        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable-xxhdpi\\ic_progress_5.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_progress_5.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable-xxhdpi\\ic_progress_5.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_feedback.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable-xxhdpi\\ic_feedback.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_pause_circle.png",
+        "source": "E:\\android\\pnm-src\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_pause_circle.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_pause_circle.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_pause_circle.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ico_call.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable-xxhdpi\\ico_call.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_circle_check_24dp.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_circle_check_24dp.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ico_email_disable.png",
+        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable-xxhdpi\\ico_email_disable.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_progress_65.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable-xxhdpi\\ic_progress_65.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_progress_20.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable-xxhdpi\\ic_progress_20.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ico_calendar.png",
+        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable-xxhdpi\\ico_calendar.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_email_disable.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_email_disable.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_circle_24dp.png",
+        "source": "E:\\android\\pnm-src\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_circle_24dp.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_pengajuan.png",
+        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable-xxhdpi\\ic_pengajuan.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ico_call_disable.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable-xxhdpi\\ico_call_disable.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_pengajuan.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable-xxhdpi\\ic_pengajuan.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ico_message.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable-xxhdpi\\ico_message.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_group_24dp.png",
+        "source": "E:\\android\\pnm-src\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_group_24dp.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_progress_95.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable-xxhdpi\\ic_progress_95.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_progress_70.png",
+        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable-xxhdpi\\ic_progress_70.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_circle_check_24dp.png",
+        "source": "E:\\android\\pnm-src\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_circle_check_24dp.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_progress_35.png",
+        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable-xxhdpi\\ic_progress_35.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_progress_50.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable-xxhdpi\\ic_progress_50.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_create.png",
+        "source": "E:\\android\\pnm-src\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_create.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_chevron_right.png",
+        "source": "E:\\android\\pnm-src\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_chevron_right.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ico_search.png",
+        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable-xxhdpi\\ico_search.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_progress_65.png",
+        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable-xxhdpi\\ic_progress_65.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_delete_white.png",
+        "source": "E:\\android\\pnm-src\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_delete_white.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_progress_95.png",
+        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable-xxhdpi\\ic_progress_95.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ico_delete_circle.png",
+        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable-xxhdpi\\ico_delete_circle.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_chevron_left.png",
+        "source": "E:\\android\\pnm-src\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_chevron_left.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_message_disable.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_message_disable.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ico_calendar.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable-xxhdpi\\ico_calendar.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_banding_white.png",
+        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable-xxhdpi\\ic_banding_white.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_prospek.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable-xxhdpi\\ic_prospek.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_expand_less.png",
+        "source": "E:\\android\\pnm-src\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_expand_less.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_delete_cirlce.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable-xxhdpi\\ic_delete_cirlce.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_historical_white.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable-xxhdpi\\ic_historical_white.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_clear.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_clear.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_detail_prospek_white.png",
+        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable-xxhdpi\\ic_detail_prospek_white.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_prospek.png",
+        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable-xxhdpi\\ic_prospek.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_expand_less.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_expand_less.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_feedback_white.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable-xxhdpi\\ic_feedback_white.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_delete_white.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_delete_white.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_progress_70.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable-xxhdpi\\ic_progress_70.png"
+    },
+    {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_progress_40.png",
         "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable-xxhdpi\\ic_progress_40.png"
     },
     {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_progress_85.png",
         "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable-xxhdpi\\ic_progress_85.png"
-    },
-    {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_banding.png",
-        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable-xxhdpi\\ic_banding.png"
     },
     {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_cam.png",
@@ -220,8 +484,24 @@
         "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable-xxhdpi\\ico_call_disable.png"
     },
     {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_expand_more.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_expand_more.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_group_24dp.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_group_24dp.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_progress_45.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable-xxhdpi\\ic_progress_45.png"
+    },
+    {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_feedback_white.png",
         "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable-xxhdpi\\ic_feedback_white.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_detail_prospek.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable-xxhdpi\\ic_detail_prospek.png"
     },
     {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_historical.png",
@@ -236,16 +516,20 @@
         "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable-xxhdpi\\ico_plus_blue.png"
     },
     {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_progress_20.png",
-        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable-xxhdpi\\ic_progress_20.png"
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_progress_10.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable-xxhdpi\\ic_progress_10.png"
     },
     {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ico_message_disable.png",
-        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable-xxhdpi\\ico_message_disable.png"
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_detail_prospek_white.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable-xxhdpi\\ic_detail_prospek_white.png"
     },
     {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_progress_45.png",
-        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable-xxhdpi\\ic_progress_45.png"
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_historical.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable-xxhdpi\\ic_historical.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_progress_80.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable-xxhdpi\\ic_progress_80.png"
     },
     {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_progress_15.png",
@@ -256,24 +540,28 @@
         "source": "E:\\android\\pnm-src\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_call.png"
     },
     {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ico_email.png",
-        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable-xxhdpi\\ico_email.png"
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ico_message.png",
+        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable-xxhdpi\\ico_message.png"
     },
     {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_progress_50.png",
         "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable-xxhdpi\\ic_progress_50.png"
     },
     {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ico_message.png",
-        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable-xxhdpi\\ico_message.png"
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_plus_blue_24dp.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_plus_blue_24dp.png"
     },
     {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_group_white.png",
-        "source": "E:\\android\\pnm-src\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_group_white.png"
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_group_white.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_group_white.png"
     },
     {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_progress_5.png",
-        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable-xxhdpi\\ic_progress_5.png"
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_progress_35.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable-xxhdpi\\ic_progress_35.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_inbox.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable-xxhdpi\\ic_inbox.png"
     },
     {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_email.png",
@@ -284,15 +572,23 @@
         "source": "E:\\android\\pnm-src\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_plus_24dp.png"
     },
     {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_pause_circle.png",
-        "source": "E:\\android\\pnm-src\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_pause_circle.png"
-    },
-    {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_collection_white.png",
         "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable-xxhdpi\\ic_collection_white.png"
     },
     {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_circle_24dp.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_circle_24dp.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_collection_white.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable-xxhdpi\\ic_collection_white.png"
+    },
+    {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_progress_75.png",
         "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable-xxhdpi\\ic_progress_75.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ico_plus_blue.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable-xxhdpi\\ico_plus_blue.png"
     }
 ]

@@ -4,7 +4,15 @@
         "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_notif.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\mipmap-mdpi\\ic_notif.png"
+    },
+    {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_notif.png",
         "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\mipmap-mdpi\\ic_notif.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     }
 ]
