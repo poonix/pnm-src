@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content" android:background="@color/white">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        android:text="Status"
+        android:padding="10dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/black_text"
+        android:textStyle="bold"
+        android:id="@+id/statusTitle" />
+
+    <TextView
+        android:id="@+id/status_canceled"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:layout_marginLeft="15dp"
+        android:onClick="statusSelected"
+        android:textColor="@color/grey_light_more"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+        android:text="Canceled" />
+
+    <TextView
+        android:id="@+id/status_denied"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:layout_marginLeft="15dp"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+        android:onClick="statusSelected"
+        android:text="Denied" />
+
+</LinearLayout>

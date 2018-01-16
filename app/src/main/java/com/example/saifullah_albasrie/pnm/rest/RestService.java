@@ -1,0 +1,1053 @@
+package com.example.saifullah_albasrie.pnm.rest;
+
+import com.example.saifullah_albasrie.pnm.model.master_new.BaseResponseNew;
+import com.example.saifullah_albasrie.pnm.model.production_model.AgunanProspekModel;
+import com.example.saifullah_albasrie.pnm.model.production_model.AlamatProspekModel;
+import com.example.saifullah_albasrie.pnm.model.production_model.InsertProspekModel;
+import com.example.saifullah_albasrie.pnm.model.production_model.KeluargaProspekModel;
+import com.example.saifullah_albasrie.pnm.model.production_model.KontakProspekModel;
+import com.example.saifullah_albasrie.pnm.model.production_model.PembiayaanProspekModel;
+import com.example.saifullah_albasrie.pnm.model.production_model.UpdateProspekModel;
+import com.example.saifullah_albasrie.pnm.model.production_model.UploadDokumenModel;
+import com.example.saifullah_albasrie.pnm.rest.request.ApprovalBandingRequest;
+import com.example.saifullah_albasrie.pnm.rest.request.ApprovalPengajuanRequest;
+import com.example.saifullah_albasrie.pnm.rest.request.ApprovalProspekRequest;
+import com.example.saifullah_albasrie.pnm.rest.request.CheckSIDRequest;
+import com.example.saifullah_albasrie.pnm.rest.request.CollectionRequest;
+import com.example.saifullah_albasrie.pnm.rest.request.FirebaseIDRequest;
+import com.example.saifullah_albasrie.pnm.rest.request.KapasitasUsahaRequest;
+import com.example.saifullah_albasrie.pnm.rest.request.KebutuhanModalKerjaRequest;
+import com.example.saifullah_albasrie.pnm.rest.request.ProfilKarakterRequest;
+import com.example.saifullah_albasrie.pnm.rest.request.SurveyDetailRequest;
+import com.example.saifullah_albasrie.pnm.rest.request.SurveyJaminanRequest;
+import com.example.saifullah_albasrie.pnm.rest.request.SurveyJenisUsahaRequest;
+import com.example.saifullah_albasrie.pnm.rest.request.SurveyKeluargaRequest;
+import com.example.saifullah_albasrie.pnm.rest.request.SurveyKeuanganRequest;
+import com.example.saifullah_albasrie.pnm.rest.request.SurveyPengajuanRequest;
+import com.example.saifullah_albasrie.pnm.rest.response.AutoSaveResponse;
+import com.example.saifullah_albasrie.pnm.rest.response.BandingListResponse;
+import com.example.saifullah_albasrie.pnm.rest.response.BaseResponse;
+import com.example.saifullah_albasrie.pnm.rest.response.CheckDebiturResponse;
+import com.example.saifullah_albasrie.pnm.rest.response.CollectionListResponse;
+import com.example.saifullah_albasrie.pnm.rest.response.CollectionResponse;
+import com.example.saifullah_albasrie.pnm.rest.response.FeedbackListResponse;
+import com.example.saifullah_albasrie.pnm.rest.response.GeneralProspekDetailResponse;
+import com.example.saifullah_albasrie.pnm.rest.response.GeneralProspekResponse;
+import com.example.saifullah_albasrie.pnm.rest.response.HistoricalListResponse;
+import com.example.saifullah_albasrie.pnm.rest.response.HistoryAngsuranListResponse;
+import com.example.saifullah_albasrie.pnm.rest.response.HubDgnBankResponse;
+import com.example.saifullah_albasrie.pnm.rest.response.HubDgnPNMResponse;
+import com.example.saifullah_albasrie.pnm.rest.response.JenisDokumenResponse;
+import com.example.saifullah_albasrie.pnm.rest.response.JenisHartaResponse;
+import com.example.saifullah_albasrie.pnm.rest.response.JenisPekerjaanResponse;
+import com.example.saifullah_albasrie.pnm.rest.response.JenisProdukUsahaResponse;
+import com.example.saifullah_albasrie.pnm.rest.response.JenisProspekResponse;
+import com.example.saifullah_albasrie.pnm.rest.response.JenisUsahaResponse;
+import com.example.saifullah_albasrie.pnm.rest.response.KapasitasUsahaResponse;
+import com.example.saifullah_albasrie.pnm.rest.response.KebutuhanModalKerjaResponse;
+import com.example.saifullah_albasrie.pnm.rest.response.KodeBidangUsahaResponse;
+import com.example.saifullah_albasrie.pnm.rest.response.KodeUsahaResponse;
+import com.example.saifullah_albasrie.pnm.rest.response.LoginResponse;
+import com.example.saifullah_albasrie.pnm.rest.response.LoginSSOResponse;
+import com.example.saifullah_albasrie.pnm.rest.response.MasterGelarResponse;
+import com.example.saifullah_albasrie.pnm.rest.response.MasterJenisAgunanResponse;
+import com.example.saifullah_albasrie.pnm.rest.response.MasterKabupatenResponse;
+import com.example.saifullah_albasrie.pnm.rest.response.MasterKecamatanResponse;
+import com.example.saifullah_albasrie.pnm.rest.response.MasterKelurahanResponse;
+import com.example.saifullah_albasrie.pnm.rest.response.MasterPendidikanTerakhirResponse;
+import com.example.saifullah_albasrie.pnm.rest.response.MasterProdukResponse;
+import com.example.saifullah_albasrie.pnm.rest.response.MasterProgramResponse;
+import com.example.saifullah_albasrie.pnm.rest.response.MasterProvinsiResponse;
+import com.example.saifullah_albasrie.pnm.rest.response.PengelolaanKeuanganResponse;
+import com.example.saifullah_albasrie.pnm.rest.response.ProfilKarakterResponse;
+import com.example.saifullah_albasrie.pnm.rest.response.ProspekListResponse;
+import com.example.saifullah_albasrie.pnm.rest.response.SurveyChecklistResponse;
+import com.example.saifullah_albasrie.pnm.rest.response.SurveyDetailResponse;
+import com.example.saifullah_albasrie.pnm.rest.response.SurveyDokumenListResponse;
+import com.example.saifullah_albasrie.pnm.rest.response.SurveyDokumenResponse;
+import com.example.saifullah_albasrie.pnm.rest.response.SurveyDokumenUploadResponse;
+import com.example.saifullah_albasrie.pnm.rest.response.SurveyJaminanListResponse;
+import com.example.saifullah_albasrie.pnm.rest.response.SurveyJaminanResponse;
+import com.example.saifullah_albasrie.pnm.rest.response.SurveyJenisUsahaResponse;
+import com.example.saifullah_albasrie.pnm.rest.response.SurveyKeluargaResponse;
+import com.example.saifullah_albasrie.pnm.rest.response.SurveyKeuanganResponse;
+import com.example.saifullah_albasrie.pnm.rest.response.SurveyListResponse;
+import com.example.saifullah_albasrie.pnm.rest.response.jaminan.MasterAtapResponse;
+import com.example.saifullah_albasrie.pnm.rest.response.jaminan.MasterBatasWilayahResponse;
+import com.example.saifullah_albasrie.pnm.rest.response.jaminan.MasterBentukTanahResponse;
+import com.example.saifullah_albasrie.pnm.rest.response.jaminan.MasterBuktiKepemilikanAgunanResponse;
+import com.example.saifullah_albasrie.pnm.rest.response.jaminan.MasterDindingResponse;
+import com.example.saifullah_albasrie.pnm.rest.response.jaminan.MasterJalanDilaluiResponse;
+import com.example.saifullah_albasrie.pnm.rest.response.jaminan.MasterJendelaResponse;
+import com.example.saifullah_albasrie.pnm.rest.response.jaminan.MasterJenisBuktiKepemilikanAgunanResponse;
+import com.example.saifullah_albasrie.pnm.rest.response.jaminan.MasterKondisiPermukaanTanahResponse;
+import com.example.saifullah_albasrie.pnm.rest.response.jaminan.MasterKusenResponse;
+import com.example.saifullah_albasrie.pnm.rest.response.jaminan.MasterLantaiResponse;
+import com.example.saifullah_albasrie.pnm.rest.response.jaminan.MasterPengelolaanUsahaResponse;
+import com.example.saifullah_albasrie.pnm.rest.response.jaminan.MasterPenggunaanTanahResponse;
+import com.example.saifullah_albasrie.pnm.rest.response.jaminan.MasterPeruntukanLokasiResponse;
+import com.example.saifullah_albasrie.pnm.rest.response.jaminan.MasterPintuResponse;
+import com.example.saifullah_albasrie.pnm.rest.response.jaminan.MasterPlafonResponse;
+import com.example.saifullah_albasrie.pnm.rest.response.jaminan.MasterPondasiResponse;
+import com.example.saifullah_albasrie.pnm.rest.response.jaminan.MasterSaluranAirResponse;
+import com.example.saifullah_albasrie.pnm.rest.response.jaminan.MasterSaluranTeleponResponse;
+import com.example.saifullah_albasrie.pnm.rest.response.jaminan.MasterStatusTanahResponse;
+
+import java.util.List;
+
+import okhttp3.MultipartBody;
+import okhttp3.RequestBody;
+import retrofit2.Call;
+import retrofit2.http.Body;
+import retrofit2.http.GET;
+import retrofit2.http.Multipart;
+import retrofit2.http.POST;
+import retrofit2.http.Part;
+import retrofit2.http.Path;
+import retrofit2.http.Query;
+import retrofit2.http.Url;
+
+/**
+ * Created by saifullahalbasrie on 3/23/17.
+ */
+
+public interface RestService {
+
+
+    @GET //(ApiConstant.LOGIN_SSO)
+    Call<LoginSSOResponse> loginSSO(
+            @Url String url,
+            @Query("user") String user,
+            @Query("pass") String password,
+            @Query("app_code") String appCode
+    );
+
+    @GET //(ApiConstant.LOGIN_API)
+    Call<LoginResponse> loginAPI(
+            @Url String url,
+            @Query("idsdm") String idSDM
+    );
+
+    @GET(ApiConstant.LOGOUT)
+    Call<BaseResponse> logout(
+            @Query("id_user") String idSDM
+    );
+
+    @POST(ApiConstant.FIREBASE_ID)
+    Call<BaseResponse> sendFcmId(
+            @Body FirebaseIDRequest body
+    );
+
+    @GET
+    Call<CheckDebiturResponse> checkDebitur(
+            @Url String url,
+            @Query("id") String keyword
+    );
+
+
+    @GET
+    Call<CheckDebiturResponse> checkIDI(
+            @Url String url,
+            @Query("nama") String nama,
+            @Query("ibu") String ibu,
+            @Query("tgl_lahir") String tgl_lahir,
+            @Query("tempat_lahir") String tempat_lahir,
+            @Query("jenis_kelamin") String jenis_kelamin,
+            @Query("jenis_identitas") String jenis_identitas,
+            @Query("no_identitas") String no_identitas
+    );
+
+    // === Api Data Master === //
+
+    /*Tambahan 11 Jan 2018 - Andityo*/
+    @GET(ApiConstant.JENIS_IDENTITAS)
+    Call<BaseResponseNew> getJenisIdentitas(
+    );
+
+    @GET(ApiConstant.JENIS_KELAMIN)
+    Call<BaseResponseNew> getJenisKelamin(
+    );
+
+    @GET(ApiConstant.JENIS_USAHA_NEW)
+    Call<List<BaseResponseNew>> getJenisUsahaNew(
+    );
+
+    @GET(ApiConstant.JENIS_REFERENSI)
+    Call<BaseResponseNew> getJenisReferensi(
+    );
+
+    @GET(ApiConstant.STATUS_PERKAWINAN)
+    Call<BaseResponseNew> getStatusPerkawinan(
+    );
+
+    @GET(ApiConstant.KEWARGANEGARAAN)
+    Call<BaseResponseNew> getKewaganegaraan(
+    );
+
+    @GET(ApiConstant.AGAMA)
+    Call<BaseResponseNew> getAgama(
+    );
+
+    @GET(ApiConstant.PEKERJAAN)
+    Call<BaseResponseNew> getPekerjaan(
+    );
+
+    @GET(ApiConstant.JENIS_ALAMAT)
+    Call<BaseResponseNew> getJenisAlamat(
+    );
+
+    @GET(ApiConstant.HUBUNGAN_KELUARGA)
+    Call<BaseResponseNew> getHubunganKeluarga(
+    );
+
+    @GET(ApiConstant.TUJUAN_PEMBIAYAAN)
+    Call<BaseResponseNew> getTujuanPembiayaan(
+    );
+
+    @GET(ApiConstant.JENIS_AGUNAN)
+    Call<BaseResponseNew> getJenisAgunan(
+    );
+
+    @GET(ApiConstant.JENIS_KONTAK)
+    Call<BaseResponseNew> getJenisKontak(
+    );
+
+    @GET(ApiConstant.STATUS_TEMPAT)
+    Call<BaseResponseNew> getStatusTempat(
+    );
+
+
+    @GET(ApiConstant.PENDIDIKAN)
+    Call<BaseResponseNew> getPendidikan(
+    );
+
+
+    @GET(ApiConstant.PRODUK)
+    Call<BaseResponseNew> getProduk(
+    );
+
+
+    @GET(ApiConstant.JENIS_DOKUMEN)
+    Call<BaseResponseNew> getJenisDokumen(
+    );
+
+
+    @GET(ApiConstant.JENIS_PEMBIAYAAN)
+    Call<BaseResponseNew> getJenisPembiayaan(
+    );
+
+
+    @GET(ApiConstant.LOKASI)
+    Call<BaseResponseNew> getLokasi(
+    );
+
+
+    @GET(ApiConstant.HUBUNGAN_PEMOHON)
+    Call<BaseResponseNew> getHubPemohon(
+    );
+
+
+    @GET(ApiConstant.KERJASAMA_PEMOHON)
+    Call<BaseResponseNew> getKerjasamaPemohon(
+    );
+
+
+    @GET(ApiConstant.TRACK_RECORD)
+    Call<BaseResponseNew> getTrackRecord(
+    );
+
+
+    @GET(ApiConstant.MENGENAL_ULAMM)
+    Call<BaseResponseNew> getMengenalUlamm(
+    );
+
+
+    @GET(ApiConstant.REPUTASI)
+    Call<BaseResponseNew> getReputasi(
+    );
+
+    @GET(ApiConstant.HARTA)
+    Call<BaseResponseNew> getHarta(
+    );
+
+    @GET(ApiConstant.PENGELOLAAN_KEUANGAN)
+    Call<BaseResponseNew> getPengelolaanKeuangan(
+    );
+
+    @GET(ApiConstant.BENTUK_USAHA)
+    Call<BaseResponseNew> getBentukUsaha(
+    );
+
+    @GET(ApiConstant.JENIS_BADAN_USAHA)
+    Call<BaseResponseNew> getJenisBadanUsaha(
+    );
+
+    @GET(ApiConstant.KEGIATAN_USAHA)
+    Call<BaseResponseNew> getKegiatanUsaha(
+    );
+
+    @GET(ApiConstant.AKSES_KENDARAAN)
+    Call<BaseResponseNew> getAksesKendaraan(
+    );
+
+    @GET(ApiConstant.PRODUK_DITAWARKAN)
+    Call<BaseResponseNew> getProdDitawarkan(
+    );
+
+    @GET(ApiConstant.JML_PEMASOK)
+    Call<BaseResponseNew> getJmlPemasok(
+    );
+
+    @GET(ApiConstant.PERSAINGAN_USAHA)
+    Call<BaseResponseNew> getPersainganUsaha(
+    );
+
+    @GET(ApiConstant.KONDISI_SEKTOR_USAHA)
+    Call<BaseResponseNew> getKondSekUsaha(
+    );
+
+    @GET(ApiConstant.LOKASI_USAHA)
+    Call<BaseResponseNew> getLokasiUsaha(
+    );
+
+    @GET(ApiConstant.PERIODE)
+    Call<BaseResponseNew> getPeriode(
+    );
+
+    @GET(ApiConstant.PEMBAYARAN)
+    Call<BaseResponseNew> getpembayaran(
+    );
+
+    @GET(ApiConstant.PROGRAM)
+    Call<BaseResponseNew> getProgram(
+    );
+
+    @GET(ApiConstant.BANK)
+    Call<BaseResponseNew> getBank(
+    );
+
+    @GET(ApiConstant.KOLEKTIBILITAS)
+    Call<BaseResponseNew> getKolektibilitas(
+    );
+
+    @GET(ApiConstant.JENIS_ASSET)
+    Call<BaseResponseNew> getJenisAsset(
+    );
+
+    @GET(ApiConstant.PENILAIAN)
+    Call<BaseResponseNew> getPenilaian(
+    );
+
+    @GET(ApiConstant.KEPEMILIKAN)
+    Call<BaseResponseNew> getKepemilikan(
+    );
+
+    @GET(ApiConstant.BUKTI_KEPEMILIKAN_AGUNAN)
+    Call<BaseResponseNew> getBuktiKepAgunan(
+    );
+
+    @GET(ApiConstant.PERUNTUKAN_LOKASI)
+    Call<BaseResponseNew> getPeruntukanLokasi(
+    );
+
+    @GET(ApiConstant.JALAN_DILALUI)
+    Call<BaseResponseNew> getJalanDilalui(
+    );
+
+    @GET(ApiConstant.BENTUK_TANAH)
+    Call<BaseResponseNew> getBentukTanah(
+    );
+
+    @GET(ApiConstant.KONDISI_PERMUKAAN)
+    Call<BaseResponseNew> getKondisiPermukaan(
+    );
+
+    @GET(ApiConstant.PENGGUNAAN_TANAH)
+    Call<BaseResponseNew> getPenggunaanTanah(
+    );
+
+    @GET(ApiConstant.BATAS)
+    Call<BaseResponseNew> getBatas(
+    );
+
+    @GET(ApiConstant.AIR)
+    Call<BaseResponseNew> getAir(
+    );
+
+    @GET(ApiConstant.PONDASI)
+    Call<BaseResponseNew> getPondasi(
+    );
+
+    @GET(ApiConstant.LANTAI)
+    Call<BaseResponseNew> getLantai(
+    );
+
+    @GET(ApiConstant.DINDING)
+    Call<BaseResponseNew> getDinding(
+    );
+
+    @GET(ApiConstant.PLAFON)
+    Call<BaseResponseNew> getPlafon(
+    );
+
+    @GET(ApiConstant.KUSEN)
+    Call<BaseResponseNew> getKusen(
+    );
+
+    @GET(ApiConstant.ATAP)
+    Call<BaseResponseNew> getAtap(
+    );
+
+    @GET(ApiConstant.PINTU)
+    Call<BaseResponseNew> getPintu(
+    );
+
+    @GET(ApiConstant.JENDELA)
+    Call<BaseResponseNew> getJendela(
+    );
+
+    @GET(ApiConstant.JENIS_CATATAN)
+    Call<BaseResponseNew> getJenisCatatan(
+    );
+
+    @GET(ApiConstant.TUJUAN_PENGIRIMAN)
+    Call<BaseResponseNew> getTujuanPengiriman(
+    );
+
+    @GET(ApiConstant.KEPERLUAN_PINJAM)
+    Call<BaseResponseNew> getKeperluanPinjam(
+    );
+
+    @GET(ApiConstant.BISNIS)
+    Call<BaseResponseNew> getBisnis(
+    );
+
+    @GET(ApiConstant.JABATAN)
+    Call<BaseResponseNew> getJabatan(
+    );
+
+
+    @GET(ApiConstant.STATUS_PINJAM_AGUNAN)
+    Call<BaseResponseNew> getStatusPinjamAgunan(
+    );
+
+
+    @GET(ApiConstant.STATUS_PELEPASAN_AGUNAN)
+    Call<BaseResponseNew> getStatusPelepasanAgunan(
+    );
+
+
+    @GET(ApiConstant.PEMINJAM_AGUNAN)
+    Call<BaseResponseNew> getPeminjamAgunan(
+    );
+
+
+    @GET(ApiConstant.REKENING_TUJUAN_JENIS)
+    Call<BaseResponseNew> getRekeningTujuanBisnis(
+    );
+
+
+    @GET(ApiConstant.SUMBER_DANA)
+    Call<BaseResponseNew> getSumberDana(
+    );
+
+
+    @GET(ApiConstant.PROFESI_NOTARIS)
+    Call<BaseResponseNew> getProfesiNotaris(
+    );
+
+
+    @GET(ApiConstant.JENIS_GAMBARAN_UMUM_REVIEW)
+    Call<BaseResponseNew> getJenisGambaranUmumReview(
+    );
+
+
+    @GET(ApiConstant.KONDISI_TEMPAT_USAHA)
+    Call<BaseResponseNew> getKondisiTempatUsaha(
+    );
+
+
+    @GET(ApiConstant.KETERSEDIAAN_BAHAN_BAKU)
+    Call<BaseResponseNew> getKetersediaanBahanBaku(
+    );
+
+
+    @GET(ApiConstant.GOLONGAN_PENJAMIN)
+    Call<BaseResponseNew> getGolonganPenjamin(
+    );
+
+
+    @GET(ApiConstant.STATUS_ASURANSI_AGUNAN)
+    Call<BaseResponseNew> getStatusAsuransiAgunan(
+    );
+
+
+    @GET(ApiConstant.GOLONGAN_KREDIT)
+    Call<BaseResponseNew> getGolonganKredit(
+    );
+
+
+    @GET(ApiConstant.NAMA_PENGADILAN_NEGERI)
+    Call<BaseResponseNew> getNamaPengadilanNegeri(
+    );
+
+
+    @GET(ApiConstant.JENIS_PRODUK)
+    Call<BaseResponseNew> getJenisProduk(
+    );
+
+
+    @GET(ApiConstant.JENIS_SUMBER_DANA)
+    Call<BaseResponseNew> getJenisSumberDana(
+    );
+
+
+    @GET(ApiConstant.JENIS_DCA_ID)
+    Call<BaseResponseNew> getJenisDCAID(
+    );
+
+
+    @GET(ApiConstant.POLA_PENCAIRAN)
+    Call<BaseResponseNew> getPolaPencairan(
+    );
+
+
+    @GET(ApiConstant.NILAI_PENCAIRAN)
+    Call<BaseResponseNew> getNilaiPencairan(
+    );
+
+
+    @GET(ApiConstant.MATA_UANG)
+    Call<BaseResponseNew> getMataUang(
+    );
+
+    @GET(ApiConstant.LOKASI_PRODUK)
+    Call<BaseResponseNew> getLokasiProduk(
+    );
+
+    @GET(ApiConstant.REG_PRO)
+    Call<BaseResponseNew> getRegPro(
+    );
+
+    @GET(ApiConstant.JENIS_SUKU_BUNGA)
+    Call<BaseResponseNew> getJenisSukuBunga(
+    );
+
+    @GET(ApiConstant.JENIS_PEMBAYARAN_PRODUK)
+    Call<BaseResponseNew> getJenisPembayaranProduk(
+    );
+
+    @GET(ApiConstant.JENIS_PERHITUNGAN_BUNGA)
+    Call<BaseResponseNew> getJenisPerhitunganBunga(
+    );
+
+    @GET(ApiConstant.JADWAL_PERHITUNGAN_BUNGA)
+    Call<BaseResponseNew> getJadwalPerhitunganBunga(
+    );
+
+    @GET(ApiConstant.JENIS_PEMOTONGAN_BUNGA)
+    Call<BaseResponseNew> getJenisPemotonganBunga(
+    );
+
+    @GET(ApiConstant.STRUKTUR_HARI_DALAM_SATU_TAHUN)
+    Call<BaseResponseNew> getStrukturHariDalamSatuTahun(
+    );
+
+    @GET(ApiConstant.STRUKTUR_HARI_DALAM_SATU_BULAN)
+    Call<BaseResponseNew> getStrukurHariDalamSatuBulan(
+    );
+
+    @GET(ApiConstant.STRUKTUR_KREDIT_HARI_LIBUR)
+    Call<BaseResponseNew> getStrukturKreditHariLibur(
+    );
+
+    @GET(ApiConstant.STRUKTUR_KREDIT_HARI_BIAYA)
+    Call<BaseResponseNew> getStrukturKreditHariBiaya(
+    );
+
+    @GET(ApiConstant.KATEGORI_PEMBIAYAAN)
+    Call<BaseResponseNew> getKategoriPembiayaan(
+    );
+
+    /*Tambahan 11 Jan 2018 - Andityo*/
+
+
+
+    @GET(ApiConstant.JENIS_PROSPEK)
+    Call<JenisProspekResponse> getJenisProspek(
+    );
+
+    @GET(ApiConstant.JENIS_USAHA)
+    Call<JenisUsahaResponse> getJenisUsaha(
+    );
+
+    @GET(ApiConstant.BIDANG_USAHA)
+    Call<KodeBidangUsahaResponse> getKodeBidangUsaha(
+    );
+
+    @GET(ApiConstant.KODE_USAHA)
+    Call<KodeUsahaResponse> getKodeUsaha(
+    );
+
+    @GET(ApiConstant.HUB_DENGAN_BANK)
+    Call<HubDgnBankResponse> getHubunganBank(
+    );
+
+    @GET(ApiConstant.HUB_DENGAN_PNM)
+    Call<HubDgnPNMResponse> getHubunganPNM(
+    );
+
+    @GET(ApiConstant.MASTER_PRODUK)
+    Call<MasterProdukResponse> getMasterProduk(
+    );
+
+    @GET(ApiConstant.MASTER_PROGRAM)
+    Call<MasterProgramResponse> getMasterProgram(
+    );
+
+    @GET(ApiConstant.MASTER_JENIS_AGUNAN)
+    Call<MasterJenisAgunanResponse> getMasterJenisAgunan(
+    );
+
+    @GET(ApiConstant.MASTER_PROVINSI)
+    Call<MasterProvinsiResponse> getMasterProvinsi(
+    );
+
+    @GET(ApiConstant.MASTER_KABUPATEN)
+    Call<MasterKabupatenResponse> getMasterKabupaten(
+            @Query("id_provinsi") int idProvinsi
+    );
+
+    @GET(ApiConstant.MASTER_KECAMATAN)
+    Call<MasterKecamatanResponse> getMasterKecamatan(
+            @Query("id_provinsi") int idProvinsi,
+            @Query("id_kabupaten_kota") int idKabupaten
+    );
+
+    @GET(ApiConstant.MASTER_KELURAHAN)
+    Call<MasterKelurahanResponse> getMasterKelurahan(
+            @Query("id_provinsi") int idProvinsi,
+            @Query("id_kabupaten_kota") int idKabupaten,
+            @Query("id_kecamatan") int idKecamatan
+    );
+
+    @GET(ApiConstant.MASTER_JENIS_DOKUMEN)
+    Call<JenisDokumenResponse> getMasterJenisDokumen(
+    );
+
+    @GET(ApiConstant.MASTER_JENIS_HARTA)
+    Call<JenisHartaResponse> getMasterJenisHarta(
+    );
+
+    @GET(ApiConstant.MASTER_GELAR)
+    Call<MasterGelarResponse> getMasterGelar();
+
+    @GET(ApiConstant.MASTER_PENDIDIKAN_TERAKHIR)
+    Call<MasterPendidikanTerakhirResponse> getMasterPendidikanTerakhir();
+
+    @GET(ApiConstant.MASTER_JENIS_PEKERJAAN)
+    Call<JenisPekerjaanResponse> getMasterJenisPekerjaan(
+    );
+
+    @GET(ApiConstant.MASTER_JENIS_PRODUK_USAHA)
+    Call<JenisProdukUsahaResponse> getMasterJenisProdukUsaha(
+    );
+
+    @GET(ApiConstant.MASTER_PENGELOLAAN_KEUANGAN)
+    Call<PengelolaanKeuanganResponse> getMasterPengelolaanKeuangan(
+    );
+
+    @GET(ApiConstant.MASTER_ATAP)
+    Call<MasterAtapResponse> getMasterAtap();
+
+    @GET(ApiConstant.MASTER_DINDING)
+    Call<MasterDindingResponse> getMasterDinding();
+
+    @GET(ApiConstant.MASTER_JENDELA)
+    Call<MasterJendelaResponse> getMasterJendela();
+
+    @GET(ApiConstant.MASTER_KUSEN)
+    Call<MasterKusenResponse> getMasterKusen();
+
+    @GET(ApiConstant.MASTER_LANTAI)
+    Call<MasterLantaiResponse> getMasterLantai();
+
+    @GET(ApiConstant.MASTER_PINTU)
+    Call<MasterPintuResponse> getMasterPintu();
+
+    @GET(ApiConstant.MASTER_PLAFON)
+    Call<MasterPlafonResponse> getMasterPlafon();
+
+    @GET(ApiConstant.MASTER_PONDASI)
+    Call<MasterPondasiResponse> getMasterPondasiResponse();
+
+    @GET(ApiConstant.MASTER_BATAS_WILAYAH)
+    Call<MasterBatasWilayahResponse> getMasterBatasWilayah();
+
+    @GET(ApiConstant.MASTER_BENTUK_TANAH)
+    Call<MasterBentukTanahResponse> getMasterBentukTanah();
+
+    @GET(ApiConstant.MASTER_KONDISI_PERMUKAAN_TANAH)
+    Call<MasterKondisiPermukaanTanahResponse> getMasterKondisiPermukaanTanah();
+
+    @GET(ApiConstant.MASTER_PENGGUNAAN_TANAH)
+    Call<MasterPenggunaanTanahResponse> getPenggunaanTanahResponse();
+
+    @GET(ApiConstant.MASTER_STATUS_TANAH)
+    Call<MasterStatusTanahResponse> getStatusTanahResponse();
+
+    @GET(ApiConstant.MASTER_JENIS_BUKTI_KEPEMILIKAN_ANGUNAN)
+    Call<MasterJenisBuktiKepemilikanAgunanResponse> getMasterJenisBuktiKepemilikanAngunanResponse();
+
+    @GET(ApiConstant.MASTER_BUKTI_KEPEMILIKAN_ANGUNAN)
+    Call<MasterBuktiKepemilikanAgunanResponse> getMasterBuktiKepemilikanAngunanResponse(
+            @Query("id_jenis_bukti") int idJenis
+    );
+
+    @GET(ApiConstant.MASTER_PENGELOLAAN_USAHA)
+    Call<MasterPengelolaanUsahaResponse> getMasterPengelolaanUsaha();
+
+    @GET(ApiConstant.MASTER_JALAN_DILALUI)
+    Call<MasterJalanDilaluiResponse> getMasterJalanDilalui();
+
+    @GET(ApiConstant.MASTER_PERUNTUKAN_LOKASI)
+    Call<MasterPeruntukanLokasiResponse> getMasterPeruntukanLokasi();
+
+    @GET(ApiConstant.MASTER_SALURAN_AIR)
+    Call<MasterSaluranAirResponse> getMasterSaluranAir();
+
+    @GET(ApiConstant.MASTER_SALURAN_TELEPON)
+    Call<MasterSaluranTeleponResponse> getMasterSaluranTelepon();
+
+    //=== END Api Data Master ===//
+
+
+    // === Api Prospek === //
+    @GET(ApiConstant.GET_LIST_PROSPEK)
+    Call<ProspekListResponse> getListProspek(
+            @Query("id_user") String userId,
+            @Query("paging") int page
+    );
+
+    /*@GET (ApiConstant.GET_HISTORY_PEMBIAYAAN)
+    Call<List<RiwayatAngsuran>> getListRiwayatAngsuran(
+            @Path("nasabah_id") String idDebiturPnm
+    );*/
+
+    @GET (ApiConstant.GET_HISTORY_PEMBIAYAAN)
+    Call<HistoryAngsuranListResponse> getListRiwayatAngsuran(
+            @Path("nasabah_id") String idDebiturPnm
+    );
+
+    @GET(ApiConstant.GET_GENERAL_PROSPEK)
+    Call<GeneralProspekResponse> getGeneralProspek(
+            @Query("id_debitur") String idDebitur,
+            @Query("id_transaksi_debitur") String id_transaksi_debitur
+    );
+
+    @POST(ApiConstant.SAVE_PROSPEK)
+    Call<BaseResponse> saveProspek(
+            @Body GeneralProspekResponse body
+    );
+
+    @POST(ApiConstant.EDIT_PROSPEK)
+    Call<BaseResponse> editProspek(
+            @Body GeneralProspekResponse body
+    );
+
+    @POST(ApiConstant.AUTOSAVE_PROSPEK)
+    Call<AutoSaveResponse> autosaveProspek(
+            @Body GeneralProspekResponse body
+    );
+
+    // === Api Prospek Detail === //
+    @GET(ApiConstant.GET_LIST_PROSPEK_DETAIL)
+    Call<ProspekListResponse> getListProspekDetail(
+            @Query("id_user") String userId,
+            @Query("paging") int page
+    );
+
+    @GET(ApiConstant.GET_GENERAL_PROSPEK_DETAIL)
+    Call<GeneralProspekDetailResponse> getGeneralProspekDetail(
+            @Query("id_debitur") String idDebitur,
+            @Query("id_transaksi_debitur") String id_transaksi_debitur
+    );
+
+    @POST(ApiConstant.EDIT_PROSPEK_DETAIL)
+    Call<BaseResponse> saveProspekDetail(
+            @Body GeneralProspekDetailResponse body
+    );
+
+    //Survey
+    @GET(ApiConstant.GET_LIST_SURVEY)
+    Call<SurveyListResponse> getListSurvey(
+            @Query("id_user") String userId,
+            @Query("paging") int page
+    );
+
+    @GET(ApiConstant.GET_SURVEY_CHECKLIST)
+    Call<SurveyChecklistResponse> getSurveyChecklist(
+            @Query("id_debitur") String idDebitur,
+            @Query("id_transaksi_debitur") String id_transaksi_debitur
+    );
+
+    @GET(ApiConstant.GET_SURVEY_DETAIL)
+    Call<SurveyDetailResponse> getSurveyDetail(
+            @Query("id_debitur") String idDebitur,
+            @Query("id_transaksi_debitur") String id_transaksi_debitur
+    );
+
+    @POST(ApiConstant.SAVE_SURVEY_DETAIL)
+    Call<BaseResponse> saveSurveyDetail(
+            @Body SurveyDetailRequest body
+    );
+
+    @GET(ApiConstant.GET_SURVEY_PROFILKARAKTER)
+    Call<ProfilKarakterResponse> getSurveyProfileKarakter(
+            @Query("id_debitur") String idDebitur,
+            @Query("id_transaksi_debitur") String id_transaksi_debitur
+    );
+
+    @POST(ApiConstant.SAVE_SURVEY_PROFILKARAKTER)
+    Call<BaseResponse> saveProfilKarakter(
+            @Body ProfilKarakterRequest body
+    );
+
+    @GET(ApiConstant.GET_SURVEY_KAPASITAS_USAHA)
+    Call<KapasitasUsahaResponse> getSurveyKapasitasUsaha(
+            @Query("id_debitur") String idDebitur,
+            @Query("id_transaksi_debitur") String id_transaksi_debitur
+    );
+
+    @POST(ApiConstant.SAVE_SURVEY_KAPASITAS_USAHA)
+    Call<BaseResponse> saveKapasitasUsaha(
+            @Body KapasitasUsahaRequest body
+    );
+
+    @GET(ApiConstant.GET_SURVEY_JENIS_USAHA)
+    Call<SurveyJenisUsahaResponse> getSurveyJenisUsaha(
+            @Query("id_debitur") String idDebitur,
+            @Query("id_transaksi_debitur") String id_transaksi_debitur
+    );
+
+    @POST(ApiConstant.SAVE_SURVEY_JENIS_USAHA)
+    Call<BaseResponse> saveSurveyJenisUsaha(
+            @Body SurveyJenisUsahaRequest body
+    );
+
+    @GET(ApiConstant.GET_SURVEY_KEUANGAN)
+    Call<SurveyKeuanganResponse> getSurveyKeuangan(
+            @Query("id_debitur") String idDebitur,
+            @Query("id_transaksi_debitur") String id_transaksi_debitur
+    );
+
+    @POST(ApiConstant.SAVE_SURVEY_KEUANGAN)
+    Call<BaseResponse> saveSurveyKeuangan(
+            @Body SurveyKeuanganRequest body
+    );
+
+    @GET(ApiConstant.GET_SURVEY_KMK)
+    Call<KebutuhanModalKerjaResponse> getSurveyKMK(
+            @Query("id_debitur") String idDebitur,
+            @Query("id_transaksi_debitur") String id_transaksi_debitur
+    );
+
+    @POST(ApiConstant.SAVE_SURVEY_KMK)
+    Call<BaseResponse> saveSurveyKMK(
+            @Body KebutuhanModalKerjaRequest body
+    );
+
+    @GET(ApiConstant.GET_SURVEY_KELUARGA)
+    Call<SurveyKeluargaResponse> getSurveyKeluarga(
+            @Query("id_debitur") String idDebitur,
+            @Query("id_transaksi_debitur") String id_transaksi_debitur
+    );
+
+    @POST(ApiConstant.SAVE_SURVEY_KELUARGA)
+    Call<BaseResponse> saveSurveyKeluarga(
+            @Body SurveyKeluargaRequest body
+    );
+
+    @GET(ApiConstant.GET_SURVEY_DOKUMEN_CHECKLIST)
+    Call<SurveyDokumenListResponse> getSurveyDokumenChecklist(
+            @Query("id_debitur") String idDebitur,
+            @Query("id_transaksi_debitur") String id_transaksi_debitur
+    );
+
+    @GET(ApiConstant.GET_SURVEY_LIST_JAMINAN)
+    Call<SurveyJaminanListResponse> getSurveyJaminanList(
+            @Query("id_debitur") String idDebitur,
+            @Query("id_transaksi_debitur") String id_transaksi_debitur
+    );
+
+    @GET(ApiConstant.GET_SURVEY_JAMINAN)
+    Call<SurveyJaminanResponse> getSurveyJaminan(
+            @Query("id") int idJaminan
+    );
+
+    @POST(ApiConstant.SAVE_SURVEY_JAMINAN)
+    Call<BaseResponse> saveSurveyJaminan(
+            @Body SurveyJaminanRequest body
+    );
+
+    @GET(ApiConstant.GET_SURVEY_DOKUMEN)
+    Call<SurveyDokumenResponse> getSurveyDokumen(
+            @Query("id_debitur") String idDebitur,
+            @Query("id_transaksi_debitur") String id_transaksi_debitur,
+            @Query("jenis_dokumen") String jenisDokumen
+    );
+
+    @Multipart
+    @POST(ApiConstant.UPLOAD_SURVEY_DOKUMEN)
+    Call<SurveyDokumenUploadResponse> uploadDokumen(
+            @Part MultipartBody.Part imageFile,
+            @Part("id_sdm") RequestBody idSdm,
+            @Part("id_debitur") RequestBody idDebitur,
+            @Part("id_transaksi_debitur") RequestBody idTransaksiDebitur,
+            @Part("id") RequestBody idDokumen,
+            @Part("jenis_dokumen") RequestBody jenisDokumen,
+            @Part("keterangan") RequestBody keterangan
+    );
+
+    @GET(ApiConstant.DELETE_SURVEY_DOKUMEN)
+    Call<BaseResponse> deleteSurveyDokumen(
+            @Query("id") int idDokumen,
+            @Query("nama_file") String namaFile
+    );
+
+    @POST (ApiConstant.SEND_CHECK_SID)
+    Call<BaseResponse> sendCheckSID(
+            @Body CheckSIDRequest body
+    );
+
+    @POST (ApiConstant.SEND_CHECK_SID_KELUARGA)
+    Call<BaseResponse> sendCheckSIDKeluarga(
+            @Body CheckSIDRequest body
+    );
+
+    @POST (ApiConstant.SEND_PENGAJUAN_SURVEY)
+    Call<BaseResponse> sendPengajuanSurvey(
+            @Body SurveyPengajuanRequest body
+    );
+
+    @GET
+    Call<CollectionListResponse> getCollectionList(
+            @Url String url,
+            @Query("id") String kodeUnit,
+            @Query("page") int page
+    );
+
+    @GET (ApiConstant.GET_COLLECTION_DETAIL)
+    Call<CollectionResponse> getCollectionDetail(
+            @Query("id_debitur") String idDebitur
+    );
+
+    @POST (ApiConstant.SAVE_COLLECTION_DETAIL)
+    Call<BaseResponse> saveCollectionDetail(
+            @Body CollectionRequest body
+    );
+
+    @GET (ApiConstant.GET_LIST_HISTORICAL)
+    Call<HistoricalListResponse> getListHistorical(
+            @Query("idsdm") String idSdm,
+            @Query("paging") int page
+    );
+
+    @GET(ApiConstant.GET_LIST_FEEDBACK)
+    Call<FeedbackListResponse> getListFeedback(
+            @Query("kode_cabang") String kodeCabang,
+            @Query("kode_unit") String kodeUnit,
+            @Query("paging") int page
+    );
+
+    //API for MU
+    @GET(ApiConstant.GET_LIST_PROSPEK_DETAIL_MU)
+    Call<ProspekListResponse> getListProspekDetailForMU(
+            @Query("kode_cabang") String kodeCabang,
+            @Query("kode_unit") String kodeUnit,
+            @Query("paging") int page
+    );
+
+    @GET(ApiConstant.GET_GENERAL_PROSPEK_DETAIL_MU)
+    Call<GeneralProspekDetailResponse> getGeneralProspekDetailForMU(
+            @Query("id_debitur") String idDebitur,
+            @Query("id_transaksi_debitur") String id_transaksi_debitur
+    );
+
+    @POST(ApiConstant.APPROVAL_PROSPEK_DETAIL_MU)
+    Call<BaseResponse> sendApproval(
+            @Body ApprovalProspekRequest body
+    );
+
+    @GET (ApiConstant.GET_LIST_PENGAJUAN_MU)
+    Call<SurveyListResponse> getListPengajuan(
+            @Query("kode_cabang") String kodeCabang,
+            @Query("kode_unit") String kodeUnit,
+            @Query("paging") int page
+    );
+
+    @POST (ApiConstant.APPROVAL_PENGAJUAN_MU)
+    Call<BaseResponse> sendApprovalPengajuan(
+            @Body ApprovalPengajuanRequest body
+    );
+
+    @GET(ApiConstant.GET_LIST_BANDING)
+    Call<BandingListResponse> getListBanding(
+            @Query("id_user") String idUser,
+            @Query("paging") int page
+    );
+
+    @POST (ApiConstant.APPROVAL_BANDING)
+    Call<BaseResponse> sendApprovalBanding(
+            @Body ApprovalBandingRequest body
+    );
+
+    @GET (ApiConstant.GET_LIST_HISTORICAL_MU)
+    Call<HistoricalListResponse> getListHistoricalForMU(
+            @Query("kode_cabang") String kodeCabang,
+            @Query("kode_unit") String kodeUnit,
+            @Query("paging") int page
+    );
+
+    @POST(ApiConstant.POST_PROSPEK)
+    Call<InsertProspekModel> PostProspek(
+            @Body InsertProspekModel body
+    );
+
+    @POST(ApiConstant.UPDATE_PROSPEK)
+    Call <UpdateProspekModel> UpdateProspek(
+            @Body UpdateProspekModel body
+    );
+
+    @POST(ApiConstant.KONTAK_PROSPEK)
+    Call <KontakProspekModel> KontakProspek(
+            @Body KontakProspekModel body
+    );
+
+    @POST(ApiConstant.ALAMAT_PROSPEK)
+    Call <AlamatProspekModel> AlamatProspek(
+            @Body AlamatProspekModel body
+    );
+
+    @POST(ApiConstant.KELUARGA_PROSPEK)
+    Call <KeluargaProspekModel> KeluargaProspek(
+            @Body KeluargaProspekModel body
+    );
+
+    @POST(ApiConstant.PEMBIAYAAN_PROSPEK)
+    Call <PembiayaanProspekModel> PembiayaanProspek(
+            @Body PembiayaanProspekModel body
+    );
+
+    @POST(ApiConstant.AGUNAN_PROSPEK)
+    Call <AgunanProspekModel> AgunanProspek(
+            @Body AgunanProspekModel body
+    );
+
+    @POST(ApiConstant.UPLOAD_DOKUMEN)
+    Call <UploadDokumenModel> UploadDokumen(
+            @Body UploadDokumenModel body
+    );
+
+
+}

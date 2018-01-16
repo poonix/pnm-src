@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:paddingBottom="10dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white_trans"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        >
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white_trans"
+            app:hintTextAppearance="@style/Base.TextAppearance.AppCompat.Small">
+
+            <EditText
+                android:id="@+id/tv_nomor_hp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Nomor Handphone"
+                android:inputType="phone"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
+        </android.support.design.widget.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#FF7cafd5" />
+
+        <ImageView
+            android:id="@+id/delete_hp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:src="@drawable/ico_delete_circle" />
+
+    </LinearLayout>
+
+</LinearLayout>

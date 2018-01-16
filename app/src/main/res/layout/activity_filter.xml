@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.saifullah_albasrie.pnm.ui.activity.FilterActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+
+            <TextView
+                android:id="@+id/customTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/action_filter"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+                android:textColor="@color/white" />
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <LinearLayout
+            android:id="@+id/layout_filter_status_survey"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/titlestatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:text="Status Survey"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/status_all"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/selected_filter"
+                    android:gravity="center"
+                    android:onClick="statusSelected"
+                    android:padding="5dp"
+                    android:text="Semua" />
+
+                <TextView
+                    android:id="@+id/status_survey"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/plan_filter"
+                    android:gravity="center"
+                    android:onClick="statusSelected"
+                    android:padding="5dp"
+                    android:text="Survey" />
+
+                <TextView
+                    android:id="@+id/status_revisi"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/plan_filter"
+                    android:gravity="center"
+                    android:onClick="statusSelected"
+                    android:padding="5dp"
+                    android:text="Survey Revisi" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_filter_by_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textCreated"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:text="Tanggal dibuat"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/created_in_any"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/selected_filter"
+                    android:gravity="center"
+                    android:onClick="createdSelected"
+                    android:padding="5dp"
+                    android:text="Semua" />
+
+                <TextView
+                    android:id="@+id/created_in_today"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/plan_filter"
+                    android:gravity="center"
+                    android:onClick="createdSelected"
+                    android:padding="5dp"
+                    android:text="Hari ini" />
+
+                <TextView
+                    android:id="@+id/created_in_7"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/plan_filter"
+                    android:gravity="center"
+                    android:onClick="createdSelected"
+                    android:padding="5dp"
+                    android:text="7 Hari" />
+
+                <TextView
+                    android:id="@+id/created_in_30"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/plan_filter"
+                    android:gravity="center"
+                    android:onClick="createdSelected"
+                    android:padding="5dp"
+                    android:text="30 Hari" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/layout_filter_jatuh_dempo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textJatuhtempo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:text="Tanggal Jatuh Tempo"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/jatuh_tempo_all"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/selected_filter"
+                    android:gravity="center"
+                    android:onClick="jatuhTempoSelected"
+                    android:padding="5dp"
+                    android:text="Semua" />
+
+                <TextView
+                    android:id="@+id/jatuh_tempo_h7"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/plan_filter"
+                    android:gravity="center"
+                    android:onClick="jatuhTempoSelected"
+                    android:padding="5dp"
+                    android:text="H - 7" />
+
+                <TextView
+                    android:id="@+id/jatuh_tempo_h3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/plan_filter"
+                    android:gravity="center"
+                    android:onClick="jatuhTempoSelected"
+                    android:padding="5dp"
+                    android:text="H - 3" />
+
+                <TextView
+                    android:id="@+id/jatuh_tempo_h1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/plan_filter"
+                    android:gravity="center"
+                    android:onClick="jatuhTempoSelected"
+                    android:padding="5dp"
+                    android:text="H + 1" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_sortby"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textSortBy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:text="Sort by"
+                    android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/sort_default"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/selected_filter"
+                        android:gravity="center"
+                        android:onClick="sortBySelected"
+                        android:padding="5dp"
+                        android:text="Jatuh Tempo" />
+
+                    <TextView
+                        android:id="@+id/sort_aging"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/plan_filter"
+                        android:gravity="center"
+                        android:onClick="sortBySelected"
+                        android:padding="5dp"
+                        android:text="Aging" />
+
+                    <TextView
+                        android:id="@+id/sort_os"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/plan_filter"
+                        android:gravity="center"
+                        android:onClick="sortBySelected"
+                        android:padding="5dp"
+                        android:text="OS" />
+
+                </LinearLayout>
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp">
+                    <RadioButton
+                        android:id="@+id/rbAscending"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Ascending"
+                        android:checked="true"
+                        />
+                    <RadioButton
+                        android:id="@+id/rbDescending"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Descending"
+                        />
+                </RadioGroup>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

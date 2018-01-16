@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/tv_income"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/income"
+                android:textColor="@color/black_overlay_more"
+                android:textSize="12sp" />
+
+
+            <EditText
+                android:id="@+id/tv_pendapatan"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white_trans"
+                android:padding="10dp"
+                android:layout_marginBottom="10dp"
+                android:inputType="numberDecimal"
+                android:digits="0123456789,"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
+
+            <TextView
+                android:id="@+id/tv_price_of_sale"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/form_margin_top"
+                android:text="@string/price_of_sale"
+                android:textColor="@color/black_overlay_more"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/tv_harga_pokok"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white_trans"
+                android:padding="10dp"
+                android:layout_marginBottom="10dp"
+                android:inputType="numberDecimal"
+                android:digits="0123456789,"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
+
+
+            <TextView
+                android:id="@+id/tv_price_of_labor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/form_margin_top"
+                android:text="@string/price_of_labor"
+                android:textColor="@color/black_overlay_more" />
+
+            <EditText
+                android:id="@+id/tv_upah_tenaga"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white_trans"
+                android:padding="10dp"
+                android:layout_marginBottom="10dp"
+                android:inputType="numberDecimal"
+                android:digits="0123456789,"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
+
+            <TextView
+                android:id="@+id/tv_rental_cost_of_place"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/form_margin_top"
+                android:text="@string/rental_cost_of_place"
+                android:textColor="@color/black_overlay_more" />
+
+            <EditText
+                android:id="@+id/tv_sewa_tempat"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white_trans"
+                android:padding="10dp"
+                android:layout_marginBottom="10dp"
+                android:inputType="numberDecimal"
+                android:digits="0123456789,"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
+
+
+            <TextView
+                android:id="@+id/tv_rental_cost_other"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/form_margin_top"
+                android:text="@string/rental_cost_other"
+                android:textColor="@color/black_overlay_more" />
+
+            <EditText
+                android:id="@+id/tv_sewa_lainnya"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:background="@color/white_trans"
+                android:digits="0123456789,"
+                android:inputType="numberDecimal"
+                android:padding="10dp"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
+
+
+            <TextView
+                android:id="@+id/tv_cost_of_electricity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/form_margin_top"
+                android:text="@string/cost_of_electricity"
+                android:textColor="@color/black_overlay_more" />
+
+            <EditText
+                android:id="@+id/tv_biaya_listrik"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white_trans"
+                android:padding="10dp"
+                android:layout_marginBottom="10dp"
+                android:inputType="numberDecimal"
+                android:digits="0123456789,"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
+
+
+            <TextView
+                android:id="@+id/tv_cost_other"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/form_margin_top"
+                android:text="@string/cost_other"
+                android:textColor="@color/black_overlay_more" />
+
+            <EditText
+                android:id="@+id/tv_biaya_lainnya"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white_trans"
+                android:padding="10dp"
+                android:layout_marginBottom="10dp"
+                android:inputType="numberDecimal"
+                android:digits="0123456789,"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                />
+
+            <TextView
+                android:id="@+id/tv_label_total_cost"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/form_margin_top"
+                android:text="@string/total_cost"
+                android:textColor="@color/black_overlay_more" />
+
+            <EditText
+                android:id="@+id/tv_total_biaya"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white_trans"
+                android:padding="10dp"
+                android:enabled="false"
+                android:layout_marginBottom="10dp"
+                android:inputType="numberDecimal"
+                android:digits="0123456789,"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:textColor="@color/grey_text_disable"
+                tools:text="123456789"/>
+
+            <TextView
+                android:id="@+id/tv_label_total_keuntungan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/form_margin_top"
+                android:text="@string/total_keuntungan"
+                android:textColor="@color/black_overlay_more" />
+
+            <EditText
+                android:id="@+id/tv_total_keuntungan"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white_trans"
+                android:padding="10dp"
+                android:enabled="false"
+                android:layout_marginBottom="10dp"
+                android:inputType="numberDecimal"
+                android:digits="0123456789,"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:textColor="@color/grey_text_disable"
+                tools:text="123456789"/>
+
+
+            <TextView
+                android:id="@+id/tv_other_business"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/form_margin_top"
+                android:text="@string/other_business"
+                android:textColor="@color/black_overlay_more" />
+
+            <Spinner
+                android:id="@+id/spinner_other_business"
+                style="?android:attr/spinnerDropDownItemStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/white_trans"
+                android:entries="@array/choose_available"
+                android:padding="10dp"
+                android:spinnerMode="dropdown" />
+
+            <TextView
+                android:id="@+id/tv_mentioned_of_business"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/form_margin_top"
+                android:text="@string/mentioned_of_business"
+                android:textColor="@color/black_overlay_more" />
+
+            <Spinner
+                android:id="@+id/spinner_mentioned_of_business"
+                style="?android:attr/spinnerDropDownItemStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/white_trans"
+                android:entries="@array/choose_available"
+                android:padding="10dp"
+                android:spinnerMode="dropdown" />
+
+            <TextView
+                android:id="@+id/tv_first_net_income"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/form_margin_top"
+                android:text="@string/first_net_income"
+                android:textColor="@color/black_overlay_more" />
+
+            <EditText
+                android:id="@+id/tv_pendapatan_usaha_lain_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white_trans"
+                android:padding="10dp"
+                android:layout_marginBottom="10dp"
+                android:inputType="numberDecimal"
+                android:digits="0123456789,"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
+
+
+            <TextView
+                android:id="@+id/tv_second_net_income"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/form_margin_top"
+                android:text="@string/second_net_income"
+                android:textColor="@color/black_overlay_more" />
+
+            <EditText
+                android:id="@+id/tv_pendapatan_usaha_lain_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white_trans"
+                android:padding="10dp"
+                android:layout_marginBottom="10dp"
+                android:inputType="numberDecimal"
+                android:digits="0123456789,"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
+
+            <TextView
+                android:id="@+id/tv_label_total_penghasilan_lain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/form_margin_top"
+                android:text="@string/total_penghasilan_bersih_lain"
+                android:textColor="@color/black_overlay_more" />
+
+            <EditText
+                android:id="@+id/tv_total_penghasilan_bersih_lain"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white_trans"
+                android:padding="10dp"
+                android:enabled="false"
+                android:layout_marginBottom="10dp"
+                android:inputType="numberDecimal"
+                android:digits="0123456789,"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:textColor="@color/grey_text_disable"
+                tools:text="123456789"/>
+
+            <TextView
+                android:id="@+id/tv_other_salary_income"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/form_margin_top"
+                android:text="@string/other_salary_income"
+                android:textColor="@color/black_overlay_more" />
+
+            <Spinner
+                android:id="@+id/spinner_other_salary_income"
+                style="?android:attr/spinnerDropDownItemStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/white_trans"
+                android:entries="@array/choose_available"
+                android:padding="10dp"
+                android:spinnerMode="dropdown" />
+
+            <TextView
+                android:id="@+id/tv_debtor_salary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/form_margin_top"
+                android:text="@string/debtor_salary"
+                android:textColor="@color/black_overlay_more" />
+
+            <EditText
+                android:id="@+id/tv_gaji_debitur"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white_trans"
+                android:padding="10dp"
+                android:layout_marginBottom="10dp"
+                android:inputType="numberDecimal"
+                android:digits="0123456789,"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
+
+
+            <TextView
+                android:id="@+id/tv_wife_or_husband_salary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/form_margin_top"
+                android:text="@string/wife_or_husband_salary"
+                android:textColor="@color/black_overlay_more" />
+
+            <EditText
+                android:id="@+id/tv_gaji_pasangan"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white_trans"
+                android:padding="10dp"
+                android:layout_marginBottom="10dp"
+                android:inputType="numberDecimal"
+                android:digits="0123456789,"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
+
+            <TextView
+                android:id="@+id/tv_label_total_gaji"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/form_margin_top"
+                android:text="@string/total_gaji"
+                android:textColor="@color/black_overlay_more" />
+
+            <EditText
+                android:id="@+id/tv_total_gaji"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white_trans"
+                android:padding="10dp"
+                android:enabled="false"
+                android:layout_marginBottom="10dp"
+                android:inputType="numberDecimal"
+                android:digits="0123456789,"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:textColor="@color/grey_text_disable"
+                tools:text="123456789"/>
+
+
+            <TextView
+                android:id="@+id/tv_label_total_penghasilan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/form_margin_top"
+                android:text="@string/total_penghasilan"
+                android:textColor="@color/black_overlay_more" />
+
+            <EditText
+                android:id="@+id/tv_total_penghasilan"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white_trans"
+                android:padding="10dp"
+                android:enabled="false"
+                android:layout_marginBottom="10dp"
+                android:inputType="numberDecimal"
+                android:digits="0123456789,"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:textColor="@color/grey_text_disable"
+                tools:text="123456789"/>
+
+            <TextView
+                android:id="@+id/tv_household_cost"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/form_margin_top"
+                android:text="@string/household_cost"
+                android:textColor="@color/black_overlay_more" />
+
+            <EditText
+                android:id="@+id/tv_biaya_orangtua"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white_trans"
+                android:padding="10dp"
+                android:layout_marginBottom="10dp"
+                android:inputType="numberDecimal"
+                android:digits="0123456789,"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
+
+
+            <TextView
+                android:id="@+id/tv_household_cost_child"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/form_margin_top"
+                android:text="@string/household_cost_child"
+                android:textColor="@color/black_overlay_more" />
+
+            <EditText
+                android:id="@+id/tv_biaya_anak"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white_trans"
+                android:padding="10dp"
+                android:layout_marginBottom="10dp"
+                android:inputType="numberDecimal"
+                android:digits="0123456789,"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
+
+
+            <TextView
+                android:id="@+id/tv_household_cost_other"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/form_margin_top"
+                android:text="@string/household_cost_other"
+                android:textColor="@color/black_overlay_more" />
+
+            <EditText
+                android:id="@+id/tv_biaya_tanggungan_lain"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white_trans"
+                android:padding="10dp"
+                android:layout_marginBottom="10dp"
+                android:inputType="numberDecimal"
+                android:digits="0123456789,"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
+
+
+            <TextView
+                android:id="@+id/tv_label_total_biaya_rt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/form_margin_top"
+                android:text="@string/total_biaya_rumah_tangga"
+                android:textColor="@color/black_overlay_more" />
+
+            <EditText
+                android:id="@+id/tv_total_biaya_rt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white_trans"
+                android:padding="10dp"
+                android:enabled="false"
+                android:layout_marginBottom="10dp"
+                android:inputType="numberDecimal"
+                android:digits="0123456789,"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:textColor="@color/grey_text_disable"
+                tools:text="123456789"/>
+
+            <TextView
+                android:id="@+id/tv_label_sisa_penghasilan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/form_margin_top"
+                android:text="@string/sisa_penghasilan"
+                android:textColor="@color/black_overlay_more" />
+
+            <EditText
+                android:id="@+id/tv_sisa_penghasilan"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white_trans"
+                android:padding="10dp"
+                android:enabled="false"
+                android:layout_marginBottom="10dp"
+                android:inputType="numberDecimal"
+                android:digits="0123456789,"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:textColor="@color/grey_text_disable"
+                tools:text="123456789"/>
+
+            <TextView
+                android:id="@+id/tv_label_total_angsuran"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/form_margin_top"
+                android:text="@string/total_angsuran_saat_ini"
+                android:textColor="@color/black_overlay_more" />
+
+            <EditText
+                android:id="@+id/tv_total_angsuran"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white_trans"
+                android:padding="10dp"
+                android:layout_marginBottom="10dp"
+                android:inputType="numberDecimal"
+                android:digits="0123456789,"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
+
+            <TextView
+                android:id="@+id/tv_label_penghasilan_bersih"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/form_margin_top"
+                android:text="@string/penghasilan_bersih"
+                android:textColor="@color/black_overlay_more" />
+
+            <EditText
+                android:id="@+id/tv_penghasilan_bersih"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white_trans"
+                android:padding="10dp"
+                android:enabled="false"
+                android:layout_marginBottom="10dp"
+                android:inputType="numberDecimal"
+                android:digits="0123456789,"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:textColor="@color/grey_text_disable"
+                tools:text="123456789"/>
+
+            <View
+                android:id="@id/v_sparator"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="15dp"
+                android:background="@color/blue_text" />
+
+            <TextView
+                android:id="@+id/tv_loan_data"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/loan_data"
+                android:textColor="@color/black_overlay_more"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <LinearLayout
+                android:id="@+id/ll_container_data_pinjaman"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical">
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/ll_btn_tambah"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="?android:textAppearanceSmall"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_green_selector"
+                    android:gravity="center"
+                    android:text="Tambah Data Pinjaman"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="45dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="2dp"
+                    android:background="@drawable/button_green_selector"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_plus" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/v_divider"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/blue_text" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:background="@color/white_trans"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_hint_executive_summary"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:paddingLeft="5dp"
+                    android:text="@string/executive_summary"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                    android:textColor="@color/grey_text" />
+
+                <EditText
+                    android:id="@+id/tv_executive_summary"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="top"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

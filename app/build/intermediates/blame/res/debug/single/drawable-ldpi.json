@@ -1,0 +1,98 @@
+[
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_email.png",
+        "source": "E:\\android\\pnm-src\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_email.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_circle_24dp.png",
+        "source": "E:\\android\\pnm-src\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_circle_24dp.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_warning_24dp.png",
+        "source": "E:\\android\\pnm-src\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_warning_24dp.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_plus_blue_24dp.png",
+        "source": "E:\\android\\pnm-src\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_plus_blue_24dp.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_cam.png",
+        "source": "E:\\android\\pnm-src\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_cam.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_expand_more.png",
+        "source": "E:\\android\\pnm-src\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_expand_more.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_call.png",
+        "source": "E:\\android\\pnm-src\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_call.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_calendar.png",
+        "source": "E:\\android\\pnm-src\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_calendar.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_create.png",
+        "source": "E:\\android\\pnm-src\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_create.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_expand_less.png",
+        "source": "E:\\android\\pnm-src\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_expand_less.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_email_disable.png",
+        "source": "E:\\android\\pnm-src\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_email_disable.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_done.png",
+        "source": "E:\\android\\pnm-src\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_done.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_circle_check_24dp.png",
+        "source": "E:\\android\\pnm-src\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_circle_check_24dp.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_group_white.png",
+        "source": "E:\\android\\pnm-src\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_group_white.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_group_24dp.png",
+        "source": "E:\\android\\pnm-src\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_group_24dp.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_message.png",
+        "source": "E:\\android\\pnm-src\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_message.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_plus_24dp.png",
+        "source": "E:\\android\\pnm-src\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_plus_24dp.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_delete_white.png",
+        "source": "E:\\android\\pnm-src\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_delete_white.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_chevron_right.png",
+        "source": "E:\\android\\pnm-src\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_chevron_right.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_message_disable.png",
+        "source": "E:\\android\\pnm-src\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_message_disable.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_clear.png",
+        "source": "E:\\android\\pnm-src\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_clear.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_call_disable.png",
+        "source": "E:\\android\\pnm-src\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_call_disable.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_pause_circle.png",
+        "source": "E:\\android\\pnm-src\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_pause_circle.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_chevron_left.png",
+        "source": "E:\\android\\pnm-src\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_chevron_left.png"
+    }
+]

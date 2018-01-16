@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.saifullah_albasrie.pnm">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <!--
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    -->
+
+    <!-- https://stackoverflow.com/questions/13602190/java-lang-securityexception-requires-vibrate-permission-on-jelly-bean-4-2 -->
+    <uses-permission android:name="android.permission.VIBRATE"></uses-permission>
+
+    <permission
+        android:name="com.example.saifullah_albasrie.pnm.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.example.saifullah_albasrie.pnm.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <!-- Required to show current location -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <!-- Required OpenGL ES 2.0. for Maps V2 -->
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:name="com.example.saifullah_albasrie.pnm.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ui.activity.SplashscreenActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.activity.MainActivity"
+            android:label="@string/dashboard"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ui.activity.LoginActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".ui.activity.FormProspekActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden"
+            android:label="@string/title_activity_add_prospek"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ui.activity.FormProspekDetailActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden"
+            android:label="@string/title_activity_add_prospek"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ui.activity.FormSurveyActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/survey_survey"
+            android:windowSoftInputMode="stateHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ui.activity.FormSurveyProfileActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/profile_karakter"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ui.activity.FormSurveyExumActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/angunan"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ui.activity.FormSurveyDokumenActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/other_document"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ui.activity.FormSurveyAddDokumenActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/other_document"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".ui.activity.FormSurveyKebutuhanModalKerjaActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/working_capital_requirement"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ui.activity.FormSurveyKeuanganActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/finance"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ui.activity.FormSurveyKapasitasUsahaActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/capital_capacity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ui.activity.FormSurveyJenisUsahaActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/kind_of_business"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ui.activity.FormSurveyKeluargaActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/family"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ui.activity.FormSurveyListJaminanActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/security"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ui.activity.FormSurveyJaminanActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/security"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ui.activity.SurveyItemActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ui.activity.FormCollectionActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/collection"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".ui.activity.FeedbackDetailActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/feedback"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ui.activity.BandingDetailActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/banding"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ui.activity.FilterActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/action_filter"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ui.activity.SearchActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/action_filter"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <!-- FIREBASE -->
+        <service
+            android:name=".firebase.AppFirebaseMessageService"
+            android:stopWithTask="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".firebase.AppFirebaseIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <!-- END FIREBASE -->
+
+
+        <!-- Goolge Maps API Key -->
+        <!--<meta-data-->
+        <!--android:name="com.google.android.maps.v2.API_KEY"-->
+        <!--android:value="AIzaSyDruloYIB92v9YlwA1YrdPkwdxZRlTy8-Q" />-->
+
+        <!-- provider -->
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDruloYIB92v9YlwA1YrdPkwdxZRlTy8-Q" />
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="4fc0879145612ce48c29b397c4e90addb6022132" />
+    </application>
+
+</manifest>

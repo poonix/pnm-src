@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
+        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_notif.png",
+        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\mipmap-mdpi\\ic_notif.png"
+    }
+]

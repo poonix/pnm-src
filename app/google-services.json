@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "722982655614",
+    "firebase_url": "https://pnm-ao-mobile.firebaseio.com",
+    "project_id": "pnm-ao-mobile",
+    "storage_bucket": "pnm-ao-mobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:722982655614:android:538e3b02ce89bec7",
+        "android_client_info": {
+          "package_name": "com.example.saifullah_albasrie.pnm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "722982655614-su0flncros6mgh1mdhtupkhl1idlb3iv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.saifullah_albasrie.pnm",
+            "certificate_hash": "30dc830a44140724fd97344e48ea128e049bf14a"
+          }
+        },
+        {
+          "client_id": "722982655614-f4j2pim2gdmmeper54s4pibnuj3qiv4r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtZWJVpvuuDUam_sOXjGWDAOp6rdZX7FY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "722982655614-f4j2pim2gdmmeper54s4pibnuj3qiv4r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

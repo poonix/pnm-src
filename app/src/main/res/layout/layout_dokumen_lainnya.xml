@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <RelativeLayout
+        android:id="@+id/rl_dokumen_pribadi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/iv_add_doc_personal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:background="@drawable/button_green_selector"
+            android:padding="10dp"
+            android:src="@drawable/ic_plus" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_toLeftOf="@+id/iv_add_doc_personal"
+            android:layout_toStartOf="@+id/iv_add_doc_personal"
+            android:background="@drawable/button_green_selector"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="@string/dokumen_pribadi"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_jumlah_dok_pribadi"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_toLeftOf="@+id/iv_add_doc_personal"
+            android:layout_toStartOf="@+id/iv_add_doc_personal"
+            android:gravity="right|bottom"
+            android:text="@string/no_foto"
+            android:padding="5dp"
+            android:textColor="@color/white"
+            android:textSize="11sp"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_dokumen_keluarga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/iv_add_doc_family"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:background="@drawable/button_green_selector"
+            android:padding="10dp"
+            android:src="@drawable/ic_plus" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_toLeftOf="@+id/iv_add_doc_family"
+            android:layout_toStartOf="@+id/iv_add_doc_family"
+            android:background="@drawable/button_green_selector"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="@string/dokumen_keluarga"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_jumlah_dok_keluarga"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_toLeftOf="@+id/iv_add_doc_family"
+            android:layout_toStartOf="@+id/iv_add_doc_family"
+            android:gravity="right|bottom"
+            android:text="@string/no_foto"
+            android:padding="5dp"
+            android:textColor="@color/white"
+            android:textSize="11sp"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_dokumen_pembiayaan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/iv_add_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:background="@drawable/button_green_selector"
+            android:padding="10dp"
+            android:src="@drawable/ic_plus" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_toLeftOf="@+id/iv_add_photo"
+            android:layout_toStartOf="@+id/iv_add_photo"
+            android:background="@drawable/button_green_selector"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="@string/dokumen_pembiayaan"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_jumlah_dok_pembiayaan"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_toLeftOf="@+id/iv_add_photo"
+            android:layout_toStartOf="@+id/iv_add_photo"
+            android:gravity="right|bottom"
+            android:text="@string/no_foto"
+            android:padding="5dp"
+            android:textColor="@color/white"
+            android:textSize="11sp"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_dokumen_pinjaman"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/iv_add_location_document"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:background="@drawable/button_green_selector"
+            android:padding="10dp"
+            android:src="@drawable/ic_plus" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_toLeftOf="@+id/iv_add_location_document"
+            android:layout_toStartOf="@+id/iv_add_location_document"
+            android:background="@drawable/button_green_selector"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="@string/dokumen_pinjaman"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_jumlah_dok_pinjaman"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_toLeftOf="@+id/iv_add_location_document"
+            android:layout_toStartOf="@+id/iv_add_location_document"
+            android:gravity="right|bottom"
+            android:text="@string/no_foto"
+            android:padding="5dp"
+            android:textColor="@color/white"
+            android:textSize="11sp"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_dokumen_agunan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/iv_add_angunan_document"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:background="@drawable/button_green_selector"
+            android:padding="10dp"
+            android:src="@drawable/ic_plus" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_toLeftOf="@+id/iv_add_angunan_document"
+            android:layout_toStartOf="@+id/iv_add_angunan_document"
+            android:background="@drawable/button_green_selector"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="@string/dokumen_agunan"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_jumlah_dok_agunan"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_toLeftOf="@+id/iv_add_angunan_document"
+            android:layout_toStartOf="@+id/iv_add_angunan_document"
+            android:gravity="right|bottom"
+            android:text="@string/no_foto"
+            android:padding="5dp"
+            android:textColor="@color/white"
+            android:textSize="11sp"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="referensi_type">
+        <item>Pilih</item>
+        <item>Debitur PNM</item>
+        <item>Internal PNM</item>
+        <item>Pihak Ketiga Lainnya</item>
+        <item>Hasil Canvasing</item>
+        <item>Walk In Customer</item>
+    </string-array>
+
+    <string-array name="alamat_type">
+        <item>Pilih</item>
+        <item>Alamat KTP</item>
+        <item>Alamat Domisili</item>
+        <item>Alamat Tempat Usaha</item>
+    </string-array>
+
+    <string-array name="status_alamat">
+        <item>Status Alamat</item>
+        <item></item>
+    </string-array>
+
+    <string-array name="prospek_type">
+        <item>Jenis Prospek</item>
+    </string-array>
+
+    <string-array name="gender">
+        <item>Laki-laki</item>
+        <item>Perempuan</item>
+    </string-array>
+
+    <string-array name="identitas">
+        <item>KTP</item>
+        <item>SIM</item>
+    </string-array>
+
+    <string-array name="t">
+        <item>Tanggal</item>
+    </string-array>
+
+    <string-array name="b">
+        <item>Bulan</item>
+    </string-array>
+
+    <string-array name="thn">
+        <item>Tahun</item>
+    </string-array>
+
+    <string-array name="status_hub_keluarga">
+        <item>Status Hubungan Dengan Prospek</item>
+        <item></item>
+    </string-array>
+
+    <string-array name="jenis_fasilitas">
+        <item>Jenis Fasilitas</item>
+        <item></item>
+    </string-array>
+
+    <string-array name="plafond">
+        <item>Plafond</item>
+        <item></item>
+    </string-array>
+
+    <string-array name="rencana_plafond">
+        <item>Rencana Plafond</item>
+        <item></item>
+    </string-array>
+
+
+    <string-array name="jangka_waktu">
+        <item>Jangka Waktu</item>
+        <item>12</item>
+        <item>24</item>
+    </string-array>
+
+    <string-array name="lama_tahun">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="lama_tahun_usaha">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+    </string-array>
+
+    <string-array name="lama_bulan">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+
+    <string-array name="jumlah_karyawan">
+        <item>Jumlah Karyawan</item>
+        <item>&lt; 10</item>
+        <item>&lt; 50</item>
+        <item>&lt; 100</item>
+        <item>&gt; 100</item>
+    </string-array>
+
+    <string-array name="tujuan_pembiayaan">
+        <item>Pilih</item>
+        <item>Modal Kerja</item>
+        <item>Investasi</item>
+    </string-array>
+
+    <string-array name="jenis_usaha">
+        <item>Jenis Usaha</item>
+        <item></item>
+    </string-array>
+
+    <string-array name="hubungan_pemohon">
+        <item>Pilih</item>
+        <item>Suami</item>
+        <item>Istri</item>
+        <item>Anak</item>
+        <item>Kakak</item>
+        <item>Adik</item>
+        <item>Orangtua</item>
+        <item>Mertua</item>
+    </string-array>
+
+    <!--
+    <string-array name="yes_no">
+        <item>Ya</item>
+        <item>Tidak</item>
+    </string-array>
+    -->
+    <string-array name="date">
+        <item>Pilih Tanggal</item>
+    </string-array>
+
+    <string-array name="product_plan">
+        <item>Rencana Produk</item>
+    </string-array>
+
+    <string-array name="modal_usaha">
+        <item>Modal Usaha</item>
+    </string-array>
+
+    <string-array name="address_type">
+        <item>Jenis Alamat</item>
+    </string-array>
+
+    <string-array name="place_status">
+        <item>Status Tempat</item>
+    </string-array>
+
+    <string-array name="province">
+        <item>Pilih</item>
+    </string-array>
+
+    <string-array name="city">
+        <item>Pilih</item>
+    </string-array>
+
+    <string-array name="district">
+        <item>Pilih</item>
+    </string-array>
+
+    <string-array name="sub_district">
+        <item>Pilih</item>
+    </string-array>
+
+    <string-array name="nationality">
+        <item>Indonesia</item>
+    </string-array>
+
+    <string-array name="last_education">
+        <item>Strata 1</item>
+    </string-array>
+
+    <string-array name="merried_status">
+        <item>Belum Kawin</item>
+    </string-array>
+
+    <string-array name="cooperation_aplicant">
+        <item>Pilih</item>
+        <item>Sangat Terbuka</item>
+        <item>Cukup Terbuka</item>
+        <item>Tertutup/Kurang kerjasama</item>
+    </string-array>
+
+    <string-array name="track_record">
+        <item>Pilih</item>
+        <item>Sudah lunas, sudah pernah punya pinjaman dan sudah lunas</item>
+        <item>Saat ini memiliki pinjaman, sebelumnya sudah lunas</item>
+        <item>Belum pernah meminjam</item>
+        <item>Saat ini memiliki pinjaman , sebelumnya belum pernah meminjam</item>
+    </string-array>
+
+    <string-array name="ulamm_knows">
+        <item>Pilih</item>
+        <item>Brosur Dari Ulamm Pnm</item>
+        <item>Datang Langsung Ke Kantor Ulamm Pnm</item>
+        <item>Dari Mass Media : Koran,Majalah,Radio,Tv,Internet</item>
+        <item>Referensi Nasabah Ulamm</item>
+        <item>Dari Karyawan Ulamm</item>
+        <item>Broker / Agen</item>
+        <item>Pernah Terlibat Dalam Kegiatan Pnm</item>
+    </string-array>
+
+    <string-array name="applicant_reputation">
+        <item>Tidak Pernah Tersangkut Perkara Hukum / Kriminal</item>
+        <item>Tertib Dalam Pembayaran Utilitas : Listrik,Air,Telpon Setidaknya Dalam 3 Bulan Terakhir</item>
+        <item>Tokoh Masyarakat : Rt,Rw,Dukuh Atau Lebih Tinggi</item>
+        <item>Tidak Ada Laporan Negatif Dari Tetangga/lingkungan</item>
+        <item>Tidak Pernah Tersangkut Perkara Kredit Macet Dgn Lembaga Keuangan</item>
+        <item>Aktif Dalam Lingkungan Sekitar</item>
+    </string-array>
+
+    <string-array name="reputation_rate">
+        <item>Pilih</item>
+        <item>Sangat Baik</item>
+        <item>Baik</item>
+        <item>Cukup Baik</item>
+        <item>Kurang Baik</item>
+        <item>Buruk</item>
+    </string-array>
+
+    <string-array name="document">
+        <item>Pilih</item>
+        <item>Covernote</item>
+        <item>KTP</item>
+        <item>SIM</item>
+        <item>KK</item>
+    </string-array>
+
+    <string-array name="kind_of_assets">
+        <item>Pilih</item>
+        <item>Tanah dan Bangunan</item>
+        <item>Mesin-mesin</item>
+        <item>Peralatan Produksi Lainnya</item>
+        <item>Kendaraan</item>
+        <item>Persediaan</item>
+        <item>Lainnya</item>
+    </string-array>
+
+    <string-array name="job">
+        <item>Eksekutif</item>
+    </string-array>
+
+    <string-array name="kind_of_bank">
+        <item>Tabungan</item>
+    </string-array>
+
+    <string-array name="year_bank">
+        <item>2002</item>
+    </string-array>
+
+    <string-array name="nominal_price">
+        <item>1.000.000</item>
+    </string-array>
+
+    <string-array name="choose">
+        <item>Pilih</item>
+    </string-array>
+
+    <string-array name="choose_available">
+        <item>Tidak ada</item>
+        <item>Ada</item>
+    </string-array>
+
+    <string-array name="choose_product">
+        <item>Pilih</item>
+    </string-array>
+
+    <string-array name="choose_program">
+        <item>Pilih</item>
+    </string-array>
+
+    <string-array name="choose_agama">
+        <item>Pilih</item>
+        <item>Islam</item>
+        <item>Kristen</item>
+        <item>Katolik</item>
+        <item>Hindu</item>
+        <item>Budha</item>
+        <item>Lainnya</item>
+    </string-array>
+
+    <string-array name="choose_pekerjaan">
+        <item>Pilih</item>
+        <item>Akunting / Keuangan</item>
+        <item>Customer Service</item>
+        <item>Enginnering</item>
+        <item>Eksekutif</item>
+    </string-array>
+
+    <string-array name="choice_search_debitur">
+        <item>Cek Internal Debitur</item>
+        <item>Cek dengan Nama</item>
+        <item>Cek dengan Nomor Rekening</item>
+        <item>Cek dengan Nama Ibu Kandung</item>
+        <item>Cek dengan Tanggal Lahir</item>
+    </string-array>
+
+
+    <string-array name="choose_status">
+        <item>Belum Kawin</item>
+        <item>Kawin</item>
+        <item>Cerai Hidup</item>
+        <item>Cerai Mati</item>
+        <item>Kawin Pisah Harta</item>
+    </string-array>
+
+    <string-array name="choose_gelar">
+        <item>Gelar</item>
+    </string-array>
+
+    <string-array name="choose_jumlah_anak">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+    </string-array>
+
+    <string-array name="debtor_capital">
+        <item>Bidang Usaha Debitur*</item>
+        <item>Produksi</item>
+    </string-array>
+
+    <string-array name="product_type">
+        <item>Jenis Produk Yang Ditawarkan</item>
+        <item>Kebutuhan Pokok</item>
+    </string-array>
+
+    <string-array name="activities_establishments">
+        <item>Pilih</item>
+        <item>Ramai / Banyak Aktivitas</item>
+        <item>Cukup Ramai</item>
+        <item>Kurang Ramai</item>
+        <item>Sepi / Tutup</item>
+    </string-array>
+
+    <string-array name="kondisi_usaha">
+        <item>Pilih</item>
+        <item>Ramai</item>
+        <item>Cukup Ramai</item>
+        <item>Kurang Ramai</item>
+    </string-array>
+
+    <string-array name="yes_or_no">
+        <item>Pilih</item>
+        <item>Ya</item>
+        <item>Tidak</item>
+    </string-array>
+
+    <string-array name="raw_material">
+        <item>Tersedia Setiap Saat</item>
+        <item>Tersedia bulan-bulan tertentu (musiman)</item>
+        <item>Tidak di perlukan karena bidang usaha jasa</item>
+    </string-array>
+
+    <string-array name="number_of_suppliers">
+        <item>Pilih</item>
+        <item>> 1 pemasok</item>
+        <item>1 pemasok</item>
+        <item>Tidak di perlukan karena bidang usaha jasa</item>
+    </string-array>
+
+    <string-array name="business_competition">
+        <item>Pilih</item>
+        <item>Tidak ada usaha sejenis dalam 1 lokasi</item>
+        <item>Terdapat 1-2 usaha sejenis dalam 1 lokasi</item>
+        <item>Terdapat 3-5 usaha sejenis dalam 1 lokasi</item>
+        <item>Terdapat 6-10 usaha sejenis dalam 1 lokasi</item>
+        <item>Terdapat 11-20 usaha sejenis dalam 1 lokasi</item>
+        <item>Terdapat >20 usaha sejenis dalam 1 lokasi</item>
+    </string-array>
+
+    <string-array name="relation_status">
+        <item>Pilih</item>
+        <item>Kepala Keluarga</item>
+        <item>Suami</item>
+        <item>Istri</item>
+        <item>Anak</item>
+        <item>Kakak</item>
+        <item>Adik</item>
+        <item>Orangtua</item>
+        <item>Mertua</item>
+    </string-array>
+
+    <string-array name="installment_type">
+        <item>Jenis Angsuran</item>
+    </string-array>
+
+    <string-array name="owner_status">
+        <item>Milik Sendiri</item>
+        <item>Milik Orang Lain</item>
+    </string-array>
+
+    <string-array name="applicant_relation">
+        <item>Hubungan Dengan Kepemilikan</item>
+    </string-array>
+
+    <string-array name="bulan">
+        <item>Januari</item>
+    </string-array>
+
+    <string-array name="array_init">
+        <item> </item>
+    </string-array>
+
+    <string-array name="choose_bulan">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+
+    <string-array name="penghuni_angunan">
+        <item>Penghuni Angunan</item>
+    </string-array>
+
+    <string-array name="angunan_type">
+        <item>Jenis Angunan</item>
+    </string-array>
+
+    <string-array name="jenis_tabungan">
+        <item>Pilih</item>
+        <item>Tabungan</item>
+        <item>Giro</item>
+    </string-array>
+
+</resources>

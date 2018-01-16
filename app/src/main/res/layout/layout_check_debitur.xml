@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/view_search_debitur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="0dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/light_green"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <Spinner
+                android:id="@+id/sp_search_debitur"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:entries="@array/choice_search_debitur"
+                android:theme="@style/searchSpinnerTheme"
+                />
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/v_search_sparator"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#f7f7f7"
+            android:orientation="vertical" />
+
+        <ImageView
+            android:id="@+id/iv_search_debitur"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:clickable="true"
+            android:src="@drawable/ico_search" />
+    </LinearLayout>
+
+</LinearLayout>

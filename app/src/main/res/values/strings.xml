@@ -1,0 +1,247 @@
+<resources>
+    <string name="app_name">Permodalan Nasional Madani</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_username">User Name</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Log in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="login_failed">Incorrect username or password</string>
+    <string name="action_search">Search</string>
+    <string name="action_filter">Filter</string>
+    <string name="title_activity_add_prospek">Tambah Prospek</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- A -->
+    <string name="accounts_payable">Hutang Dagang</string>
+    <string name="account_receivable">Piutang Dagang</string>
+    <string name="activities_establishments">Kegiatan di Tempat Usaha</string>
+    <string name="address">Alamat</string>
+    <string name="add_loan_data">Tambah Data Pinjaman</string>
+    <string name="age">Usia</string>
+    <string name="amount">Jumlah</string>
+    <string name="assets">Aset</string>
+    <string name="angunan">Agunan</string>
+
+    <!-- B -->
+    <string name="bank_interest">Bunga (Per Bulan)</string>
+    <string name="business_competition">Persaingan Usaha</string>
+
+    <!-- C -->
+    <string name="capital_capacity">Kapasitas Usaha</string>
+    <string name="capital_net_last_year">Modal Kerja Bersih Tahun Lalu</string>
+    <string name="capital_per_day">Perputaran Modal Kerja per Hari</string>
+    <string name="caption">Keterangan</string>
+    <string name="certificate_of_business">Memiliki Surat Keterangan Usaha/Bekerja</string>
+    <string name="choose_product">Pilih Produk</string>
+    <string name="choose_program">Pilih Program</string>
+    <string name="city">Kota</string>
+    <string name="collection">Collection</string>
+    <string name="cooperation_aplicant">Kerjasama Dari Pemohon</string>
+    <string name="cost_of_electricity">Berapa biaya listrik, telepon, air untuk usaha? (*/Bulan)</string>
+    <string name="cost_other">Berapa biaya lainnya untuk usaha tersebut? (*/Bulan)</string>
+
+    <!-- D -->
+    <string name="dashboard">Dashboard</string>
+    <string name="date_picker">Tampilan Tanggal</string>
+    <string name="debtor_business_fields">Posisi Akhir</string>
+    <string name="debtor_salary">Gaji debitur (*/Bulan)</string>
+    <string name="distance_location">Jarak Lokasi Usaha dengan Kantor ULaMM (KM)</string>
+    <string name="district">Kecamatan</string>
+    <string name="dokumen_agunan">Dokumen Agunan</string>
+    <string name="dokumen_keluarga">Dokumen Keluarga</string>
+    <string name="dokumen_pinjaman">Dokumen Pinjaman</string>
+    <string name="dokumen_pribadi">Dokumen Pribadi</string>
+    <string name="dokumen_pembiayaan">Dokumen Pembiayaan</string>
+
+    <!-- E -->
+    <string name="executive_summary">Executive Summary</string>
+
+    <!-- F -->
+    <string name="family">Keluarga</string>
+    <string name="finance">Keuangan</string>
+    <string name="finance_total">Total Uang</string>
+    <string name="financial_trend">Trend Keuangan</string>
+    <string name="first_net_income">Penghasilan bersih usaha lain 1 (*/Bulan)</string>
+
+    <!-- H -->
+    <string name="hint">0</string>
+    <string name="historical">Histori</string>
+    <string name="household_cost">Biaya rumah tangga istri/suami (*/Per Orang/Bulan)</string>
+    <string name="household_cost_child">Biaya rumah tangga anak (*/Per Orang/Bulan)</string>
+    <string name="household_cost_other">Biaya rumah tangga tanggungan lainnya (*/Per Orang/ Bulan)</string>
+
+    <!-- I -->
+    <string name="income">Berapa Pendapatan/ Penjualan/ Omset dari usaha utama debitur? (Sebelum dikurangi dengan biaya-biaya (*/Bulan))</string>
+    <string name="information">Keterangan</string>
+    <string name="input_plafond">Masukan Plafond</string>
+    <string name="installment_payment">Angsuran</string>
+    <string name="internal_server_error">Internal Server Error!</string>
+    <string name="investation">Investasi</string>
+    <string name="inventory_per_day">Perputaran Persediaan Barang per Hari</string>
+    <string name="receivables_per_day">Perputaran Piutang Dagang per Hari</string>
+
+    <!-- J -->
+    <string name="job">Pekerjaan</string>
+
+    <!-- K -->
+    <string name="kind_of_address">Jenis Alamat</string>
+    <string name="kind_of_business">Kondisi Usaha</string>
+    <string name="kind_of_product">Jenis Produk Yang Ditawarkan</string>
+    <string name="kind_of_assets">Jenis Aset</string>
+
+    <!-- L -->
+    <string name="labor_amount">Jumlah Tenaga Kerja Usaha</string>
+    <string name="last_education">Pendidikan Terakhir</string>
+    <string name="last_month_position">Posisi Akhir Bulan Terakhir*</string>
+    <string name="loan_data">Data Pinjaman</string>
+    <string name="long_occupied">Lama Menempati</string>
+
+    <!-- M -->
+    <string name="mentioned_of_business">Sebutkan bidang usaha lainnya</string>
+    <string name="merried_status">Status Perkawinan</string>
+    <string name="month">Bulan</string>
+
+    <!-- N -->
+    <string name="name">Nama</string>
+    <string name="nationality">Kewarganegaraan</string>
+    <string name="number_of_suppliers">Jumlah Pemasok Barang</string>
+
+    <!-- O -->
+    <string name="organization_name">Nama Organisasi</string>
+    <string name="other_account_receivable">Piutang Dagang Lainnya</string>
+    <string name="other_business">Apakah ada usaha lainnya selain usaha utama?</string>
+    <string name="other_inventories">Persediaan Lainnya</string>
+    <string name="other_relation">Hubungan Lainnya</string>
+    <string name="other_document">Dokumen</string>
+    <string name="other_payables">Hutang Dagang Lainnya</string>
+    <string name="other_salary_income">Apakah ada penghasilan gaji dari debitur atau suami/istrinya?</string>
+
+    <!-- P -->
+    <string name="pilih_tanggal">Pilih Tanggal</string>
+    <string name="pilih_bulan">Pilih Bulan</string>
+    <string name="pilih_tahun">Pilih Tahun</string>
+    <string name="payable_per_day">Perputaran Hutang Dagang per Hari</string>
+    <string name="financial_management">Pengelolaan Keuangan</string>
+    <string name="per_month">Per Bulan</string>
+    <string name="phone">No. Handphone</string>
+    <string name="place_status">Status Tempat</string>
+    <string name="plafon_plan">Rencana Plafond*</string>
+    <string name="plan_for_payment">Rencana Tujuan Pembiayaan</string>
+    <string name="price_of_labor">Biaya upah/ biaya tenaga kerja? (*/Bulan)</string>
+    <string name="price_of_sale">Jika produknya berupa barang, berapa harga pokok penjualan atau harga pokok produksinya? (*/Bulan)</string>
+    <string name="profit_years_ago">Laba/ Rugi/ Penghasilan Bersih Tahun Lalu</string>
+    <string name="prospek">Prospek</string>
+    <string name="prospek_perorangan">Prospek Perorangan</string>
+    <string name="prospek_detail">Calon Debitur</string>
+    <string name="province">Provinsi</string>
+
+    <!-- R -->
+    <string name="range_time">Jangka Waktu</string>
+    <string name="raw_material">Ketersediaan Bahan Baku</string>
+    <string name="receivables">Piutang Dagang</string>
+    <string name="relation_status">Status Hubungan</string>
+    <string name="rental_cost_of_place">Biaya sewa tempat dalam sebulan? (*/Bulan)</string>
+    <string name="rental_cost_other">Berapa biaya sewa lainnya? (*/Bulan)</string>
+    <string name="revenue_last_year">Omzet/ Pendapatan Usaha Tahun Lalu</string>
+    <string name="reputation_info">Sumber Informasi Reputasi</string>
+    <string name="reputation"></string>
+    <string name="rt">RT</string>
+    <string name="rw">RW</string>
+
+    <!-- S -->
+    <string name="security">Jaminan</string>
+    <string name="second_net_income">Penghasilan bersih usaha lain 2 (*/Bulan)</string>
+    <string name="sub_district">Kelurahan</string>
+    <string name="survey">Survey (LKKU)</string>
+    <string name="survey_date">Tanggal Survey Usaha*</string>
+
+    <!-- T -->
+    <string name="tennor">Tennor</string>
+    <string name="track_record">Saat ini memiliki pinjaman, sebelumnya sudah lunas</string>
+    <string name="trade_inventories">Persediaan Dagang</string>
+
+    <!-- W -->
+    <string name="wife_or_husband_salary">Gaji suami atau istrinya (*/Bulan)</string>
+    <string name="working_capital">Modal Kerja</string>
+    <string name="working_capital_requirement">Kebutuhan Modal Kerja</string>
+
+    <!-- Y -->
+    <string name="year">Tahun</string>
+
+    <!-- Z -->
+    <string name="zip_code">Kode Pos</string>
+    <string name="feedback">Hasil Banding</string>
+    <string name="profile_karakter">Profile dan Karakter</string>
+    <string name="search_not_found">No matching prospek found</string>
+    <string name="feedback_not_found">No matching feedback found</string>
+    <string name="banding_not_found">No matching banding found</string>
+    <string name="btn_call">Call</string>
+    <string name="btn_email">Email</string>
+    <string name="btn_message">Message</string>
+    <string name="tab_biodata">Biodata</string>
+    <string name="tab_referensi">Referensi</string>
+    <string name="tab_jadwal">Kunjungan</string>
+    <string name="btn_ok">OK</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="tab_penagihan">Penagihan</string>
+    <string name="tab_kolektibilitas">Kolektibilitas</string>
+    <string name="tab_keterangan">Keterangan</string>
+    <string name="data_not_found">Tidak ada data</string>
+    <string name="data_failed">Tidak dapat mengambil data</string>
+    <string name="save_data_failed">Data tidak berhasil disimpan</string>
+    <string name="save_data_failed_on_server">Data tidak berhasil disimpan!</string>
+    <string name="delete_data_failed">Data tidak berhasil dihapus</string>
+    <string name="field_err_msg">%1$s harus diisi</string>
+    <string name="pengajuan">Pengajuan</string>
+    <string name="banding">Banding</string>
+    <string name="btn_approve">Approve</string>
+    <string name="btn_reject">Reject</string>
+    <string name="prospek_approval">Approval Prospek</string>
+    <string name="detail_prospek_approval">Approval Calon Debitur</string>
+    <string name="tab_detail">Detil</string>
+    <string name="btn_submit">Submit</string>
+    <string name="title_activity_feedback_detail">$app_name</string>
+
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</string>
+    <string name="perhari">hari</string>
+    <string name="upload_failed">Upload dokumen tidak berhasil</string>
+    <string name="no_foto">Belum ada foto</string>
+    <string name="btn_check_sid">Request SID</string>
+    <string name="btn_check_sid_result">Hasil Sistem Informasi Debitur</string>
+    <string name="survey_survey">Kunjungan Usaha</string>
+    <string name="tab_check_sid">Check SID</string>
+    <string name="tab_history_pembiayaan">History Pembiayaan</string>
+    <string name="total_trade_inventories">Total Persediaan Dagang</string>
+    <string name="total_account_receivable">Total Piutang Dagang</string>
+    <string name="total_accounts_payable">Total Hutang Dagang</string>
+    <string name="check_sid_failed">Silahkan lengkapi data terlebih dahulu</string>
+    <string name="plafon">Plafond</string>
+    <string name="nama_bank">Nama Bank</string>
+    <string name="outstanding">Sisa Pinjaman</string>
+    <string name="tujuan_pinjaman">Tujuan Pinjaman</string>
+    <string name="jatuh_tempo">Jatuh Tempo</string>
+    <string name="check_sid_title">Ajukan BI Checking</string>
+    <string name="total_cost">Total Biaya Usaha</string>
+    <string name="total_penghasilan_bersih_lain">Total Penghasilan Bersih Usaha Lain</string>
+    <string name="total_keuntungan">Total Keuntungan Usaha</string>
+    <string name="total_gaji">Total Gaji</string>
+    <string name="total_penghasilan">Total Penghasilan</string>
+    <string name="total_biaya_rumah_tangga">Total Biaya Rumah Tangga</string>
+    <string name="sisa_penghasilan">Sisa Penghasilan</string>
+    <string name="total_angsuran_saat_ini">Total Angsuran Saat Ini</string>
+    <string name="penghasilan_bersih">Penghasilan Bersih</string>
+
+</resources>
