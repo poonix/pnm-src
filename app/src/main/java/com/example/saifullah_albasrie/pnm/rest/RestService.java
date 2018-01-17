@@ -7,6 +7,7 @@ import com.example.saifullah_albasrie.pnm.model.production_model.InsertProspekMo
 import com.example.saifullah_albasrie.pnm.model.production_model.KeluargaProspekModel;
 import com.example.saifullah_albasrie.pnm.model.production_model.KontakProspekModel;
 import com.example.saifullah_albasrie.pnm.model.production_model.KunjunganAomModel;
+import com.example.saifullah_albasrie.pnm.model.production_model.NilaiAgunanModel;
 import com.example.saifullah_albasrie.pnm.model.production_model.PembiayaanProspekModel;
 import com.example.saifullah_albasrie.pnm.model.production_model.UpdateProspekModel;
 import com.example.saifullah_albasrie.pnm.model.production_model.UploadDokumenModel;
@@ -1057,6 +1058,11 @@ public interface RestService {
     @POST(ApiConstant.KUNJUNGAN_AOM)
     Call <KunjunganAomModel> KunjunganAOM(
             @Body KunjunganAomModel body
+    );
+
+    @POST(ApiConstant.NILAI_AGUNAN)
+    Call <NilaiAgunanModel> NilaiAgunan(
+            @Body NilaiAgunanModel body
     );
 
 

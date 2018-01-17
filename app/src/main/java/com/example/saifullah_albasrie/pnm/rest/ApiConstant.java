@@ -257,7 +257,7 @@ public class ApiConstant {
     public static final String UPLOAD_DOKUMEN = "prospek/set_individu_dokumen";
     public static final String USAHA_PROSPEK = "prospek/set_individu_usaha";
     public static final String KUNJUNGAN_AOM = "prospek/set_individu_kunjungan";
-
+    public static final String NILAI_AGUNAN = "survey/set_nilai_agunan";
 
 
 
