@@ -1,15 +1,47 @@
 [
     {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_clear.xml",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_clear.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_create.xml",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_create.xml"
+    },
+    {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_circle_check_24dp.xml",
         "source": "E:\\android\\pnm-src\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_circle_check_24dp.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_plus_blue_24dp.xml",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_plus_blue_24dp.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_expand_less.xml",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_expand_less.xml"
     },
     {
         "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_calendar.xml",
         "source": "D:\\workspace\\pnm-src2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_calendar.xml"
     },
     {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_group_24dp.xml",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_group_24dp.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_group_white.xml",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_group_white.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_plus_24dp.xml",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_plus_24dp.xml"
+    },
+    {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_message_disable.xml",
         "source": "E:\\android\\pnm-src\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_message_disable.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_circle_24dp.xml",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_circle_24dp.xml"
     },
     {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_group_24dp.xml",
@@ -18,6 +50,14 @@
     {
         "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_expand_more.xml",
         "source": "D:\\workspace\\pnm-src2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_expand_more.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_done.xml",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_done.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility.xml",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\241d5508a199527e9fbc671c1648a22e22a41a83\\output\\res\\drawable-anydpi-v21\\design_ic_visibility.xml"
     },
     {
         "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_call_disable.xml",
@@ -36,6 +76,10 @@
         "source": "D:\\workspace\\pnm-src2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_group_24dp.xml"
     },
     {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility_off.xml",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\241d5508a199527e9fbc671c1648a22e22a41a83\\output\\res\\drawable-anydpi-v21\\design_ic_visibility_off.xml"
+    },
+    {
         "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_warning_24dp.xml",
         "source": "D:\\workspace\\pnm-src2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_warning_24dp.xml"
     },
@@ -52,16 +96,36 @@
         "source": "D:\\workspace\\pnm-src2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_clear.xml"
     },
     {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_message.xml",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_message.xml"
+    },
+    {
         "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_cam.xml",
         "source": "D:\\workspace\\pnm-src2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_cam.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_email_disable.xml",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_email_disable.xml"
     },
     {
         "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_chevron_left.xml",
         "source": "D:\\workspace\\pnm-src2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_chevron_left.xml"
     },
     {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_calendar.xml",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_calendar.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_message_disable.xml",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_message_disable.xml"
+    },
+    {
         "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_circle_24dp.xml",
         "source": "D:\\workspace\\pnm-src2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_circle_24dp.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_expand_more.xml",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_expand_more.xml"
     },
     {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_call_disable.xml",
@@ -86,6 +150,10 @@
     {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_expand_less.xml",
         "source": "E:\\android\\pnm-src\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_expand_less.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_delete_white.xml",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_delete_white.xml"
     },
     {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_message.xml",
@@ -120,12 +188,28 @@
         "source": "E:\\android\\pnm-src\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_plus_24dp.xml"
     },
     {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_chevron_right.xml",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_chevron_right.xml"
+    },
+    {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_delete_white.xml",
         "source": "E:\\android\\pnm-src\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_delete_white.xml"
     },
     {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_calendar.xml",
         "source": "E:\\android\\pnm-src\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_calendar.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_cam.xml",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_cam.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_warning_24dp.xml",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_warning_24dp.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_call_disable.xml",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_call_disable.xml"
     },
     {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_warning_24dp.xml",
@@ -148,8 +232,24 @@
         "source": "D:\\workspace\\pnm-src2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_email.xml"
     },
     {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_chevron_left.xml",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_chevron_left.xml"
+    },
+    {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_email.xml",
         "source": "E:\\android\\pnm-src\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_email.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_circle_check_24dp.xml",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_circle_check_24dp.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_email.xml",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_email.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_pause_circle.xml",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_pause_circle.xml"
     },
     {
         "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_call.xml",
@@ -186,6 +286,10 @@
     {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_pause_circle.xml",
         "source": "E:\\android\\pnm-src\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_pause_circle.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_call.xml",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_call.xml"
     },
     {
         "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_message_disable.xml",

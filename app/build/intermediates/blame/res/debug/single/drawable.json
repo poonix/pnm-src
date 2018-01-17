@@ -1,11 +1,7 @@
 [
     {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
-        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable\\abc_btn_check_material.xml"
-    },
-    {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\item_list_bg_selector2.xml",
-        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\item_list_bg_selector2.xml"
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable\\abc_btn_radio_material.xml"
     },
     {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_progress_15.png",
@@ -14,6 +10,942 @@
     {
         "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ico_calendar_selector.xml",
         "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\ico_calendar_selector.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_detail_prospek.png",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_detail_prospek.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_message_selector.xml",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\button_message_selector.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light_normal.xml",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\6c93c8be8d292b9c048645be921c7164a189f0e9\\output\\res\\drawable\\common_google_signin_btn_icon_light_normal.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_expandable_selector.xml",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_expandable_selector.xml"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ico_search.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\ico_search.png"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable\\abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light_focused.xml",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\6c93c8be8d292b9c048645be921c7164a189f0e9\\output\\res\\drawable\\common_google_signin_btn_icon_light_focused.xml"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\item_list_bg_selected.xml",
+        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\item_list_bg_selected.xml"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_empty_icon.xml",
+        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\85c51bba4b9af64e1c91677a7d426709e6eb3583\\output\\res\\drawable\\navigation_empty_icon.xml"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\no_image_available.jpg",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\no_image_available.jpg"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light_normal.xml",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\6c93c8be8d292b9c048645be921c7164a189f0e9\\output\\res\\drawable\\common_google_signin_btn_text_light_normal.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_prospek_white.png",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_prospek_white.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_slider_thumb_right.xml",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_slider_thumb_right.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_lightgrey_bg_pressed.xml",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\button_lightgrey_bg_pressed.xml"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_logout.png",
+        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\ic_logout.png"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_search_white.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_search_white.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_message_selector.xml",
+        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\button_message_selector.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_progress_20.png",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_progress_20.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_progress_75.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_progress_75.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_disabled.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\2e0f1096be79cc39b9eb2f444d4d42c05d6f8154\\output\\res\\drawable\\common_google_signin_btn_text_disabled.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark_normal.xml",
+        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\3fc5b70ad006fa31540397d30a4796224af5cf54\\output\\res\\drawable\\common_google_signin_btn_icon_dark_normal.xml"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_progress_20.png",
+        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\ic_progress_20.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_lightgrey_bg_default.xml",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\button_lightgrey_bg_default.xml"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_progress_90.png",
+        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\ic_progress_90.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_search_white.png",
+        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\ic_search_white.png"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_prospek.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_prospek.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mn_pengajuan_selector.xml",
+        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\mn_pengajuan_selector.xml"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light_focused.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\2e0f1096be79cc39b9eb2f444d4d42c05d6f8154\\output\\res\\drawable\\common_google_signin_btn_icon_light_focused.xml"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_survey.png",
+        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\ic_survey.png"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable\\abc_vector_test.xml"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_lightgrey_selector.xml",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\button_lightgrey_selector.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_slider_thumb_left.xml",
+        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\ic_slider_thumb_left.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_progress_65.png",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_progress_65.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_progress_30.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_progress_30.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mn_survey_selector.xml",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\mn_survey_selector.xml"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_progress_65.png",
+        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\ic_progress_65.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark.xml",
+        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\3fc5b70ad006fa31540397d30a4796224af5cf54\\output\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_progress_85.png",
+        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\ic_progress_85.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
+        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_progress_40.png",
+        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\ic_progress_40.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_grey_bg_default.xml",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\button_grey_bg_default.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_slider_thumb_left.xml",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_slider_thumb_left.xml"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_green_bg_default.xml",
+        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\button_green_bg_default.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_grey_selector.xml",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\button_grey_selector.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_search_white.png",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_search_white.png"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_blue_selector.xml",
+        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\button_blue_selector.xml"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light_normal.xml",
+        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\3fc5b70ad006fa31540397d30a4796224af5cf54\\output\\res\\drawable\\common_google_signin_btn_icon_light_normal.xml"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_trans_selector.xml",
+        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\button_trans_selector.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_progress_90.png",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_progress_90.png"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_background.xml",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\tab_background.xml"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_background.xml",
+        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\tab_background.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_empty_icon.xml",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\241d5508a199527e9fbc671c1648a22e22a41a83\\output\\res\\drawable\\navigation_empty_icon.xml"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_survey_white.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_survey_white.png"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_detail_prospek_white.png",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_detail_prospek_white.png"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\no_foto.png",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\no_foto.png"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_progress_95.png",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_progress_95.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_grey_bg_pressed.xml",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\button_grey_bg_pressed.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\item_check_selector.xml",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\item_check_selector.xml"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_plus.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_plus.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_disabled.xml",
+        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\3fc5b70ad006fa31540397d30a4796224af5cf54\\output\\res\\drawable\\common_google_signin_btn_text_disabled.xml"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_collection.png",
+        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\ic_collection.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_email_selector.xml",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\button_email_selector.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_email_selector.xml",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\button_email_selector.xml"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_progress_25.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_progress_25.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_green_bg_pressed.xml",
+        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\button_green_bg_pressed.xml"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_horizontal_slide.png",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_horizontal_slide.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\item_list_bg_selector.xml",
+        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\item_list_bg_selector.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark_normal.xml",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\6c93c8be8d292b9c048645be921c7164a189f0e9\\output\\res\\drawable\\common_google_signin_btn_icon_dark_normal.xml"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable\\abc_vector_test.xml"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_prospek_white.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_prospek_white.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_progress_70.png",
+        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\ic_progress_70.png"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_progress_70.png",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_progress_70.png"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\side_nav_bar.xml",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\side_nav_bar.xml"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_bottom_navigation_item_background.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\72edc8f974b844a52ee896286f82dc3f2951f443\\output\\res\\drawable\\design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light_normal.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\2e0f1096be79cc39b9eb2f444d4d42c05d6f8154\\output\\res\\drawable\\common_google_signin_btn_text_light_normal.xml"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light_focused.xml",
+        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\3fc5b70ad006fa31540397d30a4796224af5cf54\\output\\res\\drawable\\common_google_signin_btn_icon_light_focused.xml"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
+        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\85c51bba4b9af64e1c91677a7d426709e6eb3583\\output\\res\\drawable\\design_snackbar_background.xml"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_delete_circle.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_delete_circle.png"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mn_prospek_selector.xml",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\mn_prospek_selector.xml"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ico_search.png",
+        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\ico_search.png"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_arrow_left.png",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_arrow_left.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\2e0f1096be79cc39b9eb2f444d4d42c05d6f8154\\output\\res\\drawable\\common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mn_prospek_selector.xml",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\mn_prospek_selector.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_plus.png",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_plus.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark_focused.xml",
+        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\3fc5b70ad006fa31540397d30a4796224af5cf54\\output\\res\\drawable\\common_google_signin_btn_icon_dark_focused.xml"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_slider_thumb_right.xml",
+        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\ic_slider_thumb_right.xml"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_progress_10.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_progress_10.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ico_calendar_selector.xml",
+        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\ico_calendar_selector.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_progress_85.png",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_progress_85.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_grey_selector.xml",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\button_grey_selector.xml"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_pnm.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_pnm.png"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_collection.png",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_collection.png"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\wallpaper_ulamm.png",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\wallpaper_ulamm.png"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mn_historical_selector.xml",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\mn_historical_selector.xml"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_slider_thumb.xml",
+        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\ic_slider_thumb.xml"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_horizontal_slide.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_horizontal_slide.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark_normal.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\2e0f1096be79cc39b9eb2f444d4d42c05d6f8154\\output\\res\\drawable\\common_google_signin_btn_icon_dark_normal.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_gradient.xml",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\bg_gradient.xml"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mn_selector.xml",
+        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\mn_selector.xml"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_gradient.xml",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\bg_gradient.xml"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\3fc5b70ad006fa31540397d30a4796224af5cf54\\output\\res\\drawable\\common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_collection_white.png",
+        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\ic_collection_white.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_lightgrey_bg_default.xml",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\button_lightgrey_bg_default.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\241d5508a199527e9fbc671c1648a22e22a41a83\\output\\res\\drawable\\design_fab_background.xml"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_progress_45.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_progress_45.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_email_selector.xml",
+        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\button_email_selector.xml"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\2e0f1096be79cc39b9eb2f444d4d42c05d6f8154\\output\\res\\drawable\\common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_progress_50.png",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_progress_50.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mn_survey_selector.xml",
+        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\mn_survey_selector.xml"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_disabled.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\2e0f1096be79cc39b9eb2f444d4d42c05d6f8154\\output\\res\\drawable\\common_google_signin_btn_icon_disabled.xml"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mn_collection_selector.xml",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\mn_collection_selector.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ico_calendar_selector.xml",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\ico_calendar_selector.xml"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_call_selector.xml",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\button_call_selector.xml"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_progress_55.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_progress_55.png"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_prospek.png",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_prospek.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_progress_40.png",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_progress_40.png"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mn_collection_selector.xml",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\mn_collection_selector.xml"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_bg_default.xml",
+        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\button_bg_default.xml"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\item_list_bg_selected.xml",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\item_list_bg_selected.xml"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_delete_circle.png",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_delete_circle.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light_normal.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\2e0f1096be79cc39b9eb2f444d4d42c05d6f8154\\output\\res\\drawable\\common_google_signin_btn_icon_light_normal.xml"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark_focused.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\2e0f1096be79cc39b9eb2f444d4d42c05d6f8154\\output\\res\\drawable\\common_google_signin_btn_icon_dark_focused.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_pnm.png",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_pnm.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_call_selector.xml",
+        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\button_call_selector.xml"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_progress_65.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_progress_65.png"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_progress_45.png",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_progress_45.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_progress_95.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_progress_95.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_progress_50.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_progress_50.png"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark_focused.xml",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\6c93c8be8d292b9c048645be921c7164a189f0e9\\output\\res\\drawable\\common_google_signin_btn_icon_dark_focused.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark_focused.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\2e0f1096be79cc39b9eb2f444d4d42c05d6f8154\\output\\res\\drawable\\common_google_signin_btn_text_dark_focused.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background.jpg",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\background.jpg"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_survey_white.png",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_survey_white.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_bg_default.xml",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\button_bg_default.xml"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_progress_30.png",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_progress_30.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_progress_80.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_progress_80.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_progress_15.png",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_progress_15.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_detail_prospek_white.png",
+        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\ic_detail_prospek_white.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\no_foto.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\no_foto.png"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\loading.jpg",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\loading.jpg"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\6c93c8be8d292b9c048645be921c7164a189f0e9\\output\\res\\drawable\\common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_disabled.xml",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\6c93c8be8d292b9c048645be921c7164a189f0e9\\output\\res\\drawable\\common_google_signin_btn_icon_disabled.xml"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_background_unselected.xml",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\tab_background_unselected.xml"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\item_list_bg_selector2.xml",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\item_list_bg_selector2.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_trans_selector.xml",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\button_trans_selector.xml"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\3fc5b70ad006fa31540397d30a4796224af5cf54\\output\\res\\drawable\\common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_delete.png",
+        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\ic_delete.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_progress_25.png",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_progress_25.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\72edc8f974b844a52ee896286f82dc3f2951f443\\output\\res\\drawable\\design_fab_background.xml"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mn_historical_selector.xml",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\mn_historical_selector.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_checkmark.png",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_checkmark.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\item_list_bg_selector2.xml",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\item_list_bg_selector2.xml"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_progress_85.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_progress_85.png"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_progress_10.png",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_progress_10.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\side_nav_bar.xml",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\side_nav_bar.xml"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_progress_100.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_progress_100.png"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selected_filter.xml",
+        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\selected_filter.xml"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_progress_70.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_progress_70.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mn_detail_prospek_selector.xml",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\mn_detail_prospek_selector.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_slider_thumb_right.xml",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_slider_thumb_right.xml"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
+        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable\\abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_progress_5.png",
+        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\ic_progress_5.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_checkmark.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_checkmark.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\item_check_selector.xml",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\item_check_selector.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark.xml",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\6c93c8be8d292b9c048645be921c7164a189f0e9\\output\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_expandable_selector.xml",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_expandable_selector.xml"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
+        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\3fc5b70ad006fa31540397d30a4796224af5cf54\\output\\res\\drawable\\common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\no_foto.png",
+        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\no_foto.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_green_bg_pressed.xml",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\button_green_bg_pressed.xml"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark_focused.xml",
+        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\3fc5b70ad006fa31540397d30a4796224af5cf54\\output\\res\\drawable\\common_google_signin_btn_text_dark_focused.xml"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_seekbar.xml",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\bg_seekbar.xml"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_progress_60.png",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_progress_60.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light_normal.xml",
+        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\3fc5b70ad006fa31540397d30a4796224af5cf54\\output\\res\\drawable\\common_google_signin_btn_text_light_normal.xml"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_toogle_bg_default.xml",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\button_toogle_bg_default.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_progress_35.png",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_progress_35.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_message_selector.xml",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\button_message_selector.xml"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\item_list_bg_selector2.xml",
+        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\item_list_bg_selector2.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_grey_bg_default.xml",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\button_grey_bg_default.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_bottom_navigation_item_background.xml",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\241d5508a199527e9fbc671c1648a22e22a41a83\\output\\res\\drawable\\design_bottom_navigation_item_background.xml"
     },
     {
         "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_progress_90.png",
@@ -32,10 +964,6 @@
         "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_collection.png"
     },
     {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable\\abc_edit_text_material.xml"
-    },
-    {
         "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_blue_selector.xml",
         "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\button_blue_selector.xml"
     },
@@ -44,36 +972,16 @@
         "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\mn_banding_selector.xml"
     },
     {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ico_search.png",
-        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\ico_search.png"
-    },
-    {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\item_list_bg_selected.xml",
-        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\item_list_bg_selected.xml"
-    },
-    {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
-        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
-    },
-    {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_empty_icon.xml",
-        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\85c51bba4b9af64e1c91677a7d426709e6eb3583\\output\\res\\drawable\\navigation_empty_icon.xml"
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\loading.jpg",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\loading.jpg"
     },
     {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_progress_80.png",
         "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\ic_progress_80.png"
     },
     {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\no_image_available.jpg",
-        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\no_image_available.jpg"
-    },
-    {
         "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_background.xml",
         "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\tab_background.xml"
-    },
-    {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_slider_thumb_right.xml",
-        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_slider_thumb_right.xml"
     },
     {
         "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
@@ -88,8 +996,8 @@
         "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable\\abc_textfield_search_material.xml"
     },
     {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_logout.png",
-        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\ic_logout.png"
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_progress_5.png",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_progress_5.png"
     },
     {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_progress_100.png",
@@ -100,16 +1008,20 @@
         "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\wallpaper_ulamm.png"
     },
     {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_search_white.png",
-        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_search_white.png"
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_password_eye.xml",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\241d5508a199527e9fbc671c1648a22e22a41a83\\output\\res\\drawable\\design_password_eye.xml"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mn_feedback_selector.xml",
+        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\mn_feedback_selector.xml"
     },
     {
         "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
         "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\85c51bba4b9af64e1c91677a7d426709e6eb3583\\output\\res\\drawable\\design_fab_background.xml"
     },
     {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mn_feedback_selector.xml",
-        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\mn_feedback_selector.xml"
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_background_selected.xml",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\tab_background_selected.xml"
     },
     {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_pnm.png",
@@ -118,10 +1030,6 @@
     {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_lightgrey_bg_pressed.xml",
         "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\button_lightgrey_bg_pressed.xml"
-    },
-    {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_message_selector.xml",
-        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\button_message_selector.xml"
     },
     {
         "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
@@ -136,36 +1044,12 @@
         "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\ic_checkmark.png"
     },
     {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable\\abc_item_background_holo_light.xml"
-    },
-    {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_disabled.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\2e0f1096be79cc39b9eb2f444d4d42c05d6f8154\\output\\res\\drawable\\common_google_signin_btn_text_disabled.xml"
-    },
-    {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_progress_75.png",
-        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_progress_75.png"
-    },
-    {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
-        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable\\abc_dialog_material_background.xml"
-    },
-    {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark_normal.xml",
-        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\3fc5b70ad006fa31540397d30a4796224af5cf54\\output\\res\\drawable\\common_google_signin_btn_icon_dark_normal.xml"
-    },
-    {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_progress_20.png",
-        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\ic_progress_20.png"
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_trans_selector.xml",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\button_trans_selector.xml"
     },
     {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_grey_bg_default.xml",
         "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\button_grey_bg_default.xml"
-    },
-    {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
-        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
     },
     {
         "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_slider_thumb_left.xml",
@@ -180,40 +1064,28 @@
         "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\mn_banding_selector.xml"
     },
     {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_search_white.png",
-        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\ic_search_white.png"
-    },
-    {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_progress_90.png",
-        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\ic_progress_90.png"
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_green_selector.xml",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\button_green_selector.xml"
     },
     {
         "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
         "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
     },
     {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_prospek.png",
-        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_prospek.png"
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable\\abc_ic_search_api_material.xml"
     },
     {
         "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
         "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
     },
     {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light_focused.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\2e0f1096be79cc39b9eb2f444d4d42c05d6f8154\\output\\res\\drawable\\common_google_signin_btn_icon_light_focused.xml"
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\item_list_bg_default.xml",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\item_list_bg_default.xml"
     },
     {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable\\abc_btn_radio_material.xml"
-    },
-    {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mn_pengajuan_selector.xml",
-        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\mn_pengajuan_selector.xml"
-    },
-    {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
-        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_progress_55.png",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_progress_55.png"
     },
     {
         "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_green_bg_pressed.xml",
@@ -222,10 +1094,6 @@
     {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\loading.jpg",
         "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\loading.jpg"
-    },
-    {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
     },
     {
         "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_progress_40.png",
@@ -248,76 +1116,76 @@
         "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\ic_progress_75.png"
     },
     {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_background_unselected.xml",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\tab_background_unselected.xml"
+    },
+    {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\item_list_bg_default.xml",
         "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\item_list_bg_default.xml"
     },
     {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_survey.png",
-        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\ic_survey.png"
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_bg_default.xml",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\button_bg_default.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\item_list_bg_selector.xml",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\item_list_bg_selector.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
     },
     {
         "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pnm_sample_bg.jpg",
         "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\pnm_sample_bg.jpg"
     },
     {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_bg_pressed.xml",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\button_bg_pressed.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
         "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
         "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable\\abc_tab_indicator_material.xml"
     },
     {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
     },
     {
         "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
         "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
     },
     {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_slider_thumb_left.xml",
-        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\ic_slider_thumb_left.xml"
-    },
-    {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_progress_30.png",
-        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_progress_30.png"
-    },
-    {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background.jpg",
         "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\background.jpg"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable\\notification_bg.xml"
     },
     {
         "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_green_bg_default.xml",
         "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\button_green_bg_default.xml"
     },
     {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_progress_65.png",
-        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\ic_progress_65.png"
-    },
-    {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mn_survey_selector.xml",
-        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\mn_survey_selector.xml"
-    },
-    {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
-        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
-    },
-    {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\item_list_bg_selected.xml",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\item_list_bg_selected.xml"
     },
     {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\plan_filter.xml",
         "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\plan_filter.xml"
-    },
-    {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark.xml",
-        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\3fc5b70ad006fa31540397d30a4796224af5cf54\\output\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
-    },
-    {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_progress_85.png",
-        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\ic_progress_85.png"
-    },
-    {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
-        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable\\abc_ratingbar_material.xml"
     },
     {
         "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_progress_20.png",
@@ -328,28 +1196,28 @@
         "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable\\abc_cab_background_top_material.xml"
     },
     {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_progress_40.png",
-        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\ic_progress_40.png"
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_progress_100.png",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_progress_100.png"
     },
     {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
         "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable\\abc_ic_clear_material.xml"
     },
     {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_delete.png",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_delete.png"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\plan_filter.xml",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\plan_filter.xml"
+    },
+    {
         "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
         "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable\\abc_btn_radio_material.xml"
     },
     {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_grey_bg_default.xml",
-        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\button_grey_bg_default.xml"
-    },
-    {
         "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_add.png",
         "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_add.png"
-    },
-    {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_green_bg_default.xml",
-        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\button_green_bg_default.xml"
     },
     {
         "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_lightgrey_selector.xml",
@@ -372,24 +1240,28 @@
         "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\mn_detail_prospek_selector.xml"
     },
     {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark_focused.xml",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\6c93c8be8d292b9c048645be921c7164a189f0e9\\output\\res\\drawable\\common_google_signin_btn_text_dark_focused.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_progress_75.png",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_progress_75.png"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
         "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mn_selector.xml",
         "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\mn_selector.xml"
-    },
-    {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_blue_selector.xml",
-        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\button_blue_selector.xml"
-    },
-    {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_grey_bg_pressed.xml",
-        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\button_grey_bg_pressed.xml"
     },
     {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_prospek_white.png",
         "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\ic_prospek_white.png"
     },
     {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light_normal.xml",
-        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\3fc5b70ad006fa31540397d30a4796224af5cf54\\output\\res\\drawable\\common_google_signin_btn_icon_light_normal.xml"
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_grey_bg_pressed.xml",
+        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\button_grey_bg_pressed.xml"
     },
     {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
@@ -408,8 +1280,12 @@
         "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable\\abc_switch_thumb_material.xml"
     },
     {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_trans_selector.xml",
-        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\button_trans_selector.xml"
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light_focused.xml",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\6c93c8be8d292b9c048645be921c7164a189f0e9\\output\\res\\drawable\\common_google_signin_btn_text_light_focused.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_progress_60.png",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_progress_60.png"
     },
     {
         "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark_normal.xml",
@@ -424,20 +1300,16 @@
         "source": "C:\\Users\\user\\.android\\build-cache\\2e0f1096be79cc39b9eb2f444d4d42c05d6f8154\\output\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
     },
     {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_background.xml",
-        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\tab_background.xml"
-    },
-    {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable\\abc_switch_thumb_material.xml"
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_grey_bg_pressed.xml",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\button_grey_bg_pressed.xml"
     },
     {
         "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_logout.png",
         "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_logout.png"
     },
     {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_survey_white.png",
-        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_survey_white.png"
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
     },
     {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\side_nav_bar.xml",
@@ -456,32 +1328,28 @@
         "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\bg_seekbar.xml"
     },
     {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_grey_bg_pressed.xml",
-        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\button_grey_bg_pressed.xml"
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_progress_80.png",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_progress_80.png"
     },
     {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
-        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable\\abc_seekbar_track_material.xml"
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pnm_sample_bg.jpg",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\pnm_sample_bg.jpg"
     },
     {
         "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_progress_15.png",
         "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_progress_15.png"
     },
     {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\6c93c8be8d292b9c048645be921c7164a189f0e9\\output\\res\\drawable\\common_google_signin_btn_icon_light.xml"
+    },
+    {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_progress_60.png",
         "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\ic_progress_60.png"
     },
     {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_plus.png",
-        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_plus.png"
-    },
-    {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
         "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
-    },
-    {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_disabled.xml",
-        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\3fc5b70ad006fa31540397d30a4796224af5cf54\\output\\res\\drawable\\common_google_signin_btn_text_disabled.xml"
     },
     {
         "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_toogle_bg_default.xml",
@@ -492,64 +1360,32 @@
         "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\85c51bba4b9af64e1c91677a7d426709e6eb3583\\output\\res\\drawable\\design_bottom_navigation_item_background.xml"
     },
     {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_collection.png",
-        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\ic_collection.png"
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark_normal.xml",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\6c93c8be8d292b9c048645be921c7164a189f0e9\\output\\res\\drawable\\common_google_signin_btn_text_dark_normal.xml"
     },
     {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
         "source": "C:\\Users\\user\\.android\\build-cache\\72edc8f974b844a52ee896286f82dc3f2951f443\\output\\res\\drawable\\design_snackbar_background.xml"
     },
     {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_email_selector.xml",
-        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\button_email_selector.xml"
-    },
-    {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
-    },
-    {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_progress_95.png",
         "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\ic_progress_95.png"
     },
     {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_progress_25.png",
-        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_progress_25.png"
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mn_banding_selector.xml",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\mn_banding_selector.xml"
     },
     {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_green_bg_pressed.xml",
-        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\button_green_bg_pressed.xml"
-    },
-    {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
-    },
-    {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable\\notification_tile_bg.xml"
-    },
-    {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\item_list_bg_selector.xml",
-        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\item_list_bg_selector.xml"
-    },
-    {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
-        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable\\abc_item_background_holo_light.xml"
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
     },
     {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_lightgrey_selector.xml",
         "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\button_lightgrey_selector.xml"
     },
     {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable\\abc_vector_test.xml"
-    },
-    {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_prospek_white.png",
-        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_prospek_white.png"
-    },
-    {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_progress_70.png",
-        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\ic_progress_70.png"
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_survey.png",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_survey.png"
     },
     {
         "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_green_selector.xml",
@@ -560,40 +1396,20 @@
         "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable\\abc_ic_search_api_material.xml"
     },
     {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_bottom_navigation_item_background.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\72edc8f974b844a52ee896286f82dc3f2951f443\\output\\res\\drawable\\design_bottom_navigation_item_background.xml"
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\6c93c8be8d292b9c048645be921c7164a189f0e9\\output\\res\\drawable\\common_google_signin_btn_text_light.xml"
     },
     {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light_normal.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\2e0f1096be79cc39b9eb2f444d4d42c05d6f8154\\output\\res\\drawable\\common_google_signin_btn_text_light_normal.xml"
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_logout.png",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_logout.png"
     },
     {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_background_unselected.xml",
         "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\tab_background_unselected.xml"
     },
     {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
-        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\85c51bba4b9af64e1c91677a7d426709e6eb3583\\output\\res\\drawable\\design_snackbar_background.xml"
-    },
-    {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light_focused.xml",
-        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\3fc5b70ad006fa31540397d30a4796224af5cf54\\output\\res\\drawable\\common_google_signin_btn_icon_light_focused.xml"
-    },
-    {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
-    },
-    {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_delete_circle.png",
-        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_delete_circle.png"
-    },
-    {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_prospek.png",
         "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\ic_prospek.png"
-    },
-    {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ico_search.png",
-        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\ico_search.png"
     },
     {
         "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
@@ -604,12 +1420,8 @@
         "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\mn_prospek_selector.xml"
     },
     {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\2e0f1096be79cc39b9eb2f444d4d42c05d6f8154\\output\\res\\drawable\\common_google_signin_btn_text_light.xml"
-    },
-    {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mn_prospek_selector.xml",
-        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\mn_prospek_selector.xml"
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selected_filter.xml",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\selected_filter.xml"
     },
     {
         "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\item_list_bg_default.xml",
@@ -624,32 +1436,28 @@
         "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\ic_detail_prospek.png"
     },
     {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_slider_thumb_right.xml",
-        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\ic_slider_thumb_right.xml"
-    },
-    {
         "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_lightgrey_bg_pressed.xml",
         "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\button_lightgrey_bg_pressed.xml"
     },
     {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark_focused.xml",
-        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\3fc5b70ad006fa31540397d30a4796224af5cf54\\output\\res\\drawable\\common_google_signin_btn_icon_dark_focused.xml"
-    },
-    {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_toogle_bg_default.xml",
-        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\button_toogle_bg_default.xml"
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\no_image_available.jpg",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\no_image_available.jpg"
     },
     {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_progress_50.png",
         "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\ic_progress_50.png"
     },
     {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ico_calendar_selector.xml",
-        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\ico_calendar_selector.xml"
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_toogle_bg_default.xml",
+        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\button_toogle_bg_default.xml"
     },
     {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_progress_10.png",
-        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_progress_10.png"
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_seekbar.xml",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\bg_seekbar.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable\\abc_btn_colored_material.xml"
     },
     {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mn_historical_selector.xml",
@@ -660,92 +1468,48 @@
         "source": "C:\\Users\\user\\.android\\build-cache\\2e0f1096be79cc39b9eb2f444d4d42c05d6f8154\\output\\res\\drawable\\common_google_signin_btn_text_dark.xml"
     },
     {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_grey_selector.xml",
-        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\button_grey_selector.xml"
-    },
-    {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
-        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
-    },
-    {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_pnm.png",
-        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_pnm.png"
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable\\abc_cab_background_top_material.xml"
     },
     {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_progress_45.png",
         "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\ic_progress_45.png"
     },
     {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_slider_thumb.xml",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_slider_thumb.xml"
+    },
+    {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mn_feedback_selector.xml",
         "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\mn_feedback_selector.xml"
     },
     {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_slider_thumb.xml",
-        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\ic_slider_thumb.xml"
-    },
-    {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_horizontal_slide.png",
-        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_horizontal_slide.png"
-    },
-    {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark_normal.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\2e0f1096be79cc39b9eb2f444d4d42c05d6f8154\\output\\res\\drawable\\common_google_signin_btn_icon_dark_normal.xml"
-    },
-    {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mn_selector.xml",
-        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\mn_selector.xml"
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable\\notification_icon_background.xml"
     },
     {
         "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
         "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable\\notification_bg_low.xml"
     },
     {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_gradient.xml",
-        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\bg_gradient.xml"
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_add.png",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_add.png"
     },
     {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
         "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
     },
     {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
-    },
-    {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark.xml",
-        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\3fc5b70ad006fa31540397d30a4796224af5cf54\\output\\res\\drawable\\common_google_signin_btn_text_dark.xml"
-    },
-    {
         "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
         "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
-    },
-    {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_collection_white.png",
-        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\ic_collection_white.png"
-    },
-    {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
-    },
-    {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_lightgrey_bg_default.xml",
-        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\button_lightgrey_bg_default.xml"
     },
     {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_bg_pressed.xml",
         "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\button_bg_pressed.xml"
     },
     {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_email_selector.xml",
-        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\button_email_selector.xml"
-    },
-    {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
         "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable\\abc_btn_check_material.xml"
-    },
-    {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_progress_45.png",
-        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_progress_45.png"
     },
     {
         "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_detail_prospek.png",
@@ -756,40 +1520,20 @@
         "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_delete.png"
     },
     {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\2e0f1096be79cc39b9eb2f444d4d42c05d6f8154\\output\\res\\drawable\\common_google_signin_btn_icon_light.xml"
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ico_search.png",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\ico_search.png"
     },
     {
         "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background.jpg",
         "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\background.jpg"
     },
     {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mn_survey_selector.xml",
-        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\mn_survey_selector.xml"
-    },
-    {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_gradient.xml",
         "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\bg_gradient.xml"
     },
     {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_disabled.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\2e0f1096be79cc39b9eb2f444d4d42c05d6f8154\\output\\res\\drawable\\common_google_signin_btn_icon_disabled.xml"
-    },
-    {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mn_collection_selector.xml",
-        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\mn_collection_selector.xml"
-    },
-    {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
-    },
-    {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_survey_white.png",
         "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\ic_survey_white.png"
-    },
-    {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_call_selector.xml",
-        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\button_call_selector.xml"
     },
     {
         "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_progress_5.png",
@@ -800,20 +1544,24 @@
         "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\tab_background_selected.xml"
     },
     {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_disabled.xml",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\6c93c8be8d292b9c048645be921c7164a189f0e9\\output\\res\\drawable\\common_google_signin_btn_text_disabled.xml"
+    },
+    {
         "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\item_list_bg_selector.xml",
         "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\item_list_bg_selector.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable\\abc_btn_borderless_material.xml"
     },
     {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_delete_circle.png",
         "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\ic_delete_circle.png"
     },
     {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_progress_55.png",
-        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_progress_55.png"
-    },
-    {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mn_feedback_selector.xml",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\mn_feedback_selector.xml"
     },
     {
         "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light_focused.xml",
@@ -828,68 +1576,32 @@
         "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable\\abc_dialog_material_background.xml"
     },
     {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_bg_default.xml",
-        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\button_bg_default.xml"
-    },
-    {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_empty_icon.xml",
         "source": "C:\\Users\\user\\.android\\build-cache\\72edc8f974b844a52ee896286f82dc3f2951f443\\output\\res\\drawable\\navigation_empty_icon.xml"
-    },
-    {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable\\abc_tab_indicator_material.xml"
-    },
-    {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\item_list_bg_selected.xml",
-        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\item_list_bg_selected.xml"
     },
     {
         "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_bg_pressed.xml",
         "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\button_bg_pressed.xml"
     },
     {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
-        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable\\notification_bg.xml"
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_blue_selector.xml",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\button_blue_selector.xml"
     },
     {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
         "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable\\abc_ratingbar_material.xml"
     },
     {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light_normal.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\2e0f1096be79cc39b9eb2f444d4d42c05d6f8154\\output\\res\\drawable\\common_google_signin_btn_icon_light_normal.xml"
-    },
-    {
         "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
         "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable\\abc_vector_test.xml"
-    },
-    {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark_focused.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\2e0f1096be79cc39b9eb2f444d4d42c05d6f8154\\output\\res\\drawable\\common_google_signin_btn_icon_dark_focused.xml"
-    },
-    {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_call_selector.xml",
-        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\button_call_selector.xml"
-    },
-    {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_progress_65.png",
-        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_progress_65.png"
-    },
-    {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_progress_95.png",
-        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_progress_95.png"
-    },
-    {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_progress_50.png",
-        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_progress_50.png"
     },
     {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_progress_55.png",
         "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\ic_progress_55.png"
     },
     {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark_focused.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\2e0f1096be79cc39b9eb2f444d4d42c05d6f8154\\output\\res\\drawable\\common_google_signin_btn_text_dark_focused.xml"
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_call_selector.xml",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\button_call_selector.xml"
     },
     {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
@@ -904,40 +1616,20 @@
         "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\ic_progress_10.png"
     },
     {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_bg_default.xml",
-        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\button_bg_default.xml"
-    },
-    {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
-        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
     },
     {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mn_collection_selector.xml",
         "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\mn_collection_selector.xml"
     },
     {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
-        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
-    },
-    {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_progress_80.png",
-        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_progress_80.png"
-    },
-    {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_collection_white.png",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_collection_white.png"
     },
     {
         "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
         "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
-    },
-    {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_detail_prospek_white.png",
-        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\ic_detail_prospek_white.png"
-    },
-    {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\no_foto.png",
-        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\no_foto.png"
     },
     {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\wallpaper_ulamm.png",
@@ -946,34 +1638,6 @@
     {
         "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_disabled.xml",
         "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\3fc5b70ad006fa31540397d30a4796224af5cf54\\output\\res\\drawable\\common_google_signin_btn_icon_disabled.xml"
-    },
-    {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\loading.jpg",
-        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\loading.jpg"
-    },
-    {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_background_unselected.xml",
-        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\tab_background_unselected.xml"
-    },
-    {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
-        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable\\abc_btn_borderless_material.xml"
-    },
-    {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_trans_selector.xml",
-        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\button_trans_selector.xml"
-    },
-    {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light.xml",
-        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\3fc5b70ad006fa31540397d30a4796224af5cf54\\output\\res\\drawable\\common_google_signin_btn_text_light.xml"
-    },
-    {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_delete.png",
-        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\ic_delete.png"
-    },
-    {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
-        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable\\abc_edit_text_material.xml"
     },
     {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_expandable_selector.xml",
@@ -988,64 +1652,32 @@
         "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\ic_progress_35.png"
     },
     {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\72edc8f974b844a52ee896286f82dc3f2951f443\\output\\res\\drawable\\design_fab_background.xml"
-    },
-    {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light_focused.xml",
         "source": "C:\\Users\\user\\.android\\build-cache\\2e0f1096be79cc39b9eb2f444d4d42c05d6f8154\\output\\res\\drawable\\common_google_signin_btn_text_light_focused.xml"
-    },
-    {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
-        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable\\abc_btn_colored_material.xml"
-    },
-    {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark_normal.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\2e0f1096be79cc39b9eb2f444d4d42c05d6f8154\\output\\res\\drawable\\common_google_signin_btn_text_dark_normal.xml"
     },
     {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
         "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable\\abc_ic_search_api_material.xml"
     },
     {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mn_historical_selector.xml",
-        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\mn_historical_selector.xml"
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark_normal.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\2e0f1096be79cc39b9eb2f444d4d42c05d6f8154\\output\\res\\drawable\\common_google_signin_btn_text_dark_normal.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_green_bg_default.xml",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\button_green_bg_default.xml"
     },
     {
         "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\plan_filter.xml",
         "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\plan_filter.xml"
     },
     {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\item_list_bg_selector2.xml",
-        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\item_list_bg_selector2.xml"
-    },
-    {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_progress_85.png",
-        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_progress_85.png"
-    },
-    {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\side_nav_bar.xml",
-        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\side_nav_bar.xml"
-    },
-    {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_progress_100.png",
-        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_progress_100.png"
-    },
-    {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\item_check_selector.xml",
         "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\item_check_selector.xml"
     },
     {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selected_filter.xml",
-        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\selected_filter.xml"
-    },
-    {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_green_selector.xml",
         "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\button_green_selector.xml"
-    },
-    {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_progress_70.png",
-        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_progress_70.png"
     },
     {
         "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
@@ -1056,72 +1688,56 @@
         "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable\\abc_textfield_search_material.xml"
     },
     {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mn_detail_prospek_selector.xml",
-        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\mn_detail_prospek_selector.xml"
-    },
-    {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_progress_25.png",
         "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\ic_progress_25.png"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mn_selector.xml",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\mn_selector.xml"
     },
     {
         "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_password_eye.xml",
         "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\85c51bba4b9af64e1c91677a7d426709e6eb3583\\output\\res\\drawable\\design_password_eye.xml"
     },
     {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
-        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable\\abc_ic_clear_material.xml"
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
     },
     {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable\\abc_seekbar_track_material.xml"
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mn_detail_prospek_selector.xml",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\mn_detail_prospek_selector.xml"
     },
     {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
         "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable\\notification_bg.xml"
     },
     {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mn_survey_selector.xml",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\mn_survey_selector.xml"
     },
     {
         "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mn_pengajuan_selector.xml",
         "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\mn_pengajuan_selector.xml"
     },
     {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_progress_5.png",
-        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\ic_progress_5.png"
-    },
-    {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pnm_sample_bg.jpg",
         "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\pnm_sample_bg.jpg"
-    },
-    {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_checkmark.png",
-        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_checkmark.png"
     },
     {
         "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
         "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable\\notification_tile_bg.xml"
     },
     {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\item_check_selector.xml",
-        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\item_check_selector.xml"
-    },
-    {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_arrow_left.png",
         "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\ic_arrow_left.png"
     },
     {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_expandable_selector.xml",
-        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_expandable_selector.xml"
-    },
-    {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
-        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\3fc5b70ad006fa31540397d30a4796224af5cf54\\output\\res\\drawable\\common_google_signin_btn_icon_light.xml"
-    },
-    {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\no_foto.png",
-        "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\no_foto.png"
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\241d5508a199527e9fbc671c1648a22e22a41a83\\output\\res\\drawable\\design_snackbar_background.xml"
     },
     {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_add.png",
@@ -1132,39 +1748,7 @@
         "source": "E:\\android\\pnm-src\\app\\src\\main\\res\\drawable\\ic_horizontal_slide.png"
     },
     {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable\\notification_bg_low.xml"
-    },
-    {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable\\abc_btn_colored_material.xml"
-    },
-    {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark_focused.xml",
-        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\3fc5b70ad006fa31540397d30a4796224af5cf54\\output\\res\\drawable\\common_google_signin_btn_text_dark_focused.xml"
-    },
-    {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_seekbar.xml",
-        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\bg_seekbar.xml"
-    },
-    {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_progress_60.png",
-        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\ic_progress_60.png"
-    },
-    {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light_normal.xml",
-        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\3fc5b70ad006fa31540397d30a4796224af5cf54\\output\\res\\drawable\\common_google_signin_btn_text_light_normal.xml"
-    },
-    {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable\\abc_cab_background_top_material.xml"
-    },
-    {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_message_selector.xml",
-        "source": "D:\\workspace\\pnm-src2\\app\\src\\main\\res\\drawable\\button_message_selector.xml"
-    },
-    {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mn_pengajuan_selector.xml",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\src\\main\\res\\drawable\\mn_pengajuan_selector.xml"
     }
 ]

@@ -6,9 +6,11 @@ import com.example.saifullah_albasrie.pnm.model.production_model.AlamatProspekMo
 import com.example.saifullah_albasrie.pnm.model.production_model.InsertProspekModel;
 import com.example.saifullah_albasrie.pnm.model.production_model.KeluargaProspekModel;
 import com.example.saifullah_albasrie.pnm.model.production_model.KontakProspekModel;
+import com.example.saifullah_albasrie.pnm.model.production_model.KunjunganAomModel;
 import com.example.saifullah_albasrie.pnm.model.production_model.PembiayaanProspekModel;
 import com.example.saifullah_albasrie.pnm.model.production_model.UpdateProspekModel;
 import com.example.saifullah_albasrie.pnm.model.production_model.UploadDokumenModel;
+import com.example.saifullah_albasrie.pnm.model.production_model.UsahaProspekModel;
 import com.example.saifullah_albasrie.pnm.rest.request.ApprovalBandingRequest;
 import com.example.saifullah_albasrie.pnm.rest.request.ApprovalPengajuanRequest;
 import com.example.saifullah_albasrie.pnm.rest.request.ApprovalProspekRequest;
@@ -159,13 +161,13 @@ public interface RestService {
 
     // === Api Data Master === //
 
-    /*Tambahan 11 Jan 2018 - Andityo*/
+    /*edit 17 Januari 2018 by Yudhi */
     @GET(ApiConstant.JENIS_IDENTITAS)
-    Call<BaseResponseNew> getJenisIdentitas(
+    Call<List<BaseResponseNew>> getJenisIdentitas(
     );
 
     @GET(ApiConstant.JENIS_KELAMIN)
-    Call<BaseResponseNew> getJenisKelamin(
+    Call<List<BaseResponseNew>> getJenisKelamin(
     );
 
     @GET(ApiConstant.JENIS_USAHA_NEW)
@@ -173,405 +175,403 @@ public interface RestService {
     );
 
     @GET(ApiConstant.JENIS_REFERENSI)
-    Call<BaseResponseNew> getJenisReferensi(
+    Call<List<BaseResponseNew>> getJenisReferensi(
     );
 
     @GET(ApiConstant.STATUS_PERKAWINAN)
-    Call<BaseResponseNew> getStatusPerkawinan(
+    Call<List<BaseResponseNew>> getStatusPerkawinan(
     );
 
     @GET(ApiConstant.KEWARGANEGARAAN)
-    Call<BaseResponseNew> getKewaganegaraan(
+    Call<List<BaseResponseNew>> getKewaganegaraan(
     );
 
     @GET(ApiConstant.AGAMA)
-    Call<BaseResponseNew> getAgama(
+    Call<List<BaseResponseNew>> getAgama(
     );
 
     @GET(ApiConstant.PEKERJAAN)
-    Call<BaseResponseNew> getPekerjaan(
+    Call<List<BaseResponseNew>> getPekerjaan(
     );
 
     @GET(ApiConstant.JENIS_ALAMAT)
-    Call<BaseResponseNew> getJenisAlamat(
+    Call<List<BaseResponseNew>> getJenisAlamat(
     );
 
     @GET(ApiConstant.HUBUNGAN_KELUARGA)
-    Call<BaseResponseNew> getHubunganKeluarga(
+    Call<List<BaseResponseNew>> getHubunganKeluarga(
     );
 
     @GET(ApiConstant.TUJUAN_PEMBIAYAAN)
-    Call<BaseResponseNew> getTujuanPembiayaan(
+    Call<List<BaseResponseNew>> getTujuanPembiayaan(
     );
 
     @GET(ApiConstant.JENIS_AGUNAN)
-    Call<BaseResponseNew> getJenisAgunan(
+    Call<List<BaseResponseNew>> getJenisAgunan(
     );
 
     @GET(ApiConstant.JENIS_KONTAK)
-    Call<BaseResponseNew> getJenisKontak(
+    Call<List<BaseResponseNew>> getJenisKontak(
     );
 
     @GET(ApiConstant.STATUS_TEMPAT)
-    Call<BaseResponseNew> getStatusTempat(
+    Call<List<BaseResponseNew>> getStatusTempat(
     );
 
 
     @GET(ApiConstant.PENDIDIKAN)
-    Call<BaseResponseNew> getPendidikan(
+    Call<List<BaseResponseNew>> getPendidikan(
     );
 
 
     @GET(ApiConstant.PRODUK)
-    Call<BaseResponseNew> getProduk(
+    Call<List<BaseResponseNew>> getProduk(
     );
 
 
     @GET(ApiConstant.JENIS_DOKUMEN)
-    Call<BaseResponseNew> getJenisDokumen(
+    Call<List<BaseResponseNew>> getJenisDokumen(
     );
 
 
     @GET(ApiConstant.JENIS_PEMBIAYAAN)
-    Call<BaseResponseNew> getJenisPembiayaan(
+    Call<List<BaseResponseNew>> getJenisPembiayaan(
     );
 
 
     @GET(ApiConstant.LOKASI)
-    Call<BaseResponseNew> getLokasi(
+    Call<List<BaseResponseNew>> getLokasi(
     );
 
 
     @GET(ApiConstant.HUBUNGAN_PEMOHON)
-    Call<BaseResponseNew> getHubPemohon(
+    Call<List<BaseResponseNew>> getHubPemohon(
     );
 
 
     @GET(ApiConstant.KERJASAMA_PEMOHON)
-    Call<BaseResponseNew> getKerjasamaPemohon(
+    Call<List<BaseResponseNew>> getKerjasamaPemohon(
     );
 
 
     @GET(ApiConstant.TRACK_RECORD)
-    Call<BaseResponseNew> getTrackRecord(
+    Call<List<BaseResponseNew>> getTrackRecord(
     );
 
 
     @GET(ApiConstant.MENGENAL_ULAMM)
-    Call<BaseResponseNew> getMengenalUlamm(
+    Call<List<BaseResponseNew>> getMengenalUlamm(
     );
 
 
     @GET(ApiConstant.REPUTASI)
-    Call<BaseResponseNew> getReputasi(
+    Call<List<BaseResponseNew>> getReputasi(
     );
 
     @GET(ApiConstant.HARTA)
-    Call<BaseResponseNew> getHarta(
+    Call<List<BaseResponseNew>> getHarta(
     );
 
     @GET(ApiConstant.PENGELOLAAN_KEUANGAN)
-    Call<BaseResponseNew> getPengelolaanKeuangan(
+    Call<List<BaseResponseNew>> getPengelolaanKeuangan(
     );
 
     @GET(ApiConstant.BENTUK_USAHA)
-    Call<BaseResponseNew> getBentukUsaha(
+    Call<List<BaseResponseNew>> getBentukUsaha(
     );
 
     @GET(ApiConstant.JENIS_BADAN_USAHA)
-    Call<BaseResponseNew> getJenisBadanUsaha(
+    Call<List<BaseResponseNew>> getJenisBadanUsaha(
     );
 
     @GET(ApiConstant.KEGIATAN_USAHA)
-    Call<BaseResponseNew> getKegiatanUsaha(
+    Call<List<BaseResponseNew>> getKegiatanUsaha(
     );
 
     @GET(ApiConstant.AKSES_KENDARAAN)
-    Call<BaseResponseNew> getAksesKendaraan(
+    Call<List<BaseResponseNew>> getAksesKendaraan(
     );
 
     @GET(ApiConstant.PRODUK_DITAWARKAN)
-    Call<BaseResponseNew> getProdDitawarkan(
+    Call<List<BaseResponseNew>> getProdDitawarkan(
     );
 
     @GET(ApiConstant.JML_PEMASOK)
-    Call<BaseResponseNew> getJmlPemasok(
+    Call<List<BaseResponseNew>> getJmlPemasok(
     );
 
     @GET(ApiConstant.PERSAINGAN_USAHA)
-    Call<BaseResponseNew> getPersainganUsaha(
+    Call<List<BaseResponseNew>> getPersainganUsaha(
     );
 
     @GET(ApiConstant.KONDISI_SEKTOR_USAHA)
-    Call<BaseResponseNew> getKondSekUsaha(
+    Call<List<BaseResponseNew>> getKondSekUsaha(
     );
 
     @GET(ApiConstant.LOKASI_USAHA)
-    Call<BaseResponseNew> getLokasiUsaha(
+    Call<List<BaseResponseNew>> getLokasiUsaha(
     );
 
     @GET(ApiConstant.PERIODE)
-    Call<BaseResponseNew> getPeriode(
+    Call<List<BaseResponseNew>> getPeriode(
     );
 
     @GET(ApiConstant.PEMBAYARAN)
-    Call<BaseResponseNew> getpembayaran(
+    Call<List<BaseResponseNew>> getpembayaran(
     );
 
     @GET(ApiConstant.PROGRAM)
-    Call<BaseResponseNew> getProgram(
+    Call<List<BaseResponseNew>> getProgram(
     );
 
     @GET(ApiConstant.BANK)
-    Call<BaseResponseNew> getBank(
+    Call<List<BaseResponseNew>> getBank(
     );
 
     @GET(ApiConstant.KOLEKTIBILITAS)
-    Call<BaseResponseNew> getKolektibilitas(
+    Call<List<BaseResponseNew>> getKolektibilitas(
     );
 
     @GET(ApiConstant.JENIS_ASSET)
-    Call<BaseResponseNew> getJenisAsset(
+    Call<List<BaseResponseNew>> getJenisAsset(
     );
 
     @GET(ApiConstant.PENILAIAN)
-    Call<BaseResponseNew> getPenilaian(
+    Call<List<BaseResponseNew>> getPenilaian(
     );
 
     @GET(ApiConstant.KEPEMILIKAN)
-    Call<BaseResponseNew> getKepemilikan(
+    Call<List<BaseResponseNew>> getKepemilikan(
     );
 
     @GET(ApiConstant.BUKTI_KEPEMILIKAN_AGUNAN)
-    Call<BaseResponseNew> getBuktiKepAgunan(
+    Call<List<BaseResponseNew>> getBuktiKepAgunan(
     );
 
     @GET(ApiConstant.PERUNTUKAN_LOKASI)
-    Call<BaseResponseNew> getPeruntukanLokasi(
+    Call<List<BaseResponseNew>> getPeruntukanLokasi(
     );
 
     @GET(ApiConstant.JALAN_DILALUI)
-    Call<BaseResponseNew> getJalanDilalui(
+    Call<List<BaseResponseNew>> getJalanDilalui(
     );
 
     @GET(ApiConstant.BENTUK_TANAH)
-    Call<BaseResponseNew> getBentukTanah(
+    Call<List<BaseResponseNew>> getBentukTanah(
     );
 
     @GET(ApiConstant.KONDISI_PERMUKAAN)
-    Call<BaseResponseNew> getKondisiPermukaan(
+    Call<List<BaseResponseNew>> getKondisiPermukaan(
     );
 
     @GET(ApiConstant.PENGGUNAAN_TANAH)
-    Call<BaseResponseNew> getPenggunaanTanah(
+    Call<List<BaseResponseNew>> getPenggunaanTanah(
     );
 
     @GET(ApiConstant.BATAS)
-    Call<BaseResponseNew> getBatas(
+    Call<List<BaseResponseNew>> getBatas(
     );
 
     @GET(ApiConstant.AIR)
-    Call<BaseResponseNew> getAir(
+    Call<List<BaseResponseNew>> getAir(
     );
 
     @GET(ApiConstant.PONDASI)
-    Call<BaseResponseNew> getPondasi(
+    Call<List<BaseResponseNew>> getPondasi(
     );
 
     @GET(ApiConstant.LANTAI)
-    Call<BaseResponseNew> getLantai(
+    Call<List<BaseResponseNew>> getLantai(
     );
 
     @GET(ApiConstant.DINDING)
-    Call<BaseResponseNew> getDinding(
+    Call<List<BaseResponseNew>> getDinding(
     );
 
     @GET(ApiConstant.PLAFON)
-    Call<BaseResponseNew> getPlafon(
+    Call<List<BaseResponseNew>> getPlafon(
     );
 
     @GET(ApiConstant.KUSEN)
-    Call<BaseResponseNew> getKusen(
+    Call<List<BaseResponseNew>> getKusen(
     );
 
     @GET(ApiConstant.ATAP)
-    Call<BaseResponseNew> getAtap(
+    Call<List<BaseResponseNew>> getAtap(
     );
 
     @GET(ApiConstant.PINTU)
-    Call<BaseResponseNew> getPintu(
+    Call<List<BaseResponseNew>> getPintu(
     );
 
     @GET(ApiConstant.JENDELA)
-    Call<BaseResponseNew> getJendela(
+    Call<List<BaseResponseNew>> getJendela(
     );
 
     @GET(ApiConstant.JENIS_CATATAN)
-    Call<BaseResponseNew> getJenisCatatan(
+    Call<List<BaseResponseNew>> getJenisCatatan(
     );
 
     @GET(ApiConstant.TUJUAN_PENGIRIMAN)
-    Call<BaseResponseNew> getTujuanPengiriman(
+    Call<List<BaseResponseNew>> getTujuanPengiriman(
     );
 
     @GET(ApiConstant.KEPERLUAN_PINJAM)
-    Call<BaseResponseNew> getKeperluanPinjam(
+    Call<List<BaseResponseNew>> getKeperluanPinjam(
     );
 
     @GET(ApiConstant.BISNIS)
-    Call<BaseResponseNew> getBisnis(
+    Call<List<BaseResponseNew>> getBisnis(
     );
 
     @GET(ApiConstant.JABATAN)
-    Call<BaseResponseNew> getJabatan(
+    Call<List<BaseResponseNew>> getJabatan(
     );
 
 
     @GET(ApiConstant.STATUS_PINJAM_AGUNAN)
-    Call<BaseResponseNew> getStatusPinjamAgunan(
+    Call<List<BaseResponseNew>> getStatusPinjamAgunan(
     );
 
 
     @GET(ApiConstant.STATUS_PELEPASAN_AGUNAN)
-    Call<BaseResponseNew> getStatusPelepasanAgunan(
+    Call<List<BaseResponseNew>> getStatusPelepasanAgunan(
     );
 
 
     @GET(ApiConstant.PEMINJAM_AGUNAN)
-    Call<BaseResponseNew> getPeminjamAgunan(
+    Call<List<BaseResponseNew>> getPeminjamAgunan(
     );
 
 
     @GET(ApiConstant.REKENING_TUJUAN_JENIS)
-    Call<BaseResponseNew> getRekeningTujuanBisnis(
+    Call<List<BaseResponseNew>> getRekeningTujuanBisnis(
     );
 
 
     @GET(ApiConstant.SUMBER_DANA)
-    Call<BaseResponseNew> getSumberDana(
+    Call<List<BaseResponseNew>> getSumberDana(
     );
 
 
     @GET(ApiConstant.PROFESI_NOTARIS)
-    Call<BaseResponseNew> getProfesiNotaris(
+    Call<List<BaseResponseNew>> getProfesiNotaris(
     );
 
 
     @GET(ApiConstant.JENIS_GAMBARAN_UMUM_REVIEW)
-    Call<BaseResponseNew> getJenisGambaranUmumReview(
+    Call<List<BaseResponseNew>> getJenisGambaranUmumReview(
     );
 
 
     @GET(ApiConstant.KONDISI_TEMPAT_USAHA)
-    Call<BaseResponseNew> getKondisiTempatUsaha(
+    Call<List<BaseResponseNew>> getKondisiTempatUsaha(
     );
 
 
     @GET(ApiConstant.KETERSEDIAAN_BAHAN_BAKU)
-    Call<BaseResponseNew> getKetersediaanBahanBaku(
+    Call<List<BaseResponseNew>> getKetersediaanBahanBaku(
     );
 
 
     @GET(ApiConstant.GOLONGAN_PENJAMIN)
-    Call<BaseResponseNew> getGolonganPenjamin(
+    Call<List<BaseResponseNew>> getGolonganPenjamin(
     );
 
 
     @GET(ApiConstant.STATUS_ASURANSI_AGUNAN)
-    Call<BaseResponseNew> getStatusAsuransiAgunan(
+    Call<List<BaseResponseNew>> getStatusAsuransiAgunan(
     );
 
 
     @GET(ApiConstant.GOLONGAN_KREDIT)
-    Call<BaseResponseNew> getGolonganKredit(
+    Call<List<BaseResponseNew>> getGolonganKredit(
     );
 
 
     @GET(ApiConstant.NAMA_PENGADILAN_NEGERI)
-    Call<BaseResponseNew> getNamaPengadilanNegeri(
+    Call<List<BaseResponseNew>> getNamaPengadilanNegeri(
     );
 
 
     @GET(ApiConstant.JENIS_PRODUK)
-    Call<BaseResponseNew> getJenisProduk(
+    Call<List<BaseResponseNew>> getJenisProduk(
     );
 
 
     @GET(ApiConstant.JENIS_SUMBER_DANA)
-    Call<BaseResponseNew> getJenisSumberDana(
+    Call<List<BaseResponseNew>> getJenisSumberDana(
     );
 
 
     @GET(ApiConstant.JENIS_DCA_ID)
-    Call<BaseResponseNew> getJenisDCAID(
+    Call<List<BaseResponseNew>> getJenisDCAID(
     );
 
 
     @GET(ApiConstant.POLA_PENCAIRAN)
-    Call<BaseResponseNew> getPolaPencairan(
+    Call<List<BaseResponseNew>> getPolaPencairan(
     );
 
 
     @GET(ApiConstant.NILAI_PENCAIRAN)
-    Call<BaseResponseNew> getNilaiPencairan(
+    Call<List<BaseResponseNew>> getNilaiPencairan(
     );
 
 
     @GET(ApiConstant.MATA_UANG)
-    Call<BaseResponseNew> getMataUang(
+    Call<List<BaseResponseNew>> getMataUang(
     );
 
     @GET(ApiConstant.LOKASI_PRODUK)
-    Call<BaseResponseNew> getLokasiProduk(
+    Call<List<BaseResponseNew>> getLokasiProduk(
     );
 
     @GET(ApiConstant.REG_PRO)
-    Call<BaseResponseNew> getRegPro(
+    Call<List<BaseResponseNew>> getRegPro(
     );
 
     @GET(ApiConstant.JENIS_SUKU_BUNGA)
-    Call<BaseResponseNew> getJenisSukuBunga(
+    Call<List<BaseResponseNew>> getJenisSukuBunga(
     );
 
     @GET(ApiConstant.JENIS_PEMBAYARAN_PRODUK)
-    Call<BaseResponseNew> getJenisPembayaranProduk(
+    Call<List<BaseResponseNew>> getJenisPembayaranProduk(
     );
 
     @GET(ApiConstant.JENIS_PERHITUNGAN_BUNGA)
-    Call<BaseResponseNew> getJenisPerhitunganBunga(
+    Call<List<BaseResponseNew>> getJenisPerhitunganBunga(
     );
 
     @GET(ApiConstant.JADWAL_PERHITUNGAN_BUNGA)
-    Call<BaseResponseNew> getJadwalPerhitunganBunga(
+    Call<List<BaseResponseNew>> getJadwalPerhitunganBunga(
     );
 
     @GET(ApiConstant.JENIS_PEMOTONGAN_BUNGA)
-    Call<BaseResponseNew> getJenisPemotonganBunga(
+    Call<List<BaseResponseNew>> getJenisPemotonganBunga(
     );
 
     @GET(ApiConstant.STRUKTUR_HARI_DALAM_SATU_TAHUN)
-    Call<BaseResponseNew> getStrukturHariDalamSatuTahun(
+    Call<List<BaseResponseNew>> getStrukturHariDalamSatuTahun(
     );
 
     @GET(ApiConstant.STRUKTUR_HARI_DALAM_SATU_BULAN)
-    Call<BaseResponseNew> getStrukurHariDalamSatuBulan(
+    Call<List<BaseResponseNew>> getStrukurHariDalamSatuBulan(
     );
 
     @GET(ApiConstant.STRUKTUR_KREDIT_HARI_LIBUR)
-    Call<BaseResponseNew> getStrukturKreditHariLibur(
+    Call<List<BaseResponseNew>> getStrukturKreditHariLibur(
     );
 
     @GET(ApiConstant.STRUKTUR_KREDIT_HARI_BIAYA)
-    Call<BaseResponseNew> getStrukturKreditHariBiaya(
+    Call<List<BaseResponseNew>> getStrukturKreditHariBiaya(
     );
 
     @GET(ApiConstant.KATEGORI_PEMBIAYAAN)
-    Call<BaseResponseNew> getKategoriPembiayaan(
+    Call<List<BaseResponseNew>> getKategoriPembiayaan(
     );
 
-    /*Tambahan 11 Jan 2018 - Andityo*/
-
-
+    /*edited 17 Januari 2018 by Yudhi*/
 
     @GET(ApiConstant.JENIS_PROSPEK)
     Call<JenisProspekResponse> getJenisProspek(
@@ -1047,6 +1047,16 @@ public interface RestService {
     @POST(ApiConstant.UPLOAD_DOKUMEN)
     Call <UploadDokumenModel> UploadDokumen(
             @Body UploadDokumenModel body
+    );
+
+    @POST(ApiConstant.USAHA_PROSPEK)
+    Call <UsahaProspekModel> UsahaProspek(
+            @Body UsahaProspekModel body
+    );
+
+    @POST(ApiConstant.KUNJUNGAN_AOM)
+    Call <KunjunganAomModel> KunjunganAOM(
+            @Body KunjunganAomModel body
     );
 
 

@@ -1,4 +1,4 @@
-#Tue Jan 16 15:14:44 ICT 2018
+#Wed Jan 17 16:57:06 ICT 2018
 base.0=E\:\\android\\pnm-src\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_ab3d6e828cbdb24598e607a2c0a3001a625f9428
 renamed.1=classes.dex
 renamed.0=classes2.dex

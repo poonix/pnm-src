@@ -1,83 +1,71 @@
 [
     {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\googleg_standard_color_18.png",
-        "source": "C:\\Users\\user\\.android\\build-cache\\2e0f1096be79cc39b9eb2f444d4d42c05d6f8154\\output\\res\\drawable-mdpi-v4\\googleg_standard_color_18.png"
-    },
-    {
         "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
         "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable-mdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
-    },
-    {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\notification_bg_normal_pressed.9.png",
-        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable-mdpi-v4\\notification_bg_normal_pressed.9.png"
     },
     {
         "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_list_selector_disabled_holo_dark.9.png",
         "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable-mdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
     },
     {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_star_black_48dp.png",
-        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable-mdpi-v4\\abc_ic_star_black_48dp.png"
-    },
-    {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
-        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable-mdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
-    },
-    {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_list_longpressed_holo.9.png",
-        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable-mdpi-v4\\abc_list_longpressed_holo.9.png"
-    },
-    {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\places_ic_clear.png",
-        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\9ebe488de0b3887a5b247290d153913b6f62aebd\\output\\res\\drawable-mdpi-v4\\places_ic_clear.png"
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable-mdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
     },
     {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png",
         "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable-mdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
     },
     {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable-mdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
         "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable-mdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable-mdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
     },
     {
         "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\powered_by_google_light.png",
         "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\9ebe488de0b3887a5b247290d153913b6f62aebd\\output\\res\\drawable-mdpi-v4\\powered_by_google_light.png"
     },
     {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_star_half_black_16dp.png",
-        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable-mdpi-v4\\abc_ic_star_half_black_16dp.png"
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_list_focused_holo.9.png",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable-mdpi-v4\\abc_list_focused_holo.9.png"
     },
     {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\places_ic_search.png",
         "source": "C:\\Users\\user\\.android\\build-cache\\2bf39f869b09cd00f3cddab9af301a7e40ec1ead\\output\\res\\drawable-mdpi-v4\\places_ic_search.png"
     },
     {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
-        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable-mdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
-    },
-    {
         "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\googleg_disabled_color_18.png",
         "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\3fc5b70ad006fa31540397d30a4796224af5cf54\\output\\res\\drawable-mdpi-v4\\googleg_disabled_color_18.png"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable-mdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
     },
     {
         "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_list_pressed_holo_dark.9.png",
         "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable-mdpi-v4\\abc_list_pressed_holo_dark.9.png"
     },
     {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
-        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable-mdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_popup_background_mtrl_mult.9.png",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable-mdpi-v4\\abc_popup_background_mtrl_mult.9.png"
     },
     {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
-        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable-mdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable-mdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
     {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
-        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable-mdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable-mdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
     },
     {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png",
-        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable-mdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_list_selector_disabled_holo_dark.9.png",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable-mdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
     },
     {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_text_select_handle_right_mtrl_dark.png",
@@ -88,24 +76,20 @@
         "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable-mdpi-v4\\notification_bg_normal.9.png"
     },
     {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
-        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable-mdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable-mdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_list_pressed_holo_dark.9.png",
         "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable-mdpi-v4\\abc_list_pressed_holo_dark.9.png"
     },
     {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png",
-        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\3fc5b70ad006fa31540397d30a4796224af5cf54\\output\\res\\drawable-mdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable-mdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
         "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
         "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable-mdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
-    },
-    {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png",
-        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable-mdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
     },
     {
         "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
@@ -120,52 +104,36 @@
         "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable-mdpi-v4\\abc_list_focused_holo.9.png"
     },
     {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png",
-        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable-mdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
-    },
-    {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
-        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable-mdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_text_select_handle_middle_mtrl_dark.png",
-        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable-mdpi-v4\\abc_text_select_handle_middle_mtrl_dark.png"
-    },
-    {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
-        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable-mdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
-    },
-    {
         "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_star_half_black_36dp.png",
         "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable-mdpi-v4\\abc_ic_star_half_black_36dp.png"
-    },
-    {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png",
-        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\3fc5b70ad006fa31540397d30a4796224af5cf54\\output\\res\\drawable-mdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
-    },
-    {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
-        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable-mdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
     },
     {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\places_ic_clear.png",
         "source": "C:\\Users\\user\\.android\\build-cache\\2bf39f869b09cd00f3cddab9af301a7e40ec1ead\\output\\res\\drawable-mdpi-v4\\places_ic_clear.png"
     },
     {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\powered_by_google_dark.png",
-        "source": "C:\\Users\\user\\.android\\build-cache\\2bf39f869b09cd00f3cddab9af301a7e40ec1ead\\output\\res\\drawable-mdpi-v4\\powered_by_google_dark.png"
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\notification_bg_normal.9.png",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable-mdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable-mdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
     },
     {
         "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_star_black_36dp.png",
         "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable-mdpi-v4\\abc_ic_star_black_36dp.png"
     },
     {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_list_divider_mtrl_alpha.9.png",
-        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable-mdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\powered_by_google_dark.png",
+        "source": "C:\\Users\\user\\.android\\build-cache\\2bf39f869b09cd00f3cddab9af301a7e40ec1ead\\output\\res\\drawable-mdpi-v4\\powered_by_google_dark.png"
     },
     {
         "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\places_ic_search.png",
         "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\9ebe488de0b3887a5b247290d153913b6f62aebd\\output\\res\\drawable-mdpi-v4\\places_ic_search.png"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_star_black_36dp.png",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable-mdpi-v4\\abc_ic_star_black_36dp.png"
     },
     {
         "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\notification_bg_low_normal.9.png",
@@ -176,20 +144,12 @@
         "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable-mdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png",
-        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable-mdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
-    },
-    {
         "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
         "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable-mdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
     },
     {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
-        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable-mdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
-    },
-    {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_star_black_36dp.png",
-        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable-mdpi-v4\\abc_ic_star_black_36dp.png"
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable-mdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
     },
     {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
@@ -200,24 +160,16 @@
         "source": "C:\\Users\\user\\.android\\build-cache\\2e0f1096be79cc39b9eb2f444d4d42c05d6f8154\\output\\res\\drawable-mdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
     },
     {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png",
-        "source": "C:\\Users\\user\\.android\\build-cache\\2e0f1096be79cc39b9eb2f444d4d42c05d6f8154\\output\\res\\drawable-mdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
-    },
-    {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png",
-        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable-mdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\powered_by_google_light.png",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\4b94694d0208e207b1c071f19584e2e44b07f442\\output\\res\\drawable-mdpi-v4\\powered_by_google_light.png"
     },
     {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png",
         "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable-mdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
     },
     {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_star_half_black_48dp.png",
-        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable-mdpi-v4\\abc_ic_star_half_black_48dp.png"
-    },
-    {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_list_pressed_holo_light.9.png",
-        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable-mdpi-v4\\abc_list_pressed_holo_light.9.png"
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_text_select_handle_middle_mtrl_light.png",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable-mdpi-v4\\abc_text_select_handle_middle_mtrl_light.png"
     },
     {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\design_ic_visibility.png",
@@ -228,28 +180,24 @@
         "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable-mdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\design_ic_visibility.png",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\241d5508a199527e9fbc671c1648a22e22a41a83\\output\\res\\drawable-mdpi-v4\\design_ic_visibility.png"
+    },
+    {
         "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_list_focused_holo.9.png",
         "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable-mdpi-v4\\abc_list_focused_holo.9.png"
     },
     {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_text_select_handle_left_mtrl_dark.png",
-        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable-mdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
-    },
-    {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_text_select_handle_middle_mtrl_light.png",
-        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable-mdpi-v4\\abc_text_select_handle_middle_mtrl_light.png"
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_list_pressed_holo_dark.9.png",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable-mdpi-v4\\abc_list_pressed_holo_dark.9.png"
     },
     {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
         "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable-mdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
     },
     {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\notification_bg_low_pressed.9.png",
-        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable-mdpi-v4\\notification_bg_low_pressed.9.png"
-    },
-    {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\googleg_standard_color_18.png",
-        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\3fc5b70ad006fa31540397d30a4796224af5cf54\\output\\res\\drawable-mdpi-v4\\googleg_standard_color_18.png"
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\6c93c8be8d292b9c048645be921c7164a189f0e9\\output\\res\\drawable-mdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
     },
     {
         "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png",
@@ -260,84 +208,36 @@
         "source": "C:\\Users\\user\\.android\\build-cache\\2e0f1096be79cc39b9eb2f444d4d42c05d6f8154\\output\\res\\drawable-mdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
     },
     {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\design_ic_visibility_off.png",
-        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\85c51bba4b9af64e1c91677a7d426709e6eb3583\\output\\res\\drawable-mdpi-v4\\design_ic_visibility_off.png"
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable-mdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png",
-        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable-mdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\places_ic_clear.png",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\4b94694d0208e207b1c071f19584e2e44b07f442\\output\\res\\drawable-mdpi-v4\\places_ic_clear.png"
     },
     {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_star_half_black_36dp.png",
-        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable-mdpi-v4\\abc_ic_star_half_black_36dp.png"
-    },
-    {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_text_select_handle_left_mtrl_dark.png",
-        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable-mdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_star_black_48dp.png",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable-mdpi-v4\\abc_ic_star_black_48dp.png"
     },
     {
         "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
         "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable-mdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
     },
     {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_btn_radio_to_on_mtrl_000.png",
-        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable-mdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
-    },
-    {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png",
-        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png"
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png"
     },
     {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_text_select_handle_right_mtrl_light.png",
         "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable-mdpi-v4\\abc_text_select_handle_right_mtrl_light.png"
     },
     {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_popup_background_mtrl_mult.9.png",
-        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable-mdpi-v4\\abc_popup_background_mtrl_mult.9.png"
-    },
-    {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png",
-        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable-mdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\design_ic_visibility.png",
-        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\85c51bba4b9af64e1c91677a7d426709e6eb3583\\output\\res\\drawable-mdpi-v4\\design_ic_visibility.png"
-    },
-    {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_star_black_48dp.png",
-        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable-mdpi-v4\\abc_ic_star_black_48dp.png"
-    },
-    {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
         "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable-mdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
     },
     {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png",
-        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png"
-    },
-    {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png",
-        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable-mdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png",
-        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\3fc5b70ad006fa31540397d30a4796224af5cf54\\output\\res\\drawable-mdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
-    },
-    {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\powered_by_google_dark.png",
-        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\9ebe488de0b3887a5b247290d153913b6f62aebd\\output\\res\\drawable-mdpi-v4\\powered_by_google_dark.png"
-    },
-    {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\notification_bg_normal_pressed.9.png",
-        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable-mdpi-v4\\notification_bg_normal_pressed.9.png"
-    },
-    {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_text_select_handle_left_mtrl_light.png",
         "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable-mdpi-v4\\abc_text_select_handle_left_mtrl_light.png"
-    },
-    {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_text_select_handle_middle_mtrl_light.png",
-        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable-mdpi-v4\\abc_text_select_handle_middle_mtrl_light.png"
     },
     {
         "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_list_divider_mtrl_alpha.9.png",
@@ -348,8 +248,8 @@
         "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable-mdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
     },
     {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\googleg_disabled_color_18.png",
-        "source": "C:\\Users\\user\\.android\\build-cache\\2e0f1096be79cc39b9eb2f444d4d42c05d6f8154\\output\\res\\drawable-mdpi-v4\\googleg_disabled_color_18.png"
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\design_ic_visibility_off.png",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\241d5508a199527e9fbc671c1648a22e22a41a83\\output\\res\\drawable-mdpi-v4\\design_ic_visibility_off.png"
     },
     {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
@@ -364,8 +264,12 @@
         "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable-mdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
     },
     {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_list_longpressed_holo.9.png",
-        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable-mdpi-v4\\abc_list_longpressed_holo.9.png"
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_text_select_handle_right_mtrl_dark.png",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable-mdpi-v4\\abc_text_select_handle_right_mtrl_dark.png"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable-mdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
     },
     {
         "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png",
@@ -376,10 +280,6 @@
         "source": "C:\\Users\\user\\.android\\build-cache\\2bf39f869b09cd00f3cddab9af301a7e40ec1ead\\output\\res\\drawable-mdpi-v4\\powered_by_google_light.png"
     },
     {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\design_ic_visibility_off.png",
-        "source": "C:\\Users\\user\\.android\\build-cache\\72edc8f974b844a52ee896286f82dc3f2951f443\\output\\res\\drawable-mdpi-v4\\design_ic_visibility_off.png"
-    },
-    {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
         "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable-mdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
     },
@@ -388,24 +288,16 @@
         "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable-mdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
     },
     {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
-        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable-mdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
-    },
-    {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png",
         "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable-mdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
     },
     {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_text_select_handle_left_mtrl_light.png",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable-mdpi-v4\\abc_text_select_handle_left_mtrl_light.png"
+    },
+    {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\notification_bg_low_pressed.9.png",
         "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable-mdpi-v4\\notification_bg_low_pressed.9.png"
-    },
-    {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_star_black_16dp.png",
-        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable-mdpi-v4\\abc_ic_star_black_16dp.png"
-    },
-    {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png",
-        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable-mdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
     },
     {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_star_half_black_48dp.png",
@@ -416,10 +308,6 @@
         "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable-mdpi-v4\\abc_text_select_handle_left_mtrl_light.png"
     },
     {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png",
-        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable-mdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
-    },
-    {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png",
         "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable-mdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
     },
@@ -428,28 +316,8 @@
         "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable-mdpi-v4\\abc_ic_star_black_16dp.png"
     },
     {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\notification_bg_normal.9.png",
-        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable-mdpi-v4\\notification_bg_normal.9.png"
-    },
-    {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png",
-        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable-mdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
-    },
-    {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\notification_bg_low_normal.9.png",
-        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable-mdpi-v4\\notification_bg_low_normal.9.png"
-    },
-    {
         "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png",
         "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\3fc5b70ad006fa31540397d30a4796224af5cf54\\output\\res\\drawable-mdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
-    },
-    {
-        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png",
-        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable-mdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_star_half_black_16dp.png",
-        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable-mdpi-v4\\abc_ic_star_half_black_16dp.png"
     },
     {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_list_pressed_holo_light.9.png",
@@ -464,24 +332,44 @@
         "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable-mdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
     },
     {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png",
-        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable-mdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable-mdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
         "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
         "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable-mdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
     },
     {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable-mdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
         "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_text_select_handle_right_mtrl_dark.png",
         "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable-mdpi-v4\\abc_text_select_handle_right_mtrl_dark.png"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_star_half_black_16dp.png",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable-mdpi-v4\\abc_ic_star_half_black_16dp.png"
     },
     {
         "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_text_select_handle_middle_mtrl_dark.png",
         "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable-mdpi-v4\\abc_text_select_handle_middle_mtrl_dark.png"
     },
     {
-        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_text_select_handle_right_mtrl_light.png",
-        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable-mdpi-v4\\abc_text_select_handle_right_mtrl_light.png"
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_text_select_handle_left_mtrl_dark.png",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable-mdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable-mdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_btn_radio_to_on_mtrl_000.png",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable-mdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_text_select_handle_right_mtrl_light.png",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable-mdpi-v4\\abc_text_select_handle_right_mtrl_light.png"
     },
     {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
@@ -510,5 +398,373 @@
     {
         "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_popup_background_mtrl_mult.9.png",
         "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable-mdpi-v4\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\googleg_standard_color_18.png",
+        "source": "C:\\Users\\user\\.android\\build-cache\\2e0f1096be79cc39b9eb2f444d4d42c05d6f8154\\output\\res\\drawable-mdpi-v4\\googleg_standard_color_18.png"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable-mdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\notification_bg_normal_pressed.9.png",
+        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable-mdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_star_black_48dp.png",
+        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable-mdpi-v4\\abc_ic_star_black_48dp.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
+        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable-mdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_list_longpressed_holo.9.png",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable-mdpi-v4\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_list_longpressed_holo.9.png",
+        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable-mdpi-v4\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\places_ic_clear.png",
+        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\9ebe488de0b3887a5b247290d153913b6f62aebd\\output\\res\\drawable-mdpi-v4\\places_ic_clear.png"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\6c93c8be8d292b9c048645be921c7164a189f0e9\\output\\res\\drawable-mdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\googleg_standard_color_18.png",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\6c93c8be8d292b9c048645be921c7164a189f0e9\\output\\res\\drawable-mdpi-v4\\googleg_standard_color_18.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable-mdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_star_half_black_16dp.png",
+        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable-mdpi-v4\\abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
+        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable-mdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
+        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable-mdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable-mdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png",
+        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable-mdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable-mdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable-mdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\powered_by_google_dark.png",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\4b94694d0208e207b1c071f19584e2e44b07f442\\output\\res\\drawable-mdpi-v4\\powered_by_google_dark.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png",
+        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\3fc5b70ad006fa31540397d30a4796224af5cf54\\output\\res\\drawable-mdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\6c93c8be8d292b9c048645be921c7164a189f0e9\\output\\res\\drawable-mdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png",
+        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable-mdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_list_pressed_holo_light.9.png",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable-mdpi-v4\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable-mdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png",
+        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable-mdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
+        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable-mdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_text_select_handle_middle_mtrl_dark.png",
+        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable-mdpi-v4\\abc_text_select_handle_middle_mtrl_dark.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable-mdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png",
+        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\3fc5b70ad006fa31540397d30a4796224af5cf54\\output\\res\\drawable-mdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
+        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable-mdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\places_ic_search.png",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\4b94694d0208e207b1c071f19584e2e44b07f442\\output\\res\\drawable-mdpi-v4\\places_ic_search.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_list_divider_mtrl_alpha.9.png",
+        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable-mdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable-mdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable-mdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable-mdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_star_black_36dp.png",
+        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable-mdpi-v4\\abc_ic_star_black_36dp.png"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable-mdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\googleg_disabled_color_18.png",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\6c93c8be8d292b9c048645be921c7164a189f0e9\\output\\res\\drawable-mdpi-v4\\googleg_disabled_color_18.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png",
+        "source": "C:\\Users\\user\\.android\\build-cache\\2e0f1096be79cc39b9eb2f444d4d42c05d6f8154\\output\\res\\drawable-mdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png",
+        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable-mdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\notification_bg_low_pressed.9.png",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable-mdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_star_half_black_48dp.png",
+        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable-mdpi-v4\\abc_ic_star_half_black_48dp.png"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable-mdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_list_pressed_holo_light.9.png",
+        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable-mdpi-v4\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_star_half_black_36dp.png",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable-mdpi-v4\\abc_ic_star_half_black_36dp.png"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\notification_bg_normal_pressed.9.png",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable-mdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable-mdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_text_select_handle_left_mtrl_dark.png",
+        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable-mdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_list_divider_mtrl_alpha.9.png",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable-mdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_text_select_handle_middle_mtrl_light.png",
+        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable-mdpi-v4\\abc_text_select_handle_middle_mtrl_light.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\notification_bg_low_pressed.9.png",
+        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable-mdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\googleg_standard_color_18.png",
+        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\3fc5b70ad006fa31540397d30a4796224af5cf54\\output\\res\\drawable-mdpi-v4\\googleg_standard_color_18.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png",
+        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable-mdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\design_ic_visibility_off.png",
+        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\85c51bba4b9af64e1c91677a7d426709e6eb3583\\output\\res\\drawable-mdpi-v4\\design_ic_visibility_off.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_text_select_handle_left_mtrl_dark.png",
+        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable-mdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_star_half_black_36dp.png",
+        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable-mdpi-v4\\abc_ic_star_half_black_36dp.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_btn_radio_to_on_mtrl_000.png",
+        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable-mdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png",
+        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_popup_background_mtrl_mult.9.png",
+        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable-mdpi-v4\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_text_select_handle_middle_mtrl_dark.png",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable-mdpi-v4\\abc_text_select_handle_middle_mtrl_dark.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png",
+        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable-mdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\design_ic_visibility.png",
+        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\85c51bba4b9af64e1c91677a7d426709e6eb3583\\output\\res\\drawable-mdpi-v4\\design_ic_visibility.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_star_black_48dp.png",
+        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable-mdpi-v4\\abc_ic_star_black_48dp.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png",
+        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png",
+        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable-mdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png",
+        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\3fc5b70ad006fa31540397d30a4796224af5cf54\\output\\res\\drawable-mdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable-mdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\6c93c8be8d292b9c048645be921c7164a189f0e9\\output\\res\\drawable-mdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\powered_by_google_dark.png",
+        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\9ebe488de0b3887a5b247290d153913b6f62aebd\\output\\res\\drawable-mdpi-v4\\powered_by_google_dark.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\notification_bg_normal_pressed.9.png",
+        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable-mdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_text_select_handle_middle_mtrl_light.png",
+        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable-mdpi-v4\\abc_text_select_handle_middle_mtrl_light.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\googleg_disabled_color_18.png",
+        "source": "C:\\Users\\user\\.android\\build-cache\\2e0f1096be79cc39b9eb2f444d4d42c05d6f8154\\output\\res\\drawable-mdpi-v4\\googleg_disabled_color_18.png"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_star_half_black_48dp.png",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable-mdpi-v4\\abc_ic_star_half_black_48dp.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_list_longpressed_holo.9.png",
+        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable-mdpi-v4\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable-mdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable-mdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\design_ic_visibility_off.png",
+        "source": "C:\\Users\\user\\.android\\build-cache\\72edc8f974b844a52ee896286f82dc3f2951f443\\output\\res\\drawable-mdpi-v4\\design_ic_visibility_off.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
+        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable-mdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_star_black_16dp.png",
+        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable-mdpi-v4\\abc_ic_star_black_16dp.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable-mdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable-mdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\notification_bg_normal.9.png",
+        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable-mdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable-mdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\notification_bg_low_normal.9.png",
+        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable-mdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\notification_bg_low_normal.9.png",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable-mdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "E:\\android\\pnm-src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png",
+        "source": "C:\\Users\\user\\.android\\build-cache\\4885a14eaad5398a7b5943c6c234c921c791ea34\\output\\res\\drawable-mdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_star_half_black_16dp.png",
+        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable-mdpi-v4\\abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png",
+        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable-mdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable-mdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_star_black_16dp.png",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable-mdpi-v4\\abc_ic_star_black_16dp.png"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png",
+        "source": "C:\\Users\\The Sarino's\\.android\\build-cache\\18c3fa6b801f206d07ac7781e0a9faaf306ca0a6\\output\\res\\drawable-mdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_text_select_handle_right_mtrl_light.png",
+        "source": "C:\\Users\\azhaclient-4\\.android\\build-cache\\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\\output\\res\\drawable-mdpi-v4\\abc_text_select_handle_right_mtrl_light.png"
     }
 ]
