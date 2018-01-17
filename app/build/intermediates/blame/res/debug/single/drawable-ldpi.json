@@ -20,12 +20,12 @@
         "source": "D:\\workspace\\pnm-src2\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_circle_24dp.png"
     },
     {
-        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_calendar.png",
-        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_calendar.png"
-    },
-    {
         "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_delete_white.png",
         "source": "D:\\workspace\\pnm-src2\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_delete_white.png"
+    },
+    {
+        "merged": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_calendar.png",
+        "source": "E:\\Aplikasi\\workspace_android\\pnm-src2\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_calendar.png"
     },
     {
         "merged": "D:\\workspace\\pnm-src2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_done.png",
