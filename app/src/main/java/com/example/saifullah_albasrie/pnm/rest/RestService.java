@@ -2,13 +2,20 @@ package com.example.saifullah_albasrie.pnm.rest;
 
 import com.example.saifullah_albasrie.pnm.model.master_new.BaseResponseNew;
 import com.example.saifullah_albasrie.pnm.model.production_model.AgunanProspekModel;
+import com.example.saifullah_albasrie.pnm.model.production_model.AktifitasRekBankModel;
 import com.example.saifullah_albasrie.pnm.model.production_model.AlamatProspekModel;
+import com.example.saifullah_albasrie.pnm.model.production_model.DataUsahaModel;
 import com.example.saifullah_albasrie.pnm.model.production_model.InsertProspekModel;
 import com.example.saifullah_albasrie.pnm.model.production_model.KeluargaProspekModel;
 import com.example.saifullah_albasrie.pnm.model.production_model.KontakProspekModel;
 import com.example.saifullah_albasrie.pnm.model.production_model.KunjunganAomModel;
+import com.example.saifullah_albasrie.pnm.model.production_model.KunjunganUsahaModel;
 import com.example.saifullah_albasrie.pnm.model.production_model.NilaiAgunanModel;
 import com.example.saifullah_albasrie.pnm.model.production_model.PembiayaanProspekModel;
+import com.example.saifullah_albasrie.pnm.model.production_model.PinjamanLainModel;
+import com.example.saifullah_albasrie.pnm.model.production_model.RABModel;
+import com.example.saifullah_albasrie.pnm.model.production_model.SumberReputasiModel;
+import com.example.saifullah_albasrie.pnm.model.production_model.SurveyAssetModel;
 import com.example.saifullah_albasrie.pnm.model.production_model.UpdateProspekModel;
 import com.example.saifullah_albasrie.pnm.model.production_model.UploadDokumenModel;
 import com.example.saifullah_albasrie.pnm.model.production_model.UsahaProspekModel;
@@ -1060,10 +1067,52 @@ public interface RestService {
             @Body KunjunganAomModel body
     );
 
+    @POST(ApiConstant.SURVEY_ASSET)
+    Call <SurveyAssetModel> SurveyAsset(
+            @Body SurveyAssetModel body
+    );
+
+    @POST(ApiConstant.KUNJUNGAN_USAHA_AOM)
+    Call <KunjunganUsahaModel> KunjunganUsaha(
+            @Body KunjunganUsahaModel body
+    );
+
     @POST(ApiConstant.NILAI_AGUNAN)
     Call <NilaiAgunanModel> NilaiAgunan(
             @Body NilaiAgunanModel body
     );
+
+    @POST(ApiConstant.AKTIFITAS_REK)
+    Call <AktifitasRekBankModel> AktifitasRek(
+            @Body AktifitasRekBankModel body
+    );
+
+    @POST(ApiConstant.PINJAMAN_LAIN)
+    Call <PinjamanLainModel> PinjamanLain(
+            @Body PinjamanLainModel body
+    );
+
+    @POST(ApiConstant.RAB)
+    Call <RABModel> RAB(
+            @Body RABModel body
+    );
+
+    @POST(ApiConstant.SUMBER_REPUTASI)
+    Call <SumberReputasiModel> SumberReputasi(
+            @Body SumberReputasiModel body
+    );
+
+    @POST(ApiConstant.DATA_USAHA)
+    Call <DataUsahaModel> DataUsaha(
+            @Body DataUsahaModel body
+    );
+
+    @POST(ApiConstant.DATA_AGUNAN)
+    Call <NilaiAgunanModel> DataAgunan(
+            @Body NilaiAgunanModel body
+    );
+
+
 
 
 }

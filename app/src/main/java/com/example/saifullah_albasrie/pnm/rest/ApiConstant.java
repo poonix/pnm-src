@@ -257,7 +257,16 @@ public class ApiConstant {
     public static final String UPLOAD_DOKUMEN = "prospek/set_individu_dokumen";
     public static final String USAHA_PROSPEK = "prospek/set_individu_usaha";
     public static final String KUNJUNGAN_AOM = "prospek/set_individu_kunjungan";
+
+    public static final String AKTIFITAS_REK = "survey/set_aktivitas_rekening";
+    public static final String SURVEY_ASSET = "survey/set_asset";
+    public static final String KUNJUNGAN_USAHA_AOM = "survey/set_kunjungan_usaha";
     public static final String NILAI_AGUNAN = "survey/set_nilai_agunan";
+    public static final String PINJAMAN_LAIN = "survey/set_pinjaman_lain";
+    public static final String RAB = "survey/set_rab";
+    public static final String SUMBER_REPUTASI = "survey/set_reputasi";
+    public static final String DATA_USAHA = "survey/set_usaha";
+    public static final String DATA_AGUNAN = "survey/set_agunan";
 
 
 
