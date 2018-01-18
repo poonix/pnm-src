@@ -1,687 +1,687 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:2:1-250:12
+ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:2:1-250:12
 	package
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:3:5-49
-		INJECTED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml
-		INJECTED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:3:5-49
+		INJECTED from E:\android\pnm-src\app\src\main\AndroidManifest.xml
+		INJECTED from E:\android\pnm-src\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml
-		INJECTED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml
+		INJECTED from E:\android\pnm-src\app\src\main\AndroidManifest.xml
+		INJECTED from E:\android\pnm-src\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:2:11-69
 	android:versionCode
-		INJECTED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml
-		INJECTED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml
+		INJECTED from E:\android\pnm-src\app\src\main\AndroidManifest.xml
+		INJECTED from E:\android\pnm-src\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.VIBRATE
-ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:13:5-82
+ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:13:5-82
 	android:name
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:13:22-63
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:13:22-63
 permission#com.example.saifullah_albasrie.pnm.permission.MAPS_RECEIVE
-ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:15:5-17:47
+ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:15:5-17:47
 	android:protectionLevel
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:17:9-44
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:17:9-44
 	android:name
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:16:9-82
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:16:9-82
 uses-permission#com.example.saifullah_albasrie.pnm.permission.MAPS_RECEIVE
-ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:19:5-98
+ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:19:5-98
 	android:name
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:19:22-95
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:19:22-95
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:20:5-79
-MERGED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\azhaclient-4\.android\build-cache\e2866c30b9a5969c7d28b708f20ff313409b7f64\output\AndroidManifest.xml:21:5-78
-MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\azhaclient-4\.android\build-cache\a30339be164db93ce1a7b32e3337af7c480bf404\output\AndroidManifest.xml:21:5-78
-MERGED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\azhaclient-4\.android\build-cache\97a09ceff48dc9c0376c1f6aad458686e391de49\output\AndroidManifest.xml:19:5-78
-MERGED from [com.google.android.gms:play-services-maps:10.2.1] C:\Users\azhaclient-4\.android\build-cache\ca2bed8efb3617c7edac7c3a4f52ec81e55fa602\output\AndroidManifest.xml:19:5-78
+ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:20:5-79
+MERGED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\user\.android\build-cache\0ad751b44198bcc30ba943bde6fdeebb32a86dba\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\user\.android\build-cache\1ea3e910dd9078c56bfe0f811d0dd541d2cf9305\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\user\.android\build-cache\149418981ccc64dae5944b1695903c4f8a8b0974\output\AndroidManifest.xml:19:5-78
+MERGED from [com.google.android.gms:play-services-maps:10.2.1] C:\Users\user\.android\build-cache\152cd07a307e7d206cc889f2985b2fd60eecb434\output\AndroidManifest.xml:19:5-78
 	android:name
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:20:22-76
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:20:22-76
 uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
-ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:21:5-98
+ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:21:5-98
 	android:name
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:21:22-95
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:21:22-95
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:22:5-81
+ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:22:5-81
 	android:name
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:22:22-78
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:22:22-78
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:25:5-81
+ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:25:5-81
 	android:name
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:25:22-78
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:25:22-78
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:26:5-79
+ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:26:5-79
 	android:name
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:26:22-76
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:26:22-76
 uses-feature#0x00020000
-ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:29:5-31:35
-MERGED from [com.google.android.gms:play-services-maps:10.2.1] C:\Users\azhaclient-4\.android\build-cache\ca2bed8efb3617c7edac7c3a4f52ec81e55fa602\output\AndroidManifest.xml:21:5-77
+ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:29:5-31:35
+MERGED from [com.google.android.gms:play-services-maps:10.2.1] C:\Users\user\.android\build-cache\152cd07a307e7d206cc889f2985b2fd60eecb434\output\AndroidManifest.xml:21:5-77
 	android:glEsVersion
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:30:9-41
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:30:9-41
 	android:required
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:31:9-32
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:31:9-32
 uses-permission#android.permission.INTERNET
-ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:33:5-67
-MERGED from [com.google.android.gms:play-services-gcm:10.2.1] C:\Users\azhaclient-4\.android\build-cache\c3bf43122c419bb2aa757bcbac9f128c9a9ca104\output\AndroidManifest.xml:21:5-66
-MERGED from [com.google.android.gms:play-services-iid:10.2.1] C:\Users\azhaclient-4\.android\build-cache\1d460a7afabcb535071551f156f26344a8ce86a2\output\AndroidManifest.xml:21:5-66
-MERGED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\azhaclient-4\.android\build-cache\e2866c30b9a5969c7d28b708f20ff313409b7f64\output\AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\azhaclient-4\.android\build-cache\a30339be164db93ce1a7b32e3337af7c480bf404\output\AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\azhaclient-4\.android\build-cache\97a09ceff48dc9c0376c1f6aad458686e391de49\output\AndroidManifest.xml:20:5-66
-MERGED from [com.google.android.gms:play-services-maps:10.2.1] C:\Users\azhaclient-4\.android\build-cache\ca2bed8efb3617c7edac7c3a4f52ec81e55fa602\output\AndroidManifest.xml:20:5-66
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] C:\Users\azhaclient-4\.android\build-cache\908fb660791181d9e4f4206cf1b14d0d561e70a8\output\AndroidManifest.xml:9:5-67
-MERGED from [com.crashlytics.sdk.android:beta:1.2.5] C:\Users\azhaclient-4\.android\build-cache\341e3d21fb7b56a80f6b8e8b0f015435b9f34e95\output\AndroidManifest.xml:9:5-67
-MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] C:\Users\azhaclient-4\.android\build-cache\816bf9d33922ac0beaed315b8d2411970ef90f78\output\AndroidManifest.xml:52:5-67
-MERGED from [com.crashlytics.sdk.android:answers:1.3.13] C:\Users\azhaclient-4\.android\build-cache\5dea7d87245657f0e38c415166ca95d7d7a70e4b\output\AndroidManifest.xml:9:5-67
-MERGED from [io.fabric.sdk.android:fabric:1.3.17] C:\Users\azhaclient-4\.android\build-cache\2f966e376932524d35afd2d7bc6b65dd4fe545b2\output\AndroidManifest.xml:29:5-67
+ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:33:5-67
+MERGED from [com.google.android.gms:play-services-gcm:10.2.1] C:\Users\user\.android\build-cache\e75688d3444059273245fffc32ed38faa4bc51d3\output\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:10.2.1] C:\Users\user\.android\build-cache\771d4e948191dfb1a2ad4c3ef8a8a52ba62d3896\output\AndroidManifest.xml:21:5-66
+MERGED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\user\.android\build-cache\0ad751b44198bcc30ba943bde6fdeebb32a86dba\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\user\.android\build-cache\1ea3e910dd9078c56bfe0f811d0dd541d2cf9305\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\user\.android\build-cache\149418981ccc64dae5944b1695903c4f8a8b0974\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:10.2.1] C:\Users\user\.android\build-cache\152cd07a307e7d206cc889f2985b2fd60eecb434\output\AndroidManifest.xml:20:5-66
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] C:\Users\user\.android\build-cache\17e34056010b9c84f14932ada8873ccbb8525b52\output\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.5] C:\Users\user\.android\build-cache\06ceb9c0f64512251bb13fad084bcebb42c6905d\output\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] C:\Users\user\.android\build-cache\332af3f87472d15ceb7183356c5606617b3b3880\output\AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.3.13] C:\Users\user\.android\build-cache\ba5ead87bbd38abb590dba7f39a8fa14b0ee695b\output\AndroidManifest.xml:9:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.3.17] C:\Users\user\.android\build-cache\a787a64b06bc8a19c6fc0ea4327af2ed938a0385\output\AndroidManifest.xml:29:5-67
 	android:name
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:33:22-64
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:33:22-64
 uses-permission#android.permission.CALL_PHONE
-ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:34:5-69
+ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:34:5-69
 	android:name
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:34:22-66
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:34:22-66
 uses-permission#android.permission.SEND_SMS
-ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:35:5-67
+ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:35:5-67
 	android:name
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:35:22-64
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:35:22-64
 uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
-ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:36:5-81
+ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:36:5-81
 	android:name
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:36:22-78
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:36:22-78
 application
-ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:38:5-248:19
-MERGED from [com.android.support:design:25.3.1] C:\Users\azhaclient-4\.android\build-cache\85c51bba4b9af64e1c91677a7d426709e6eb3583\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\azhaclient-4\.android\build-cache\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\azhaclient-4\.android\build-cache\e83ec3cb9acdeab7cf004b5cff88153076917d3a\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\azhaclient-4\.android\build-cache\403e8e516ee9b51df1418d0aa2a791b5f825448c\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:transition:25.3.1] C:\Users\azhaclient-4\.android\build-cache\2b21e19b93ba7cce130de762585f53b619a70a65\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\azhaclient-4\.android\build-cache\fc14a60443368d84ec495579bc9c31c75101c9a0\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-v13:25.3.1] C:\Users\azhaclient-4\.android\build-cache\d5e9d192fc5e9bcb2e9f1ad37554adab27a24c9c\output\AndroidManifest.xml:29:5-20
-MERGED from [com.google.android.gms:play-services-gcm:10.2.1] C:\Users\azhaclient-4\.android\build-cache\c3bf43122c419bb2aa757bcbac9f128c9a9ca104\output\AndroidManifest.xml:23:5-19
-MERGED from [com.google.android.gms:play-services-iid:10.2.1] C:\Users\azhaclient-4\.android\build-cache\1d460a7afabcb535071551f156f26344a8ce86a2\output\AndroidManifest.xml:23:5-19
-MERGED from [com.google.firebase:firebase-messaging:10.2.1] C:\Users\azhaclient-4\.android\build-cache\98ed8ffe86eab786d504c6bd374b2104215218a9\output\AndroidManifest.xml:19:5-29:19
-MERGED from [com.google.firebase:firebase-core:10.2.1] C:\Users\azhaclient-4\.android\build-cache\170272cb8dcb377d7212b1bdb46895eda30c12f6\output\AndroidManifest.xml:5:5-20
-MERGED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\azhaclient-4\.android\build-cache\e2866c30b9a5969c7d28b708f20ff313409b7f64\output\AndroidManifest.xml:24:5-33:19
-MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\azhaclient-4\.android\build-cache\a30339be164db93ce1a7b32e3337af7c480bf404\output\AndroidManifest.xml:24:5-28:19
-MERGED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\azhaclient-4\.android\build-cache\97a09ceff48dc9c0376c1f6aad458686e391de49\output\AndroidManifest.xml:28:5-49:19
-MERGED from [com.google.firebase:firebase-common:10.2.1] C:\Users\azhaclient-4\.android\build-cache\1fca87571bffdafe28c3cdea98a4ed3928dda05a\output\AndroidManifest.xml:4:5-7:19
-MERGED from [com.google.android.gms:play-services-location:10.2.1] C:\Users\azhaclient-4\.android\build-cache\59f52eb20963a5fc3eb56c901363f8c26cf82033\output\AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-places:10.2.1] C:\Users\azhaclient-4\.android\build-cache\9ebe488de0b3887a5b247290d153913b6f62aebd\output\AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-maps:10.2.1] C:\Users\azhaclient-4\.android\build-cache\ca2bed8efb3617c7edac7c3a4f52ec81e55fa602\output\AndroidManifest.xml:24:5-19
-MERGED from [com.google.android.gms:play-services-base:10.2.1] C:\Users\azhaclient-4\.android\build-cache\3fc5b70ad006fa31540397d30a4796224af5cf54\output\AndroidManifest.xml:18:5-20:19
-MERGED from [com.google.android.gms:play-services-tasks:10.2.1] C:\Users\azhaclient-4\.android\build-cache\4eabc82e31a93a5ae13a4ba2379fae3631ca50d8\output\AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\azhaclient-4\.android\build-cache\6dff4d21c26c0a4661e8a1463ea4da64600dcdb9\output\AndroidManifest.xml:19:5-21:19
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\azhaclient-4\.android\build-cache\9c4c65e754c6849fe8e76c610d077b994ebf9cce\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\azhaclient-4\.android\build-cache\edb9976519878074906b80dab866bb3e785b0879\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\azhaclient-4\.android\build-cache\d5bfa6b0ae9d9935555d5058104b1718ff79373f\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\azhaclient-4\.android\build-cache\c33ed8833481ade02a778be0e45c6b1e048ce6b3\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\azhaclient-4\.android\build-cache\b601fd691c31b9874d14a6a32073d985f6801a0f\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\azhaclient-4\.android\build-cache\360dcf1379c478f58074b129993713fdcf0e0506\output\AndroidManifest.xml:29:5-20
-MERGED from [com.github.aakira:expandable-layout:1.6.0] C:\Users\azhaclient-4\.android\build-cache\67abd602eaa63119c6fcb6308631fb1bb234e422\output\AndroidManifest.xml:12:5-20
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] C:\Users\azhaclient-4\.android\build-cache\908fb660791181d9e4f4206cf1b14d0d561e70a8\output\AndroidManifest.xml:11:5-20
-MERGED from [com.crashlytics.sdk.android:beta:1.2.5] C:\Users\azhaclient-4\.android\build-cache\341e3d21fb7b56a80f6b8e8b0f015435b9f34e95\output\AndroidManifest.xml:11:5-20
-MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] C:\Users\azhaclient-4\.android\build-cache\816bf9d33922ac0beaed315b8d2411970ef90f78\output\AndroidManifest.xml:54:5-20
-MERGED from [com.crashlytics.sdk.android:answers:1.3.13] C:\Users\azhaclient-4\.android\build-cache\5dea7d87245657f0e38c415166ca95d7d7a70e4b\output\AndroidManifest.xml:11:5-20
-MERGED from [io.fabric.sdk.android:fabric:1.3.17] C:\Users\azhaclient-4\.android\build-cache\2f966e376932524d35afd2d7bc6b65dd4fe545b2\output\AndroidManifest.xml:31:5-20
+ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:38:5-248:19
+MERGED from [com.android.support:design:25.3.1] C:\Users\user\.android\build-cache\72edc8f974b844a52ee896286f82dc3f2951f443\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\user\.android\build-cache\4885a14eaad5398a7b5943c6c234c921c791ea34\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\user\.android\build-cache\63e1ba6d735c46ee65e6e9801655537ad0e6e486\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\user\.android\build-cache\7f4f6f173adb7c758d9c46bb99f993254ce2e38c\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\user\.android\build-cache\9bde482f52718cd70f1d14f0fe8c255d6084d045\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\user\.android\build-cache\e2fe88b1de737b6a3ac3741c1c41f3b8fe7e01b0\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v13:25.3.1] C:\Users\user\.android\build-cache\88fca0ec53dfee77fa5c5eb569f9a5a35ea7571f\output\AndroidManifest.xml:29:5-20
+MERGED from [com.google.android.gms:play-services-gcm:10.2.1] C:\Users\user\.android\build-cache\e75688d3444059273245fffc32ed38faa4bc51d3\output\AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-iid:10.2.1] C:\Users\user\.android\build-cache\771d4e948191dfb1a2ad4c3ef8a8a52ba62d3896\output\AndroidManifest.xml:23:5-19
+MERGED from [com.google.firebase:firebase-messaging:10.2.1] C:\Users\user\.android\build-cache\d69c44547ec257443cd159088575b24687cbed64\output\AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.firebase:firebase-core:10.2.1] C:\Users\user\.android\build-cache\d01775bdcdf33c814578afa0d5b05648bc4be965\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\user\.android\build-cache\0ad751b44198bcc30ba943bde6fdeebb32a86dba\output\AndroidManifest.xml:24:5-33:19
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\user\.android\build-cache\1ea3e910dd9078c56bfe0f811d0dd541d2cf9305\output\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\user\.android\build-cache\149418981ccc64dae5944b1695903c4f8a8b0974\output\AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-common:10.2.1] C:\Users\user\.android\build-cache\720fee7122f775fb93b6b7f7db1672d1937d3e8c\output\AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-location:10.2.1] C:\Users\user\.android\build-cache\3127a21125077853f41b9e9020d4b4ae2e84d668\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-places:10.2.1] C:\Users\user\.android\build-cache\2bf39f869b09cd00f3cddab9af301a7e40ec1ead\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-maps:10.2.1] C:\Users\user\.android\build-cache\152cd07a307e7d206cc889f2985b2fd60eecb434\output\AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-base:10.2.1] C:\Users\user\.android\build-cache\2e0f1096be79cc39b9eb2f444d4d42c05d6f8154\output\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:10.2.1] C:\Users\user\.android\build-cache\35a6af081b0851dfa71a2ade4ea7c68ca4e4a041\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\user\.android\build-cache\136a7f246f60c5f60c904e6b55630ca809f87ed7\output\AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\user\.android\build-cache\60b18d16b338ae6b971e6948ba34d6963e08c932\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\user\.android\build-cache\6698e1dfef8e04918930ea2cfd856924d48570bc\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\user\.android\build-cache\d3fbe225001f4934ed6b7d4bb5e9d91b37e0a08e\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\user\.android\build-cache\5fa63259c5d0fdabffd7375aced12470be9dd0f7\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\user\.android\build-cache\c8d84d16b94396459d415d4476eceb47ce9ca431\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\user\.android\build-cache\90472d6845b7ac113dcc68daf25a9b3ce424a49f\output\AndroidManifest.xml:29:5-20
+MERGED from [com.github.aakira:expandable-layout:1.6.0] C:\Users\user\.android\build-cache\162b47494cd17c1ee1f3d6461566033b6fec4edc\output\AndroidManifest.xml:12:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] C:\Users\user\.android\build-cache\17e34056010b9c84f14932ada8873ccbb8525b52\output\AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.5] C:\Users\user\.android\build-cache\06ceb9c0f64512251bb13fad084bcebb42c6905d\output\AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] C:\Users\user\.android\build-cache\332af3f87472d15ceb7183356c5606617b3b3880\output\AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.3.13] C:\Users\user\.android\build-cache\ba5ead87bbd38abb590dba7f39a8fa14b0ee695b\output\AndroidManifest.xml:11:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.3.17] C:\Users\user\.android\build-cache\a787a64b06bc8a19c6fc0ea4327af2ed938a0385\output\AndroidManifest.xml:31:5-20
 	android:label
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:42:9-41
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:42:9-41
 	android:supportsRtl
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:43:9-35
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:43:9-35
 	android:allowBackup
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:40:9-35
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:40:9-35
 	android:icon
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:41:9-43
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:41:9-43
 	android:theme
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:44:9-40
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:44:9-40
 	android:name
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:39:9-72
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:39:9-72
 activity#com.example.saifullah_albasrie.pnm.ui.activity.SplashscreenActivity
-ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:45:9-55:20
+ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:45:9-55:20
 	android:label
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:48:13-45
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:48:13-45
 	android:configChanges
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:47:13-74
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:47:13-74
 	android:theme
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:49:13-47
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:49:13-47
 	android:name
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:46:13-61
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:46:13-61
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:50:13-54:29
+ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:50:13-54:29
 action#android.intent.action.MAIN
-ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:51:17-69
+ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:51:17-69
 	android:name
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:51:25-66
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:51:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:53:17-77
+ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:53:17-77
 	android:name
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:53:27-74
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:53:27-74
 activity#com.example.saifullah_albasrie.pnm.ui.activity.MainActivity
-ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:56:9-61:59
+ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:56:9-61:59
 	android:screenOrientation
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:60:13-49
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:60:13-49
 	android:label
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:58:13-46
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:58:13-46
 	android:launchMode
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:59:13-43
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:59:13-43
 	android:theme
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:61:13-56
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:61:13-56
 	android:name
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:57:13-53
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:57:13-53
 activity#com.example.saifullah_albasrie.pnm.ui.activity.LoginActivity
-ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:62:9-69:55
+ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:62:9-69:55
 	android:screenOrientation
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:67:13-49
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:67:13-49
 	android:label
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:65:13-45
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:65:13-45
 	android:launchMode
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:66:13-43
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:66:13-43
 	android:windowSoftInputMode
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:69:13-52
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:69:13-52
 	android:configChanges
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:64:13-74
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:64:13-74
 	android:theme
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:68:13-47
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:68:13-47
 	android:name
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:63:13-54
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:63:13-54
 activity#com.example.saifullah_albasrie.pnm.ui.activity.FormProspekActivity
-ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:70:9-76:59
+ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:70:9-76:59
 	android:screenOrientation
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:73:13-49
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:73:13-49
 	android:label
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:75:13-63
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:75:13-63
 	android:windowSoftInputMode
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:74:13-54
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:74:13-54
 	android:configChanges
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:72:13-74
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:72:13-74
 	android:theme
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:76:13-56
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:76:13-56
 	android:name
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:71:13-60
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:71:13-60
 activity#com.example.saifullah_albasrie.pnm.ui.activity.FormProspekDetailActivity
-ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:77:9-83:59
+ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:77:9-83:59
 	android:screenOrientation
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:80:13-49
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:80:13-49
 	android:label
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:82:13-63
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:82:13-63
 	android:windowSoftInputMode
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:81:13-54
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:81:13-54
 	android:configChanges
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:79:13-74
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:79:13-74
 	android:theme
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:83:13-56
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:83:13-56
 	android:name
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:78:13-66
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:78:13-66
 activity#com.example.saifullah_albasrie.pnm.ui.activity.FormSurveyActivity
-ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:84:9-90:47
+ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:84:9-90:47
 	android:screenOrientation
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:89:13-49
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:89:13-49
 	android:label
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:87:13-50
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:87:13-50
 	android:windowSoftInputMode
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:88:13-54
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:88:13-54
 	android:configChanges
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:86:13-74
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:86:13-74
 	android:theme
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:90:13-44
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:90:13-44
 	android:name
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:85:13-59
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:85:13-59
 activity#com.example.saifullah_albasrie.pnm.ui.activity.FormSurveyProfileActivity
-ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:91:9-97:47
+ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:91:9-97:47
 	android:screenOrientation
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:95:13-49
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:95:13-49
 	android:label
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:94:13-53
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:94:13-53
 	android:windowSoftInputMode
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:96:13-54
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:96:13-54
 	android:configChanges
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:93:13-74
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:93:13-74
 	android:theme
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:97:13-44
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:97:13-44
 	android:name
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:92:13-66
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:92:13-66
 activity#com.example.saifullah_albasrie.pnm.ui.activity.FormSurveyExumActivity
-ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:98:9-104:47
+ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:98:9-104:47
 	android:screenOrientation
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:102:13-49
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:102:13-49
 	android:label
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:101:13-44
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:101:13-44
 	android:windowSoftInputMode
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:103:13-54
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:103:13-54
 	android:configChanges
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:100:13-74
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:100:13-74
 	android:theme
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:104:13-44
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:104:13-44
 	android:name
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:99:13-63
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:99:13-63
 activity#com.example.saifullah_albasrie.pnm.ui.activity.FormSurveyDokumenActivity
-ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:105:9-111:47
+ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:105:9-111:47
 	android:screenOrientation
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:109:13-49
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:109:13-49
 	android:label
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:108:13-51
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:108:13-51
 	android:windowSoftInputMode
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:110:13-54
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:110:13-54
 	android:configChanges
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:107:13-74
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:107:13-74
 	android:theme
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:111:13-44
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:111:13-44
 	android:name
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:106:13-66
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:106:13-66
 activity#com.example.saifullah_albasrie.pnm.ui.activity.FormSurveyAddDokumenActivity
-ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:112:9-118:58
+ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:112:9-118:58
 	android:screenOrientation
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:116:13-49
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:116:13-49
 	android:label
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:115:13-51
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:115:13-51
 	android:windowSoftInputMode
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:118:13-55
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:118:13-55
 	android:configChanges
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:114:13-74
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:114:13-74
 	android:theme
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:117:13-44
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:117:13-44
 	android:name
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:113:13-69
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:113:13-69
 activity#com.example.saifullah_albasrie.pnm.ui.activity.FormSurveyKebutuhanModalKerjaActivity
-ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:119:9-125:47
+ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:119:9-125:47
 	android:screenOrientation
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:123:13-49
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:123:13-49
 	android:label
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:122:13-64
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:122:13-64
 	android:windowSoftInputMode
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:124:13-54
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:124:13-54
 	android:configChanges
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:121:13-74
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:121:13-74
 	android:theme
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:125:13-44
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:125:13-44
 	android:name
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:120:13-78
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:120:13-78
 activity#com.example.saifullah_albasrie.pnm.ui.activity.FormSurveyKeuanganActivity
-ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:126:9-132:47
+ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:126:9-132:47
 	android:screenOrientation
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:130:13-49
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:130:13-49
 	android:label
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:129:13-44
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:129:13-44
 	android:windowSoftInputMode
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:131:13-54
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:131:13-54
 	android:configChanges
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:128:13-74
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:128:13-74
 	android:theme
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:132:13-44
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:132:13-44
 	android:name
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:127:13-67
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:127:13-67
 activity#com.example.saifullah_albasrie.pnm.ui.activity.FormSurveyKapasitasUsahaActivity
-ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:133:9-139:47
+ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:133:9-139:47
 	android:screenOrientation
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:137:13-49
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:137:13-49
 	android:label
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:136:13-53
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:136:13-53
 	android:windowSoftInputMode
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:138:13-54
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:138:13-54
 	android:configChanges
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:135:13-74
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:135:13-74
 	android:theme
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:139:13-44
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:139:13-44
 	android:name
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:134:13-73
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:134:13-73
 activity#com.example.saifullah_albasrie.pnm.ui.activity.FormSurveyJenisUsahaActivity
-ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:140:9-146:47
+ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:140:9-146:47
 	android:screenOrientation
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:144:13-49
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:144:13-49
 	android:label
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:143:13-53
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:143:13-53
 	android:windowSoftInputMode
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:145:13-54
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:145:13-54
 	android:configChanges
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:142:13-74
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:142:13-74
 	android:theme
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:146:13-44
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:146:13-44
 	android:name
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:141:13-69
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:141:13-69
 activity#com.example.saifullah_albasrie.pnm.ui.activity.FormSurveyKeluargaActivity
-ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:147:9-153:47
+ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:147:9-153:47
 	android:screenOrientation
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:151:13-49
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:151:13-49
 	android:label
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:150:13-43
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:150:13-43
 	android:windowSoftInputMode
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:152:13-54
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:152:13-54
 	android:configChanges
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:149:13-74
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:149:13-74
 	android:theme
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:153:13-44
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:153:13-44
 	android:name
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:148:13-67
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:148:13-67
 activity#com.example.saifullah_albasrie.pnm.ui.activity.FormSurveyListJaminanActivity
-ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:154:9-160:47
+ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:154:9-160:47
 	android:screenOrientation
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:158:13-49
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:158:13-49
 	android:label
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:157:13-45
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:157:13-45
 	android:windowSoftInputMode
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:159:13-54
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:159:13-54
 	android:configChanges
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:156:13-74
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:156:13-74
 	android:theme
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:160:13-44
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:160:13-44
 	android:name
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:155:13-70
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:155:13-70
 activity#com.example.saifullah_albasrie.pnm.ui.activity.FormSurveyJaminanActivity
-ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:161:9-167:47
+ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:161:9-167:47
 	android:screenOrientation
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:165:13-49
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:165:13-49
 	android:label
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:164:13-45
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:164:13-45
 	android:windowSoftInputMode
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:166:13-54
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:166:13-54
 	android:configChanges
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:163:13-74
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:163:13-74
 	android:theme
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:167:13-44
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:167:13-44
 	android:name
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:162:13-66
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:162:13-66
 activity#com.example.saifullah_albasrie.pnm.ui.activity.SurveyItemActivity
-ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:168:9-173:47
+ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:168:9-173:47
 	android:screenOrientation
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:171:13-49
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:171:13-49
 	android:windowSoftInputMode
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:172:13-54
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:172:13-54
 	android:configChanges
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:170:13-74
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:170:13-74
 	android:theme
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:173:13-44
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:173:13-44
 	android:name
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:169:13-59
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:169:13-59
 activity#com.example.saifullah_albasrie.pnm.ui.activity.FormCollectionActivity
-ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:174:9-180:59
+ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:174:9-180:59
 	android:screenOrientation
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:178:13-49
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:178:13-49
 	android:label
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:177:13-47
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:177:13-47
 	android:windowSoftInputMode
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:179:13-54
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:179:13-54
 	android:configChanges
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:176:13-74
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:176:13-74
 	android:theme
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:180:13-56
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:180:13-56
 	android:name
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:175:13-63
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:175:13-63
 activity#com.example.saifullah_albasrie.pnm.ui.activity.FeedbackDetailActivity
-ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:182:9-188:47
+ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:182:9-188:47
 	android:screenOrientation
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:186:13-49
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:186:13-49
 	android:label
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:185:13-45
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:185:13-45
 	android:windowSoftInputMode
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:187:13-54
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:187:13-54
 	android:configChanges
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:184:13-74
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:184:13-74
 	android:theme
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:188:13-44
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:188:13-44
 	android:name
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:183:13-63
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:183:13-63
 activity#com.example.saifullah_albasrie.pnm.ui.activity.BandingDetailActivity
-ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:189:9-195:47
+ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:189:9-195:47
 	android:screenOrientation
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:193:13-49
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:193:13-49
 	android:label
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:192:13-44
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:192:13-44
 	android:windowSoftInputMode
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:194:13-54
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:194:13-54
 	android:configChanges
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:191:13-74
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:191:13-74
 	android:theme
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:195:13-44
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:195:13-44
 	android:name
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:190:13-62
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:190:13-62
 activity#com.example.saifullah_albasrie.pnm.ui.activity.FilterActivity
-ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:196:9-202:59
+ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:196:9-202:59
 	android:screenOrientation
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:200:13-49
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:200:13-49
 	android:label
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:199:13-50
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:199:13-50
 	android:windowSoftInputMode
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:201:13-54
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:201:13-54
 	android:configChanges
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:198:13-74
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:198:13-74
 	android:theme
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:202:13-56
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:202:13-56
 	android:name
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:197:13-55
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:197:13-55
 activity#com.example.saifullah_albasrie.pnm.ui.activity.SearchActivity
-ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:203:9-208:59
+ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:203:9-208:59
 	android:screenOrientation
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:207:13-49
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:207:13-49
 	android:label
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:206:13-50
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:206:13-50
 	android:configChanges
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:205:13-74
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:205:13-74
 	android:theme
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:208:13-56
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:208:13-56
 	android:name
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:204:13-55
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:204:13-55
 service#com.example.saifullah_albasrie.pnm.firebase.AppFirebaseMessageService
-ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:211:9-217:19
+ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:211:9-217:19
 	android:stopWithTask
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:213:13-41
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:213:13-41
 	android:name
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:212:13-63
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:212:13-63
 intent-filter#com.google.firebase.MESSAGING_EVENT
-ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:214:13-216:29
+ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:214:13-216:29
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:215:17-78
+ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:215:17-78
 	android:name
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:215:25-75
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:215:25-75
 service#com.example.saifullah_albasrie.pnm.firebase.AppFirebaseIDService
-ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:218:9-222:19
+ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:218:9-222:19
 	android:name
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:218:18-63
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:218:18-63
 intent-filter#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:219:13-221:29
+ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:219:13-221:29
 action#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:220:17-80
+ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:220:17-80
 	android:name
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:220:25-77
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:220:25-77
 provider#android.support.v4.content.FileProvider
-ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:232:9-240:20
+ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:232:9-240:20
 	android:authorities
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:234:13-60
-		INJECTED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:234:13-60
+		INJECTED from E:\android\pnm-src\app\src\main\AndroidManifest.xml
 	android:grantUriPermissions
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:236:13-47
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:236:13-47
 	android:exported
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:235:13-37
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:235:13-37
 	android:name
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:233:13-67
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:233:13-67
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:237:13-239:58
+ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:237:13-239:58
 	android:resource
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:239:17-55
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:239:17-55
 	android:name
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:238:17-67
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:238:17-67
 meta-data#com.google.android.geo.API_KEY
-ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:242:9-244:71
+ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:242:9-244:71
 	android:value
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:244:13-68
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:244:13-68
 	android:name
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:243:13-58
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:243:13-58
 meta-data#io.fabric.ApiKey
-ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:245:9-247:72
+ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:245:9-247:72
 	android:value
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:247:13-69
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:247:13-69
 	android:name
-		ADDED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml:246:13-44
+		ADDED from E:\android\pnm-src\app\src\main\AndroidManifest.xml:246:13-44
 uses-sdk
-INJECTED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:design:25.3.1] C:\Users\azhaclient-4\.android\build-cache\85c51bba4b9af64e1c91677a7d426709e6eb3583\output\AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\azhaclient-4\.android\build-cache\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\output\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\azhaclient-4\.android\build-cache\e83ec3cb9acdeab7cf004b5cff88153076917d3a\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\azhaclient-4\.android\build-cache\403e8e516ee9b51df1418d0aa2a791b5f825448c\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\azhaclient-4\.android\build-cache\e0d7bb2cdf5220d6d0728bd9a58812d50e8a01a5\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:transition:25.3.1] C:\Users\azhaclient-4\.android\build-cache\2b21e19b93ba7cce130de762585f53b619a70a65\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\azhaclient-4\.android\build-cache\fc14a60443368d84ec495579bc9c31c75101c9a0\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v13:25.3.1] C:\Users\azhaclient-4\.android\build-cache\d5e9d192fc5e9bcb2e9f1ad37554adab27a24c9c\output\AndroidManifest.xml:21:5-23:55
-MERGED from [com.google.android.gms:play-services-gcm:10.2.1] C:\Users\azhaclient-4\.android\build-cache\c3bf43122c419bb2aa757bcbac9f128c9a9ca104\output\AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-iid:10.2.1] C:\Users\azhaclient-4\.android\build-cache\1d460a7afabcb535071551f156f26344a8ce86a2\output\AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-messaging:10.2.1] C:\Users\azhaclient-4\.android\build-cache\98ed8ffe86eab786d504c6bd374b2104215218a9\output\AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-core:10.2.1] C:\Users\azhaclient-4\.android\build-cache\170272cb8dcb377d7212b1bdb46895eda30c12f6\output\AndroidManifest.xml:4:5-43
-MERGED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\azhaclient-4\.android\build-cache\e2866c30b9a5969c7d28b708f20ff313409b7f64\output\AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\azhaclient-4\.android\build-cache\a30339be164db93ce1a7b32e3337af7c480bf404\output\AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\azhaclient-4\.android\build-cache\97a09ceff48dc9c0376c1f6aad458686e391de49\output\AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-common:10.2.1] C:\Users\azhaclient-4\.android\build-cache\1fca87571bffdafe28c3cdea98a4ed3928dda05a\output\AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-location:10.2.1] C:\Users\azhaclient-4\.android\build-cache\59f52eb20963a5fc3eb56c901363f8c26cf82033\output\AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-places:10.2.1] C:\Users\azhaclient-4\.android\build-cache\9ebe488de0b3887a5b247290d153913b6f62aebd\output\AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-maps:10.2.1] C:\Users\azhaclient-4\.android\build-cache\ca2bed8efb3617c7edac7c3a4f52ec81e55fa602\output\AndroidManifest.xml:23:5-43
-MERGED from [com.google.android.gms:play-services-base:10.2.1] C:\Users\azhaclient-4\.android\build-cache\3fc5b70ad006fa31540397d30a4796224af5cf54\output\AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-tasks:10.2.1] C:\Users\azhaclient-4\.android\build-cache\4eabc82e31a93a5ae13a4ba2379fae3631ca50d8\output\AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\azhaclient-4\.android\build-cache\6dff4d21c26c0a4661e8a1463ea4da64600dcdb9\output\AndroidManifest.xml:17:5-43
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\azhaclient-4\.android\build-cache\9c4c65e754c6849fe8e76c610d077b994ebf9cce\output\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\azhaclient-4\.android\build-cache\edb9976519878074906b80dab866bb3e785b0879\output\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\azhaclient-4\.android\build-cache\d5bfa6b0ae9d9935555d5058104b1718ff79373f\output\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\azhaclient-4\.android\build-cache\c33ed8833481ade02a778be0e45c6b1e048ce6b3\output\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\azhaclient-4\.android\build-cache\b601fd691c31b9874d14a6a32073d985f6801a0f\output\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\azhaclient-4\.android\build-cache\360dcf1379c478f58074b129993713fdcf0e0506\output\AndroidManifest.xml:21:5-23:58
-MERGED from [com.jakewharton:butterknife:8.4.0] C:\Users\azhaclient-4\.android\build-cache\db64372f81b1d532e16d313b2cbefb5aebabcab3\output\AndroidManifest.xml:5:5-43
-MERGED from [com.github.aakira:expandable-layout:1.6.0] C:\Users\azhaclient-4\.android\build-cache\67abd602eaa63119c6fcb6308631fb1bb234e422\output\AndroidManifest.xml:8:5-10:41
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] C:\Users\azhaclient-4\.android\build-cache\908fb660791181d9e4f4206cf1b14d0d561e70a8\output\AndroidManifest.xml:7:5-43
-MERGED from [com.crashlytics.sdk.android:beta:1.2.5] C:\Users\azhaclient-4\.android\build-cache\341e3d21fb7b56a80f6b8e8b0f015435b9f34e95\output\AndroidManifest.xml:7:5-43
-MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] C:\Users\azhaclient-4\.android\build-cache\816bf9d33922ac0beaed315b8d2411970ef90f78\output\AndroidManifest.xml:50:5-43
-MERGED from [com.crashlytics.sdk.android:answers:1.3.13] C:\Users\azhaclient-4\.android\build-cache\5dea7d87245657f0e38c415166ca95d7d7a70e4b\output\AndroidManifest.xml:7:5-43
-MERGED from [io.fabric.sdk.android:fabric:1.3.17] C:\Users\azhaclient-4\.android\build-cache\2f966e376932524d35afd2d7bc6b65dd4fe545b2\output\AndroidManifest.xml:27:5-43
+INJECTED from E:\android\pnm-src\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:design:25.3.1] C:\Users\user\.android\build-cache\72edc8f974b844a52ee896286f82dc3f2951f443\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\user\.android\build-cache\4885a14eaad5398a7b5943c6c234c921c791ea34\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\user\.android\build-cache\63e1ba6d735c46ee65e6e9801655537ad0e6e486\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\user\.android\build-cache\7f4f6f173adb7c758d9c46bb99f993254ce2e38c\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\user\.android\build-cache\ebbb384ec7a859f0f0a349427f783c9d62541dd9\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.1] C:\Users\user\.android\build-cache\9bde482f52718cd70f1d14f0fe8c255d6084d045\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\user\.android\build-cache\e2fe88b1de737b6a3ac3741c1c41f3b8fe7e01b0\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v13:25.3.1] C:\Users\user\.android\build-cache\88fca0ec53dfee77fa5c5eb569f9a5a35ea7571f\output\AndroidManifest.xml:21:5-23:55
+MERGED from [com.google.android.gms:play-services-gcm:10.2.1] C:\Users\user\.android\build-cache\e75688d3444059273245fffc32ed38faa4bc51d3\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-iid:10.2.1] C:\Users\user\.android\build-cache\771d4e948191dfb1a2ad4c3ef8a8a52ba62d3896\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-messaging:10.2.1] C:\Users\user\.android\build-cache\d69c44547ec257443cd159088575b24687cbed64\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-core:10.2.1] C:\Users\user\.android\build-cache\d01775bdcdf33c814578afa0d5b05648bc4be965\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\user\.android\build-cache\0ad751b44198bcc30ba943bde6fdeebb32a86dba\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\user\.android\build-cache\1ea3e910dd9078c56bfe0f811d0dd541d2cf9305\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\user\.android\build-cache\149418981ccc64dae5944b1695903c4f8a8b0974\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-common:10.2.1] C:\Users\user\.android\build-cache\720fee7122f775fb93b6b7f7db1672d1937d3e8c\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-location:10.2.1] C:\Users\user\.android\build-cache\3127a21125077853f41b9e9020d4b4ae2e84d668\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-places:10.2.1] C:\Users\user\.android\build-cache\2bf39f869b09cd00f3cddab9af301a7e40ec1ead\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-maps:10.2.1] C:\Users\user\.android\build-cache\152cd07a307e7d206cc889f2985b2fd60eecb434\output\AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-base:10.2.1] C:\Users\user\.android\build-cache\2e0f1096be79cc39b9eb2f444d4d42c05d6f8154\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tasks:10.2.1] C:\Users\user\.android\build-cache\35a6af081b0851dfa71a2ade4ea7c68ca4e4a041\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\user\.android\build-cache\136a7f246f60c5f60c904e6b55630ca809f87ed7\output\AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\user\.android\build-cache\60b18d16b338ae6b971e6948ba34d6963e08c932\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\user\.android\build-cache\6698e1dfef8e04918930ea2cfd856924d48570bc\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\user\.android\build-cache\d3fbe225001f4934ed6b7d4bb5e9d91b37e0a08e\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\user\.android\build-cache\5fa63259c5d0fdabffd7375aced12470be9dd0f7\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\user\.android\build-cache\c8d84d16b94396459d415d4476eceb47ce9ca431\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\user\.android\build-cache\90472d6845b7ac113dcc68daf25a9b3ce424a49f\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.jakewharton:butterknife:8.4.0] C:\Users\user\.android\build-cache\1cb8db855cf655475e7b72b67863baf13b022738\output\AndroidManifest.xml:5:5-43
+MERGED from [com.github.aakira:expandable-layout:1.6.0] C:\Users\user\.android\build-cache\162b47494cd17c1ee1f3d6461566033b6fec4edc\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] C:\Users\user\.android\build-cache\17e34056010b9c84f14932ada8873ccbb8525b52\output\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.5] C:\Users\user\.android\build-cache\06ceb9c0f64512251bb13fad084bcebb42c6905d\output\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] C:\Users\user\.android\build-cache\332af3f87472d15ceb7183356c5606617b3b3880\output\AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.3.13] C:\Users\user\.android\build-cache\ba5ead87bbd38abb590dba7f39a8fa14b0ee695b\output\AndroidManifest.xml:7:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.3.17] C:\Users\user\.android\build-cache\a787a64b06bc8a19c6fc0ea4327af2ed938a0385\output\AndroidManifest.xml:27:5-43
 	tools:overrideLibrary
-		ADDED from [com.android.support:design:25.3.1] C:\Users\azhaclient-4\.android\build-cache\85c51bba4b9af64e1c91677a7d426709e6eb3583\output\AndroidManifest.xml:23:9-59
+		ADDED from [com.android.support:design:25.3.1] C:\Users\user\.android\build-cache\72edc8f974b844a52ee896286f82dc3f2951f443\output\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		INJECTED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml
-		INJECTED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml
+		INJECTED from E:\android\pnm-src\app\src\main\AndroidManifest.xml
+		INJECTED from E:\android\pnm-src\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml
-		INJECTED from D:\workspace\pnm-src2\app\src\main\AndroidManifest.xml
+		INJECTED from E:\android\pnm-src\app\src\main\AndroidManifest.xml
+		INJECTED from E:\android\pnm-src\app\src\main\AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:design:25.3.1] C:\Users\azhaclient-4\.android\build-cache\85c51bba4b9af64e1c91677a7d426709e6eb3583\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\azhaclient-4\.android\build-cache\5c5c702bb6d029bff103a4b0d62271ccc7620bf0\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\azhaclient-4\.android\build-cache\e83ec3cb9acdeab7cf004b5cff88153076917d3a\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\azhaclient-4\.android\build-cache\403e8e516ee9b51df1418d0aa2a791b5f825448c\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\azhaclient-4\.android\build-cache\e0d7bb2cdf5220d6d0728bd9a58812d50e8a01a5\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:transition:25.3.1] C:\Users\azhaclient-4\.android\build-cache\2b21e19b93ba7cce130de762585f53b619a70a65\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\azhaclient-4\.android\build-cache\fc14a60443368d84ec495579bc9c31c75101c9a0\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-v13:25.3.1] C:\Users\azhaclient-4\.android\build-cache\d5e9d192fc5e9bcb2e9f1ad37554adab27a24c9c\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\azhaclient-4\.android\build-cache\9c4c65e754c6849fe8e76c610d077b994ebf9cce\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\azhaclient-4\.android\build-cache\edb9976519878074906b80dab866bb3e785b0879\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\azhaclient-4\.android\build-cache\d5bfa6b0ae9d9935555d5058104b1718ff79373f\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\azhaclient-4\.android\build-cache\c33ed8833481ade02a778be0e45c6b1e048ce6b3\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\azhaclient-4\.android\build-cache\b601fd691c31b9874d14a6a32073d985f6801a0f\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\azhaclient-4\.android\build-cache\360dcf1379c478f58074b129993713fdcf0e0506\output\AndroidManifest.xml:25:5-27:34
+ADDED from [com.android.support:design:25.3.1] C:\Users\user\.android\build-cache\72edc8f974b844a52ee896286f82dc3f2951f443\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\user\.android\build-cache\4885a14eaad5398a7b5943c6c234c921c791ea34\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\user\.android\build-cache\63e1ba6d735c46ee65e6e9801655537ad0e6e486\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\user\.android\build-cache\7f4f6f173adb7c758d9c46bb99f993254ce2e38c\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\user\.android\build-cache\ebbb384ec7a859f0f0a349427f783c9d62541dd9\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\user\.android\build-cache\9bde482f52718cd70f1d14f0fe8c255d6084d045\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\user\.android\build-cache\e2fe88b1de737b6a3ac3741c1c41f3b8fe7e01b0\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v13:25.3.1] C:\Users\user\.android\build-cache\88fca0ec53dfee77fa5c5eb569f9a5a35ea7571f\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\user\.android\build-cache\60b18d16b338ae6b971e6948ba34d6963e08c932\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\user\.android\build-cache\6698e1dfef8e04918930ea2cfd856924d48570bc\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\user\.android\build-cache\d3fbe225001f4934ed6b7d4bb5e9d91b37e0a08e\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\user\.android\build-cache\5fa63259c5d0fdabffd7375aced12470be9dd0f7\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\user\.android\build-cache\c8d84d16b94396459d415d4476eceb47ce9ca431\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\user\.android\build-cache\90472d6845b7ac113dcc68daf25a9b3ce424a49f\output\AndroidManifest.xml:25:5-27:34
 	android:value
-		ADDED from [com.android.support:design:25.3.1] C:\Users\azhaclient-4\.android\build-cache\85c51bba4b9af64e1c91677a7d426709e6eb3583\output\AndroidManifest.xml:27:9-31
+		ADDED from [com.android.support:design:25.3.1] C:\Users\user\.android\build-cache\72edc8f974b844a52ee896286f82dc3f2951f443\output\AndroidManifest.xml:27:9-31
 	android:name
-		ADDED from [com.android.support:design:25.3.1] C:\Users\azhaclient-4\.android\build-cache\85c51bba4b9af64e1c91677a7d426709e6eb3583\output\AndroidManifest.xml:26:9-47
+		ADDED from [com.android.support:design:25.3.1] C:\Users\user\.android\build-cache\72edc8f974b844a52ee896286f82dc3f2951f443\output\AndroidManifest.xml:26:9-47
 uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from [com.google.android.gms:play-services-gcm:10.2.1] C:\Users\azhaclient-4\.android\build-cache\c3bf43122c419bb2aa757bcbac9f128c9a9ca104\output\AndroidManifest.xml:20:5-81
-MERGED from [com.google.android.gms:play-services-iid:10.2.1] C:\Users\azhaclient-4\.android\build-cache\1d460a7afabcb535071551f156f26344a8ce86a2\output\AndroidManifest.xml:20:5-81
-MERGED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\azhaclient-4\.android\build-cache\97a09ceff48dc9c0376c1f6aad458686e391de49\output\AndroidManifest.xml:22:5-81
+ADDED from [com.google.android.gms:play-services-gcm:10.2.1] C:\Users\user\.android\build-cache\e75688d3444059273245fffc32ed38faa4bc51d3\output\AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-iid:10.2.1] C:\Users\user\.android\build-cache\771d4e948191dfb1a2ad4c3ef8a8a52ba62d3896\output\AndroidManifest.xml:20:5-81
+MERGED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\user\.android\build-cache\149418981ccc64dae5944b1695903c4f8a8b0974\output\AndroidManifest.xml:22:5-81
 	android:name
-		ADDED from [com.google.android.gms:play-services-gcm:10.2.1] C:\Users\azhaclient-4\.android\build-cache\c3bf43122c419bb2aa757bcbac9f128c9a9ca104\output\AndroidManifest.xml:20:22-79
+		ADDED from [com.google.android.gms:play-services-gcm:10.2.1] C:\Users\user\.android\build-cache\e75688d3444059273245fffc32ed38faa4bc51d3\output\AndroidManifest.xml:20:22-79
 service#com.google.firebase.messaging.FirebaseMessagingService
-ADDED from [com.google.firebase:firebase-messaging:10.2.1] C:\Users\azhaclient-4\.android\build-cache\98ed8ffe86eab786d504c6bd374b2104215218a9\output\AndroidManifest.xml:23:9-27:19
+ADDED from [com.google.firebase:firebase-messaging:10.2.1] C:\Users\user\.android\build-cache\d69c44547ec257443cd159088575b24687cbed64\output\AndroidManifest.xml:23:9-27:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-messaging:10.2.1] C:\Users\azhaclient-4\.android\build-cache\98ed8ffe86eab786d504c6bd374b2104215218a9\output\AndroidManifest.xml:23:88-111
+		ADDED from [com.google.firebase:firebase-messaging:10.2.1] C:\Users\user\.android\build-cache\d69c44547ec257443cd159088575b24687cbed64\output\AndroidManifest.xml:23:88-111
 	android:name
-		ADDED from [com.google.firebase:firebase-messaging:10.2.1] C:\Users\azhaclient-4\.android\build-cache\98ed8ffe86eab786d504c6bd374b2104215218a9\output\AndroidManifest.xml:23:18-87
+		ADDED from [com.google.firebase:firebase-messaging:10.2.1] C:\Users\user\.android\build-cache\d69c44547ec257443cd159088575b24687cbed64\output\AndroidManifest.xml:23:18-87
 uses-permission#android.permission.WAKE_LOCK
-ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\azhaclient-4\.android\build-cache\e2866c30b9a5969c7d28b708f20ff313409b7f64\output\AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\azhaclient-4\.android\build-cache\a30339be164db93ce1a7b32e3337af7c480bf404\output\AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\azhaclient-4\.android\build-cache\97a09ceff48dc9c0376c1f6aad458686e391de49\output\AndroidManifest.xml:21:5-67
+ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\user\.android\build-cache\0ad751b44198bcc30ba943bde6fdeebb32a86dba\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\user\.android\build-cache\1ea3e910dd9078c56bfe0f811d0dd541d2cf9305\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\user\.android\build-cache\149418981ccc64dae5944b1695903c4f8a8b0974\output\AndroidManifest.xml:21:5-67
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\azhaclient-4\.android\build-cache\e2866c30b9a5969c7d28b708f20ff313409b7f64\output\AndroidManifest.xml:22:22-65
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\user\.android\build-cache\0ad751b44198bcc30ba943bde6fdeebb32a86dba\output\AndroidManifest.xml:22:22-65
 receiver#com.google.android.gms.measurement.AppMeasurementReceiver
-ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\azhaclient-4\.android\build-cache\e2866c30b9a5969c7d28b708f20ff313409b7f64\output\AndroidManifest.xml:25:7-26:18
-MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\azhaclient-4\.android\build-cache\a30339be164db93ce1a7b32e3337af7c480bf404\output\AndroidManifest.xml:25:7-26:18
+ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\user\.android\build-cache\0ad751b44198bcc30ba943bde6fdeebb32a86dba\output\AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\user\.android\build-cache\1ea3e910dd9078c56bfe0f811d0dd541d2cf9305\output\AndroidManifest.xml:25:7-26:18
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\azhaclient-4\.android\build-cache\e2866c30b9a5969c7d28b708f20ff313409b7f64\output\AndroidManifest.xml:25:90-112
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\user\.android\build-cache\0ad751b44198bcc30ba943bde6fdeebb32a86dba\output\AndroidManifest.xml:25:90-112
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\azhaclient-4\.android\build-cache\e2866c30b9a5969c7d28b708f20ff313409b7f64\output\AndroidManifest.xml:25:113-137
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\user\.android\build-cache\0ad751b44198bcc30ba943bde6fdeebb32a86dba\output\AndroidManifest.xml:25:113-137
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\azhaclient-4\.android\build-cache\e2866c30b9a5969c7d28b708f20ff313409b7f64\output\AndroidManifest.xml:25:17-89
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\user\.android\build-cache\0ad751b44198bcc30ba943bde6fdeebb32a86dba\output\AndroidManifest.xml:25:17-89
 receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
-ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\azhaclient-4\.android\build-cache\e2866c30b9a5969c7d28b708f20ff313409b7f64\output\AndroidManifest.xml:27:7-31:18
+ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\user\.android\build-cache\0ad751b44198bcc30ba943bde6fdeebb32a86dba\output\AndroidManifest.xml:27:7-31:18
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\azhaclient-4\.android\build-cache\e2866c30b9a5969c7d28b708f20ff313409b7f64\output\AndroidManifest.xml:27:162-184
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\user\.android\build-cache\0ad751b44198bcc30ba943bde6fdeebb32a86dba\output\AndroidManifest.xml:27:162-184
 	android:permission
-		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\azhaclient-4\.android\build-cache\e2866c30b9a5969c7d28b708f20ff313409b7f64\output\AndroidManifest.xml:27:105-161
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\user\.android\build-cache\0ad751b44198bcc30ba943bde6fdeebb32a86dba\output\AndroidManifest.xml:27:105-161
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\azhaclient-4\.android\build-cache\e2866c30b9a5969c7d28b708f20ff313409b7f64\output\AndroidManifest.xml:27:17-104
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\user\.android\build-cache\0ad751b44198bcc30ba943bde6fdeebb32a86dba\output\AndroidManifest.xml:27:17-104
 intent-filter#com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\azhaclient-4\.android\build-cache\e2866c30b9a5969c7d28b708f20ff313409b7f64\output\AndroidManifest.xml:28:11-30:27
+ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\user\.android\build-cache\0ad751b44198bcc30ba943bde6fdeebb32a86dba\output\AndroidManifest.xml:28:11-30:27
 action#com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\azhaclient-4\.android\build-cache\e2866c30b9a5969c7d28b708f20ff313409b7f64\output\AndroidManifest.xml:29:15-76
+ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\user\.android\build-cache\0ad751b44198bcc30ba943bde6fdeebb32a86dba\output\AndroidManifest.xml:29:15-76
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\azhaclient-4\.android\build-cache\e2866c30b9a5969c7d28b708f20ff313409b7f64\output\AndroidManifest.xml:29:23-74
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\user\.android\build-cache\0ad751b44198bcc30ba943bde6fdeebb32a86dba\output\AndroidManifest.xml:29:23-74
 service#com.google.android.gms.measurement.AppMeasurementService
-ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\azhaclient-4\.android\build-cache\e2866c30b9a5969c7d28b708f20ff313409b7f64\output\AndroidManifest.xml:32:7-137
-MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\azhaclient-4\.android\build-cache\a30339be164db93ce1a7b32e3337af7c480bf404\output\AndroidManifest.xml:27:7-137
+ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\user\.android\build-cache\0ad751b44198bcc30ba943bde6fdeebb32a86dba\output\AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\user\.android\build-cache\1ea3e910dd9078c56bfe0f811d0dd541d2cf9305\output\AndroidManifest.xml:27:7-137
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\azhaclient-4\.android\build-cache\e2866c30b9a5969c7d28b708f20ff313409b7f64\output\AndroidManifest.xml:32:88-110
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\user\.android\build-cache\0ad751b44198bcc30ba943bde6fdeebb32a86dba\output\AndroidManifest.xml:32:88-110
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\azhaclient-4\.android\build-cache\e2866c30b9a5969c7d28b708f20ff313409b7f64\output\AndroidManifest.xml:32:111-135
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\user\.android\build-cache\0ad751b44198bcc30ba943bde6fdeebb32a86dba\output\AndroidManifest.xml:32:111-135
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\azhaclient-4\.android\build-cache\e2866c30b9a5969c7d28b708f20ff313409b7f64\output\AndroidManifest.xml:32:16-87
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\user\.android\build-cache\0ad751b44198bcc30ba943bde6fdeebb32a86dba\output\AndroidManifest.xml:32:16-87
 permission#${applicationId}.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\azhaclient-4\.android\build-cache\97a09ceff48dc9c0376c1f6aad458686e391de49\output\AndroidManifest.xml:24:5-109
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\user\.android\build-cache\149418981ccc64dae5944b1695903c4f8a8b0974\output\AndroidManifest.xml:24:5-109
 	android:protectionLevel
-		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\azhaclient-4\.android\build-cache\97a09ceff48dc9c0376c1f6aad458686e391de49\output\AndroidManifest.xml:24:72-107
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\user\.android\build-cache\149418981ccc64dae5944b1695903c4f8a8b0974\output\AndroidManifest.xml:24:72-107
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\azhaclient-4\.android\build-cache\97a09ceff48dc9c0376c1f6aad458686e391de49\output\AndroidManifest.xml:24:17-71
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\user\.android\build-cache\149418981ccc64dae5944b1695903c4f8a8b0974\output\AndroidManifest.xml:24:17-71
 uses-permission#${applicationId}.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\azhaclient-4\.android\build-cache\97a09ceff48dc9c0376c1f6aad458686e391de49\output\AndroidManifest.xml:26:5-78
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\user\.android\build-cache\149418981ccc64dae5944b1695903c4f8a8b0974\output\AndroidManifest.xml:26:5-78
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\azhaclient-4\.android\build-cache\97a09ceff48dc9c0376c1f6aad458686e391de49\output\AndroidManifest.xml:26:22-76
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\user\.android\build-cache\149418981ccc64dae5944b1695903c4f8a8b0974\output\AndroidManifest.xml:26:22-76
 receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
-ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\azhaclient-4\.android\build-cache\97a09ceff48dc9c0376c1f6aad458686e391de49\output\AndroidManifest.xml:30:9-35:20
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\user\.android\build-cache\149418981ccc64dae5944b1695903c4f8a8b0974\output\AndroidManifest.xml:30:9-35:20
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\azhaclient-4\.android\build-cache\97a09ceff48dc9c0376c1f6aad458686e391de49\output\AndroidManifest.xml:30:85-108
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\user\.android\build-cache\149418981ccc64dae5944b1695903c4f8a8b0974\output\AndroidManifest.xml:30:85-108
 	android:permission
-		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\azhaclient-4\.android\build-cache\97a09ceff48dc9c0376c1f6aad458686e391de49\output\AndroidManifest.xml:30:109-169
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\user\.android\build-cache\149418981ccc64dae5944b1695903c4f8a8b0974\output\AndroidManifest.xml:30:109-169
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\azhaclient-4\.android\build-cache\97a09ceff48dc9c0376c1f6aad458686e391de49\output\AndroidManifest.xml:30:19-84
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\user\.android\build-cache\149418981ccc64dae5944b1695903c4f8a8b0974\output\AndroidManifest.xml:30:19-84
 intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\azhaclient-4\.android\build-cache\97a09ceff48dc9c0376c1f6aad458686e391de49\output\AndroidManifest.xml:31:13-34:29
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\user\.android\build-cache\149418981ccc64dae5944b1695903c4f8a8b0974\output\AndroidManifest.xml:31:13-34:29
 action#com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\azhaclient-4\.android\build-cache\97a09ceff48dc9c0376c1f6aad458686e391de49\output\AndroidManifest.xml:32:17-80
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\user\.android\build-cache\149418981ccc64dae5944b1695903c4f8a8b0974\output\AndroidManifest.xml:32:17-80
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\azhaclient-4\.android\build-cache\97a09ceff48dc9c0376c1f6aad458686e391de49\output\AndroidManifest.xml:32:25-78
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\user\.android\build-cache\149418981ccc64dae5944b1695903c4f8a8b0974\output\AndroidManifest.xml:32:25-78
 category#${applicationId}
-ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\azhaclient-4\.android\build-cache\97a09ceff48dc9c0376c1f6aad458686e391de49\output\AndroidManifest.xml:33:17-60
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\user\.android\build-cache\149418981ccc64dae5944b1695903c4f8a8b0974\output\AndroidManifest.xml:33:17-60
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\azhaclient-4\.android\build-cache\97a09ceff48dc9c0376c1f6aad458686e391de49\output\AndroidManifest.xml:33:27-58
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\user\.android\build-cache\149418981ccc64dae5944b1695903c4f8a8b0974\output\AndroidManifest.xml:33:27-58
 receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
-ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\azhaclient-4\.android\build-cache\97a09ceff48dc9c0376c1f6aad458686e391de49\output\AndroidManifest.xml:39:9-119
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\user\.android\build-cache\149418981ccc64dae5944b1695903c4f8a8b0974\output\AndroidManifest.xml:39:9-119
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\azhaclient-4\.android\build-cache\97a09ceff48dc9c0376c1f6aad458686e391de49\output\AndroidManifest.xml:39:93-117
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\user\.android\build-cache\149418981ccc64dae5944b1695903c4f8a8b0974\output\AndroidManifest.xml:39:93-117
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\azhaclient-4\.android\build-cache\97a09ceff48dc9c0376c1f6aad458686e391de49\output\AndroidManifest.xml:39:19-92
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\user\.android\build-cache\149418981ccc64dae5944b1695903c4f8a8b0974\output\AndroidManifest.xml:39:19-92
 service#com.google.firebase.iid.FirebaseInstanceIdService
-ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\azhaclient-4\.android\build-cache\97a09ceff48dc9c0376c1f6aad458686e391de49\output\AndroidManifest.xml:43:9-47:19
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\user\.android\build-cache\149418981ccc64dae5944b1695903c4f8a8b0974\output\AndroidManifest.xml:43:9-47:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\azhaclient-4\.android\build-cache\97a09ceff48dc9c0376c1f6aad458686e391de49\output\AndroidManifest.xml:43:83-106
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\user\.android\build-cache\149418981ccc64dae5944b1695903c4f8a8b0974\output\AndroidManifest.xml:43:83-106
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\azhaclient-4\.android\build-cache\97a09ceff48dc9c0376c1f6aad458686e391de49\output\AndroidManifest.xml:43:18-82
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\user\.android\build-cache\149418981ccc64dae5944b1695903c4f8a8b0974\output\AndroidManifest.xml:43:18-82
 provider#com.google.firebase.provider.FirebaseInitProvider
-ADDED from [com.google.firebase:firebase-common:10.2.1] C:\Users\azhaclient-4\.android\build-cache\1fca87571bffdafe28c3cdea98a4ed3928dda05a\output\AndroidManifest.xml:6:9-194
+ADDED from [com.google.firebase:firebase-common:10.2.1] C:\Users\user\.android\build-cache\720fee7122f775fb93b6b7f7db1672d1937d3e8c\output\AndroidManifest.xml:6:9-194
 	android:authorities
-		ADDED from [com.google.firebase:firebase-common:10.2.1] C:\Users\azhaclient-4\.android\build-cache\1fca87571bffdafe28c3cdea98a4ed3928dda05a\output\AndroidManifest.xml:6:19-78
+		ADDED from [com.google.firebase:firebase-common:10.2.1] C:\Users\user\.android\build-cache\720fee7122f775fb93b6b7f7db1672d1937d3e8c\output\AndroidManifest.xml:6:19-78
 	android:exported
-		ADDED from [com.google.firebase:firebase-common:10.2.1] C:\Users\azhaclient-4\.android\build-cache\1fca87571bffdafe28c3cdea98a4ed3928dda05a\output\AndroidManifest.xml:6:144-168
+		ADDED from [com.google.firebase:firebase-common:10.2.1] C:\Users\user\.android\build-cache\720fee7122f775fb93b6b7f7db1672d1937d3e8c\output\AndroidManifest.xml:6:144-168
 	android:initOrder
-		ADDED from [com.google.firebase:firebase-common:10.2.1] C:\Users\azhaclient-4\.android\build-cache\1fca87571bffdafe28c3cdea98a4ed3928dda05a\output\AndroidManifest.xml:6:169-192
+		ADDED from [com.google.firebase:firebase-common:10.2.1] C:\Users\user\.android\build-cache\720fee7122f775fb93b6b7f7db1672d1937d3e8c\output\AndroidManifest.xml:6:169-192
 	android:name
-		ADDED from [com.google.firebase:firebase-common:10.2.1] C:\Users\azhaclient-4\.android\build-cache\1fca87571bffdafe28c3cdea98a4ed3928dda05a\output\AndroidManifest.xml:6:79-143
+		ADDED from [com.google.firebase:firebase-common:10.2.1] C:\Users\user\.android\build-cache\720fee7122f775fb93b6b7f7db1672d1937d3e8c\output\AndroidManifest.xml:6:79-143
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:10.2.1] C:\Users\azhaclient-4\.android\build-cache\3fc5b70ad006fa31540397d30a4796224af5cf54\output\AndroidManifest.xml:19:9-172
+ADDED from [com.google.android.gms:play-services-base:10.2.1] C:\Users\user\.android\build-cache\2e0f1096be79cc39b9eb2f444d4d42c05d6f8154\output\AndroidManifest.xml:19:9-172
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:10.2.1] C:\Users\azhaclient-4\.android\build-cache\3fc5b70ad006fa31540397d30a4796224af5cf54\output\AndroidManifest.xml:19:146-170
+		ADDED from [com.google.android.gms:play-services-base:10.2.1] C:\Users\user\.android\build-cache\2e0f1096be79cc39b9eb2f444d4d42c05d6f8154\output\AndroidManifest.xml:19:146-170
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:10.2.1] C:\Users\azhaclient-4\.android\build-cache\3fc5b70ad006fa31540397d30a4796224af5cf54\output\AndroidManifest.xml:19:86-145
+		ADDED from [com.google.android.gms:play-services-base:10.2.1] C:\Users\user\.android\build-cache\2e0f1096be79cc39b9eb2f444d4d42c05d6f8154\output\AndroidManifest.xml:19:86-145
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:10.2.1] C:\Users\azhaclient-4\.android\build-cache\3fc5b70ad006fa31540397d30a4796224af5cf54\output\AndroidManifest.xml:19:19-85
+		ADDED from [com.google.android.gms:play-services-base:10.2.1] C:\Users\user\.android\build-cache\2e0f1096be79cc39b9eb2f444d4d42c05d6f8154\output\AndroidManifest.xml:19:19-85
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\azhaclient-4\.android\build-cache\6dff4d21c26c0a4661e8a1463ea4da64600dcdb9\output\AndroidManifest.xml:20:9-121
+ADDED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\user\.android\build-cache\136a7f246f60c5f60c904e6b55630ca809f87ed7\output\AndroidManifest.xml:20:9-121
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\azhaclient-4\.android\build-cache\6dff4d21c26c0a4661e8a1463ea4da64600dcdb9\output\AndroidManifest.xml:20:66-119
+		ADDED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\user\.android\build-cache\136a7f246f60c5f60c904e6b55630ca809f87ed7\output\AndroidManifest.xml:20:66-119
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\azhaclient-4\.android\build-cache\6dff4d21c26c0a4661e8a1463ea4da64600dcdb9\output\AndroidManifest.xml:20:20-65
+		ADDED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\user\.android\build-cache\136a7f246f60c5f60c904e6b55630ca809f87ed7\output\AndroidManifest.xml:20:20-65
