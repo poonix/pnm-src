@@ -234,6 +234,54 @@ public class LoginController {
         synchronized (LOCK) {
             queue.clear();
         }
+        getJenisReferensi();
+        getStatusPerkawinan();
+        getKewarganegaraan();
+        getAgama();
+        getPekerjaan();
+        getJenisAlamat();
+        getHubunganKeluarga();
+        getTujuanPembiayaan();
+        getJenisAgunan();
+        getJenisKontak();
+        getStatusTempat();
+        getPendidikan();
+        getProduk();
+        getJenisDokumen();
+        getJenisPembiayaan();
+        getLokasi();
+        getHubunganPemohon();
+        getKerjasamaPemohon();
+        getTrackRecord();
+        getMengenalUlaam();
+        getReputasi();
+        getHarta();
+        getPengelolaanKeuangan();
+        getBentukUsaha();
+        getJenisBadanUsaha();
+        getKegiatanUsaha();
+        getAksesKendaraan();
+        getProdukDitawarkan();
+        getJumlahPemasok();
+        getPersainganUsaha();
+        getKondisiSektorUsaha();
+        getLokasiUsaha();
+        getPeriode();
+        getPembayaran();
+        getProgram();
+        getBank();
+        getKolektibilitas();
+        getJenisAsset();
+        getPenilaian();
+        getKepemilikan();
+        getBuktiKepemilikanAgunan();
+        getPeruntukanLokasi();
+        getJalanDilalui();
+        getBentukTanah();
+        getKondisiPermukaan();
+        getPenggunaanTanah();
+        getBatas();
+        getAir();
         getJenisIdentitas();
         getJenisKelamin();
         getJenisProspek();
@@ -252,7 +300,6 @@ public class LoginController {
         getPendidikanTerakhir();
         getJenisPekerjaan();
         getJenisProdukUsaha();
-        getPengelolaanKeuangan();
         getAtap();
         getDinding();
         getJendela();
@@ -262,15 +309,47 @@ public class LoginController {
         getPlafon();
         getPondasi();
         getBatasWilayah();
-        getBentukTanah();
         getKondisiPermukaanTanah();
-        getPenggunaanTanah();
+        getJenisCatatan();
+        getTujuanPengiriman();
+        getKeperluanPinjam();
+        getBisnis();
+        getJabatan();
+        getStatusPinjamAgunan();
+        getStatusPelepasanAgunan();
+        getPeminjamAgunan();
+        getRekeningTujuanSejenis();
+        getSumberDana();
+        getProfesiNotaris();
+        getJenisGambaranUmumReview();
+        getKondisiTempatUsaha();
+        getKetersediaanBahanBaku();
+        getGolonganPenjamin();
+        getStatusAsuransiAgunan();
+        getGolonganKredit();
+        getNamaPengadilanNegeri();
+        getJenisProduk();
+        getJenisSumberDana();
+        getJenisDcaID();
+        getPolaPencairan();
+        getNilaiPencairan();
+        getMataUang();
+        getLokasiProduk();
+        getRegPro();
+        getJenisSukuBunga();
+        getJenisPembayaranProduk();
+        getJenisPerhitunganBunga();
+        getJadwalPerhitunganBunga();
+        getJenisPemotonganBunga();
+        getStrukturHariDalamSatuTahun();
+        getStrukturHariDalamSatuBulan();
+        getStrukturKreditHariBiaya();
+        getStrukturKreditHariLibur();
+        getKategoriPembiayaan();
         getStatusTanah();
         getJenisBuktiKepemilikanAgunan();
         //getBuktiKepemilikanAgunan();
         getPengelolaanUsaha();
-        getJalanDilalui();
-        getPeruntukanLokasi();
         getSaluranAir();
         getSaluranTelepon();
     }
@@ -304,7 +383,7 @@ public class LoginController {
     }
 
     /*
-    *START -  17 Januari 2018 by Yudhi
+    *START -  18 Januari 2018 by Yudhi
     * */
     private void getJenisUsaha() {
         final Call<List<BaseResponseNew>> jenisUsahaResponseCall = servicenoauth.getJenisUsahaNew();
@@ -1643,8 +1722,1250 @@ public class LoginController {
         });
     }
 
+    private void getBatas() {
+        final Call<List<BaseResponseNew>> batasCall = service.getBatas();
+        synchronized (LOCK) {
+            queue.add(batasCall);
+        }
+        batasCall.enqueue(new Callback<List<BaseResponseNew>> () {
+            @Override
+            public void onResponse(Call<List<BaseResponseNew>> call, Response<List<BaseResponseNew>> response) {
+                if (response != null && response.body() != null && response.isSuccessful()) {
+                    dataManager.setMasterDataNewList(response.body());
+                    onDataMasterCompleted(batasCall, true);
+                } else {
+                    onDataMasterCompleted(batasCall, false);
+                }
+            }
+
+            @Override
+            public void onFailure(Call<List<BaseResponseNew>> call, Throwable t) {
+                Log.e(LOG_TAG, "getBatas.onFailure " + t.getMessage());
+                if (call.isCanceled())
+                    return;
+
+                onDataMasterCompleted(batasCall, false);
+            }
+        });
+    }
+
+    private void getAir() {
+        final Call<List<BaseResponseNew>> airCall = service.getAir();
+        synchronized (LOCK) {
+            queue.add(airCall);
+        }
+        airCall.enqueue(new Callback<List<BaseResponseNew>> () {
+            @Override
+            public void onResponse(Call<List<BaseResponseNew>> call, Response<List<BaseResponseNew>> response) {
+                if (response != null && response.body() != null && response.isSuccessful()) {
+                    dataManager.setMasterDataNewList(response.body());
+                    onDataMasterCompleted(airCall, true);
+                } else {
+                    onDataMasterCompleted(airCall, false);
+                }
+            }
+
+            @Override
+            public void onFailure(Call<List<BaseResponseNew>> call, Throwable t) {
+                Log.e(LOG_TAG, "getAir.onFailure " + t.getMessage());
+                if (call.isCanceled())
+                    return;
+
+                onDataMasterCompleted(airCall, false);
+            }
+        });
+    }
+
+    private void getPondasi() {
+        final Call<List<BaseResponseNew>> pondasiCall = service.getPondasi();
+        synchronized (LOCK) {
+            queue.add(pondasiCall);
+        }
+        pondasiCall.enqueue(new Callback<List<BaseResponseNew>> () {
+            @Override
+            public void onResponse(Call<List<BaseResponseNew>> call, Response<List<BaseResponseNew>> response) {
+                if (response != null && response.body() != null && response.isSuccessful()) {
+                    dataManager.setMasterDataNewList(response.body());
+                    onDataMasterCompleted(pondasiCall, true);
+                } else {
+                    onDataMasterCompleted(pondasiCall, false);
+                }
+            }
+
+            @Override
+            public void onFailure(Call<List<BaseResponseNew>> call, Throwable t) {
+                Log.e(LOG_TAG, "getPondasi.onFailure " + t.getMessage());
+                if (call.isCanceled())
+                    return;
+
+                onDataMasterCompleted(pondasiCall, false);
+            }
+        });
+    }
+
+    private void getLantai() {
+        final Call<List<BaseResponseNew>> lantaiCall = service.getLantai();
+        synchronized (LOCK) {
+            queue.add(lantaiCall);
+        }
+        lantaiCall.enqueue(new Callback<List<BaseResponseNew>> () {
+            @Override
+            public void onResponse(Call<List<BaseResponseNew>> call, Response<List<BaseResponseNew>> response) {
+                if (response != null && response.body() != null && response.isSuccessful()) {
+                    dataManager.setMasterDataNewList(response.body());
+                    onDataMasterCompleted(lantaiCall, true);
+                } else {
+                    onDataMasterCompleted(lantaiCall, false);
+                }
+            }
+
+            @Override
+            public void onFailure(Call<List<BaseResponseNew>> call, Throwable t) {
+                Log.e(LOG_TAG, "getLantai.onFailure " + t.getMessage());
+                if (call.isCanceled())
+                    return;
+
+                onDataMasterCompleted(lantaiCall, false);
+            }
+        });
+    }
+
+    private void getDinding() {
+        final Call<List<BaseResponseNew>> dindingCall = service.getDinding();
+        synchronized (LOCK) {
+            queue.add(dindingCall);
+        }
+        dindingCall.enqueue(new Callback<List<BaseResponseNew>> () {
+            @Override
+            public void onResponse(Call<List<BaseResponseNew>> call, Response<List<BaseResponseNew>> response) {
+                if (response != null && response.body() != null && response.isSuccessful()) {
+                    dataManager.setMasterDataNewList(response.body());
+                    onDataMasterCompleted(dindingCall, true);
+                } else {
+                    onDataMasterCompleted(dindingCall, false);
+                }
+            }
+
+            @Override
+            public void onFailure(Call<List<BaseResponseNew>> call, Throwable t) {
+                Log.e(LOG_TAG, "getDinding.onFailure " + t.getMessage());
+                if (call.isCanceled())
+                    return;
+
+                onDataMasterCompleted(dindingCall, false);
+            }
+        });
+    }
+
+    private void getJendela() {
+        final Call<List<BaseResponseNew>> jendelaCall = service.getJendela();
+        synchronized (LOCK) {
+            queue.add(jendelaCall);
+        }
+        jendelaCall.enqueue(new Callback<List<BaseResponseNew>> () {
+            @Override
+            public void onResponse(Call<List<BaseResponseNew>> call, Response<List<BaseResponseNew>> response) {
+                if (response != null && response.body() != null && response.isSuccessful()) {
+                    dataManager.setMasterDataNewList(response.body());
+                    onDataMasterCompleted(jendelaCall, true);
+                } else {
+                    onDataMasterCompleted(jendelaCall, false);
+                }
+            }
+
+            @Override
+            public void onFailure(Call<List<BaseResponseNew>> call, Throwable t) {
+                Log.e(LOG_TAG, "getJendela.onFailure " + t.getMessage());
+                if (call.isCanceled())
+                    return;
+
+                onDataMasterCompleted(jendelaCall, false);
+            }
+        });
+    }
+
+    private void getPlafon() {
+        final Call<List<BaseResponseNew>> plafonCall = service.getPlafon();
+        synchronized (LOCK) {
+            queue.add(plafonCall);
+        }
+        plafonCall.enqueue(new Callback<List<BaseResponseNew>> () {
+            @Override
+            public void onResponse(Call<List<BaseResponseNew>> call, Response<List<BaseResponseNew>> response) {
+                if (response != null && response.body() != null && response.isSuccessful()) {
+                    dataManager.setMasterDataNewList(response.body());
+                    onDataMasterCompleted(plafonCall, true);
+                } else {
+                    onDataMasterCompleted(plafonCall, false);
+                }
+            }
+
+            @Override
+            public void onFailure(Call<List<BaseResponseNew>> call, Throwable t) {
+                Log.e(LOG_TAG, "getPlafon.onFailure " + t.getMessage());
+                if (call.isCanceled())
+                    return;
+
+                onDataMasterCompleted(plafonCall, false);
+            }
+        });
+    }
+
+    private void getKusen() {
+        final Call<List<BaseResponseNew>> kusenCall = service.getKusen();
+        synchronized (LOCK) {
+            queue.add(kusenCall);
+        }
+        kusenCall.enqueue(new Callback<List<BaseResponseNew>> () {
+            @Override
+            public void onResponse(Call<List<BaseResponseNew>> call, Response<List<BaseResponseNew>> response) {
+                if (response != null && response.body() != null && response.isSuccessful()) {
+                    dataManager.setMasterDataNewList(response.body());
+                    onDataMasterCompleted(kusenCall, true);
+                } else {
+                    onDataMasterCompleted(kusenCall, false);
+                }
+            }
+
+            @Override
+            public void onFailure(Call<List<BaseResponseNew>> call, Throwable t) {
+                Log.e(LOG_TAG, "getKusen.onFailure " + t.getMessage());
+                if (call.isCanceled())
+                    return;
+
+                onDataMasterCompleted(kusenCall, false);
+            }
+        });
+    }
+
+    private void getAtap() {
+        final Call<List<BaseResponseNew>> atapCall = service.getAtap();
+        synchronized (LOCK) {
+            queue.add(atapCall);
+        }
+        atapCall.enqueue(new Callback<List<BaseResponseNew>> () {
+            @Override
+            public void onResponse(Call<List<BaseResponseNew>> call, Response<List<BaseResponseNew>> response) {
+                if (response != null && response.body() != null && response.isSuccessful()) {
+                    dataManager.setMasterDataNewList(response.body());
+                    onDataMasterCompleted(atapCall, true);
+                } else {
+                    onDataMasterCompleted(atapCall, false);
+                }
+            }
+
+            @Override
+            public void onFailure(Call<List<BaseResponseNew>> call, Throwable t) {
+                Log.e(LOG_TAG, "getKusen.onFailure " + t.getMessage());
+                if (call.isCanceled())
+                    return;
+
+                onDataMasterCompleted(atapCall, false);
+            }
+        });
+    }
+
+    private void getPintu() {
+        final Call<List<BaseResponseNew>> pintuCall = service.getPintu();
+        synchronized (LOCK) {
+            queue.add(pintuCall);
+        }
+        pintuCall.enqueue(new Callback<List<BaseResponseNew>> () {
+            @Override
+            public void onResponse(Call<List<BaseResponseNew>> call, Response<List<BaseResponseNew>> response) {
+                if (response != null && response.body() != null && response.isSuccessful()) {
+                    dataManager.setMasterDataNewList(response.body());
+                    onDataMasterCompleted(pintuCall, true);
+                } else {
+                    onDataMasterCompleted(pintuCall, false);
+                }
+            }
+
+            @Override
+            public void onFailure(Call<List<BaseResponseNew>> call, Throwable t) {
+                Log.e(LOG_TAG, "getPintu.onFailure " + t.getMessage());
+                if (call.isCanceled())
+                    return;
+
+                onDataMasterCompleted(pintuCall, false);
+            }
+        });
+    }
+
+    private void getJenisCatatan() {
+        final Call<List<BaseResponseNew>> jenisCatatanCall = service.getJenisCatatan();
+        synchronized (LOCK) {
+            queue.add(jenisCatatanCall);
+        }
+        jenisCatatanCall.enqueue(new Callback<List<BaseResponseNew>> () {
+            @Override
+            public void onResponse(Call<List<BaseResponseNew>> call, Response<List<BaseResponseNew>> response) {
+                if (response != null && response.body() != null && response.isSuccessful()) {
+                    dataManager.setMasterDataNewList(response.body());
+                    onDataMasterCompleted(jenisCatatanCall, true);
+                } else {
+                    onDataMasterCompleted(jenisCatatanCall, false);
+                }
+            }
+
+            @Override
+            public void onFailure(Call<List<BaseResponseNew>> call, Throwable t) {
+                Log.e(LOG_TAG, "getJenisCatatan.onFailure " + t.getMessage());
+                if (call.isCanceled())
+                    return;
+
+                onDataMasterCompleted(jenisCatatanCall, false);
+            }
+        });
+    }
+
+    private void getTujuanPengiriman() {
+        final Call<List<BaseResponseNew>> tujuanPengirimanCall = service.getTujuanPengiriman();
+        synchronized (LOCK) {
+            queue.add(tujuanPengirimanCall);
+        }
+        tujuanPengirimanCall.enqueue(new Callback<List<BaseResponseNew>> () {
+            @Override
+            public void onResponse(Call<List<BaseResponseNew>> call, Response<List<BaseResponseNew>> response) {
+                if (response != null && response.body() != null && response.isSuccessful()) {
+                    dataManager.setMasterDataNewList(response.body());
+                    onDataMasterCompleted(tujuanPengirimanCall, true);
+                } else {
+                    onDataMasterCompleted(tujuanPengirimanCall, false);
+                }
+            }
+
+            @Override
+            public void onFailure(Call<List<BaseResponseNew>> call, Throwable t) {
+                Log.e(LOG_TAG, "getTujuanPengiriman.onFailure " + t.getMessage());
+                if (call.isCanceled())
+                    return;
+
+                onDataMasterCompleted(tujuanPengirimanCall, false);
+            }
+        });
+    }
+
+    private void getKeperluanPinjam() {
+        final Call<List<BaseResponseNew>> KeperluanPinjamCall = service.getKeperluanPinjam();
+        synchronized (LOCK) {
+            queue.add(KeperluanPinjamCall);
+        }
+        KeperluanPinjamCall.enqueue(new Callback<List<BaseResponseNew>> () {
+            @Override
+            public void onResponse(Call<List<BaseResponseNew>> call, Response<List<BaseResponseNew>> response) {
+                if (response != null && response.body() != null && response.isSuccessful()) {
+                    dataManager.setMasterDataNewList(response.body());
+                    onDataMasterCompleted(KeperluanPinjamCall, true);
+                } else {
+                    onDataMasterCompleted(KeperluanPinjamCall, false);
+                }
+            }
+
+            @Override
+            public void onFailure(Call<List<BaseResponseNew>> call, Throwable t) {
+                Log.e(LOG_TAG, "getKeperluanPinjam.onFailure " + t.getMessage());
+                if (call.isCanceled())
+                    return;
+
+                onDataMasterCompleted(KeperluanPinjamCall, false);
+            }
+        });
+    }
+
+    private void getBisnis() {
+        final Call<List<BaseResponseNew>> bisnisCall = service.getBisnis();
+        synchronized (LOCK) {
+            queue.add(bisnisCall);
+        }
+        bisnisCall.enqueue(new Callback<List<BaseResponseNew>> () {
+            @Override
+            public void onResponse(Call<List<BaseResponseNew>> call, Response<List<BaseResponseNew>> response) {
+                if (response != null && response.body() != null && response.isSuccessful()) {
+                    dataManager.setMasterDataNewList(response.body());
+                    onDataMasterCompleted(bisnisCall, true);
+                } else {
+                    onDataMasterCompleted(bisnisCall, false);
+                }
+            }
+
+            @Override
+            public void onFailure(Call<List<BaseResponseNew>> call, Throwable t) {
+                Log.e(LOG_TAG, "getBisnis.onFailure " + t.getMessage());
+                if (call.isCanceled())
+                    return;
+
+                onDataMasterCompleted(bisnisCall, false);
+            }
+        });
+    }
+
+    private void getJabatan() {
+        final Call<List<BaseResponseNew>> jabatanCall = service.getJabatan();
+        synchronized (LOCK) {
+            queue.add(jabatanCall);
+        }
+        jabatanCall.enqueue(new Callback<List<BaseResponseNew>> () {
+            @Override
+            public void onResponse(Call<List<BaseResponseNew>> call, Response<List<BaseResponseNew>> response) {
+                if (response != null && response.body() != null && response.isSuccessful()) {
+                    dataManager.setMasterDataNewList(response.body());
+                    onDataMasterCompleted(jabatanCall, true);
+                } else {
+                    onDataMasterCompleted(jabatanCall, false);
+                }
+            }
+
+            @Override
+            public void onFailure(Call<List<BaseResponseNew>> call, Throwable t) {
+                Log.e(LOG_TAG, "getJabatan.onFailure " + t.getMessage());
+                if (call.isCanceled())
+                    return;
+
+                onDataMasterCompleted(jabatanCall, false);
+            }
+        });
+    }
+
+    private void getStatusPinjamAgunan() {
+        final Call<List<BaseResponseNew>> statusPinjamAgunanCall = service.getStatusPinjamAgunan();
+        synchronized (LOCK) {
+            queue.add(statusPinjamAgunanCall);
+        }
+        statusPinjamAgunanCall.enqueue(new Callback<List<BaseResponseNew>> () {
+            @Override
+            public void onResponse(Call<List<BaseResponseNew>> call, Response<List<BaseResponseNew>> response) {
+                if (response != null && response.body() != null && response.isSuccessful()) {
+                    dataManager.setMasterDataNewList(response.body());
+                    onDataMasterCompleted(statusPinjamAgunanCall, true);
+                } else {
+                    onDataMasterCompleted(statusPinjamAgunanCall, false);
+                }
+            }
+
+            @Override
+            public void onFailure(Call<List<BaseResponseNew>> call, Throwable t) {
+                Log.e(LOG_TAG, "getStatusPinjamAgunan.onFailure " + t.getMessage());
+                if (call.isCanceled())
+                    return;
+
+                onDataMasterCompleted(statusPinjamAgunanCall, false);
+            }
+        });
+    }
+
+    private void getStatusPelepasanAgunan() {
+        final Call<List<BaseResponseNew>> statusPelepasanAgunanCall = service.getStatusPelepasanAgunan();
+        synchronized (LOCK) {
+            queue.add(statusPelepasanAgunanCall);
+        }
+        statusPelepasanAgunanCall.enqueue(new Callback<List<BaseResponseNew>> () {
+            @Override
+            public void onResponse(Call<List<BaseResponseNew>> call, Response<List<BaseResponseNew>> response) {
+                if (response != null && response.body() != null && response.isSuccessful()) {
+                    dataManager.setMasterDataNewList(response.body());
+                    onDataMasterCompleted(statusPelepasanAgunanCall, true);
+                } else {
+                    onDataMasterCompleted(statusPelepasanAgunanCall, false);
+                }
+            }
+
+            @Override
+            public void onFailure(Call<List<BaseResponseNew>> call, Throwable t) {
+                Log.e(LOG_TAG, "getStatusPelepasanAgunan.onFailure " + t.getMessage());
+                if (call.isCanceled())
+                    return;
+
+                onDataMasterCompleted(statusPelepasanAgunanCall, false);
+            }
+        });
+    }
+
+    private void getPeminjamAgunan() {
+        final Call<List<BaseResponseNew>> peminjamAgunanCall = service.getPeminjamAgunan();
+        synchronized (LOCK) {
+            queue.add(peminjamAgunanCall);
+        }
+        peminjamAgunanCall.enqueue(new Callback<List<BaseResponseNew>> () {
+            @Override
+            public void onResponse(Call<List<BaseResponseNew>> call, Response<List<BaseResponseNew>> response) {
+                if (response != null && response.body() != null && response.isSuccessful()) {
+                    dataManager.setMasterDataNewList(response.body());
+                    onDataMasterCompleted(peminjamAgunanCall, true);
+                } else {
+                    onDataMasterCompleted(peminjamAgunanCall, false);
+                }
+            }
+
+            @Override
+            public void onFailure(Call<List<BaseResponseNew>> call, Throwable t) {
+                Log.e(LOG_TAG, "getPeminjamAgunan.onFailure " + t.getMessage());
+                if (call.isCanceled())
+                    return;
+
+                onDataMasterCompleted(peminjamAgunanCall, false);
+            }
+        });
+    }
+
+    private void getRekeningTujuanSejenis() {
+        final Call<List<BaseResponseNew>> tujuanSejenisCall = service.getRekeningTujuanBisnis();
+        synchronized (LOCK) {
+            queue.add(tujuanSejenisCall);
+        }
+        tujuanSejenisCall.enqueue(new Callback<List<BaseResponseNew>> () {
+            @Override
+            public void onResponse(Call<List<BaseResponseNew>> call, Response<List<BaseResponseNew>> response) {
+                if (response != null && response.body() != null && response.isSuccessful()) {
+                    dataManager.setMasterDataNewList(response.body());
+                    onDataMasterCompleted(tujuanSejenisCall, true);
+                } else {
+                    onDataMasterCompleted(tujuanSejenisCall, false);
+                }
+            }
+
+            @Override
+            public void onFailure(Call<List<BaseResponseNew>> call, Throwable t) {
+                Log.e(LOG_TAG, "getRekeningTujuanSejenis.onFailure " + t.getMessage());
+                if (call.isCanceled())
+                    return;
+
+                onDataMasterCompleted(tujuanSejenisCall, false);
+            }
+        });
+    }
+
+    private void getSumberDana() {
+        final Call<List<BaseResponseNew>> sumberDanaCall = service.getSumberDana();
+        synchronized (LOCK) {
+            queue.add(sumberDanaCall);
+        }
+        sumberDanaCall.enqueue(new Callback<List<BaseResponseNew>> () {
+            @Override
+            public void onResponse(Call<List<BaseResponseNew>> call, Response<List<BaseResponseNew>> response) {
+                if (response != null && response.body() != null && response.isSuccessful()) {
+                    dataManager.setMasterDataNewList(response.body());
+                    onDataMasterCompleted(sumberDanaCall, true);
+                } else {
+                    onDataMasterCompleted(sumberDanaCall, false);
+                }
+            }
+
+            @Override
+            public void onFailure(Call<List<BaseResponseNew>> call, Throwable t) {
+                Log.e(LOG_TAG, "getSumberDana.onFailure " + t.getMessage());
+                if (call.isCanceled())
+                    return;
+
+                onDataMasterCompleted(sumberDanaCall, false);
+            }
+        });
+    }
+
+    private void getProfesiNotaris() {
+        final Call<List<BaseResponseNew>> profesiNotarisCall = service.getProfesiNotaris();
+        synchronized (LOCK) {
+            queue.add(profesiNotarisCall);
+        }
+        profesiNotarisCall.enqueue(new Callback<List<BaseResponseNew>> () {
+            @Override
+            public void onResponse(Call<List<BaseResponseNew>> call, Response<List<BaseResponseNew>> response) {
+                if (response != null && response.body() != null && response.isSuccessful()) {
+                    dataManager.setMasterDataNewList(response.body());
+                    onDataMasterCompleted(profesiNotarisCall, true);
+                } else {
+                    onDataMasterCompleted(profesiNotarisCall, false);
+                }
+            }
+
+            @Override
+            public void onFailure(Call<List<BaseResponseNew>> call, Throwable t) {
+                Log.e(LOG_TAG, "getProfesiNotaris.onFailure " + t.getMessage());
+                if (call.isCanceled())
+                    return;
+
+                onDataMasterCompleted(profesiNotarisCall, false);
+            }
+        });
+    }
+
+    private void getJenisGambaranUmumReview() {
+        final Call<List<BaseResponseNew>> jenisGambaranUmumReview = service.getJenisGambaranUmumReview();
+        synchronized (LOCK) {
+            queue.add(jenisGambaranUmumReview);
+        }
+        jenisGambaranUmumReview.enqueue(new Callback<List<BaseResponseNew>> () {
+            @Override
+            public void onResponse(Call<List<BaseResponseNew>> call, Response<List<BaseResponseNew>> response) {
+                if (response != null && response.body() != null && response.isSuccessful()) {
+                    dataManager.setMasterDataNewList(response.body());
+                    onDataMasterCompleted(jenisGambaranUmumReview, true);
+                } else {
+                    onDataMasterCompleted(jenisGambaranUmumReview, false);
+                }
+            }
+
+            @Override
+            public void onFailure(Call<List<BaseResponseNew>> call, Throwable t) {
+                Log.e(LOG_TAG, "getJenisGambaranUmumReview.onFailure " + t.getMessage());
+                if (call.isCanceled())
+                    return;
+
+                onDataMasterCompleted(jenisGambaranUmumReview, false);
+            }
+        });
+    }
+
+    private void getKondisiTempatUsaha() {
+        final Call<List<BaseResponseNew>> kondisiTempatUsahaCall = service.getKondisiTempatUsaha();
+        synchronized (LOCK) {
+            queue.add(kondisiTempatUsahaCall);
+        }
+        kondisiTempatUsahaCall.enqueue(new Callback<List<BaseResponseNew>> () {
+            @Override
+            public void onResponse(Call<List<BaseResponseNew>> call, Response<List<BaseResponseNew>> response) {
+                if (response != null && response.body() != null && response.isSuccessful()) {
+                    dataManager.setMasterDataNewList(response.body());
+                    onDataMasterCompleted(kondisiTempatUsahaCall, true);
+                } else {
+                    onDataMasterCompleted(kondisiTempatUsahaCall, false);
+                }
+            }
+
+            @Override
+            public void onFailure(Call<List<BaseResponseNew>> call, Throwable t) {
+                Log.e(LOG_TAG, "getKondisiTempatUsaha.onFailure " + t.getMessage());
+                if (call.isCanceled())
+                    return;
+
+                onDataMasterCompleted(kondisiTempatUsahaCall, false);
+            }
+        });
+    }
+
+    private void getKetersediaanBahanBaku() {
+        final Call<List<BaseResponseNew>> ketersediaanBahanBakuCall = service.getKetersediaanBahanBaku();
+        synchronized (LOCK) {
+            queue.add(ketersediaanBahanBakuCall);
+        }
+        ketersediaanBahanBakuCall.enqueue(new Callback<List<BaseResponseNew>> () {
+            @Override
+            public void onResponse(Call<List<BaseResponseNew>> call, Response<List<BaseResponseNew>> response) {
+                if (response != null && response.body() != null && response.isSuccessful()) {
+                    dataManager.setMasterDataNewList(response.body());
+                    onDataMasterCompleted(ketersediaanBahanBakuCall, true);
+                } else {
+                    onDataMasterCompleted(ketersediaanBahanBakuCall, false);
+                }
+            }
+
+            @Override
+            public void onFailure(Call<List<BaseResponseNew>> call, Throwable t) {
+                Log.e(LOG_TAG, "getKetersediaanBahanBaku.onFailure " + t.getMessage());
+                if (call.isCanceled())
+                    return;
+
+                onDataMasterCompleted(ketersediaanBahanBakuCall, false);
+            }
+        });
+    }
+
+    private void getGolonganPenjamin() {
+        final Call<List<BaseResponseNew>> golonganPenjaminCall = service.getGolonganPenjamin();
+        synchronized (LOCK) {
+            queue.add(golonganPenjaminCall);
+        }
+        golonganPenjaminCall.enqueue(new Callback<List<BaseResponseNew>> () {
+            @Override
+            public void onResponse(Call<List<BaseResponseNew>> call, Response<List<BaseResponseNew>> response) {
+                if (response != null && response.body() != null && response.isSuccessful()) {
+                    dataManager.setMasterDataNewList(response.body());
+                    onDataMasterCompleted(golonganPenjaminCall, true);
+                } else {
+                    onDataMasterCompleted(golonganPenjaminCall, false);
+                }
+            }
+
+            @Override
+            public void onFailure(Call<List<BaseResponseNew>> call, Throwable t) {
+                Log.e(LOG_TAG, "getGolonganPenjamin.onFailure " + t.getMessage());
+                if (call.isCanceled())
+                    return;
+
+                onDataMasterCompleted(golonganPenjaminCall, false);
+            }
+        });
+    }
+
+    private void getStatusAsuransiAgunan() {
+        final Call<List<BaseResponseNew>> statusAsuransiAgunanCall = service.getStatusAsuransiAgunan();
+        synchronized (LOCK) {
+            queue.add(statusAsuransiAgunanCall);
+        }
+        statusAsuransiAgunanCall.enqueue(new Callback<List<BaseResponseNew>> () {
+            @Override
+            public void onResponse(Call<List<BaseResponseNew>> call, Response<List<BaseResponseNew>> response) {
+                if (response != null && response.body() != null && response.isSuccessful()) {
+                    dataManager.setMasterDataNewList(response.body());
+                    onDataMasterCompleted(statusAsuransiAgunanCall, true);
+                } else {
+                    onDataMasterCompleted(statusAsuransiAgunanCall, false);
+                }
+            }
+
+            @Override
+            public void onFailure(Call<List<BaseResponseNew>> call, Throwable t) {
+                Log.e(LOG_TAG, "getStatusAsuransiAgunan.onFailure " + t.getMessage());
+                if (call.isCanceled())
+                    return;
+
+                onDataMasterCompleted(statusAsuransiAgunanCall, false);
+            }
+        });
+    }
+
+    private void getGolonganKredit() {
+        final Call<List<BaseResponseNew>> golonganKreditCall = service.getGolonganKredit();
+        synchronized (LOCK) {
+            queue.add(golonganKreditCall);
+        }
+        golonganKreditCall.enqueue(new Callback<List<BaseResponseNew>> () {
+            @Override
+            public void onResponse(Call<List<BaseResponseNew>> call, Response<List<BaseResponseNew>> response) {
+                if (response != null && response.body() != null && response.isSuccessful()) {
+                    dataManager.setMasterDataNewList(response.body());
+                    onDataMasterCompleted(golonganKreditCall, true);
+                } else {
+                    onDataMasterCompleted(golonganKreditCall, false);
+                }
+            }
+
+            @Override
+            public void onFailure(Call<List<BaseResponseNew>> call, Throwable t) {
+                Log.e(LOG_TAG, "getGolonganKredit.onFailure " + t.getMessage());
+                if (call.isCanceled())
+                    return;
+
+                onDataMasterCompleted(golonganKreditCall, false);
+            }
+        });
+    }
+
+    private void getNamaPengadilanNegeri() {
+        final Call<List<BaseResponseNew>> namaPengadilanNegeriCall = service.getNamaPengadilanNegeri();
+        synchronized (LOCK) {
+            queue.add(namaPengadilanNegeriCall);
+        }
+        namaPengadilanNegeriCall.enqueue(new Callback<List<BaseResponseNew>> () {
+            @Override
+            public void onResponse(Call<List<BaseResponseNew>> call, Response<List<BaseResponseNew>> response) {
+                if (response != null && response.body() != null && response.isSuccessful()) {
+                    dataManager.setMasterDataNewList(response.body());
+                    onDataMasterCompleted(namaPengadilanNegeriCall, true);
+                } else {
+                    onDataMasterCompleted(namaPengadilanNegeriCall, false);
+                }
+            }
+
+            @Override
+            public void onFailure(Call<List<BaseResponseNew>> call, Throwable t) {
+                Log.e(LOG_TAG, "getNamaPengadilanNegeri.onFailure " + t.getMessage());
+                if (call.isCanceled())
+                    return;
+
+                onDataMasterCompleted(namaPengadilanNegeriCall, false);
+            }
+        });
+    }
+
+    private void getJenisProduk() {
+        final Call<List<BaseResponseNew>> jenisProdukCall = service.getJenisProduk();
+        synchronized (LOCK) {
+            queue.add(jenisProdukCall);
+        }
+        jenisProdukCall.enqueue(new Callback<List<BaseResponseNew>> () {
+            @Override
+            public void onResponse(Call<List<BaseResponseNew>> call, Response<List<BaseResponseNew>> response) {
+                if (response != null && response.body() != null && response.isSuccessful()) {
+                    dataManager.setMasterDataNewList(response.body());
+                    onDataMasterCompleted(jenisProdukCall, true);
+                } else {
+                    onDataMasterCompleted(jenisProdukCall, false);
+                }
+            }
+
+            @Override
+            public void onFailure(Call<List<BaseResponseNew>> call, Throwable t) {
+                Log.e(LOG_TAG, "getJenisProduk.onFailure " + t.getMessage());
+                if (call.isCanceled())
+                    return;
+
+                onDataMasterCompleted(jenisProdukCall, false);
+            }
+        });
+    }
+
+    private void getJenisSumberDana() {
+        final Call<List<BaseResponseNew>> jenisSumberDanaCall = service.getJenisSumberDana();
+        synchronized (LOCK) {
+            queue.add(jenisSumberDanaCall);
+        }
+        jenisSumberDanaCall.enqueue(new Callback<List<BaseResponseNew>> () {
+            @Override
+            public void onResponse(Call<List<BaseResponseNew>> call, Response<List<BaseResponseNew>> response) {
+                if (response != null && response.body() != null && response.isSuccessful()) {
+                    dataManager.setMasterDataNewList(response.body());
+                    onDataMasterCompleted(jenisSumberDanaCall, true);
+                } else {
+                    onDataMasterCompleted(jenisSumberDanaCall, false);
+                }
+            }
+
+            @Override
+            public void onFailure(Call<List<BaseResponseNew>> call, Throwable t) {
+                Log.e(LOG_TAG, "getJenisSumberDana.onFailure " + t.getMessage());
+                if (call.isCanceled())
+                    return;
+
+                onDataMasterCompleted(jenisSumberDanaCall, false);
+            }
+        });
+    }
+
+    private void getJenisDcaID() {
+        final Call<List<BaseResponseNew>> jenisDCAid = service.getJenisDCAID();
+        synchronized (LOCK) {
+            queue.add(jenisDCAid);
+        }
+        jenisDCAid.enqueue(new Callback<List<BaseResponseNew>> () {
+            @Override
+            public void onResponse(Call<List<BaseResponseNew>> call, Response<List<BaseResponseNew>> response) {
+                if (response != null && response.body() != null && response.isSuccessful()) {
+                    dataManager.setMasterDataNewList(response.body());
+                    onDataMasterCompleted(jenisDCAid, true);
+                } else {
+                    onDataMasterCompleted(jenisDCAid, false);
+                }
+            }
+
+            @Override
+            public void onFailure(Call<List<BaseResponseNew>> call, Throwable t) {
+                Log.e(LOG_TAG, "getJenisDcaID.onFailure " + t.getMessage());
+                if (call.isCanceled())
+                    return;
+
+                onDataMasterCompleted(jenisDCAid, false);
+            }
+        });
+    }
+
+    private void getPolaPencairan() {
+        final Call<List<BaseResponseNew>> polaPencairanCall = service.getPolaPencairan();
+        synchronized (LOCK) {
+            queue.add(polaPencairanCall);
+        }
+        polaPencairanCall.enqueue(new Callback<List<BaseResponseNew>> () {
+            @Override
+            public void onResponse(Call<List<BaseResponseNew>> call, Response<List<BaseResponseNew>> response) {
+                if (response != null && response.body() != null && response.isSuccessful()) {
+                    dataManager.setMasterDataNewList(response.body());
+                    onDataMasterCompleted(polaPencairanCall, true);
+                } else {
+                    onDataMasterCompleted(polaPencairanCall, false);
+                }
+            }
+
+            @Override
+            public void onFailure(Call<List<BaseResponseNew>> call, Throwable t) {
+                Log.e(LOG_TAG, "getPolaPencairan.onFailure " + t.getMessage());
+                if (call.isCanceled())
+                    return;
+
+                onDataMasterCompleted(polaPencairanCall, false);
+            }
+        });
+    }
+
+    private void getNilaiPencairan() {
+        final Call<List<BaseResponseNew>> nilaiPencairanCall = service.getNilaiPencairan();
+        synchronized (LOCK) {
+            queue.add(nilaiPencairanCall);
+        }
+        nilaiPencairanCall.enqueue(new Callback<List<BaseResponseNew>> () {
+            @Override
+            public void onResponse(Call<List<BaseResponseNew>> call, Response<List<BaseResponseNew>> response) {
+                if (response != null && response.body() != null && response.isSuccessful()) {
+                    dataManager.setMasterDataNewList(response.body());
+                    onDataMasterCompleted(nilaiPencairanCall, true);
+                } else {
+                    onDataMasterCompleted(nilaiPencairanCall, false);
+                }
+            }
+
+            @Override
+            public void onFailure(Call<List<BaseResponseNew>> call, Throwable t) {
+                Log.e(LOG_TAG, "getNilaiPencairan.onFailure " + t.getMessage());
+                if (call.isCanceled())
+                    return;
+
+                onDataMasterCompleted(nilaiPencairanCall, false);
+            }
+        });
+    }
+
+    private void getMataUang() {
+        final Call<List<BaseResponseNew>> mataUangCall = service.getMataUang();
+        synchronized (LOCK) {
+            queue.add(mataUangCall);
+        }
+        mataUangCall.enqueue(new Callback<List<BaseResponseNew>> () {
+            @Override
+            public void onResponse(Call<List<BaseResponseNew>> call, Response<List<BaseResponseNew>> response) {
+                if (response != null && response.body() != null && response.isSuccessful()) {
+                    dataManager.setMasterDataNewList(response.body());
+                    onDataMasterCompleted(mataUangCall, true);
+                } else {
+                    onDataMasterCompleted(mataUangCall, false);
+                }
+            }
+
+            @Override
+            public void onFailure(Call<List<BaseResponseNew>> call, Throwable t) {
+                Log.e(LOG_TAG, "getMataUang.onFailure " + t.getMessage());
+                if (call.isCanceled())
+                    return;
+
+                onDataMasterCompleted(mataUangCall, false);
+            }
+        });
+    }
+
+    private void getLokasiProduk() {
+        final Call<List<BaseResponseNew>> lokasiProdukCall = service.getLokasiProduk();
+        synchronized (LOCK) {
+            queue.add(lokasiProdukCall);
+        }
+        lokasiProdukCall.enqueue(new Callback<List<BaseResponseNew>> () {
+            @Override
+            public void onResponse(Call<List<BaseResponseNew>> call, Response<List<BaseResponseNew>> response) {
+                if (response != null && response.body() != null && response.isSuccessful()) {
+                    dataManager.setMasterDataNewList(response.body());
+                    onDataMasterCompleted(lokasiProdukCall, true);
+                } else {
+                    onDataMasterCompleted(lokasiProdukCall, false);
+                }
+            }
+
+            @Override
+            public void onFailure(Call<List<BaseResponseNew>> call, Throwable t) {
+                Log.e(LOG_TAG, "getLokasiProduk.onFailure " + t.getMessage());
+                if (call.isCanceled())
+                    return;
+
+                onDataMasterCompleted(lokasiProdukCall, false);
+            }
+        });
+    }
+
+    private void getRegPro() {
+        final Call<List<BaseResponseNew>> regProCall = service.getRegPro();
+        synchronized (LOCK) {
+            queue.add(regProCall);
+        }
+        regProCall.enqueue(new Callback<List<BaseResponseNew>> () {
+            @Override
+            public void onResponse(Call<List<BaseResponseNew>> call, Response<List<BaseResponseNew>> response) {
+                if (response != null && response.body() != null && response.isSuccessful()) {
+                    dataManager.setMasterDataNewList(response.body());
+                    onDataMasterCompleted(regProCall, true);
+                } else {
+                    onDataMasterCompleted(regProCall, false);
+                }
+            }
+
+            @Override
+            public void onFailure(Call<List<BaseResponseNew>> call, Throwable t) {
+                Log.e(LOG_TAG, "getRegPro.onFailure " + t.getMessage());
+                if (call.isCanceled())
+                    return;
+
+                onDataMasterCompleted(regProCall, false);
+            }
+        });
+    }
+
+    private void getJenisSukuBunga() {
+        final Call<List<BaseResponseNew>> jenisSukuBungaCall = service.getJenisSukuBunga();
+        synchronized (LOCK) {
+            queue.add(jenisSukuBungaCall);
+        }
+        jenisSukuBungaCall.enqueue(new Callback<List<BaseResponseNew>> () {
+            @Override
+            public void onResponse(Call<List<BaseResponseNew>> call, Response<List<BaseResponseNew>> response) {
+                if (response != null && response.body() != null && response.isSuccessful()) {
+                    dataManager.setMasterDataNewList(response.body());
+                    onDataMasterCompleted(jenisSukuBungaCall, true);
+                } else {
+                    onDataMasterCompleted(jenisSukuBungaCall, false);
+                }
+            }
+
+            @Override
+            public void onFailure(Call<List<BaseResponseNew>> call, Throwable t) {
+                Log.e(LOG_TAG, "getJenisSukuBunga.onFailure " + t.getMessage());
+                if (call.isCanceled())
+                    return;
+
+                onDataMasterCompleted(jenisSukuBungaCall, false);
+            }
+        });
+    }
+
+    private void getJenisPembayaranProduk() {
+        final Call<List<BaseResponseNew>> jenisPembayaranProduk = service.getJenisPembayaranProduk();
+        synchronized (LOCK) {
+            queue.add(jenisPembayaranProduk);
+        }
+        jenisPembayaranProduk.enqueue(new Callback<List<BaseResponseNew>> () {
+            @Override
+            public void onResponse(Call<List<BaseResponseNew>> call, Response<List<BaseResponseNew>> response) {
+                if (response != null && response.body() != null && response.isSuccessful()) {
+                    dataManager.setMasterDataNewList(response.body());
+                    onDataMasterCompleted(jenisPembayaranProduk, true);
+                } else {
+                    onDataMasterCompleted(jenisPembayaranProduk, false);
+                }
+            }
+
+            @Override
+            public void onFailure(Call<List<BaseResponseNew>> call, Throwable t) {
+                Log.e(LOG_TAG, "getJenisPembayaranProduk.onFailure " + t.getMessage());
+                if (call.isCanceled())
+                    return;
+
+                onDataMasterCompleted(jenisPembayaranProduk, false);
+            }
+        });
+    }
+
+    private void getJenisPerhitunganBunga() {
+        final Call<List<BaseResponseNew>> jenisPerhitunganBunga = service.getJenisPerhitunganBunga();
+        synchronized (LOCK) {
+            queue.add(jenisPerhitunganBunga);
+        }
+        jenisPerhitunganBunga.enqueue(new Callback<List<BaseResponseNew>> () {
+            @Override
+            public void onResponse(Call<List<BaseResponseNew>> call, Response<List<BaseResponseNew>> response) {
+                if (response != null && response.body() != null && response.isSuccessful()) {
+                    dataManager.setMasterDataNewList(response.body());
+                    onDataMasterCompleted(jenisPerhitunganBunga, true);
+                } else {
+                    onDataMasterCompleted(jenisPerhitunganBunga, false);
+                }
+            }
+
+            @Override
+            public void onFailure(Call<List<BaseResponseNew>> call, Throwable t) {
+                Log.e(LOG_TAG, "getJenisPerhitunganBunga.onFailure " + t.getMessage());
+                if (call.isCanceled())
+                    return;
+
+                onDataMasterCompleted(jenisPerhitunganBunga, false);
+            }
+        });
+    }
+
+    private void getJadwalPerhitunganBunga() {
+        final Call<List<BaseResponseNew>> jadwalPerhitunganBungaCall = service.getJadwalPerhitunganBunga();
+        synchronized (LOCK) {
+            queue.add(jadwalPerhitunganBungaCall);
+        }
+        jadwalPerhitunganBungaCall.enqueue(new Callback<List<BaseResponseNew>> () {
+            @Override
+            public void onResponse(Call<List<BaseResponseNew>> call, Response<List<BaseResponseNew>> response) {
+                if (response != null && response.body() != null && response.isSuccessful()) {
+                    dataManager.setMasterDataNewList(response.body());
+                    onDataMasterCompleted(jadwalPerhitunganBungaCall, true);
+                } else {
+                    onDataMasterCompleted(jadwalPerhitunganBungaCall, false);
+                }
+            }
+
+            @Override
+            public void onFailure(Call<List<BaseResponseNew>> call, Throwable t) {
+                Log.e(LOG_TAG, "getJadwalPerhitunganBunga.onFailure " + t.getMessage());
+                if (call.isCanceled())
+                    return;
+
+                onDataMasterCompleted(jadwalPerhitunganBungaCall, false);
+            }
+        });
+    }
+
+    private void getJenisPemotonganBunga() {
+        final Call<List<BaseResponseNew>> jenisPemotonganBungaCall = service.getJenisPemotonganBunga();
+        synchronized (LOCK) {
+            queue.add(jenisPemotonganBungaCall);
+        }
+        jenisPemotonganBungaCall.enqueue(new Callback<List<BaseResponseNew>> () {
+            @Override
+            public void onResponse(Call<List<BaseResponseNew>> call, Response<List<BaseResponseNew>> response) {
+                if (response != null && response.body() != null && response.isSuccessful()) {
+                    dataManager.setMasterDataNewList(response.body());
+                    onDataMasterCompleted(jenisPemotonganBungaCall, true);
+                } else {
+                    onDataMasterCompleted(jenisPemotonganBungaCall, false);
+                }
+            }
+
+            @Override
+            public void onFailure(Call<List<BaseResponseNew>> call, Throwable t) {
+                Log.e(LOG_TAG, "getJenisPemotonganBunga.onFailure " + t.getMessage());
+                if (call.isCanceled())
+                    return;
+
+                onDataMasterCompleted(jenisPemotonganBungaCall, false);
+            }
+        });
+    }
+
+    private void getStrukturHariDalamSatuTahun() {
+        final Call<List<BaseResponseNew>> STHDSTcall = service.getStrukturHariDalamSatuTahun();
+        synchronized (LOCK) {
+            queue.add(STHDSTcall);
+        }
+        STHDSTcall.enqueue(new Callback<List<BaseResponseNew>> () {
+            @Override
+            public void onResponse(Call<List<BaseResponseNew>> call, Response<List<BaseResponseNew>> response) {
+                if (response != null && response.body() != null && response.isSuccessful()) {
+                    dataManager.setMasterDataNewList(response.body());
+                    onDataMasterCompleted(STHDSTcall, true);
+                } else {
+                    onDataMasterCompleted(STHDSTcall, false);
+                }
+            }
+
+            @Override
+            public void onFailure(Call<List<BaseResponseNew>> call, Throwable t) {
+                Log.e(LOG_TAG, "getStrukturHariDalamSatuTahun.onFailure " + t.getMessage());
+                if (call.isCanceled())
+                    return;
+
+                onDataMasterCompleted(STHDSTcall, false);
+            }
+        });
+    }
+
+    private void getStrukturHariDalamSatuBulan() {
+        final Call<List<BaseResponseNew>> STHDSBcall = service.getStrukurHariDalamSatuBulan();
+        synchronized (LOCK) {
+            queue.add(STHDSBcall);
+        }
+        STHDSBcall.enqueue(new Callback<List<BaseResponseNew>> () {
+            @Override
+            public void onResponse(Call<List<BaseResponseNew>> call, Response<List<BaseResponseNew>> response) {
+                if (response != null && response.body() != null && response.isSuccessful()) {
+                    dataManager.setMasterDataNewList(response.body());
+                    onDataMasterCompleted(STHDSBcall, true);
+                } else {
+                    onDataMasterCompleted(STHDSBcall, false);
+                }
+            }
+
+            @Override
+            public void onFailure(Call<List<BaseResponseNew>> call, Throwable t) {
+                Log.e(LOG_TAG, "getStrukturHariDalamSatuBulan.onFailure " + t.getMessage());
+                if (call.isCanceled())
+                    return;
+
+                onDataMasterCompleted(STHDSBcall, false);
+            }
+        });
+    }
+
+    private void getStrukturKreditHariLibur() {
+        final Call<List<BaseResponseNew>> SKHLcall = service.getStrukturKreditHariLibur();
+        synchronized (LOCK) {
+            queue.add(SKHLcall);
+        }
+        SKHLcall.enqueue(new Callback<List<BaseResponseNew>> () {
+            @Override
+            public void onResponse(Call<List<BaseResponseNew>> call, Response<List<BaseResponseNew>> response) {
+                if (response != null && response.body() != null && response.isSuccessful()) {
+                    dataManager.setMasterDataNewList(response.body());
+                    onDataMasterCompleted(SKHLcall, true);
+                } else {
+                    onDataMasterCompleted(SKHLcall, false);
+                }
+            }
+
+            @Override
+            public void onFailure(Call<List<BaseResponseNew>> call, Throwable t) {
+                Log.e(LOG_TAG, "getStrukturKreditHariLibur.onFailure " + t.getMessage());
+                if (call.isCanceled())
+                    return;
+
+                onDataMasterCompleted(SKHLcall, false);
+            }
+        });
+    }
+
+    private void getStrukturKreditHariBiaya() {
+        final Call<List<BaseResponseNew>> SKHBcall = service.getStrukturKreditHariBiaya();
+        synchronized (LOCK) {
+            queue.add(SKHBcall);
+        }
+        SKHBcall.enqueue(new Callback<List<BaseResponseNew>> () {
+            @Override
+            public void onResponse(Call<List<BaseResponseNew>> call, Response<List<BaseResponseNew>> response) {
+                if (response != null && response.body() != null && response.isSuccessful()) {
+                    dataManager.setMasterDataNewList(response.body());
+                    onDataMasterCompleted(SKHBcall, true);
+                } else {
+                    onDataMasterCompleted(SKHBcall, false);
+                }
+            }
+
+            @Override
+            public void onFailure(Call<List<BaseResponseNew>> call, Throwable t) {
+                Log.e(LOG_TAG, "getStrukturKreditHariBiaya.onFailure " + t.getMessage());
+                if (call.isCanceled())
+                    return;
+
+                onDataMasterCompleted(SKHBcall, false);
+            }
+        });
+    }
+
+    private void getKategoriPembiayaan() {
+        final Call<List<BaseResponseNew>> kategoriPembiayaanCall = service.getKategoriPembiayaan();
+        synchronized (LOCK) {
+            queue.add(kategoriPembiayaanCall);
+        }
+        kategoriPembiayaanCall.enqueue(new Callback<List<BaseResponseNew>> () {
+            @Override
+            public void onResponse(Call<List<BaseResponseNew>> call, Response<List<BaseResponseNew>> response) {
+                if (response != null && response.body() != null && response.isSuccessful()) {
+                    dataManager.setMasterDataNewList(response.body());
+                    onDataMasterCompleted(kategoriPembiayaanCall, true);
+                } else {
+                    onDataMasterCompleted(kategoriPembiayaanCall, false);
+                }
+            }
+
+            @Override
+            public void onFailure(Call<List<BaseResponseNew>> call, Throwable t) {
+                Log.e(LOG_TAG, "getKategoriPembiayaan.onFailure " + t.getMessage());
+                if (call.isCanceled())
+                    return;
+
+                onDataMasterCompleted(kategoriPembiayaanCall, false);
+            }
+        });
+    }
+
     /*
-    *END -  17 Januari 2018 by Yudhi
+    *END -  18 Januari 2018 by Yudhi
     * */
     private void getKodeUsaha() {
         final Call<KodeUsahaResponse> call = service.getKodeUsaha();
@@ -1667,11 +2988,9 @@ public class LoginController {
                 Log.e(LOG_TAG, "getKodeUsaha.onFailure " + t.getMessage());
                 if (call.isCanceled())
                     return;
-
                 onDataMasterCompleted(call, false);
             }
         });
-
     }
 
     private void getKodeBidangUsaha() {
@@ -1727,7 +3046,6 @@ public class LoginController {
                 onDataMasterCompleted(call, false);
             }
         });
-
     }
 
     private void getHubunganPNM() {
@@ -1916,214 +3234,6 @@ public class LoginController {
                 if (call.isCanceled())
                     return;
 
-                onDataMasterCompleted(call, false);
-            }
-        });
-    }
-
-    private void getAtap() {
-        final Call<MasterAtapResponse> call = service.getMasterAtap();
-        synchronized (LOCK) {
-            queue.add(call);
-        }
-        call.enqueue(new Callback<MasterAtapResponse>() {
-            @Override
-            public void onResponse(Call<MasterAtapResponse> call, Response<MasterAtapResponse> response) {
-                if (response != null && response.body() != null && response.isSuccessful()) {
-                    dataManager.setAtapModelList(response.body().getList());
-                    onDataMasterCompleted(call, true);
-                } else {
-                    onDataMasterCompleted(call, false);
-                }
-            }
-
-            @Override
-            public void onFailure(Call<MasterAtapResponse> call, Throwable t) {
-                if (call.isCanceled()) {
-                    return;
-                }
-                onDataMasterCompleted(call, false);
-            }
-        });
-    }
-
-    private void getDinding() {
-        final Call<MasterDindingResponse> call = service.getMasterDinding();
-        synchronized (LOCK) {
-            queue.add(call);
-        }
-        call.enqueue(new Callback<MasterDindingResponse>() {
-            @Override
-            public void onResponse(Call<MasterDindingResponse> call, Response<MasterDindingResponse> response) {
-                if (response != null && response.body() != null && response.isSuccessful()) {
-                    dataManager.setDindingModelList(response.body().getList());
-                    onDataMasterCompleted(call, true);
-                } else {
-                    onDataMasterCompleted(call, false);
-                }
-            }
-
-            @Override
-            public void onFailure(Call<MasterDindingResponse> call, Throwable t) {
-                if (call.isCanceled()) {
-                    return;
-                }
-                onDataMasterCompleted(call, false);
-            }
-        });
-    }
-
-    private void getJendela() {
-        final Call<MasterJendelaResponse> call = service.getMasterJendela();
-        synchronized (LOCK) {
-            queue.add(call);
-        }
-        call.enqueue(new Callback<MasterJendelaResponse>() {
-            @Override
-            public void onResponse(Call<MasterJendelaResponse> call, Response<MasterJendelaResponse> response) {
-                if (response != null && response.body() != null && response.isSuccessful()) {
-                    dataManager.setJendelaModelList(response.body().getList());
-                    onDataMasterCompleted(call, true);
-                } else {
-                    onDataMasterCompleted(call, false);
-                }
-            }
-
-            @Override
-            public void onFailure(Call<MasterJendelaResponse> call, Throwable t) {
-                if (call.isCanceled()) {
-                    return;
-                }
-                onDataMasterCompleted(call, false);
-            }
-        });
-    }
-
-    private void getKusen() {
-        final Call<MasterKusenResponse> call = service.getMasterKusen();
-        synchronized (LOCK) {
-            queue.add(call);
-        }
-        call.enqueue(new Callback<MasterKusenResponse>() {
-            @Override
-            public void onResponse(Call<MasterKusenResponse> call, Response<MasterKusenResponse> response) {
-                if (response != null && response.body() != null && response.isSuccessful()) {
-                    dataManager.setKusenModelList(response.body().getList());
-                    onDataMasterCompleted(call, true);
-                } else {
-                    onDataMasterCompleted(call, false);
-                }
-            }
-
-            @Override
-            public void onFailure(Call<MasterKusenResponse> call, Throwable t) {
-                if (call.isCanceled()) {
-                    return;
-                }
-                onDataMasterCompleted(call, false);
-            }
-        });
-    }
-
-    private void getLantai() {
-        final Call<MasterLantaiResponse> call = service.getMasterLantai();
-        synchronized (LOCK) {
-            queue.add(call);
-        }
-        call.enqueue(new Callback<MasterLantaiResponse>() {
-            @Override
-            public void onResponse(Call<MasterLantaiResponse> call, Response<MasterLantaiResponse> response) {
-                if (response != null && response.body() != null && response.isSuccessful()) {
-                    dataManager.setLantaiModelList(response.body().getList());
-                    onDataMasterCompleted(call, true);
-                } else {
-                    onDataMasterCompleted(call, false);
-                }
-            }
-
-            @Override
-            public void onFailure(Call<MasterLantaiResponse> call, Throwable t) {
-                if (call.isCanceled()) {
-                    return;
-                }
-                onDataMasterCompleted(call, false);
-            }
-        });
-    }
-
-    private void getPintu() {
-        final Call<MasterPintuResponse> call = service.getMasterPintu();
-        synchronized (LOCK) {
-            queue.add(call);
-        }
-        call.enqueue(new Callback<MasterPintuResponse>() {
-            @Override
-            public void onResponse(Call<MasterPintuResponse> call, Response<MasterPintuResponse> response) {
-                if (response != null && response.body() != null && response.isSuccessful()) {
-                    dataManager.setPintuModelList(response.body().getList());
-                    onDataMasterCompleted(call, true);
-                } else {
-                    onDataMasterCompleted(call, false);
-                }
-            }
-
-            @Override
-            public void onFailure(Call<MasterPintuResponse> call, Throwable t) {
-                if (call.isCanceled()) {
-                    return;
-                }
-                onDataMasterCompleted(call, false);
-            }
-        });
-    }
-
-    private void getPlafon() {
-        final Call<MasterPlafonResponse> call = service.getMasterPlafon();
-        synchronized (LOCK) {
-            queue.add(call);
-        }
-        call.enqueue(new Callback<MasterPlafonResponse>() {
-            @Override
-            public void onResponse(Call<MasterPlafonResponse> call, Response<MasterPlafonResponse> response) {
-                if (response != null && response.body() != null && response.isSuccessful()) {
-                    dataManager.setPlafonModelList(response.body().getList());
-                    onDataMasterCompleted(call, true);
-                } else {
-                    onDataMasterCompleted(call, false);
-                }
-            }
-
-            @Override
-            public void onFailure(Call<MasterPlafonResponse> call, Throwable t) {
-                if (call.isCanceled()) {
-                    return;
-                }
-                onDataMasterCompleted(call, false);
-            }
-        });
-    }
-
-    private void getPondasi() {
-        final Call<MasterPondasiResponse> call = service.getMasterPondasiResponse();
-        synchronized (LOCK) {
-            queue.add(call);
-        }
-        call.enqueue(new Callback<MasterPondasiResponse>() {
-            @Override
-            public void onResponse(Call<MasterPondasiResponse> call, Response<MasterPondasiResponse> response) {
-                if (response != null && response.body() != null && response.isSuccessful()) {
-                    dataManager.setPondasiModelList(response.body().getList());
-                    onDataMasterCompleted(call, true);
-                } else {
-                    onDataMasterCompleted(call, false);
-                }
-            }
-
-            @Override
-            public void onFailure(Call<MasterPondasiResponse> call, Throwable t) {
-                if (call.isCanceled()) {
-                    return;
-                }
                 onDataMasterCompleted(call, false);
             }
         });
