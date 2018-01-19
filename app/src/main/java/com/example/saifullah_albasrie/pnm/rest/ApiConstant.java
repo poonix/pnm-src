@@ -267,6 +267,19 @@ public class ApiConstant {
     public static final String SUMBER_REPUTASI = "survey/set_reputasi";
     public static final String DATA_USAHA = "survey/set_usaha";
     public static final String DATA_AGUNAN = "survey/set_agunan";
+    public static final String DELETE_AKTIFITAS = "survey/delete_aktivitas_rek";
+    public static final String DELETE_ASSET = "survey/delete_asset";
+    public static final String DELETE_KUNJUNGAN_AOM = "survey/delete_kunjungan_usaha";
+    public static final String DELETE_NILAI_AGUNAN = "survey/delete_nilai_agunan";
+    public static final String DELETE_RENCANA_AGUNAN = "survey/delete_agunan";
+    public static final String DELETE_NOTE_SURVEY = "survey/delete_note";
+    public static final String DELETE_PINJAMAN_LAINNYA = "survey/delete_pinjaman_lain";
+    public static final String DELETE_RAB = "survey/delete_rab";
+    public static final String DELETE_SUMBER_REPUTASI = "survey/delete_reputasi";
+    public static final String DELETE_USAHA = "survey/delete_usaha";
+
+
+
 
 
 

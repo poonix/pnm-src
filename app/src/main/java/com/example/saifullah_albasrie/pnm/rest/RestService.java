@@ -5,6 +5,16 @@ import com.example.saifullah_albasrie.pnm.model.production_model.AgunanProspekMo
 import com.example.saifullah_albasrie.pnm.model.production_model.AktifitasRekBankModel;
 import com.example.saifullah_albasrie.pnm.model.production_model.AlamatProspekModel;
 import com.example.saifullah_albasrie.pnm.model.production_model.DataUsahaModel;
+import com.example.saifullah_albasrie.pnm.model.production_model.DeleteAktifitasRekModel;
+import com.example.saifullah_albasrie.pnm.model.production_model.DeleteAssetModel;
+import com.example.saifullah_albasrie.pnm.model.production_model.DeleteKunjunganUsahaAOMModel;
+import com.example.saifullah_albasrie.pnm.model.production_model.DeleteNilaiAgunanModel;
+import com.example.saifullah_albasrie.pnm.model.production_model.DeleteNoteSurveyModel;
+import com.example.saifullah_albasrie.pnm.model.production_model.DeletePinjamanLainnyaModel;
+import com.example.saifullah_albasrie.pnm.model.production_model.DeleteRABModel;
+import com.example.saifullah_albasrie.pnm.model.production_model.DeleteRencanaAgunanModel;
+import com.example.saifullah_albasrie.pnm.model.production_model.DeleteSumberReputasiModel;
+import com.example.saifullah_albasrie.pnm.model.production_model.DeleteUsahaModel;
 import com.example.saifullah_albasrie.pnm.model.production_model.InsertProspekModel;
 import com.example.saifullah_albasrie.pnm.model.production_model.KeluargaProspekModel;
 import com.example.saifullah_albasrie.pnm.model.production_model.KontakProspekModel;
@@ -1110,6 +1120,56 @@ public interface RestService {
     @POST(ApiConstant.DATA_AGUNAN)
     Call <NilaiAgunanModel> DataAgunan(
             @Body NilaiAgunanModel body
+    );
+
+    @POST(ApiConstant.DELETE_AKTIFITAS)
+    Call <DeleteAktifitasRekModel> DeleteAktifitasRek(
+            @Body DeleteAktifitasRekModel body
+    );
+
+    @POST(ApiConstant.DELETE_ASSET)
+    Call <DeleteAssetModel> DeleteAsset(
+                    @Body DeleteAssetModel body
+    );
+
+    @POST(ApiConstant.DELETE_KUNJUNGAN_AOM)
+    Call <DeleteKunjunganUsahaAOMModel> DeleteKunjungan(
+            @Body DeleteKunjunganUsahaAOMModel body
+    );
+
+    @POST(ApiConstant.DELETE_NILAI_AGUNAN)
+    Call <DeleteNilaiAgunanModel> DeleteNilaiAgunan(
+            @Body DeleteNilaiAgunanModel body
+    );
+
+    @POST(ApiConstant.DELETE_RENCANA_AGUNAN)
+    Call <DeleteRencanaAgunanModel> DeleteRencanaAgunan(
+            @Body DeleteRencanaAgunanModel body
+    );
+
+    @POST(ApiConstant.DELETE_NOTE_SURVEY)
+    Call <DeleteNoteSurveyModel> DeleteNoteSurvey(
+            @Body DeleteNoteSurveyModel body
+    );
+
+    @POST(ApiConstant.DELETE_PINJAMAN_LAINNYA)
+    Call <DeletePinjamanLainnyaModel> DeletePinjaman(
+            @Body DeletePinjamanLainnyaModel body
+    );
+
+    @POST(ApiConstant.DELETE_RAB)
+    Call <DeleteRABModel> DeleteRAB(
+            @Body DeleteRABModel body
+    );
+
+    @POST(ApiConstant.DELETE_SUMBER_REPUTASI)
+    Call <DeleteSumberReputasiModel> DeleteSumberReputasi(
+            @Body DeleteSumberReputasiModel body
+    );
+
+    @POST(ApiConstant.DELETE_USAHA)
+    Call <DeleteUsahaModel> DeleteUsaha(
+            @Body DeleteUsahaModel body
     );
 
 
