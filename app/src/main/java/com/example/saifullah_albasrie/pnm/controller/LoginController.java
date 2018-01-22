@@ -696,7 +696,7 @@ public class LoginController {
 
 
     private void getJenisAgunan() {
-        final Call<List<BaseResponseNew>> jenisAgunanCall = service.getJenisAgunan();
+        final Call<List<BaseResponseNew>> jenisAgunanCall = servicenoauth.getJenisAgunan();
         synchronized (LOCK) {
             queue.add(jenisAgunanCall);
         }
@@ -723,7 +723,7 @@ public class LoginController {
     }
 
     private void getJenisKontak() {
-        final Call<List<BaseResponseNew>> jenisKontakCall = service.getJenisKontak();
+        final Call<List<BaseResponseNew>> jenisKontakCall = servicenoauth.getJenisKontak();
         synchronized (LOCK) {
             queue.add(jenisKontakCall);
         }
@@ -750,7 +750,7 @@ public class LoginController {
     }
 
     private void getStatusTempat() {
-        final Call<List<BaseResponseNew>> statusTempatCall = service.getStatusTempat();
+        final Call<List<BaseResponseNew>> statusTempatCall = servicenoauth.getStatusTempat();
         synchronized (LOCK) {
             queue.add(statusTempatCall);
         }
@@ -777,7 +777,7 @@ public class LoginController {
     }
 
     private void getPendidikan() {
-        final Call<List<BaseResponseNew>> pendidikanCall = service.getPendidikan();
+        final Call<List<BaseResponseNew>> pendidikanCall = servicenoauth.getPendidikan();
         synchronized (LOCK) {
             queue.add(pendidikanCall);
         }
@@ -804,7 +804,7 @@ public class LoginController {
     }
 
     private void getProduk() {
-        final Call<List<BaseResponseNew>> produkCall = service.getProduk();
+        final Call<List<BaseResponseNew>> produkCall = servicenoauth.getProduk();
         synchronized (LOCK) {
             queue.add(produkCall);
         }
@@ -832,7 +832,7 @@ public class LoginController {
     }
 
     private void getJenisDokumen() {
-        final Call<List<BaseResponseNew>> jenisDokumenCall = service.getJenisDokumen();
+        final Call<List<BaseResponseNew>> jenisDokumenCall = servicenoauth.getJenisDokumen();
         synchronized (LOCK) {
             queue.add(jenisDokumenCall);
         }
@@ -859,7 +859,7 @@ public class LoginController {
     }
 
     private void getJenisPembiayaan() {
-        final Call<List<BaseResponseNew>> jenisPembiayaanCall = service.getJenisPembiayaan();
+        final Call<List<BaseResponseNew>> jenisPembiayaanCall = servicenoauth.getJenisPembiayaan();
         synchronized (LOCK) {
             queue.add(jenisPembiayaanCall);
         }
@@ -886,7 +886,7 @@ public class LoginController {
     }
 
     private void getLokasi() {
-        final Call<List<BaseResponseNew>> lokasiCall = service.getLokasi();
+        final Call<List<BaseResponseNew>> lokasiCall = servicenoauth.getLokasi();
         synchronized (LOCK) {
             queue.add(lokasiCall);
         }
@@ -913,7 +913,7 @@ public class LoginController {
     }
 
     private void getHubunganPemohon() {
-        final Call<List<BaseResponseNew>> hubunganPemohonCall = service.getHubPemohon();
+        final Call<List<BaseResponseNew>> hubunganPemohonCall = servicenoauth.getHubPemohon();
         synchronized (LOCK) {
             queue.add(hubunganPemohonCall);
         }
@@ -940,7 +940,7 @@ public class LoginController {
     }
 
     private void getKerjasamaPemohon() {
-        final Call<List<BaseResponseNew>> kerjasamaPemohonCall = service.getKerjasamaPemohon();
+        final Call<List<BaseResponseNew>> kerjasamaPemohonCall = servicenoauth.getKerjasamaPemohon();
         synchronized (LOCK) {
             queue.add(kerjasamaPemohonCall);
         }
@@ -967,7 +967,7 @@ public class LoginController {
     }
 
     private void getTrackRecord() {
-        final Call<List<BaseResponseNew>> trackRecordCall = service.getTrackRecord();
+        final Call<List<BaseResponseNew>> trackRecordCall = servicenoauth.getTrackRecord();
         synchronized (LOCK) {
             queue.add(trackRecordCall);
         }
@@ -994,7 +994,7 @@ public class LoginController {
     }
 
     private void getMengenalUlaam() {
-        final Call<List<BaseResponseNew>> mengenalUlaamCall = service.getMengenalUlamm();
+        final Call<List<BaseResponseNew>> mengenalUlaamCall = servicenoauth.getMengenalUlamm();
         synchronized (LOCK) {
             queue.add(mengenalUlaamCall);
         }
@@ -1021,7 +1021,7 @@ public class LoginController {
     }
 
     private void getReputasi() {
-        final Call<List<BaseResponseNew>> reputasiCall = service.getReputasi();
+        final Call<List<BaseResponseNew>> reputasiCall = servicenoauth.getReputasi();
         synchronized (LOCK) {
             queue.add(reputasiCall);
         }
@@ -1048,7 +1048,7 @@ public class LoginController {
     }
 
     private void getHarta() {
-        final Call<List<BaseResponseNew>> hartaCall = service.getHarta();
+        final Call<List<BaseResponseNew>> hartaCall = servicenoauth.getHarta();
         synchronized (LOCK) {
             queue.add(hartaCall);
         }
@@ -1075,7 +1075,7 @@ public class LoginController {
     }
 
     private void getPengelolaanKeuangan() {
-        final Call<List<BaseResponseNew>> pengelolaanKeuanganCall = service.getPengelolaanKeuangan();
+        final Call<List<BaseResponseNew>> pengelolaanKeuanganCall = servicenoauth.getPengelolaanKeuangan();
         synchronized (LOCK) {
             queue.add(pengelolaanKeuanganCall);
         }
@@ -1102,7 +1102,7 @@ public class LoginController {
     }
 
     private void getBentukUsaha() {
-        final Call<List<BaseResponseNew>> bentukUsahaCall = service.getBentukUsaha();
+        final Call<List<BaseResponseNew>> bentukUsahaCall = servicenoauth.getBentukUsaha();
         synchronized (LOCK) {
             queue.add(bentukUsahaCall);
         }
@@ -1129,7 +1129,7 @@ public class LoginController {
     }
 
     private void getJenisBadanUsaha() {
-        final Call<List<BaseResponseNew>> jenisBadanUsahaCall = service.getJenisBadanUsaha();
+        final Call<List<BaseResponseNew>> jenisBadanUsahaCall = servicenoauth.getJenisBadanUsaha();
         synchronized (LOCK) {
             queue.add(jenisBadanUsahaCall);
         }
@@ -1156,7 +1156,7 @@ public class LoginController {
     }
 
     private void getKegiatanUsaha() {
-        final Call<List<BaseResponseNew>> kegiatanUsahaCall = service.getKegiatanUsaha();
+        final Call<List<BaseResponseNew>> kegiatanUsahaCall = servicenoauth.getKegiatanUsaha();
         synchronized (LOCK) {
             queue.add(kegiatanUsahaCall);
         }
@@ -1183,7 +1183,7 @@ public class LoginController {
     }
 
     private void getAksesKendaraan() {
-        final Call<List<BaseResponseNew>> AksesKendaraanCall = service.getAksesKendaraan();
+        final Call<List<BaseResponseNew>> AksesKendaraanCall = servicenoauth.getAksesKendaraan();
         synchronized (LOCK) {
             queue.add(AksesKendaraanCall);
         }
@@ -1210,7 +1210,7 @@ public class LoginController {
     }
 
     private void getProdukDitawarkan() {
-        final Call<List<BaseResponseNew>> produkDitawarkanCall = service.getProdDitawarkan();
+        final Call<List<BaseResponseNew>> produkDitawarkanCall = servicenoauth.getProdDitawarkan();
         synchronized (LOCK) {
             queue.add(produkDitawarkanCall);
         }
@@ -1237,7 +1237,7 @@ public class LoginController {
     }
 
     private void getJumlahPemasok() {
-        final Call<List<BaseResponseNew>> jumlahPemasokCall = service.getJmlPemasok();
+        final Call<List<BaseResponseNew>> jumlahPemasokCall = servicenoauth.getJmlPemasok();
         synchronized (LOCK) {
             queue.add(jumlahPemasokCall);
         }
@@ -1264,7 +1264,7 @@ public class LoginController {
     }
 
     private void getPersainganUsaha() {
-        final Call<List<BaseResponseNew>> persainganUsahaCall = service.getPersainganUsaha();
+        final Call<List<BaseResponseNew>> persainganUsahaCall = servicenoauth.getPersainganUsaha();
         synchronized (LOCK) {
             queue.add(persainganUsahaCall);
         }
@@ -1291,7 +1291,7 @@ public class LoginController {
     }
 
     private void getKondisiSektorUsaha() {
-        final Call<List<BaseResponseNew>> kondisiSektorUsahaCall = service.getKondSekUsaha();
+        final Call<List<BaseResponseNew>> kondisiSektorUsahaCall = servicenoauth.getKondSekUsaha();
         synchronized (LOCK) {
             queue.add(kondisiSektorUsahaCall);
         }
@@ -1318,7 +1318,7 @@ public class LoginController {
     }
 
     private void getLokasiUsaha() {
-        final Call<List<BaseResponseNew>> lokasiUsahaCall = service.getLokasiUsaha();
+        final Call<List<BaseResponseNew>> lokasiUsahaCall = servicenoauth.getLokasiUsaha();
         synchronized (LOCK) {
             queue.add(lokasiUsahaCall);
         }
@@ -1345,7 +1345,7 @@ public class LoginController {
     }
 
     private void getPeriode() {
-        final Call<List<BaseResponseNew>> periodeCall = service.getPeriode();
+        final Call<List<BaseResponseNew>> periodeCall = servicenoauth.getPeriode();
         synchronized (LOCK) {
             queue.add(periodeCall);
         }
@@ -1372,7 +1372,7 @@ public class LoginController {
     }
 
     private void getPembayaran() {
-        final Call<List<BaseResponseNew>> pembayaranCall = service.getpembayaran();
+        final Call<List<BaseResponseNew>> pembayaranCall = servicenoauth.getpembayaran();
         synchronized (LOCK) {
             queue.add(pembayaranCall);
         }
@@ -1399,7 +1399,7 @@ public class LoginController {
     }
 
     private void getProgram() {
-        final Call<List<BaseResponseNew>> programCall = service.getProgram();
+        final Call<List<BaseResponseNew>> programCall = servicenoauth.getProgram();
         synchronized (LOCK) {
             queue.add(programCall);
         }
@@ -1426,7 +1426,7 @@ public class LoginController {
     }
 
     private void getBank() {
-        final Call<List<BaseResponseNew>> bankCall = service.getBank();
+        final Call<List<BaseResponseNew>> bankCall = servicenoauth.getBank();
         synchronized (LOCK) {
             queue.add(bankCall);
         }
@@ -1453,7 +1453,7 @@ public class LoginController {
     }
 
     private void getKolektibilitas() {
-        final Call<List<BaseResponseNew>> kolektibilitasCall = service.getKolektibilitas();
+        final Call<List<BaseResponseNew>> kolektibilitasCall = servicenoauth.getKolektibilitas();
         synchronized (LOCK) {
             queue.add(kolektibilitasCall);
         }
@@ -1480,7 +1480,7 @@ public class LoginController {
     }
 
     private void getJenisAsset() {
-        final Call<List<BaseResponseNew>> jenisAsetCall = service.getJenisAsset();
+        final Call<List<BaseResponseNew>> jenisAsetCall = servicenoauth.getJenisAsset();
         synchronized (LOCK) {
             queue.add(jenisAsetCall);
         }
@@ -1507,7 +1507,7 @@ public class LoginController {
     }
 
     private void getPenilaian() {
-        final Call<List<BaseResponseNew>> penilaianCall = service.getPenilaian();
+        final Call<List<BaseResponseNew>> penilaianCall = servicenoauth.getPenilaian();
         synchronized (LOCK) {
             queue.add(penilaianCall);
         }
@@ -1534,7 +1534,7 @@ public class LoginController {
     }
 
     private void getKepemilikan() {
-        final Call<List<BaseResponseNew>> kepemilikanCall = service.getKepemilikan();
+        final Call<List<BaseResponseNew>> kepemilikanCall = servicenoauth.getKepemilikan();
         synchronized (LOCK) {
             queue.add(kepemilikanCall);
         }
@@ -1561,7 +1561,7 @@ public class LoginController {
     }
 
     private void getBuktiKepemilikanAgunan() {
-        final Call<List<BaseResponseNew>> buktiKepemilikanAgunanCall = service.getBuktiKepAgunan();
+        final Call<List<BaseResponseNew>> buktiKepemilikanAgunanCall = servicenoauth.getBuktiKepAgunan();
         synchronized (LOCK) {
             queue.add(buktiKepemilikanAgunanCall);
         }
@@ -1588,7 +1588,7 @@ public class LoginController {
     }
 
     private void getPeruntukanLokasi() {
-        final Call<List<BaseResponseNew>> peruntukanLokasiCall = service.getPeruntukanLokasi();
+        final Call<List<BaseResponseNew>> peruntukanLokasiCall = servicenoauth.getPeruntukanLokasi();
         synchronized (LOCK) {
             queue.add(peruntukanLokasiCall);
         }
@@ -1615,7 +1615,7 @@ public class LoginController {
     }
 
     private void getJalanDilalui() {
-        final Call<List<BaseResponseNew>> jalanDilaluiCall = service.getJalanDilalui();
+        final Call<List<BaseResponseNew>> jalanDilaluiCall = servicenoauth.getJalanDilalui();
         synchronized (LOCK) {
             queue.add(jalanDilaluiCall);
         }
@@ -1642,7 +1642,7 @@ public class LoginController {
     }
 
     private void getBentukTanah() {
-        final Call<List<BaseResponseNew>> bentukTanahCall = service.getBentukTanah();
+        final Call<List<BaseResponseNew>> bentukTanahCall = servicenoauth.getBentukTanah();
         synchronized (LOCK) {
             queue.add(bentukTanahCall);
         }
@@ -1669,7 +1669,7 @@ public class LoginController {
     }
 
     private void getKondisiPermukaan() {
-        final Call<List<BaseResponseNew>> kondisiPermukaanCall = service.getKondisiPermukaan();
+        final Call<List<BaseResponseNew>> kondisiPermukaanCall = servicenoauth.getKondisiPermukaan();
         synchronized (LOCK) {
             queue.add(kondisiPermukaanCall);
         }
@@ -1696,7 +1696,7 @@ public class LoginController {
     }
 
     private void getPenggunaanTanah() {
-        final Call<List<BaseResponseNew>> penggunaanTanahCall = service.getPenggunaanTanah();
+        final Call<List<BaseResponseNew>> penggunaanTanahCall = servicenoauth.getPenggunaanTanah();
         synchronized (LOCK) {
             queue.add(penggunaanTanahCall);
         }
@@ -1723,7 +1723,7 @@ public class LoginController {
     }
 
     private void getBatas() {
-        final Call<List<BaseResponseNew>> batasCall = service.getBatas();
+        final Call<List<BaseResponseNew>> batasCall = servicenoauth.getBatas();
         synchronized (LOCK) {
             queue.add(batasCall);
         }
@@ -1750,7 +1750,7 @@ public class LoginController {
     }
 
     private void getAir() {
-        final Call<List<BaseResponseNew>> airCall = service.getAir();
+        final Call<List<BaseResponseNew>> airCall = servicenoauth.getAir();
         synchronized (LOCK) {
             queue.add(airCall);
         }
@@ -1777,7 +1777,7 @@ public class LoginController {
     }
 
     private void getPondasi() {
-        final Call<List<BaseResponseNew>> pondasiCall = service.getPondasi();
+        final Call<List<BaseResponseNew>> pondasiCall = servicenoauth.getPondasi();
         synchronized (LOCK) {
             queue.add(pondasiCall);
         }
@@ -1804,7 +1804,7 @@ public class LoginController {
     }
 
     private void getLantai() {
-        final Call<List<BaseResponseNew>> lantaiCall = service.getLantai();
+        final Call<List<BaseResponseNew>> lantaiCall = servicenoauth.getLantai();
         synchronized (LOCK) {
             queue.add(lantaiCall);
         }
@@ -1831,7 +1831,7 @@ public class LoginController {
     }
 
     private void getDinding() {
-        final Call<List<BaseResponseNew>> dindingCall = service.getDinding();
+        final Call<List<BaseResponseNew>> dindingCall = servicenoauth.getDinding();
         synchronized (LOCK) {
             queue.add(dindingCall);
         }
@@ -1858,7 +1858,7 @@ public class LoginController {
     }
 
     private void getJendela() {
-        final Call<List<BaseResponseNew>> jendelaCall = service.getJendela();
+        final Call<List<BaseResponseNew>> jendelaCall = servicenoauth.getJendela();
         synchronized (LOCK) {
             queue.add(jendelaCall);
         }
@@ -1885,7 +1885,7 @@ public class LoginController {
     }
 
     private void getPlafon() {
-        final Call<List<BaseResponseNew>> plafonCall = service.getPlafon();
+        final Call<List<BaseResponseNew>> plafonCall = servicenoauth.getPlafon();
         synchronized (LOCK) {
             queue.add(plafonCall);
         }
@@ -1912,7 +1912,7 @@ public class LoginController {
     }
 
     private void getKusen() {
-        final Call<List<BaseResponseNew>> kusenCall = service.getKusen();
+        final Call<List<BaseResponseNew>> kusenCall = servicenoauth.getKusen();
         synchronized (LOCK) {
             queue.add(kusenCall);
         }
@@ -1939,7 +1939,7 @@ public class LoginController {
     }
 
     private void getAtap() {
-        final Call<List<BaseResponseNew>> atapCall = service.getAtap();
+        final Call<List<BaseResponseNew>> atapCall = servicenoauth.getAtap();
         synchronized (LOCK) {
             queue.add(atapCall);
         }
@@ -1966,7 +1966,7 @@ public class LoginController {
     }
 
     private void getPintu() {
-        final Call<List<BaseResponseNew>> pintuCall = service.getPintu();
+        final Call<List<BaseResponseNew>> pintuCall = servicenoauth.getPintu();
         synchronized (LOCK) {
             queue.add(pintuCall);
         }
@@ -1993,7 +1993,7 @@ public class LoginController {
     }
 
     private void getJenisCatatan() {
-        final Call<List<BaseResponseNew>> jenisCatatanCall = service.getJenisCatatan();
+        final Call<List<BaseResponseNew>> jenisCatatanCall = servicenoauth.getJenisCatatan();
         synchronized (LOCK) {
             queue.add(jenisCatatanCall);
         }
@@ -2020,7 +2020,7 @@ public class LoginController {
     }
 
     private void getTujuanPengiriman() {
-        final Call<List<BaseResponseNew>> tujuanPengirimanCall = service.getTujuanPengiriman();
+        final Call<List<BaseResponseNew>> tujuanPengirimanCall = servicenoauth.getTujuanPengiriman();
         synchronized (LOCK) {
             queue.add(tujuanPengirimanCall);
         }
@@ -2047,7 +2047,7 @@ public class LoginController {
     }
 
     private void getKeperluanPinjam() {
-        final Call<List<BaseResponseNew>> KeperluanPinjamCall = service.getKeperluanPinjam();
+        final Call<List<BaseResponseNew>> KeperluanPinjamCall = servicenoauth.getKeperluanPinjam();
         synchronized (LOCK) {
             queue.add(KeperluanPinjamCall);
         }
@@ -2074,7 +2074,7 @@ public class LoginController {
     }
 
     private void getBisnis() {
-        final Call<List<BaseResponseNew>> bisnisCall = service.getBisnis();
+        final Call<List<BaseResponseNew>> bisnisCall = servicenoauth.getBisnis();
         synchronized (LOCK) {
             queue.add(bisnisCall);
         }
@@ -2101,7 +2101,7 @@ public class LoginController {
     }
 
     private void getJabatan() {
-        final Call<List<BaseResponseNew>> jabatanCall = service.getJabatan();
+        final Call<List<BaseResponseNew>> jabatanCall = servicenoauth.getJabatan();
         synchronized (LOCK) {
             queue.add(jabatanCall);
         }
@@ -2128,7 +2128,7 @@ public class LoginController {
     }
 
     private void getStatusPinjamAgunan() {
-        final Call<List<BaseResponseNew>> statusPinjamAgunanCall = service.getStatusPinjamAgunan();
+        final Call<List<BaseResponseNew>> statusPinjamAgunanCall = servicenoauth.getStatusPinjamAgunan();
         synchronized (LOCK) {
             queue.add(statusPinjamAgunanCall);
         }
@@ -2155,7 +2155,7 @@ public class LoginController {
     }
 
     private void getStatusPelepasanAgunan() {
-        final Call<List<BaseResponseNew>> statusPelepasanAgunanCall = service.getStatusPelepasanAgunan();
+        final Call<List<BaseResponseNew>> statusPelepasanAgunanCall = servicenoauth.getStatusPelepasanAgunan();
         synchronized (LOCK) {
             queue.add(statusPelepasanAgunanCall);
         }
@@ -2182,7 +2182,7 @@ public class LoginController {
     }
 
     private void getPeminjamAgunan() {
-        final Call<List<BaseResponseNew>> peminjamAgunanCall = service.getPeminjamAgunan();
+        final Call<List<BaseResponseNew>> peminjamAgunanCall = servicenoauth.getPeminjamAgunan();
         synchronized (LOCK) {
             queue.add(peminjamAgunanCall);
         }
@@ -2209,7 +2209,7 @@ public class LoginController {
     }
 
     private void getRekeningTujuanSejenis() {
-        final Call<List<BaseResponseNew>> tujuanSejenisCall = service.getRekeningTujuanBisnis();
+        final Call<List<BaseResponseNew>> tujuanSejenisCall = servicenoauth.getRekeningTujuanBisnis();
         synchronized (LOCK) {
             queue.add(tujuanSejenisCall);
         }
@@ -2236,7 +2236,7 @@ public class LoginController {
     }
 
     private void getSumberDana() {
-        final Call<List<BaseResponseNew>> sumberDanaCall = service.getSumberDana();
+        final Call<List<BaseResponseNew>> sumberDanaCall = servicenoauth.getSumberDana();
         synchronized (LOCK) {
             queue.add(sumberDanaCall);
         }
@@ -2263,7 +2263,7 @@ public class LoginController {
     }
 
     private void getProfesiNotaris() {
-        final Call<List<BaseResponseNew>> profesiNotarisCall = service.getProfesiNotaris();
+        final Call<List<BaseResponseNew>> profesiNotarisCall = servicenoauth.getProfesiNotaris();
         synchronized (LOCK) {
             queue.add(profesiNotarisCall);
         }
@@ -2290,7 +2290,7 @@ public class LoginController {
     }
 
     private void getJenisGambaranUmumReview() {
-        final Call<List<BaseResponseNew>> jenisGambaranUmumReview = service.getJenisGambaranUmumReview();
+        final Call<List<BaseResponseNew>> jenisGambaranUmumReview = servicenoauth.getJenisGambaranUmumReview();
         synchronized (LOCK) {
             queue.add(jenisGambaranUmumReview);
         }
@@ -2317,7 +2317,7 @@ public class LoginController {
     }
 
     private void getKondisiTempatUsaha() {
-        final Call<List<BaseResponseNew>> kondisiTempatUsahaCall = service.getKondisiTempatUsaha();
+        final Call<List<BaseResponseNew>> kondisiTempatUsahaCall = servicenoauth.getKondisiTempatUsaha();
         synchronized (LOCK) {
             queue.add(kondisiTempatUsahaCall);
         }
@@ -2344,7 +2344,7 @@ public class LoginController {
     }
 
     private void getKetersediaanBahanBaku() {
-        final Call<List<BaseResponseNew>> ketersediaanBahanBakuCall = service.getKetersediaanBahanBaku();
+        final Call<List<BaseResponseNew>> ketersediaanBahanBakuCall = servicenoauth.getKetersediaanBahanBaku();
         synchronized (LOCK) {
             queue.add(ketersediaanBahanBakuCall);
         }
@@ -2371,7 +2371,7 @@ public class LoginController {
     }
 
     private void getGolonganPenjamin() {
-        final Call<List<BaseResponseNew>> golonganPenjaminCall = service.getGolonganPenjamin();
+        final Call<List<BaseResponseNew>> golonganPenjaminCall = servicenoauth.getGolonganPenjamin();
         synchronized (LOCK) {
             queue.add(golonganPenjaminCall);
         }
@@ -2398,7 +2398,7 @@ public class LoginController {
     }
 
     private void getStatusAsuransiAgunan() {
-        final Call<List<BaseResponseNew>> statusAsuransiAgunanCall = service.getStatusAsuransiAgunan();
+        final Call<List<BaseResponseNew>> statusAsuransiAgunanCall = servicenoauth.getStatusAsuransiAgunan();
         synchronized (LOCK) {
             queue.add(statusAsuransiAgunanCall);
         }
@@ -2425,7 +2425,7 @@ public class LoginController {
     }
 
     private void getGolonganKredit() {
-        final Call<List<BaseResponseNew>> golonganKreditCall = service.getGolonganKredit();
+        final Call<List<BaseResponseNew>> golonganKreditCall = servicenoauth.getGolonganKredit();
         synchronized (LOCK) {
             queue.add(golonganKreditCall);
         }
@@ -2452,7 +2452,7 @@ public class LoginController {
     }
 
     private void getNamaPengadilanNegeri() {
-        final Call<List<BaseResponseNew>> namaPengadilanNegeriCall = service.getNamaPengadilanNegeri();
+        final Call<List<BaseResponseNew>> namaPengadilanNegeriCall = servicenoauth.getNamaPengadilanNegeri();
         synchronized (LOCK) {
             queue.add(namaPengadilanNegeriCall);
         }
@@ -2479,7 +2479,7 @@ public class LoginController {
     }
 
     private void getJenisProduk() {
-        final Call<List<BaseResponseNew>> jenisProdukCall = service.getJenisProduk();
+        final Call<List<BaseResponseNew>> jenisProdukCall = servicenoauth.getJenisProduk();
         synchronized (LOCK) {
             queue.add(jenisProdukCall);
         }
@@ -2506,7 +2506,7 @@ public class LoginController {
     }
 
     private void getJenisSumberDana() {
-        final Call<List<BaseResponseNew>> jenisSumberDanaCall = service.getJenisSumberDana();
+        final Call<List<BaseResponseNew>> jenisSumberDanaCall = servicenoauth.getJenisSumberDana();
         synchronized (LOCK) {
             queue.add(jenisSumberDanaCall);
         }
@@ -2533,7 +2533,7 @@ public class LoginController {
     }
 
     private void getJenisDcaID() {
-        final Call<List<BaseResponseNew>> jenisDCAid = service.getJenisDCAID();
+        final Call<List<BaseResponseNew>> jenisDCAid = servicenoauth.getJenisDCAID();
         synchronized (LOCK) {
             queue.add(jenisDCAid);
         }
@@ -2560,7 +2560,7 @@ public class LoginController {
     }
 
     private void getPolaPencairan() {
-        final Call<List<BaseResponseNew>> polaPencairanCall = service.getPolaPencairan();
+        final Call<List<BaseResponseNew>> polaPencairanCall = servicenoauth.getPolaPencairan();
         synchronized (LOCK) {
             queue.add(polaPencairanCall);
         }
@@ -2587,7 +2587,7 @@ public class LoginController {
     }
 
     private void getNilaiPencairan() {
-        final Call<List<BaseResponseNew>> nilaiPencairanCall = service.getNilaiPencairan();
+        final Call<List<BaseResponseNew>> nilaiPencairanCall = servicenoauth.getNilaiPencairan();
         synchronized (LOCK) {
             queue.add(nilaiPencairanCall);
         }
@@ -2614,7 +2614,7 @@ public class LoginController {
     }
 
     private void getMataUang() {
-        final Call<List<BaseResponseNew>> mataUangCall = service.getMataUang();
+        final Call<List<BaseResponseNew>> mataUangCall = servicenoauth.getMataUang();
         synchronized (LOCK) {
             queue.add(mataUangCall);
         }
@@ -2641,7 +2641,7 @@ public class LoginController {
     }
 
     private void getLokasiProduk() {
-        final Call<List<BaseResponseNew>> lokasiProdukCall = service.getLokasiProduk();
+        final Call<List<BaseResponseNew>> lokasiProdukCall = servicenoauth.getLokasiProduk();
         synchronized (LOCK) {
             queue.add(lokasiProdukCall);
         }
@@ -2668,7 +2668,7 @@ public class LoginController {
     }
 
     private void getRegPro() {
-        final Call<List<BaseResponseNew>> regProCall = service.getRegPro();
+        final Call<List<BaseResponseNew>> regProCall = servicenoauth.getRegPro();
         synchronized (LOCK) {
             queue.add(regProCall);
         }
@@ -2695,7 +2695,7 @@ public class LoginController {
     }
 
     private void getJenisSukuBunga() {
-        final Call<List<BaseResponseNew>> jenisSukuBungaCall = service.getJenisSukuBunga();
+        final Call<List<BaseResponseNew>> jenisSukuBungaCall = servicenoauth.getJenisSukuBunga();
         synchronized (LOCK) {
             queue.add(jenisSukuBungaCall);
         }
@@ -2722,7 +2722,7 @@ public class LoginController {
     }
 
     private void getJenisPembayaranProduk() {
-        final Call<List<BaseResponseNew>> jenisPembayaranProduk = service.getJenisPembayaranProduk();
+        final Call<List<BaseResponseNew>> jenisPembayaranProduk = servicenoauth.getJenisPembayaranProduk();
         synchronized (LOCK) {
             queue.add(jenisPembayaranProduk);
         }
@@ -2749,7 +2749,7 @@ public class LoginController {
     }
 
     private void getJenisPerhitunganBunga() {
-        final Call<List<BaseResponseNew>> jenisPerhitunganBunga = service.getJenisPerhitunganBunga();
+        final Call<List<BaseResponseNew>> jenisPerhitunganBunga = servicenoauth.getJenisPerhitunganBunga();
         synchronized (LOCK) {
             queue.add(jenisPerhitunganBunga);
         }
@@ -2776,7 +2776,7 @@ public class LoginController {
     }
 
     private void getJadwalPerhitunganBunga() {
-        final Call<List<BaseResponseNew>> jadwalPerhitunganBungaCall = service.getJadwalPerhitunganBunga();
+        final Call<List<BaseResponseNew>> jadwalPerhitunganBungaCall = servicenoauth.getJadwalPerhitunganBunga();
         synchronized (LOCK) {
             queue.add(jadwalPerhitunganBungaCall);
         }
@@ -2803,7 +2803,7 @@ public class LoginController {
     }
 
     private void getJenisPemotonganBunga() {
-        final Call<List<BaseResponseNew>> jenisPemotonganBungaCall = service.getJenisPemotonganBunga();
+        final Call<List<BaseResponseNew>> jenisPemotonganBungaCall = servicenoauth.getJenisPemotonganBunga();
         synchronized (LOCK) {
             queue.add(jenisPemotonganBungaCall);
         }
@@ -2830,7 +2830,7 @@ public class LoginController {
     }
 
     private void getStrukturHariDalamSatuTahun() {
-        final Call<List<BaseResponseNew>> STHDSTcall = service.getStrukturHariDalamSatuTahun();
+        final Call<List<BaseResponseNew>> STHDSTcall = servicenoauth.getStrukturHariDalamSatuTahun();
         synchronized (LOCK) {
             queue.add(STHDSTcall);
         }
@@ -2857,7 +2857,7 @@ public class LoginController {
     }
 
     private void getStrukturHariDalamSatuBulan() {
-        final Call<List<BaseResponseNew>> STHDSBcall = service.getStrukurHariDalamSatuBulan();
+        final Call<List<BaseResponseNew>> STHDSBcall = servicenoauth.getStrukurHariDalamSatuBulan();
         synchronized (LOCK) {
             queue.add(STHDSBcall);
         }
@@ -2884,7 +2884,7 @@ public class LoginController {
     }
 
     private void getStrukturKreditHariLibur() {
-        final Call<List<BaseResponseNew>> SKHLcall = service.getStrukturKreditHariLibur();
+        final Call<List<BaseResponseNew>> SKHLcall = servicenoauth.getStrukturKreditHariLibur();
         synchronized (LOCK) {
             queue.add(SKHLcall);
         }
@@ -2911,7 +2911,7 @@ public class LoginController {
     }
 
     private void getStrukturKreditHariBiaya() {
-        final Call<List<BaseResponseNew>> SKHBcall = service.getStrukturKreditHariBiaya();
+        final Call<List<BaseResponseNew>> SKHBcall = servicenoauth.getStrukturKreditHariBiaya();
         synchronized (LOCK) {
             queue.add(SKHBcall);
         }
@@ -2938,7 +2938,7 @@ public class LoginController {
     }
 
     private void getKategoriPembiayaan() {
-        final Call<List<BaseResponseNew>> kategoriPembiayaanCall = service.getKategoriPembiayaan();
+        final Call<List<BaseResponseNew>> kategoriPembiayaanCall = servicenoauth.getKategoriPembiayaan();
         synchronized (LOCK) {
             queue.add(kategoriPembiayaanCall);
         }
