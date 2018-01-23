@@ -88,7 +88,7 @@ public class RestHelper {
         synchronized (LOCK) {
             String apiHost = host + "api/v1/master/lov_global/";
             sInstanceNoAuth = new RestHelper(apiHost, null, null);
-            preference.setApiHostInternal(apiHost);
+            preference.setApiHostInternalPNM(apiHost);
         }
     }
 
