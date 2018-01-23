@@ -480,7 +480,7 @@ public class LoginController {
             @Override
             public void onResponse(Call<List<BaseResponseNew>> call, Response<List<BaseResponseNew>> response) {
                 if (response != null && response.body() != null && response.isSuccessful()) {
-                    dataManager.setMasterDataNewList(response.body());
+                    dataManager.setMasterJenisRefensiNew(response.body());
                     onDataMasterCompleted(jenisReferensiCall, true);
                 } else {
                     onDataMasterCompleted(jenisReferensiCall, false);

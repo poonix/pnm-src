@@ -108,6 +108,7 @@ public class DataManager {
 
     private List<BaseResponseNew> MasterUsahaNewList;
     private List<BaseResponseNew> MasterIdentitasNewList;
+    private List<BaseResponseNew> MasterJenisRefensiNewList;
     private List<BaseResponseNew> MasterDataNewList;
 
     public static DataManager getInstance() {
@@ -1064,5 +1065,27 @@ public class DataManager {
         this.MasterUsahaNewList = MasterUsahaNewList;
     }
 
+
+    public List<BaseResponseNew> getMasterJenisRefensiNew() {
+        if (MasterJenisRefensiNewList == null) {
+            String sJson = preference.getString("MasterJenisReferensiNew");
+            if (!TextUtils.isEmpty(sJson)) {
+                MasterJenisRefensiNewList = new Gson().fromJson(sJson, new TypeToken<List<BaseResponseNew>>() {
+                }.getType());
+            }
+        }
+        return MasterJenisRefensiNewList;
+    }
+
+    public void setMasterJenisRefensiNew(List<BaseResponseNew> MasterJenisReferensiNewList) {
+        BaseResponseNew modelFirst = new BaseResponseNew();
+        modelFirst.setDeskripsi("Pilih");
+        if (!MasterJenisReferensiNewList.contains(modelFirst)) {
+            MasterJenisReferensiNewList.add(0, modelFirst);
+        }
+        String sJson = new Gson().toJson(MasterJenisReferensiNewList);
+        preference.set("MasterJenisReferensiNew", sJson);
+        this.MasterJenisRefensiNewList = MasterJenisReferensiNewList;
+    }
  /*----------------------------------------------------------Andityo Master Data New List------------------------------------------------------------------------------*/
 }
