@@ -106,8 +106,9 @@ public class DataManager {
     private List<SaluranAirModel> saluranAirModelList;
     private List<SaluranTeleponModel> saluranTeleponModelList;
 
+    private List<BaseResponseNew> MasterUsahaNewList;
+    private List<BaseResponseNew> MasterIdentitasNewList;
     private List<BaseResponseNew> MasterDataNewList;
-
 
     public static DataManager getInstance() {
         synchronized (LOCK) {
@@ -1019,7 +1020,6 @@ public class DataManager {
     }
 
     /*----------------------------------------------------------Andityo Master Data New List------------------------------------------------------------------------------*/
-
     public List<BaseResponseNew> getMasterDataNew() {
         if (MasterDataNewList == null) {
             String sJson = preference.getString("BaseResponseNew");
@@ -1040,6 +1040,28 @@ public class DataManager {
         String sJson = new Gson().toJson(MasterDataNewList);
         preference.set("BaseResponseNew", sJson);
         this.MasterDataNewList = MasterDataNewList;
+    }
+
+    public List<BaseResponseNew> getMasterUsahaNew() {
+        if (MasterUsahaNewList == null) {
+            String sJson = preference.getString("MasterUsahaBaru");
+            if (!TextUtils.isEmpty(sJson)) {
+                MasterUsahaNewList = new Gson().fromJson(sJson, new TypeToken<List<BaseResponseNew>>() {
+                }.getType());
+            }
+        }
+        return MasterUsahaNewList;
+    }
+
+    public void setMasterUsahaNew(List<BaseResponseNew> MasterUsahaNewList) {
+        BaseResponseNew modelFirst = new BaseResponseNew();
+        modelFirst.setDeskripsi("Pilih");
+        if (!MasterUsahaNewList.contains(modelFirst)) {
+            MasterUsahaNewList.add(0, modelFirst);
+        }
+        String sJson = new Gson().toJson(MasterUsahaNewList);
+        preference.set("MasterUsahaBaru", sJson);
+        this.MasterUsahaNewList = MasterUsahaNewList;
     }
 
  /*----------------------------------------------------------Andityo Master Data New List------------------------------------------------------------------------------*/

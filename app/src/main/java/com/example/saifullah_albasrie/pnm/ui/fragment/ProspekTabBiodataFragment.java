@@ -22,6 +22,7 @@ import com.example.saifullah_albasrie.pnm.model.ProspekListItemModel;
 import com.example.saifullah_albasrie.pnm.model.annotation.FormMode;
 import com.example.saifullah_albasrie.pnm.model.master.JenisProspekModel;
 import com.example.saifullah_albasrie.pnm.model.master.JenisUsahaModel;
+import com.example.saifullah_albasrie.pnm.model.master_new.BaseResponseNew;
 import com.example.saifullah_albasrie.pnm.model.state.CheckIDIStateChanged;
 import com.example.saifullah_albasrie.pnm.model.state.FormModeStateChanged;
 import com.example.saifullah_albasrie.pnm.ui.factory.CheckDebiturFactory;
@@ -158,7 +159,7 @@ public class ProspekTabBiodataFragment extends BaseFragment {
         spinnerTanggal.setAdapter(WidgetUtil.createAdapterTanggal(getContext()));
 
         WidgetUtil.setDataMasterAdapter(spJenisProspek, DataManager.getInstance().getJenisProspekModelList());
-        WidgetUtil.setDataMasterAdapter(spJenisUsaha, DataManager.getInstance().getMasterDataNew());
+        WidgetUtil.setDataMasterAdapter(spJenisUsaha, DataManager.getInstance().getMasterUsahaNew());
 
         /*
         spJenisProspek.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
@@ -638,10 +639,10 @@ public class ProspekTabBiodataFragment extends BaseFragment {
             }
         }
 
-        JenisUsahaModel selectedJenisUsaha = (JenisUsahaModel) spJenisUsaha.getSelectedItem();
+        BaseResponseNew selectedJenisUsaha = (BaseResponseNew) spJenisUsaha.getSelectedItem();
         if (selectedJenisUsaha != null) {
             mBiodataModel.setIdJenisUsaha(selectedJenisUsaha.getId());
-            mBiodataModel.setNamaJenisUsaha(selectedJenisUsaha.getNamaJenisUsaha());
+            mBiodataModel.setNamaJenisUsaha(selectedJenisUsaha.getDeskripsi());
         }
 
         return mBiodataModel;

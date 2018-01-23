@@ -395,7 +395,7 @@ public class LoginController {
             @Override
             public void onResponse(Call<List<BaseResponseNew>> call, Response<List<BaseResponseNew>> response) {
                 if (response != null && response.body() != null && response.isSuccessful()) {
-                    dataManager.setMasterDataNewList(response.body());
+                    dataManager.setMasterUsahaNew(response.body());
                     onDataMasterCompleted(jenisUsahaResponseCall, true);
                 } else {
                     onDataMasterCompleted(jenisUsahaResponseCall, false);
