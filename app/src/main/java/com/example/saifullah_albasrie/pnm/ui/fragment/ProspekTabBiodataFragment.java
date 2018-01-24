@@ -161,8 +161,8 @@ public class ProspekTabBiodataFragment extends BaseFragment {
         WidgetUtil.setDataMasterAdapter(spJenisProspek, DataManager.getInstance().getJenisProspekModelList());
         WidgetUtil.setDataMasterAdapter(spJenisUsaha, DataManager.getInstance().getMasterUsahaNew());
         WidgetUtil.setDataMasterAdapter(spJenisAlamat, DataManager.getInstance().getMasterJenisAlamatNew());
-        WidgetUtil.setDataMasterAdapter(spIdType, DataManager.getInstance().getMasterJenisIdentitas());
-        WidgetUtil.setDataMasterAdapter(spGender, DataManager.getInstance().getMasterJenisKelamin());
+        WidgetUtil.setDataMasterAdapter(spIdType, DataManager.getInstance().getJenisIdentitasNew());
+        WidgetUtil.setDataMasterAdapter(spGender, DataManager.getInstance().getJenisKelaminNew());
         /*
         spJenisProspek.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
