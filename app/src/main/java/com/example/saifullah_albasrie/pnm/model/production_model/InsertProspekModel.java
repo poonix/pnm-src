@@ -33,6 +33,10 @@ public class InsertProspekModel {
     @Expose
     private String PR_TEMPAT_LAHIR;
 
+    @SerializedName("PR_TGL_LAHIR")
+    @Expose
+    private String PR_TGL_LAHIR;
+
     @SerializedName("MS_JENIS_KELAMIN_ID")
     @Expose
     private int MS_JENIS_KELAMIN_ID;
@@ -156,6 +160,14 @@ public class InsertProspekModel {
 
     public void setPR_TEMPAT_LAHIR(String PR_TEMPAT_LAHIR) {
         this.PR_TEMPAT_LAHIR = PR_TEMPAT_LAHIR;
+    }
+
+    public String getPR_TGL_LAHIR() {
+        return PR_TGL_LAHIR;
+    }
+
+    public void setPR_TGL_LAHIR(String PR_TGL_LAHIR) {
+        this.PR_TGL_LAHIR = PR_TGL_LAHIR;
     }
 
     public int getMS_JENIS_KELAMIN_ID() {

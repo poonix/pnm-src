@@ -23,6 +23,7 @@ import com.example.saifullah_albasrie.pnm.model.annotation.FormMode;
 import com.example.saifullah_albasrie.pnm.model.master.JenisProspekModel;
 import com.example.saifullah_albasrie.pnm.model.master.JenisUsahaModel;
 import com.example.saifullah_albasrie.pnm.model.master_new.BaseResponseNew;
+import com.example.saifullah_albasrie.pnm.model.production_model.InsertProspekModel;
 import com.example.saifullah_albasrie.pnm.model.state.CheckIDIStateChanged;
 import com.example.saifullah_albasrie.pnm.model.state.FormModeStateChanged;
 import com.example.saifullah_albasrie.pnm.ui.factory.CheckDebiturFactory;
@@ -40,6 +41,7 @@ public class ProspekTabBiodataFragment extends BaseFragment {
     private int formMode;
     private ProspekListItemModel mDataModel;
     private ProspekBiodataModel mBiodataModel;
+    private InsertProspekModel PNMprospekModel;
     //public String checkIDIDone="0" ;
     private CheckDebiturFactory checkDebiturFactory;
 
@@ -530,6 +532,52 @@ public class ProspekTabBiodataFragment extends BaseFragment {
         }
     }
 
+    public InsertProspekModel saved()
+    {
+        /*
+        *
+        * Start - Rabu 24 Januari 2018 edited by yudhi
+        * */
+        PNMprospekModel.setPR_NAMA_PANGGILAN(tvNickname.getText().toString());
+        PNMprospekModel.setPR_NAMA_LENGKAP(tvFullname.getText().toString());
+        BaseResponseNew selectedJenisIdentitasID = (BaseResponseNew) spIdType.getSelectedItem();
+        if (selectedJenisIdentitasID != null) {
+            PNMprospekModel.setMS_JENIS_IDENTITAS_ID(selectedJenisIdentitasID.getId());
+        }
+        PNMprospekModel.setPR_NO_IDENTITAS(tvIdentityNumber.getText().toString());
+        PNMprospekModel.setPR_MASA_BERLAKU_IDENTITAS(DateUtil.convertDateToDB(tvMasaBerlaku.getText().toString()));
+        PNMprospekModel.setPR_TEMPAT_LAHIR(tvTempatLahir.getText().toString());
+        if(spinnerTanggal.getSelectedItemPosition() > 0 && spinnerBulan.getSelectedItemPosition() > 0 && spinnerTahun.getSelectedItemPosition() > 0) {
+            String tgl = spinnerTanggal.getSelectedItem() != null ? spinnerTanggal.getSelectedItem().toString() : "";
+            String bln = spinnerBulan.getSelectedItem() != null ? spinnerBulan.getSelectedItem().toString() : "";
+            String thn = spinnerTahun.getSelectedItem() != null ? spinnerTahun.getSelectedItem().toString() : "";
+            PNMprospekModel.setPR_TGL_LAHIR(thn + "-" + bln + "-" + tgl);
+        } else {
+            PNMprospekModel.setPR_TGL_LAHIR("1900-01-01");
+        }
+        BaseResponseNew selectedJenisKelamin = (BaseResponseNew) spGender.getSelectedItem();
+        if (selectedJenisKelamin != null) {
+            PNMprospekModel.setMS_JENIS_KELAMIN_ID(selectedJenisKelamin.getId());
+        }
+        PNMprospekModel.setPR_NAMA_IBU_KANDUNG(tvMotherName.getText().toString());
+        BaseResponseNew selectedJenisUsaha2 = (BaseResponseNew) spJenisUsaha.getSelectedItem();
+        if (selectedJenisUsaha2 != null) {
+            PNMprospekModel.setMS_JENIS_USAHA_ID(selectedJenisUsaha2.getId());
+        }
+        BaseResponseNew selectedJenisAlamat = (BaseResponseNew) spJenisAlamat.getSelectedItem();
+        if (selectedJenisAlamat != null) {
+            PNMprospekModel.setPMS_JENIS_ALAMAT_ID(selectedJenisAlamat.getId());
+        }
+        PNMprospekModel.setPR_ALAMAT(tvAddress.getText().toString());
+        PNMprospekModel.setPR_KONTAK_UTAMA(tvPhone.getText().toString());
+        /*
+        *
+        * END - Rabu 24 Januari 2018 edited by yudhi
+        * */
+
+        return PNMprospekModel;
+    }
+
     public ProspekBiodataModel saveData(boolean withValidation) {
         if (withValidation) {
             if (!WidgetUtil.validateField(spJenisProspek, getString(R.string.field_err_msg, "Jenis Prospek"))) {
@@ -596,6 +644,7 @@ public class ProspekTabBiodataFragment extends BaseFragment {
 
         if (mBiodataModel == null) {
             mBiodataModel = new ProspekBiodataModel();
+            PNMprospekModel = new InsertProspekModel();
         }
 
         if (spJenisProspek == null || spJenisProspek.getSelectedItem() == null) {
@@ -606,6 +655,8 @@ public class ProspekTabBiodataFragment extends BaseFragment {
         if (selectedJenisProspek != null) {
             mBiodataModel.setIdJenisProspek(selectedJenisProspek.getId());
         }
+
+
         mBiodataModel.setNamaPanggilan(tvNickname.getText().toString());
         mBiodataModel.setNamaLengkap(tvFullname.getText().toString());
         mBiodataModel.setIdJenisAlamat(spJenisAlamat.getSelectedItemPosition());

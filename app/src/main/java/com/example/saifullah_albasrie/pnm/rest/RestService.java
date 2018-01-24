@@ -46,6 +46,7 @@ import com.example.saifullah_albasrie.pnm.rest.request.SurveyKeuanganRequest;
 import com.example.saifullah_albasrie.pnm.rest.request.SurveyPengajuanRequest;
 import com.example.saifullah_albasrie.pnm.rest.response.AutoSaveResponse;
 import com.example.saifullah_albasrie.pnm.rest.response.BandingListResponse;
+import com.example.saifullah_albasrie.pnm.rest.response.BasePostPNMResponse;
 import com.example.saifullah_albasrie.pnm.rest.response.BaseResponse;
 import com.example.saifullah_albasrie.pnm.rest.response.CheckDebiturResponse;
 import com.example.saifullah_albasrie.pnm.rest.response.CollectionListResponse;
@@ -1028,7 +1029,7 @@ public interface RestService {
     );
 
     @POST(ApiConstant.POST_PROSPEK)
-    Call<InsertProspekModel> PostProspek(
+    Call<BasePostPNMResponse> PostProspek(
             @Body InsertProspekModel body
     );
 
