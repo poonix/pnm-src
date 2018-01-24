@@ -1283,6 +1283,515 @@ public class DataManager {
         this.MasterHubunganKeluargaNewList = MasterHubunganKeluargaNewList;
     }
 
+    /*--------*/
+    public List<BaseResponseNew> getMasterTujuanPembiayaanNew() {
+        if (MasterTujuanPembiayaanNewList == null) {
+            String sJson = preference.getString("MasterTujuanPembiayaanNew");
+            if (!TextUtils.isEmpty(sJson)) {
+                MasterTujuanPembiayaanNewList = new Gson().fromJson(sJson, new TypeToken<List<BaseResponseNew>>() {
+                }.getType());
+            }
+        }
+        return MasterTujuanPembiayaanNewList;
+    }
+
+    public void setMasterTujuanPembiayaanNew(List<BaseResponseNew> MasterTujuanPembiayaanNewList) {
+        BaseResponseNew modelFirst = new BaseResponseNew();
+        modelFirst.setDeskripsi("Pilih");
+        if (!MasterTujuanPembiayaanNewList.contains(modelFirst)) {
+            MasterTujuanPembiayaanNewList.add(0, modelFirst);
+        }
+        String sJson = new Gson().toJson(MasterTujuanPembiayaanNewList);
+        preference.set("MasterTujuanPembiayaanNew", sJson);
+        this.MasterTujuanPembiayaanNewList = MasterTujuanPembiayaanNewList;
+    }
+
+    /*--------*/
+    public List<BaseResponseNew> getMasterJenisAgunanNew() {
+        if (MasterJenisAgunanNewList == null) {
+            String sJson = preference.getString("MasterJenisAgunanNew");
+            if (!TextUtils.isEmpty(sJson)) {
+                MasterJenisAgunanNewList = new Gson().fromJson(sJson, new TypeToken<List<BaseResponseNew>>() {
+                }.getType());
+            }
+        }
+        return MasterJenisAgunanNewList;
+    }
+
+    public void setMasterJenisAgunanNew(List<BaseResponseNew> MasterJenisAgunanNewList) {
+        BaseResponseNew modelFirst = new BaseResponseNew();
+        modelFirst.setDeskripsi("Pilih");
+        if (!MasterJenisAgunanNewList.contains(modelFirst)) {
+            MasterJenisAgunanNewList.add(0, modelFirst);
+        }
+        String sJson = new Gson().toJson(MasterJenisAgunanNewList);
+        preference.set("MasterTujuanPembiayaanNew", sJson);
+        this.MasterJenisAgunanNewList = MasterJenisAgunanNewList;
+    }
+
+    /*--------*/
+    public List<BaseResponseNew> getMasterJenisKontakNew() {
+        if (MasterJenisKontakNewList == null) {
+            String sJson = preference.getString("MasterJenisKontakNew");
+            if (!TextUtils.isEmpty(sJson)) {
+                MasterJenisKontakNewList = new Gson().fromJson(sJson, new TypeToken<List<BaseResponseNew>>() {
+                }.getType());
+            }
+        }
+        return MasterJenisKontakNewList;
+    }
+
+    public void setMasterJenisKontakNew(List<BaseResponseNew> MasterJenisKontakNewList) {
+        BaseResponseNew modelFirst = new BaseResponseNew();
+        modelFirst.setDeskripsi("Pilih");
+        if (!MasterJenisKontakNewList.contains(modelFirst)) {
+            MasterJenisKontakNewList.add(0, modelFirst);
+        }
+        String sJson = new Gson().toJson(MasterJenisAgunanNewList);
+        preference.set("MasterJenisKontakNew", sJson);
+        this.MasterJenisKontakNewList = MasterJenisKontakNewList;
+    }
+
+    /*--------*/
+    public List<BaseResponseNew> getMasterStatusTempatNew() {
+        if (MasterStatusTempatNewList == null) {
+            String sJson = preference.getString("MasterStatusTempatNew");
+            if (!TextUtils.isEmpty(sJson)) {
+                MasterStatusTempatNewList = new Gson().fromJson(sJson, new TypeToken<List<BaseResponseNew>>() {
+                }.getType());
+            }
+        }
+        return MasterStatusTempatNewList;
+    }
+
+    public void setMasterStatusTempatNew(List<BaseResponseNew> MasterStatusTempatNewList) {
+        BaseResponseNew modelFirst = new BaseResponseNew();
+        modelFirst.setDeskripsi("Pilih");
+        if (!MasterStatusTempatNewList.contains(modelFirst)) {
+            MasterStatusTempatNewList.add(0, modelFirst);
+        }
+        String sJson = new Gson().toJson(MasterStatusTempatNewList);
+        preference.set("MasterStatusTempatNew", sJson);
+        this.MasterStatusTempatNewList = MasterStatusTempatNewList;
+    }
+
+    /*--------*/
+    public List<BaseResponseNew> getMasterPendidikanNew() {
+        if (MasterPendidikanNewList == null) {
+            String sJson = preference.getString("MasterPendidikanNew");
+            if (!TextUtils.isEmpty(sJson)) {
+                MasterPendidikanNewList = new Gson().fromJson(sJson, new TypeToken<List<BaseResponseNew>>() {
+                }.getType());
+            }
+        }
+        return MasterPendidikanNewList;
+    }
+
+    public void setMasterPendidikanNew(List<BaseResponseNew> MasterPendidikanNewList) {
+        BaseResponseNew modelFirst = new BaseResponseNew();
+        modelFirst.setDeskripsi("Pilih");
+        if (!MasterPendidikanNewList.contains(modelFirst)) {
+            MasterPendidikanNewList.add(0, modelFirst);
+        }
+        String sJson = new Gson().toJson(MasterPendidikanNewList);
+        preference.set("MasterPendidikanNew", sJson);
+        this.MasterPendidikanNewList = MasterPendidikanNewList;
+    }
+
+    /*--------*/
+    public List<BaseResponseNew> getMasterProdukNew() {
+        if (MasterProdukNewList == null) {
+            String sJson = preference.getString("MasterProdukNew");
+            if (!TextUtils.isEmpty(sJson)) {
+                MasterProdukNewList = new Gson().fromJson(sJson, new TypeToken<List<BaseResponseNew>>() {
+                }.getType());
+            }
+        }
+        return MasterProdukNewList;
+    }
+
+    public void setMasterProdukNew(List<BaseResponseNew> MasterProdukNewList) {
+        BaseResponseNew modelFirst = new BaseResponseNew();
+        modelFirst.setDeskripsi("Pilih");
+        if (!MasterProdukNewList.contains(modelFirst)) {
+            MasterProdukNewList.add(0, modelFirst);
+        }
+        String sJson = new Gson().toJson(MasterProdukNewList);
+        preference.set("MasterProdukNew", sJson);
+        this.MasterProdukNewList = MasterProdukNewList;
+    }
+
+    /*--------*/
+    public List<BaseResponseNew> getJenisDokumenNew() {
+        if (MasterJenisDokumenNewList == null) {
+            String sJson = preference.getString("MasterJenisDokumenNew");
+            if (!TextUtils.isEmpty(sJson)) {
+                MasterJenisDokumenNewList = new Gson().fromJson(sJson, new TypeToken<List<BaseResponseNew>>() {
+                }.getType());
+            }
+        }
+        return MasterJenisDokumenNewList;
+    }
+
+    public void setMasterJenisDokumenNew(List<BaseResponseNew> MasterJenisDokumenNewList) {
+        BaseResponseNew modelFirst = new BaseResponseNew();
+        modelFirst.setDeskripsi("Pilih");
+        if (!MasterJenisDokumenNewList.contains(modelFirst)) {
+            MasterJenisDokumenNewList.add(0, modelFirst);
+        }
+        String sJson = new Gson().toJson(MasterJenisDokumenNewList);
+        preference.set("MasterProdukNew", sJson);
+        this.MasterJenisDokumenNewList = MasterJenisDokumenNewList;
+    }
+
+    /*--------*/
+    public List<BaseResponseNew> getLokasiNew() {
+        if (MasterLokasiNewList == null) {
+            String sJson = preference.getString("MasterLokasiNew");
+            if (!TextUtils.isEmpty(sJson)) {
+                MasterLokasiNewList = new Gson().fromJson(sJson, new TypeToken<List<BaseResponseNew>>() {
+                }.getType());
+            }
+        }
+        return MasterLokasiNewList;
+    }
+
+    public void setMasterLokasiNew(List<BaseResponseNew> MasterLokasiNewList) {
+        BaseResponseNew modelFirst = new BaseResponseNew();
+        modelFirst.setDeskripsi("Pilih");
+        if (!MasterLokasiNewList.contains(modelFirst)) {
+            MasterLokasiNewList.add(0, modelFirst);
+        }
+        String sJson = new Gson().toJson(MasterLokasiNewList);
+        preference.set("MasterLokasiNew", sJson);
+        this.MasterLokasiNewList = MasterLokasiNewList;
+    }
+
+    /*--------*/
+    public List<BaseResponseNew> getHubunganpemohonNew() {
+        if (MasterHubunganPemohonNewList == null) {
+            String sJson = preference.getString("MasterHubunganPemohonNew");
+            if (!TextUtils.isEmpty(sJson)) {
+                MasterHubunganPemohonNewList = new Gson().fromJson(sJson, new TypeToken<List<BaseResponseNew>>() {
+                }.getType());
+            }
+        }
+        return MasterHubunganPemohonNewList;
+    }
+
+    public void setMasterHubunganPemohonNew(List<BaseResponseNew> MasterHubunganPemohonNewList) {
+        BaseResponseNew modelFirst = new BaseResponseNew();
+        modelFirst.setDeskripsi("Pilih");
+        if (!MasterHubunganPemohonNewList.contains(modelFirst)) {
+            MasterHubunganPemohonNewList.add(0, modelFirst);
+        }
+        String sJson = new Gson().toJson(MasterHubunganPemohonNewList);
+        preference.set("MasterHubunganPemohonNew", sJson);
+        this.MasterHubunganPemohonNewList = MasterHubunganPemohonNewList;
+    }
+
+    /*--------*/
+    public List<BaseResponseNew> getKerjasamaPemohonNew() {
+        if (MasterKerjasamaPemohonNewList == null) {
+            String sJson = preference.getString("MasterKerjasamaPemohonNew");
+            if (!TextUtils.isEmpty(sJson)) {
+                MasterKerjasamaPemohonNewList = new Gson().fromJson(sJson, new TypeToken<List<BaseResponseNew>>() {
+                }.getType());
+            }
+        }
+        return MasterKerjasamaPemohonNewList;
+    }
+
+    public void setMasterKerjasamaPemohonNew(List<BaseResponseNew> MasterKerjasamaPemohonNewList) {
+        BaseResponseNew modelFirst = new BaseResponseNew();
+        modelFirst.setDeskripsi("Pilih");
+        if (!MasterKerjasamaPemohonNewList.contains(modelFirst)) {
+            MasterKerjasamaPemohonNewList.add(0, modelFirst);
+        }
+        String sJson = new Gson().toJson(MasterKerjasamaPemohonNewList);
+        preference.set("MasterKerjasamaPemohonNew", sJson);
+        this.MasterKerjasamaPemohonNewList = MasterKerjasamaPemohonNewList;
+    }
+
+    /*--------*/
+    public List<BaseResponseNew> getTrackRecordNew() {
+        if (MasterTrackRecordNewList == null) {
+            String sJson = preference.getString("MasterTrackRecordNew");
+            if (!TextUtils.isEmpty(sJson)) {
+                MasterTrackRecordNewList = new Gson().fromJson(sJson, new TypeToken<List<BaseResponseNew>>() {
+                }.getType());
+            }
+        }
+        return MasterTrackRecordNewList;
+    }
+
+    public void setMasterTrackRecordNew(List<BaseResponseNew> MasterTrackRecordNewList) {
+        BaseResponseNew modelFirst = new BaseResponseNew();
+        modelFirst.setDeskripsi("Pilih");
+        if (!MasterTrackRecordNewList.contains(modelFirst)) {
+            MasterTrackRecordNewList.add(0, modelFirst);
+        }
+        String sJson = new Gson().toJson(MasterTrackRecordNewList);
+        preference.set("MasterTrackRecordNew", sJson);
+        this.MasterTrackRecordNewList = MasterTrackRecordNewList;
+    }
+
+    /*--------*/
+    public List<BaseResponseNew> getMengenalUlaamNew() {
+        if (MasterMengenalUlaamNewList == null) {
+            String sJson = preference.getString("MasterMengenalUlaamNew");
+            if (!TextUtils.isEmpty(sJson)) {
+                MasterMengenalUlaamNewList = new Gson().fromJson(sJson, new TypeToken<List<BaseResponseNew>>() {
+                }.getType());
+            }
+        }
+        return MasterMengenalUlaamNewList;
+    }
+
+    public void setMasterMengenalUlaamNew(List<BaseResponseNew> MasterMengenalUlaamNewList) {
+        BaseResponseNew modelFirst = new BaseResponseNew();
+        modelFirst.setDeskripsi("Pilih");
+        if (!MasterMengenalUlaamNewList.contains(modelFirst)) {
+            MasterMengenalUlaamNewList.add(0, modelFirst);
+        }
+        String sJson = new Gson().toJson(MasterMengenalUlaamNewList);
+        preference.set("MasterMengenalUlaamNew", sJson);
+        this.MasterMengenalUlaamNewList = MasterMengenalUlaamNewList;
+    }
+
+    /*--------*/
+    public List<BaseResponseNew> getReputasiNew() {
+        if (MasterReputasiNewList == null) {
+            String sJson = preference.getString("MasterReputasiNew");
+            if (!TextUtils.isEmpty(sJson)) {
+                MasterReputasiNewList = new Gson().fromJson(sJson, new TypeToken<List<BaseResponseNew>>() {
+                }.getType());
+            }
+        }
+        return MasterReputasiNewList;
+    }
+
+    public void setMasterReputasiNew(List<BaseResponseNew> MasterReputasiNewList) {
+        BaseResponseNew modelFirst = new BaseResponseNew();
+        modelFirst.setDeskripsi("Pilih");
+        if (!MasterReputasiNewList.contains(modelFirst)) {
+            MasterReputasiNewList.add(0, modelFirst);
+        }
+        String sJson = new Gson().toJson(MasterReputasiNewList);
+        preference.set("MasterReputasiNew", sJson);
+        this.MasterReputasiNewList = MasterReputasiNewList;
+    }
+
+    /*--------*/
+    public List<BaseResponseNew> getHartaNew() {
+        if (MasterHartaNewList == null) {
+            String sJson = preference.getString("MasterHartaNew");
+            if (!TextUtils.isEmpty(sJson)) {
+                MasterHartaNewList = new Gson().fromJson(sJson, new TypeToken<List<BaseResponseNew>>() {
+                }.getType());
+            }
+        }
+        return MasterHartaNewList;
+    }
+
+    public void setMasterHartaNew(List<BaseResponseNew> MasterHartaNewList) {
+        BaseResponseNew modelFirst = new BaseResponseNew();
+        modelFirst.setDeskripsi("Pilih");
+        if (!MasterHartaNewList.contains(modelFirst)) {
+            MasterHartaNewList.add(0, modelFirst);
+        }
+        String sJson = new Gson().toJson(MasterHartaNewList);
+        preference.set("MasterHartaNew", sJson);
+        this.MasterHartaNewList = MasterHartaNewList;
+    }
+
+    /*--------*/
+    public List<BaseResponseNew> getPengelolaanKeuanganNew() {
+        if (MasterPengelolaanKeuanganNewList == null) {
+            String sJson = preference.getString("PengelolaanKeuanganNew");
+            if (!TextUtils.isEmpty(sJson)) {
+                MasterPengelolaanKeuanganNewList = new Gson().fromJson(sJson, new TypeToken<List<BaseResponseNew>>() {
+                }.getType());
+            }
+        }
+        return MasterPengelolaanKeuanganNewList;
+    }
+
+    public void setPengelolaanKeuanganNew(List<BaseResponseNew> MasterPengelolaanKeuanganNewList) {
+        BaseResponseNew modelFirst = new BaseResponseNew();
+        modelFirst.setDeskripsi("Pilih");
+        if (!MasterPengelolaanKeuanganNewList.contains(modelFirst)) {
+            MasterPengelolaanKeuanganNewList.add(0, modelFirst);
+        }
+        String sJson = new Gson().toJson(MasterPengelolaanKeuanganNewList);
+        preference.set("MasterHartaNew", sJson);
+        this.MasterPengelolaanKeuanganNewList = MasterPengelolaanKeuanganNewList;
+    }
+
+    /*--------*/
+    public List<BaseResponseNew> getBentukUsahaNew() {
+        if (MasterBentukUsahaNewList == null) {
+            String sJson = preference.getString("MasterBentukUsahaNew");
+            if (!TextUtils.isEmpty(sJson)) {
+                MasterBentukUsahaNewList = new Gson().fromJson(sJson, new TypeToken<List<BaseResponseNew>>() {
+                }.getType());
+            }
+        }
+        return MasterBentukUsahaNewList;
+    }
+
+    public void setBentukUsahaNew(List<BaseResponseNew> MasterBentukUsahaNewList) {
+        BaseResponseNew modelFirst = new BaseResponseNew();
+        modelFirst.setDeskripsi("Pilih");
+        if (!MasterBentukUsahaNewList.contains(modelFirst)) {
+            MasterBentukUsahaNewList.add(0, modelFirst);
+        }
+        String sJson = new Gson().toJson(MasterBentukUsahaNewList);
+        preference.set("MasterBentukUsahaNew", sJson);
+        this.MasterBentukUsahaNewList = MasterBentukUsahaNewList;
+    }
+
+    /*--------*/
+    public List<BaseResponseNew> getJenisBadanUsahaNew() {
+        if (MasterJenisBadanUsahaNewList == null) {
+            String sJson = preference.getString("MasterJenisBadanUsahaNew");
+            if (!TextUtils.isEmpty(sJson)) {
+                MasterJenisBadanUsahaNewList = new Gson().fromJson(sJson, new TypeToken<List<BaseResponseNew>>() {
+                }.getType());
+            }
+        }
+        return MasterJenisBadanUsahaNewList;
+    }
+
+    public void setJenisBadanUsahaNew(List<BaseResponseNew> MasterJenisBadanUsahaNewList) {
+        BaseResponseNew modelFirst = new BaseResponseNew();
+        modelFirst.setDeskripsi("Pilih");
+        if (!MasterJenisBadanUsahaNewList.contains(modelFirst)) {
+            MasterJenisBadanUsahaNewList.add(0, modelFirst);
+        }
+        String sJson = new Gson().toJson(MasterJenisBadanUsahaNewList);
+        preference.set("MasterJenisBadanUsahaNew", sJson);
+        this.MasterJenisBadanUsahaNewList = MasterJenisBadanUsahaNewList;
+    }
+
+    /*--------*/
+    public List<BaseResponseNew> getKegiatanUsahaNew() {
+        if (MasterKegiatanUsahaNewList == null) {
+            String sJson = preference.getString("MasterKegiatanNew");
+            if (!TextUtils.isEmpty(sJson)) {
+                MasterKegiatanUsahaNewList = new Gson().fromJson(sJson, new TypeToken<List<BaseResponseNew>>() {
+                }.getType());
+            }
+        }
+        return MasterKegiatanUsahaNewList;
+    }
+
+    public void setMasterKegiatanNew(List<BaseResponseNew> MasterKegiatanUsahaNewList) {
+        BaseResponseNew modelFirst = new BaseResponseNew();
+        modelFirst.setDeskripsi("Pilih");
+        if (!MasterKegiatanUsahaNewList.contains(modelFirst)) {
+            MasterKegiatanUsahaNewList.add(0, modelFirst);
+        }
+        String sJson = new Gson().toJson(MasterKegiatanUsahaNewList);
+        preference.set("MasterKegiatanNew", sJson);
+        this.MasterKegiatanUsahaNewList = MasterKegiatanUsahaNewList;
+    }
+
+    /*--------*/
+    public List<BaseResponseNew> getAksesKendaraanNew() {
+        if (MasterAksesKendaraanNewList == null) {
+            String sJson = preference.getString("MasterAksesKendaraanNew");
+            if (!TextUtils.isEmpty(sJson)) {
+                MasterAksesKendaraanNewList = new Gson().fromJson(sJson, new TypeToken<List<BaseResponseNew>>() {
+                }.getType());
+            }
+        }
+        return MasterAksesKendaraanNewList;
+    }
+
+    public void setMasterAksesKendaraanNew(List<BaseResponseNew> MasterAksesKendaraanNewList) {
+        BaseResponseNew modelFirst = new BaseResponseNew();
+        modelFirst.setDeskripsi("Pilih");
+        if (!MasterAksesKendaraanNewList.contains(modelFirst)) {
+            MasterAksesKendaraanNewList.add(0, modelFirst);
+        }
+        String sJson = new Gson().toJson(MasterAksesKendaraanNewList);
+        preference.set("MasterAksesKendaraanNew", sJson);
+        this.MasterAksesKendaraanNewList = MasterAksesKendaraanNewList;
+    }
+
+    /*--------*/
+    public List<BaseResponseNew> getProdukyangDitawarkanNew() {
+        if (MasterProdukYangDitawarkanNewList == null) {
+            String sJson = preference.getString("MasterProdukyangDitawarkanNew");
+            if (!TextUtils.isEmpty(sJson)) {
+                MasterProdukYangDitawarkanNewList = new Gson().fromJson(sJson, new TypeToken<List<BaseResponseNew>>() {
+                }.getType());
+            }
+        }
+        return MasterProdukYangDitawarkanNewList;
+    }
+
+    public void setMasterProdukyangDitawarkanNew(List<BaseResponseNew> MasterProdukYangDitawarkanNewList) {
+        BaseResponseNew modelFirst = new BaseResponseNew();
+        modelFirst.setDeskripsi("Pilih");
+        if (!MasterProdukYangDitawarkanNewList.contains(modelFirst)) {
+            MasterProdukYangDitawarkanNewList.add(0, modelFirst);
+        }
+        String sJson = new Gson().toJson(MasterProdukYangDitawarkanNewList);
+        preference.set("MasterProdukyangDitawarkanNew", sJson);
+        this.MasterProdukYangDitawarkanNewList = MasterAksesKendaraanNewList;
+    }
+
+    /*--------*/
+    public List<BaseResponseNew> getJumlahPemasokNew() {
+        if (MasterJumlahPemasokNewList == null) {
+            String sJson = preference.getString("MasterJumlahPemasokNew");
+            if (!TextUtils.isEmpty(sJson)) {
+                MasterJumlahPemasokNewList = new Gson().fromJson(sJson, new TypeToken<List<BaseResponseNew>>() {
+                }.getType());
+            }
+        }
+        return MasterJumlahPemasokNewList;
+    }
+
+    public void setMasterJumlahPemasokNewNew(List<BaseResponseNew> MasterJumlahPemasokNewList) {
+        BaseResponseNew modelFirst = new BaseResponseNew();
+        modelFirst.setDeskripsi("Pilih");
+        if (!MasterJumlahPemasokNewList.contains(modelFirst)) {
+            MasterJumlahPemasokNewList.add(0, modelFirst);
+        }
+        String sJson = new Gson().toJson(MasterJumlahPemasokNewList);
+        preference.set("MasterJumlahPemasokNew", sJson);
+        this.MasterJumlahPemasokNewList = MasterJumlahPemasokNewList;
+    }
+
+    /*--------*/
+    public List<BaseResponseNew> getPersainganUsahaNew() {
+        if (MasterPersainganUsahaNewList == null) {
+            String sJson = preference.getString("MasterPersainganUsahaNew");
+            if (!TextUtils.isEmpty(sJson)) {
+                MasterPersainganUsahaNewList = new Gson().fromJson(sJson, new TypeToken<List<BaseResponseNew>>() {
+                }.getType());
+            }
+        }
+        return MasterPersainganUsahaNewList;
+    }
+
+    public void setMasterPersainganusahaNew(List<BaseResponseNew> MasterPersainganUsahaNewList) {
+        BaseResponseNew modelFirst = new BaseResponseNew();
+        modelFirst.setDeskripsi("Pilih");
+        if (!MasterPersainganUsahaNewList.contains(modelFirst)) {
+            MasterPersainganUsahaNewList.add(0, modelFirst);
+        }
+        String sJson = new Gson().toJson(MasterPersainganUsahaNewList);
+        preference.set("MasterPersainganUsahaNew", sJson);
+        this.MasterPersainganUsahaNewList = MasterPersainganUsahaNewList;
+    }
+
+
+
+
 
 
 }
