@@ -160,7 +160,9 @@ public class ProspekTabBiodataFragment extends BaseFragment {
 
         WidgetUtil.setDataMasterAdapter(spJenisProspek, DataManager.getInstance().getJenisProspekModelList());
         WidgetUtil.setDataMasterAdapter(spJenisUsaha, DataManager.getInstance().getMasterUsahaNew());
-
+        WidgetUtil.setDataMasterAdapter(spJenisAlamat, DataManager.getInstance().getMasterJenisAlamatNew());
+        WidgetUtil.setDataMasterAdapter(spIdType, DataManager.getInstance().getMasterJenisIdentitas());
+        WidgetUtil.setDataMasterAdapter(spGender, DataManager.getInstance().getMasterJenisKelamin());
         /*
         spJenisProspek.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
@@ -347,8 +349,7 @@ public class ProspekTabBiodataFragment extends BaseFragment {
                 spinnerTahun.setSelection(posTahun);
             }
 
-            int posJenisUsaha = WidgetUtil.getSpinnerIndexByLabel(spJenisUsaha, mBiodataModel.getNamaJenisUsaha());
-            spJenisUsaha.setSelection(posJenisUsaha);
+            WidgetUtil.setSpinnerSelectionById(spJenisUsaha, mBiodataModel.getIdJenisUsaha());
 
         }
 

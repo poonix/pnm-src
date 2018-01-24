@@ -1789,8 +1789,51 @@ public class DataManager {
         this.MasterPersainganUsahaNewList = MasterPersainganUsahaNewList;
     }
 
+    /*--------*/
+    public List<BaseResponseNew> getMasterJenisIdentitas() {
+        if (MasterJenisIdentitasNewList == null) {
+            String sJson = preference.getString("MasterJenisIdentitasNew");
+            if (!TextUtils.isEmpty(sJson)) {
+                MasterJenisIdentitasNewList = new Gson().fromJson(sJson, new TypeToken<List<BaseResponseNew>>() {
+                }.getType());
+            }
+        }
+        return MasterJenisIdentitasNewList;
+    }
 
+    public void setMasterJenisIdentitas(List<BaseResponseNew> masterJenisIdentitas) {
+        BaseResponseNew modelFirst = new BaseResponseNew();
+        modelFirst.setDeskripsi("Pilih");
+        if (!masterJenisIdentitas.contains(modelFirst)) {
+            masterJenisIdentitas.add(0, modelFirst);
+        }
+        String sJson = new Gson().toJson(masterJenisIdentitas);
+        preference.set("MasterJenisIdentitasNew", sJson);
+        this.MasterJenisIdentitasNewList = masterJenisIdentitas;
+    }
 
+    /*--------*/
+    public List<BaseResponseNew> getMasterJenisKelamin() {
+        if (MasterJenisKelaminNewList == null) {
+            String sJson = preference.getString("MasterJenisKelmain");
+            if (!TextUtils.isEmpty(sJson)) {
+                MasterJenisKelaminNewList = new Gson().fromJson(sJson, new TypeToken<List<BaseResponseNew>>() {
+                }.getType());
+            }
+        }
+        return MasterJenisKelaminNewList;
+    }
+
+    public void setMasterJenisKelamin(List<BaseResponseNew> masterJenisKelaminlist) {
+        BaseResponseNew modelFirst = new BaseResponseNew();
+        modelFirst.setDeskripsi("Pilih");
+        if (!masterJenisKelaminlist.contains(modelFirst)) {
+            masterJenisKelaminlist.add(0, modelFirst);
+        }
+        String sJson = new Gson().toJson(masterJenisKelaminlist);
+        preference.set("MasterJenisKelmain", sJson);
+        this.MasterJenisKelaminNewList = masterJenisKelaminlist;
+    }
 
 
 

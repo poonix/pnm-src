@@ -424,7 +424,7 @@ public class LoginController {
             @Override
             public void onResponse(Call<List<BaseResponseNew>> call, Response<List<BaseResponseNew>> response) {
                 if (response != null && response.body() != null && response.isSuccessful()) {
-                    dataManager.setMasterDataNewList(response.body());
+                    dataManager.setMasterJenisIdentitas(response.body());
                     onDataMasterCompleted(jenisIdentitasCall, true);
                 } else {
                     onDataMasterCompleted(jenisIdentitasCall, false);
@@ -452,7 +452,7 @@ public class LoginController {
             @Override
             public void onResponse(Call<List<BaseResponseNew>> call, Response<List<BaseResponseNew>> response) {
                 if (response != null && response.body() != null && response.isSuccessful()) {
-                    dataManager.setMasterDataNewList(response.body());
+                    dataManager.setMasterJenisKelamin(response.body());
                     onDataMasterCompleted(jenisKelaminCall, true);
                 } else {
                     onDataMasterCompleted(jenisKelaminCall, false);
@@ -620,7 +620,7 @@ public class LoginController {
             @Override
             public void onResponse(Call<List<BaseResponseNew>> call, Response<List<BaseResponseNew>> response) {
                 if (response != null && response.body() != null && response.isSuccessful()) {
-                    dataManager.setMasterDataNewList(response.body());
+                    dataManager.setMasterJenisAlamatNew(response.body());
                     onDataMasterCompleted(jenisAlamatCall, true);
                 } else {
                     onDataMasterCompleted(jenisAlamatCall, false);

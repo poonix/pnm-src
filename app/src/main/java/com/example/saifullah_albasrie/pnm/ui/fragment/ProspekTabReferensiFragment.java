@@ -10,11 +10,13 @@ import android.widget.EditText;
 import android.widget.Spinner;
 
 import com.example.saifullah_albasrie.pnm.R;
+import com.example.saifullah_albasrie.pnm.data.DataManager;
 import com.example.saifullah_albasrie.pnm.model.ProspekListItemModel;
 import com.example.saifullah_albasrie.pnm.model.ProspekReferensiModel;
 import com.example.saifullah_albasrie.pnm.model.annotation.FormMode;
 import com.example.saifullah_albasrie.pnm.model.state.FormModeStateChanged;
 import com.example.saifullah_albasrie.pnm.utils.Constant;
+import com.example.saifullah_albasrie.pnm.utils.WidgetUtil;
 import com.squareup.otto.Subscribe;
 
 import java.util.ArrayList;
@@ -54,6 +56,7 @@ public class ProspekTabReferensiFragment extends BaseFragment {
                 mReferensiModel = prospekItemModel.getRefferenceModel();
             }
         }
+        WidgetUtil.setDataMasterAdapter(spJenisReferensi, DataManager.getInstance().getMasterJenisRefensiNew());
         setupView();
     }
 
@@ -62,6 +65,7 @@ public class ProspekTabReferensiFragment extends BaseFragment {
             tvNamaReferensi.setText(mReferensiModel.get(0).getNamaReferensi());
             tvTelpReferensi.setText(mReferensiModel.get(0).getTelpReferensi());
             spJenisReferensi.setSelection(mReferensiModel.get(0).getJenisReferensi());
+            //WidgetUtil.setSpinnerSelectionById(spJenisReferensi, mReferensiModel.get(0).getJenisReferensi());
         }
 
         setupMode();
